@@ -1,0 +1,423 @@
+{
+  "nav": {
+    "label": "Şablonlar",
+    "all": "Tüm şablonlar",
+    "inbox": "Gelen",
+    "scans": "Tarama geçmişi"
+  },
+  "placeholder": {
+    "amount": "—"
+  },
+  "unit": {
+    "sec": "{count} sn",
+    "views": "{count} görüntülenme"
+  },
+  "status": {
+    "published": "Yayında",
+    "waiting": "Yayın bekliyor",
+    "hidden": "Gizli",
+    "private": "Özel",
+    "privateNote": "Yalnızca sahibi görür"
+  },
+  "source": {
+    "topads": "TikTok Creative Center Top Ads",
+    "shorts": "YouTube Shorts",
+    "link": "Elle eklenen bağlantı",
+    "topadsShort": "Top Ads",
+    "shortsShort": "Shorts"
+  },
+  "reason": {
+    "noCategory": "Yayınlamadan önce bir kategori seç.",
+    "source-unavailable": "Kaynağa ulaşılamadı. Bir sonraki planlı saatte yeniden denenecek.",
+    "scan-failed": "Tarama beklenmedik bir hatayla durdu. Bir sonraki planlı saatte yeniden çalışır; yine durursa işleyici günlüğüne bak.",
+    "generic": "Tarama durdu.",
+    "no-matching-industry": "Seçilen sektöre uygun reklam bulunamadı. Tarama aday olmadan tamamlandı."
+  },
+  "list": {
+    "title": "Şablonlar",
+    "lead": "Tüm şablonlar: galeride olanlar, yayın bekleyenler ve kullanıcının kendi videosundan yapılan özel olanlar.",
+    "addLink": "Bağlantıdan ekle",
+    "searchLabel": "Şablonlarda ara",
+    "searchPlaceholder": "Başlığa veya kategoriye göre ara",
+    "filterLabel": "Durum",
+    "filter": {
+      "all": "Hepsi",
+      "published": "Yayında",
+      "waiting": "Bekleyen",
+      "hidden": "Gizli",
+      "private": "Özel"
+    },
+    "caption": "Şablonlar",
+    "col": {
+      "template": "Şablon",
+      "category": "Kategori",
+      "format": "Format",
+      "length": "Süre",
+      "views": "Referans etkileşimi",
+      "generated": "Üretilme sayısı",
+      "status": "Durum",
+      "edited": "Son düzenleme",
+      "actions": "İşlemler",
+      "sample": "Örnek"
+    },
+    "edit": "Düzenle",
+    "noCategory": "Kategori yok",
+    "empty": {
+      "text": "Aramana veya filtreye uyan şablon yok.",
+      "clear": "Aramayı ve filtreyi temizle"
+    },
+    "sample": {
+      "current": "Örnek güncel",
+      "outdated": "Örnek eski",
+      "none": "Henüz örnek yok"
+    },
+    "addSwap": "Kişi değiştirme videosu ekle"
+  },
+  "inbox": {
+    "title": "Gelen",
+    "lead": "Yeni şablonlar sen yayınlayana kadar burada bekler. Taramalar günde {count} kez çalışır · sıradaki {next}.",
+    "linkLabel": "Video bağlantısı",
+    "linkPlaceholder": "Bağlantı yapıştır: TikTok ya da YouTube",
+    "addCandidate": "Aday ekle",
+    "linkAdded": "Bağlantı eklendi. Özel şablon olarak hazırlanıyor.",
+    "linkInvalid": "TikTok veya YouTube'dan https:// ile başlayan bir bağlantı yapıştır.",
+    "chooseCategory": "Kategori seç",
+    "linkFailed": "Bağlantı eklenmedi. Tekrar dene.",
+    "linkList": {
+      "title": "Bağlantı listesinden hazırla",
+      "lead": "Her satıra bir bağlantı, en çok {max}. TikTok, Instagram ya da YouTube, yalnız https. Her biri galeri için hazırlanır. Kredi harcamaz ve örnek video üretmez: örneği sen üretir ve onaylarsın.",
+      "label": "Bağlantılar, satır başına bir tane",
+      "placeholder": "https://www.tiktok.com/@ad/video/…\nhttps://www.youtube.com/shorts/…",
+      "submit": "Hazırla",
+      "empty": "En az bir bağlantı yapıştır.",
+      "tooMany": "Bir seferde en çok {max} bağlantı. Hiçbiri hazırlanmadı.",
+      "failed": "Liste hazırlanmadı. Tekrar dene.",
+      "results": "Her bağlantının sonucu",
+      "summary": "{queued} sıraya alındı · {exists} zaten var · {invalid} geçersiz · {limit} günlük sınırı aştı · {failed} sıraya alınamadı",
+      "status": {
+        "queued": "Hazırlanmak üzere sıraya alındı",
+        "exists": "Zaten var",
+        "invalid": "Galerinin kabul etmediği bir bağlantı",
+        "limit": "Günlük sınır doldu",
+        "failed": "Sıraya alınamadı. Tekrar dene."
+      }
+    },
+    "scanStopped": "{source} taraması son çalışmasında durdu.",
+    "waitingTitle": "Yayın bekleyen şablonlar",
+    "waitingEmpty": "Bekleyen yok. Eşiğin üstünde puan alan aday şablon olarak hazırlanır ve burada görünür.",
+    "reference": "Referans video",
+    "referenceViews": "Referans · {views} görüntülenme",
+    "sample": "Bizim örnek",
+    "noSample": "Henüz örnek yok. Ücretli istekleri onaylayınca üretilir.",
+    "noSampleYet": "Henüz örnek yok.",
+    "product": {
+      "one": "{count} ürün",
+      "other": "{count} ürün"
+    },
+    "publish": "Yayınla",
+    "reject": "Reddet",
+    "generateSample": "Örnek üret",
+    "candidatesTitle": "Adaylar",
+    "threshold": "Eşik {threshold}: bunun üstündeki her aday otomatik şablon olur.",
+    "sourceFilter": {
+      "label": "Kaynak",
+      "all": "Hepsi",
+      "topads": "Top Ads",
+      "shorts": "Shorts"
+    },
+    "candidateMeta": "{source} · {views} görüntülenme · {length}",
+    "score": "Puan",
+    "queued": "Sırada",
+    "whyScore": "Bu puanın nedeni",
+    "addToGallery": "Galeriye ekle",
+    "candidatesEmpty": "Henüz aday yok. Sıradaki tarama {next}. Yukarıya bir video bağlantısı da yapıştırabilirsin.",
+    "candidatesNone": "Bu kaynaktan aday yok.",
+    "failed": "Olmadı. Tekrar dene.",
+    "transition": "Şablonun durumu için bu mümkün değil.",
+    "waitingFailed": "Şablon değişmedi. Tekrar dene.",
+    "candidateFailed": "Aday değişmedi. Tekrar dene."
+  },
+  "scans": {
+    "title": "Tarama geçmişi",
+    "lead": "Her taramanın neye baktığı ve ne kadarının şablon olduğu.",
+    "periodLabel": "Dönem",
+    "period": {
+      "today": "Bugün",
+      "7d": "7 gün",
+      "30d": "30 gün",
+      "all": "Tüm zamanlar"
+    },
+    "run": "Şimdi tara",
+    "started": "Bir tarama çalışıyor.",
+    "failed": "Tarama başlamadı. Tekrar dene.",
+    "schedule": "Taramalar günde {count} kez çalışır: {times} · sıradaki {next}",
+    "changeTimes": "Saatleri değiştir",
+    "tile": {
+      "scans": {
+        "label": "Tarama",
+        "sub": "Bu dönemdeki çalışmalar"
+      },
+      "checked": {
+        "label": "Kontrol edilen video",
+        "sub": "Taramaların puanladığı"
+      },
+      "above": {
+        "label": "Eşiğin üstünde",
+        "sub": "{threshold} üstü puan alan"
+      },
+      "prepared": {
+        "label": "Hazırlanan şablon",
+        "sub": "Gelen'e giden"
+      },
+      "published": {
+        "label": "Yayında",
+        "sub": "Galeride canlı"
+      }
+    },
+    "caption": "Taramalar",
+    "col": {
+      "started": "Başladı",
+      "source": "Kaynak",
+      "checked": "Kontrol edilen video",
+      "queued": "Puanlamaya giden",
+      "above": "Eşiğin üstünde",
+      "prepared": "Hazırlanan",
+      "status": "Durum",
+      "actions": "İşlemler"
+    },
+    "openCandidates": "Adayları aç",
+    "empty": {
+      "text": "Bu dönemde tarama yok.",
+      "clear": "Tüm zamanları göster"
+    }
+  },
+  "edit": {
+    "back": "Şablonlar",
+    "meta": "{category} · {format} · {length} · Son düzenleme {edited}",
+    "sample": "Örnek",
+    "play": "Örneği oynat",
+    "sampleNote": "Örnek video, bu sistem tarafından üretildi.",
+    "noSampleNote": "Henüz örnek yok. Burada onun yerine kaynak video görünür.",
+    "reference": "Referans",
+    "views": "{views} görüntülenme",
+    "regenerate": "Örneği yeniden üret",
+    "regenerateNote": "Yeni örnek, ücretli istekleri onaylayınca üretilir.",
+    "generate": "Örnek üret",
+    "generateNote": "Örnek, ücretli istekleri onaylayınca üretilir.",
+    "details": "Ayrıntılar",
+    "title": "Başlık",
+    "category": "Kategori",
+    "chooseCategory": "Kategori seç",
+    "format": "Format",
+    "formatNote": "Format referans videoyu izler.",
+    "visibility": "Görünürlük",
+    "privateNote": "Özel: yalnızca sahibi görür. Müşterinin kendi şablonu yayınlanamaz.",
+    "length": "Süre",
+    "lengthNote": "Referans videoyu izler. Değiştirilemez.",
+    "products": "Gereken ürün",
+    "productsNote": "Formun kullanıcıdan kaç ürün istediği.",
+    "shotList": "Çekim listesi",
+    "shotCount": {
+      "one": "{count} çekim · {length}",
+      "other": "{count} çekim · {length}"
+    },
+    "caption": "Çekim listesi",
+    "col": {
+      "n": "#",
+      "time": "Zaman",
+      "action": "Ne oluyor",
+      "text": "Ekran yazısı",
+      "product": "Ürün",
+      "actions": "İşlemler"
+    },
+    "shotAction": "Çekim {n}: ne oluyor",
+    "shotText": "Çekim {n}: ekran yazısı",
+    "shotProduct": "Çekim {n}: ürün",
+    "noProduct": "Yok",
+    "productN": "Ürün {n}",
+    "up": "{n}. çekimi yukarı taşı",
+    "down": "{n}. çekimi aşağı taşı",
+    "remove": "{n}. çekimi sil",
+    "addShot": "Çekim ekle",
+    "shotsNote": "Her yeni video bu çekimleri bu sırayla izler. Süreler şablon uzunluğuna tamamlanır.",
+    "maxShots": "Bir çekim en az bir saniye sürer, bu yüzden bu şablon en fazla {count} çekim alır.",
+    "newShot": "Yeni çekim",
+    "save": "Değişiklikleri kaydet",
+    "discard": "Değişiklikleri at",
+    "applyNote": "Değişiklikler yalnızca bundan sonra üretilen videolara uygulanır.",
+    "hide": "Şablonu gizle",
+    "saved": "Değişiklikler kaydedildi.",
+    "hidden": "Şablon gizlendi.",
+    "error": {
+      "title": "3 ile 120 karakter arasında bir başlık yaz.",
+      "category": "Bir kategori seç.",
+      "products": "1 ile 8 arasında tam sayı gir.",
+      "shots": {
+        "none": "En az bir çekim ekle.",
+        "range": "{n}. çekim şablon süresinin dışında.",
+        "order": "{n}. çekim, üstündeki bitmeden başlıyor.",
+        "product": "{n}. çekim, şablonun istemediği bir ürünü kullanıyor.",
+        "invalid": "{n}. çekimin metni çok uzun veya eksik."
+      },
+      "failed": "Değişiklikler kaydedilmedi. Tekrar dene.",
+      "transition": "Şablonun durumu için bu mümkün değil."
+    },
+    "sampleState": {
+      "current": "Örnek güncel",
+      "outdated": "Örnek eski"
+    },
+    "outdated": {
+      "title": "Örnek eski",
+      "text": "Çekimler bu örnek yapıldıktan sonra değişti. Yayınlamadan önce yeni bir örnek üret."
+    },
+    "generateNew": "Yeni örnek üret",
+    "generateNewNote": "Yeni örnek, kredi onayından sonra üretilir.",
+    "publish": "Yayınla",
+    "publishNote": "Yeni örnek hazır olunca Yayınla açılır. Çalışan işler, başladıkları çekimlerle biter."
+  },
+  "when": {
+    "today": "saat {time}",
+    "tomorrow": "yarın saat {time}"
+  },
+  "confirm": {
+    "cancel": "Vazgeç",
+    "hide": {
+      "title": "Şablon gizlensin mi?",
+      "text": "Galeriden kalkar. Üretilmiş videolar olduğu gibi kalır. Sonra yeniden yayınlayabilirsin."
+    },
+    "reject": {
+      "title": "Şablon reddedilsin mi?",
+      "text": "Gizlenir ve yayınlanmaz. Düzenleme sayfasından geri getirebilirsin."
+    },
+    "rejectCandidate": {
+      "title": "Aday reddedilsin mi?",
+      "text": "Listeden kalkar ve şablon olmaz."
+    }
+  },
+  "preparation": {
+    "preparing": "Hazırlanıyor",
+    "failed": "Hazırlanamadı.",
+    "note": {
+      "below-threshold": "Puanı eşiğin altında kaldı.",
+      "unsupported": "Sistem bu yapıyı henüz kuramıyor.",
+      "split-screen": "Video bölünmüş ekran kullanıyor; sistem bunu henüz kuramıyor.",
+      "too-long": "Video, Ayarlar'daki en uzun süreden uzun.",
+      "bad-range": "Seçilen video bölümü kullanılamadı (3 ile 60 saniye arasında ve videonun içinde olmalı).",
+      "check-failed": "Kart sistem kontrolünden geçemedi, bu yüzden değişiklik alınmadı.",
+      "source-unavailable": "Video kaynağından alınamadı.",
+      "llm-invalid": "Videonun analizi kullanılamaz geldi.",
+      "daily-cap": "Hazırlanan şablon için günlük sınıra ulaşıldı.",
+      "generic": "Şablon hazırlanamadı."
+    }
+  },
+  "sample": {
+    "title": "Örnek üretilsin mi?",
+    "lead": "Bu şablonun bir örneği şu ücretli istekleri yapar. Kimseden kredi düşülmez.",
+    "images": "Görsel",
+    "clips": "Klip",
+    "clipsValue": "{count} · {seconds} sn faturalanır",
+    "music": "Müzik",
+    "voice": "Seslendirme",
+    "confirm": "Örnek üret",
+    "changed": "Ücretli istekler değişti. Yeni sayılara bak ve yeniden onayla.",
+    "failed": "Örnek başlamadı. Hiçbir şey harcanmadı. Tekrar dene.",
+    "started": "Örnek üretiliyor.",
+    "follow": "Takip et",
+    "costFailed": "Ücretli istekler okunamadı. Hiçbir şey harcanmadı. Tekrar dene.",
+    "running": "Bu şablonun örneği zaten üretiliyor.",
+    "unknown": "Örneğin başlayıp başlamadığı bilinmiyor. Tekrar denemeden önce İşler'e bak.",
+    "jobs": "İşler'i aç",
+    "productsLead": "Örnek için müşterinin verdiği ürünler gerekir. Her biri için kendi fotoğrafını ve bir ad ekle.",
+    "productN": "Ürün {n}",
+    "productName": "Ürün adı",
+    "photoAdd": "Fotoğraf ekle",
+    "photoReplace": "Fotoğrafı değiştir",
+    "photoUploading": "Yükleniyor…",
+    "photoFailed": "Fotoğraf alınmadı: 10 MB'a kadar JPG, PNG ya da WebP kullan ve tekrar dene.",
+    "photoAlt": "Ürün {n} fotoğrafı",
+    "needProducts": "Örneği üretmek için her ürüne bir fotoğraf ve ad ekle."
+  },
+  "swap": {
+    "tag": "Kişi değiştirme",
+    "new": {
+      "back": "Şablonlar",
+      "title": "Kişi değiştirme videosu ekle",
+      "lead": "{min} ile {max} saniye arası bir video. Önce hazırlanır; sonra her kişinin nerede durduğunu ve modelin onu nasıl bulacağını sen girer, yayınlarsın.",
+      "linkLabel": "Video bağlantısı",
+      "linkPlaceholder": "Bağlantıyı yapıştır: TikTok veya YouTube videosu",
+      "addLink": "Bağlantıdan ekle",
+      "fileLabel": "Ya da bir video dosyası gönder",
+      "fileHint": "mp4 veya mov, en çok 100 MB.",
+      "uploading": "Dosya gönderiliyor… %{percent}",
+      "added": "Video eklendi, hazırlanıyor.",
+      "open": "Aç",
+      "error": {
+        "linkInvalid": "TikTok veya YouTube'dan, https:// ile başlayan bir bağlantı yapıştır.",
+        "link": "Bağlantı okunamadı: özel, kaldırılmış, bulunamadı ya da sistemin almadığı bir siteden.",
+        "type": "mp4 veya mov dosyası kullan.",
+        "size": "Dosya 100 MB'ı geçiyor.",
+        "length": "Video {min} ile {max} saniye arasında olmalı.",
+        "ratio": "Bu video dikey değil. 9:16 bir video kullan.",
+        "range": "Seçilen video parçası kullanılamıyor.",
+        "unreadable": "Video okunamadı.",
+        "uploadFailed": "Dosya gönderilemedi. Tekrar dene.",
+        "uploadQuota": "Bugün çok fazla dosya gönderildi. Yarın tekrar dene.",
+        "uploadTimeout": "Dosyanın gelmesi çok uzun sürdü. Tekrar dene.",
+        "failed": "Video eklenmedi. Tekrar dene."
+      }
+    },
+    "edit": {
+      "meta": "{category} · {length} · Son düzenleme {edited}",
+      "frame": "Videonun görüntüsü",
+      "frameHint": "Görüntüde kişinin etrafına bir kutu çiz; yanındaki alanlar onu izler.",
+      "frameAlt": "Videonun bir görüntüsü",
+      "noFrame": "Videonun henüz bir görüntüsü yok.",
+      "people": "Videodaki kişiler",
+      "person": "Kişi {n}",
+      "drawFor": "Şunun için çiz",
+      "left": "Sol",
+      "top": "Üst",
+      "right": "Sağ",
+      "bottom": "Alt",
+      "boxNote": "Kutu, görüntünün yüzdesi olarak.",
+      "hint": "Modelin bu kişiyi bulacağı sözler",
+      "hintNote": "İngilizce, tek satır, en çok {max} karakter. Örneğin: the woman in the red dress on the left.",
+      "hintPlaceholder": "örn. the woman in the red dress on the left",
+      "addPerson": "İkinci bir kişi ekle",
+      "removePerson": "2. kişiyi kaldır",
+      "save": "Kişileri kaydet",
+      "saved": "Kaydedildi.",
+      "unset": "Hazırlık önerecek kimseyi bulamadı. Her kişinin kutusunu çiz, sözleri elle yaz.",
+      "pending": "Kaydedildi. İşçi kişileri videoya yazıyor; birkaç saniye sürer. Gördüğün hâlâ önceki kişiler olabilir: emin olmak için sayfayı yenile.",
+      "error": {
+        "people": "Bir videoda bir ya da iki kişi olur.",
+        "slot": "Kişiler sırayla 1, sonra 2 diye numaralanmalı.",
+        "box": "Her kutu görüntünün içinde olmalı (0 ile 100), solu sağından, üstü altından önce gelmeli.",
+        "hint": "Sözleri tek satıra yaz, en çok {max} karakter.",
+        "notReady": "Video hâlâ hazırlanıyor. Hazır olunca kişilerini gir.",
+        "gone": "Bu video artık yok.",
+        "failed": "Kişiler kaydedilemedi. Tekrar dene."
+      }
+    },
+    "status": {
+      "publish": "Yayınla",
+      "withdraw": "Geri çek",
+      "published": "Yayınlandı. Ayarlar'da kişi değiştirme açıkken kişi değiştirme sayfasında görünür; ürün şablonlarının galerisinde asla görünmez.",
+      "withdrawn": "Geri çekildi. Kişi değiştirme sayfasından kalktı; çoktan yapılmış videolar olduğu gibi kalır.",
+      "blocked": {
+        "dirty": "Önce kişileri kaydet: yayınlama kayıtlı kişileri alır.",
+        "unset": "Yayınlamak için videonun kişileri gerekli: yukarıda gir ve kaydet.",
+        "pending": "Kaydettiğin kişileri işçi hâlâ videoya yazıyor. Birkaç saniye sonra sayfayı yenile, sonra yayınlayabilirsin."
+      },
+      "confirm": {
+        "title": "Bu video geri çekilsin mi?",
+        "text": "Kişi değiştirme sayfasından kalkar. Çoktan yapılmış videolar olduğu gibi kalır. Sonra yine yayınlayabilirsin."
+      },
+      "error": {
+        "peopleUnset": "Bu videonun kişileri girilmemiş (ya da henüz yazılmamış), bu yüzden yayınlanamaz.",
+        "transition": "Bu, videonun durumuna göre mümkün değil.",
+        "failed": "Durum değişmedi. Tekrar dene."
+      }
+    }
+  }
+}

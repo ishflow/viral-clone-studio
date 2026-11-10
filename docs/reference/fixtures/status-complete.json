@@ -1,0 +1,17 @@
+{
+  "format": "hypit.cli-status@1",
+  "build": {
+    "id": "bld_20261003T142607452Z_CCEC645DE5",
+    "targets": [
+      "final.video"
+    ],
+    "work": {
+      "state": "done",
+      "outcome": "complete"
+    },
+    "result": {
+      "state": "complete",
+      "outputCount": 23
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  TEMPLATE, not installed. Every 60 seconds: ops/payments-sweep.sh calls POST /api/payments/sweep on the local site (mail delivery,
+  pending-checkout expiry, refund retries). Without this job those only happen by hand. No secret in this file: the script reads
+  INTERNAL_CRON_SECRET from the 0600 payments.env and hands it to curl through stdin. ops/install.sh fills the @...@ markers.
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>app.viralclone.payments</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>@REPO@/ops/payments-sweep.sh</string>
+  </array>
+  <key>StartInterval</key><integer>60</integer>
+  <key>StandardOutPath</key><string>@HOME@/Library/Logs/viralclone/payments.out.log</string>
+  <key>StandardErrorPath</key><string>@HOME@/Library/Logs/viralclone/payments.err.log</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key><string>@PATH@</string>
+    <key>VC_ENV_FILE</key><string>@ENV_FILE@</string>
+  </dict>
+</dict>
+</plist>

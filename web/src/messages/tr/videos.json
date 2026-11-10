@@ -1,0 +1,85 @@
+{
+  "title": "Videolarım",
+  "filter": {
+    "label": "Durum",
+    "all": "Hepsi"
+  },
+  "products": {
+    "one": "{count} ürün: {names}",
+    "other": "{count} ürün: {names}"
+  },
+  "variants": {
+    "one": "{count} varyant",
+    "other": "{count} varyant"
+  },
+  "spec": "{quality} · {variants}",
+  "specLong": "{quality} · {variants} · {duration}",
+  "step": {
+    "adaptation": "Uyarlama",
+    "images": "Görseller",
+    "clips": "Klipler",
+    "music": "Müzik",
+    "edit": "Kurgu",
+    "render": "Çıktı"
+  },
+  "detail": {
+    "running": "{step} {done} / {total} · yaklaşık {minutes} dk kaldı",
+    "stopped": "Krediler geri döndü · {total} klipten {done} tanesi kaydedildi",
+    "done": "{format} · {resolution}",
+    "stoppedFree": "Ücretsiz videon geri geldi · {total} klipten {done} tanesi kaydedildi",
+    "stoppedRule": "Krediler geri döndü · içerik kuralları nedeniyle durdu",
+    "stoppedRuleFree": "Ücretsiz videon geri geldi · içerik kuralları nedeniyle durdu",
+    "stoppedChecking": "Krediler geri döndü · bu işi biz kontrol ediyoruz",
+    "stoppedCheckingFree": "Ücretsiz videon geri geldi · bu işi biz kontrol ediyoruz",
+    "closed": {
+      "one": "{count} kredi geri döndü. Başka ücret alınmadı.",
+      "other": "{count} kredi geri döndü. Başka ücret alınmadı."
+    },
+    "closedFree": "Ücretsiz videon geri geldi. Başka ücret alınmadı.",
+    "queued": "{position}. sıra",
+    "expired": "Videolar {months} ay saklanır.",
+    "expiredNote": "Bu, yeni bir iş başlatır: ürün görsellerini yeniden eklersin ve fiyatı onaylarsın.",
+    "expiredLabel": "Artık saklanmıyor"
+  },
+  "resolution": {
+    "fast": "720p",
+    "best": "1080p"
+  },
+  "swap": {
+    "kind": "Kişi değiştirme",
+    "kindLength": "Kişi değiştirme · {duration}",
+    "done": "{format} · {resolution} · {days} gün saklanır",
+    "expired": "Kişi değiştirme videoları {days} gün saklanır.",
+    "expiredNote": "Bu, yeni bir iş başlatır: fotoğraflarını yeniden eklersin ve fiyatı onaylarsın.",
+    "stopped": "Krediler iade edildi"
+  },
+  "action": {
+    "watch": "İzle",
+    "open": "Aç",
+    "options": "Seçenekleri gör",
+    "delete": "Sil",
+    "again": "Yeniden üret"
+  },
+  "empty": {
+    "title": "Gördün mü? Klonla.",
+    "text": "Videoların burada görünecek. İlk videon ücretsiz: Fast kalitede konuşmasız bir video. Kart gerekmez.",
+    "action": "Galeriye göz at",
+    "usedTitle": "Henüz video yok.",
+    "usedText": "Videoların burada görünecek.",
+    "usedAction": "Bir şablon seç"
+  },
+  "emptyFilter": {
+    "title": "Burada video yok",
+    "text": "Şu an bu durumda video yok.",
+    "action": "Tüm videoları göster"
+  },
+  "notice": {
+    "deleted": "Video silindi."
+  },
+  "error": {
+    "title": "Videoların yüklenemedi.",
+    "text": "Bağlantını kontrol edip tekrar dene. Videoların ve kredilerin etkilenmedi.",
+    "retry": "Tekrar dene",
+    "contact": "Destekle iletişime geç"
+  }
+}

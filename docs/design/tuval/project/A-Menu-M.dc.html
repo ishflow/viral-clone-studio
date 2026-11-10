@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Menu: signed in</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ay{--bg:#0B0C0A;--surface:#151712;--raised:#1C1F17;--line:#23261E;--edge:#33372B;--edge-strong:#676B5D;--text:#F2F3EC;--text-2:#C9CCBF;--text-3:#A9AC9F;--accent:#C8F03C;--accent-hover:#E0FF7A;--accent-text:#C8F03C;--on-accent:#0B0C0A;--warn:#FF9A6B;--warn-edge:#5A3A2A;--mark-edge:#C8F03C;--scrim:rgba(11,12,10,0.76);--on-scrim:#F2F3EC;--media-edge:transparent;--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Onest',system-ui,sans-serif}
+.ay[data-theme="light"],.ay [data-theme="light"]{--bg:#F4F5EE;--surface:#FFFFFF;--raised:#E8EADF;--line:#E0E2D7;--edge:#CBCEBF;--edge-strong:#80856F;--text:#0B0C0A;--text-2:#3E4236;--text-3:#5A5F50;--accent-hover:#B6E01F;--accent-text:#456300;--warn:#A8400F;--warn-edge:#E3B7A2;--mark-edge:#0B0C0A;--media-edge:rgba(11,12,10,0.12)}
+a{color:var(--accent-text)}a:hover{color:var(--text)}
+</style>
+</helmet>
+<div class="ay" data-theme="{{ theme }}" style="min-height: 844px; box-sizing: border-box; background: var(--bg); color: var(--text); font-family: var(--body); padding: 0 16px 24px; display: flex; flex-direction: column; gap: 24px">
+<header style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line); container-type: inline-size">
+<a href="Main-M.dc.html" style="display: flex; align-items: baseline; padding: 10px 0; min-width: 44px; white-space: nowrap; flex: 0 0 auto; gap: 0.34em; font-family: var(--display); font-weight: 800; font-size: 24px; line-height: 1; letter-spacing: -0.04em; color: var(--text); text-decoration: none"><svg viewBox="0 0 42 32" fill="none" aria-hidden="true" style="width: 0.97em; height: 0.74em; flex: 0 0 auto; display: block"><rect x="1.5" y="1.5" width="15" height="29" rx="3" stroke="currentColor" stroke-width="3"></rect><rect x="25.5" y="1.5" width="15" height="29" rx="3" fill="#C8F03C" stroke-width="3" style="stroke: var(--mark-edge)"></rect></svg><span><span style="font-size: clamp(0px, (100cqi - 327.5px) * 9999, 1em); letter-spacing: -0.04em">viral clone</span></span></a>
+<a href="Main-M.dc.html" aria-label="Close menu" style="width: 44px; height: 44px; flex: 0 0 auto; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border-radius: 999px; border: 1px solid var(--edge); color: var(--text); text-decoration: none"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></a>
+</header>
+
+<nav aria-label="Main menu" style="display: flex; flex-direction: column">
+<a href="Main-M.dc.html" aria-current="page" style="display: flex; align-items: center; gap: 12px; min-height: 60px; border-bottom: 1px solid var(--line); font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em; text-decoration: none; color: var(--text)"><span style="width: 7px; height: 7px; border-radius: 50%; background: var(--accent-text)"></span>Gallery</a>
+<a href="A-Uretimlerim-M.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 60px; border-bottom: 1px solid var(--line); font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em; text-decoration: none; color: var(--text-2)">My videos</a>
+<a href="A-Fiyatlar-M.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 60px; border-bottom: 1px solid var(--line); font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em; text-decoration: none; color: var(--text-2)">Pricing</a>
+<a href="A-Hesap-M.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 60px; border-bottom: 1px solid var(--line); font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em; text-decoration: none; color: var(--text-2)">Account</a>
+</nav>
+
+<section aria-label="Credits" style="box-sizing: border-box; padding: 24px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">Your credit balance</span>
+<span style="font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">[BALANCE] credits</span>
+</div>
+<a href="A-Fiyatlar-M.dc.html" style="display: flex; align-items: center; justify-content: center; box-sizing: border-box; border-radius: 12px; font: inherit; font-weight: 600; text-decoration: none; cursor: pointer; min-height: 52px; padding: 0 24px; border: 0; background: var(--accent); color: var(--on-accent); font-size: 15px; width: 100%">Buy credits</a>
+</section>
+
+<div style="margin-top: auto; display: flex; flex-direction: column; gap: 8px">
+<button type="button" aria-label="Language: English. Change" style="display: flex; align-items: center; gap: 12px; width: 100%; min-height: 52px; box-sizing: border-box; padding: 0 16px; border-radius: 12px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font: inherit; font-size: 15px; font-weight: 500; cursor: pointer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M3.5 12h17M12 3.5c2.6 2.6 2.6 14.4 0 17M12 3.5c-2.6 2.6-2.6 14.4 0 17"></path></svg><span style="flex: 1; text-align: left">English</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg></button>
+<a href="A-Giris-M.dc.html" style="display: flex; align-items: center; gap: 8px; min-height: 44px; font-size: 15px; font-weight: 500; text-decoration: none; color: var(--text-2)">Log out</a>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"theme":{"editor":"enum","options":["dark","light"],"default":"dark"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+renderVals() {
+return { theme: this.props.theme ?? 'dark' };
+}
+}
+</script>
+</body>
+</html>

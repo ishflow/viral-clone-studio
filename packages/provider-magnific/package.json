@@ -1,0 +1,13 @@
+{
+  "name": "@viral-clone/provider-magnific",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hypit Provider for the Magnific REST API (Seedance 2.0/2.5, Nano Banana Pro, GPT Image 2)",
+  "type": "module",
+  "exports": { ".": "./src/index.js" },
+  "hypit": { "activation": "./src/activation.js" },
+  "files": ["src", "README.md"],
+  "scripts": {
+    "test": "node --import ./test/hypit-sdk.mjs --test test/*.test.js"
+  }
+}

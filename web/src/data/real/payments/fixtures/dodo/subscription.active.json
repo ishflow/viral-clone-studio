@@ -1,0 +1,11 @@
+{
+  "business_id": "bus_fixture0001",
+  "type": "subscription.active",
+  "timestamp": "2026-10-07T05:00:00Z",
+  "data": {
+    "payload_type": "Subscription",
+    "subscription_id": "sub_fixture0001",
+    "status": "active",
+    "metadata": { "checkout_id": "checkout-fixture-0001" }
+  }
+}

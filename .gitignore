@@ -1,0 +1,29 @@
+.hypit/
+node_modules/
+*.env
+.DS_Store
+/data/
+.superpowers/
+docs/design/tuval/pv-*/
+productions/**/*.mp4
+productions/**/*.mp3
+productions/**/*.wav
+productions/**/*.png
+productions/**/*.jpg
+references/**/*.mp4
+references/**/*.png
+references/**/*.jpg
+web/.next-*/
+web/e2e/__shots__/
+web/test-results/
+/spike/
+viraleditor/.vitest/
+# Build and test artifacts to ignore
+/shots-*/
+/scratch-*
+web/test-results-*/
+viraleditor/src/**/scratch*
+# Local-only leftovers (agent worktrees, a trial package, a local compile config)
+.claude/
+packages/provider-fake/
+viraleditor/tsconfig.fit-check.json

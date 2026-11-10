@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "language": "en",
+  "canvas": { "width": 720, "height": 1280, "fps": 30 },
+  "frames": 75,
+  "media": {
+    "clip": { "file": "assets/clip.mp4", "kind": "video" },
+    "still": { "file": "assets/still.png", "kind": "image" },
+    "product": { "file": "assets/product.png", "kind": "image" },
+    "tone": { "file": "assets/tone.mp3", "kind": "audio" }
+  },
+  "shots": [
+    { "id": "one", "at": 0, "for": 45, "media": "clip", "motion": { "kind": "push-in" } },
+    { "id": "two", "at": 45, "for": 30, "media": "still", "in": { "kind": "crossfade" } }
+  ],
+  "texts": [
+    { "id": "hook", "at": 0, "for": 40, "box": { "left": 9, "top": 15, "right": 91, "bottom": 27 }, "style": "hook", "copy": "Small but complete" }
+  ],
+  "cards": [
+    { "id": "product", "at": 48, "for": 24, "media": "product", "box": { "left": 31, "top": 36, "right": 69, "bottom": 58 } }
+  ],
+  "audio": { "music": { "media": "tone", "gain": 0.5 } }
+}

@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "gallery": "Gallery",
+    "myVideos": "My videos",
+    "pricing": "Pricing",
+    "account": "Account",
+    "swap": "Person swap",
+    "howItWorks": "How it works",
+    "logIn": "Log in",
+    "getStarted": "Get started",
+    "requestInvite": "Request an invite",
+    "logOut": "Log out",
+    "mainMenu": "Main menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skip": "Skip to content",
+    "adminPanel": "Admin panel"
+  },
+  "admin": {
+    "menu": "Admin menu",
+    "overview": "Overview",
+    "users": "Users",
+    "revenue": "Revenue",
+    "jobs": "Jobs",
+    "photoReview": "Photo review",
+    "templates": "Templates",
+    "settings": "Settings",
+    "viewSite": "View site",
+    "label": "Admin",
+    "deletedAccount": "Deleted account"
+  },
+  "language": {
+    "label": "Language: {name}. Change",
+    "en": "English",
+    "tr": "Türkçe",
+    "short": {
+      "en": "EN",
+      "tr": "TR"
+    },
+    "menu": "Site language",
+    "note": "This changes the site language. The language of a video is chosen in the form."
+  },
+  "credits": {
+    "count": {
+      "one": "{count} credit",
+      "other": "{count} credits"
+    },
+    "freeVideo": "1 free video"
+  },
+  "footer": {
+    "menu": "Footer menu",
+    "terms": "Terms of use",
+    "privacy": "Privacy",
+    "refunds": "Refunds",
+    "company": "© {company}",
+    "contact": "Contact",
+    "cookies": "Cookies",
+    "cookieSettings": "Cookie settings",
+    "content": "Content policy"
+  },
+  "cookies": {
+    "title": "Cookies",
+    "label": "Cookie notice",
+    "text": "We use cookies for your session, language, theme and cookie choice. No analytics or advertising cookies are currently used.",
+    "policy": "Cookie policy",
+    "necessary": "Only necessary",
+    "acceptAll": "Accept all"
+  },
+  "status": {
+    "done": "Done",
+    "running": "Running",
+    "stopped": "Stopped",
+    "waiting": "Waiting",
+    "generating": "Running",
+    "ready": "Done",
+    "queued": "In queue",
+    "closed": "Closed"
+  },
+  "queue": {
+    "waiting": {
+      "one": "{count} video ahead · starts in about {minutes} min",
+      "other": "{count} videos ahead · starts in about {minutes} min"
+    },
+    "soon": "Starting shortly"
+  },
+  "format": {
+    "mp4": "mp4",
+    "noTalking": "No talking",
+    "talking": "Talking"
+  },
+  "quality": {
+    "fast": "Fast",
+    "best": "Best"
+  },
+  "pager": {
+    "previous": "Previous",
+    "next": "Next",
+    "showing": "Showing {shown}",
+    "range": "{shown} of {total}"
+  },
+  "duration": {
+    "sec": "{count} sec",
+    "min": "{count} min"
+  },
+  "home": {
+    "titleLead": "Same video.",
+    "titleAccent": "Your product."
+  },
+  "menu": {
+    "firstFree": "Your first video is free.",
+    "creditBalance": "Your credit balance",
+    "buyCredits": "Buy credits"
+  },
+  "notFound": {
+    "title": "This page doesn't exist.",
+    "text": "The link may be old or mistyped. Every template is in the gallery.",
+    "back": "Back to the gallery",
+    "adminText": "The link may be old or mistyped.",
+    "adminBack": "Back to the admin panel"
+  },
+  "serviceError": {
+    "title": "Something went wrong on our side. Try again in a few minutes.",
+    "note": "If you just paid or started a video, check Account or My videos before you try again. You are not charged twice.",
+    "retry": "Try again",
+    "support": "Contact support"
+  },
+  "forbidden": {
+    "title": "You do not have access to this page.",
+    "back": "Back to gallery"
+  },
+  "deleteVideo": {
+    "title": {
+      "one": "Delete this video?",
+      "other": "Delete these {count} videos?"
+    },
+    "body": "It is removed from My videos and cannot be brought back. Credits are not returned.",
+    "keep": "Keep it",
+    "submit": "Delete video",
+    "failed": "Could not delete the video. Try again."
+  },
+  "loadError": {
+    "retry": "Try again",
+    "support": "Contact support"
+  },
+  "reference": {
+    "likes": "{count} likes",
+    "views": "{count} views",
+    "label": "reference"
+  }
+}

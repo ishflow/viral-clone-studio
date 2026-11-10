@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Payment: confirming · mobile · light</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ay{--bg:#0B0C0A;--surface:#151712;--raised:#1C1F17;--line:#23261E;--edge:#33372B;--edge-strong:#676B5D;--text:#F2F3EC;--text-2:#C9CCBF;--text-3:#A9AC9F;--accent:#C8F03C;--accent-hover:#E0FF7A;--accent-text:#C8F03C;--on-accent:#0B0C0A;--warn:#FF9A6B;--warn-edge:#5A3A2A;--mark-edge:#C8F03C;--scrim:rgba(11,12,10,0.76);--on-scrim:#F2F3EC;--media-edge:transparent;--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Onest',system-ui,sans-serif}
+.ay[data-theme="light"],.ay [data-theme="light"]{--bg:#F4F5EE;--surface:#FFFFFF;--raised:#E8EADF;--line:#E0E2D7;--edge:#CBCEBF;--edge-strong:#80856F;--text:#0B0C0A;--text-2:#3E4236;--text-3:#5A5F50;--accent-hover:#B6E01F;--accent-text:#456300;--warn:#A8400F;--warn-edge:#E3B7A2;--mark-edge:#0B0C0A;--media-edge:rgba(11,12,10,0.12)}
+a{color:var(--accent-text)}a:hover{color:var(--text)}
+</style>
+</helmet>
+<div class="ay" data-theme="{{ theme }}" style="min-height: 960px; box-sizing: border-box; background: var(--bg); color: var(--text); font-family: var(--body); padding: 0 clamp(16px, 4vw, 60px) 72px">
+<div style="max-width: 1320px; margin: 0 auto; display: flex; flex-direction: column; gap: 48px">
+<header style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line); container-type: inline-size">
+<a href="Main-ML.dc.html" style="display: flex; align-items: baseline; padding: 10px 0; min-width: 44px; white-space: nowrap; flex: 0 0 auto; gap: 0.34em; font-family: var(--display); font-weight: 800; font-size: 24px; line-height: 1; letter-spacing: -0.04em; color: var(--text); text-decoration: none"><svg viewBox="0 0 42 32" fill="none" aria-hidden="true" style="width: 0.97em; height: 0.74em; flex: 0 0 auto; display: block"><rect x="1.5" y="1.5" width="15" height="29" rx="3" stroke="currentColor" stroke-width="3"></rect><rect x="25.5" y="1.5" width="15" height="29" rx="3" fill="#C8F03C" stroke-width="3" style="stroke: var(--mark-edge)"></rect></svg><span><span style="font-size: clamp(0px, (100cqi - 327.5px) * 9999, 1em); letter-spacing: -0.04em">viral clone</span></span></a>
+<div style="display: flex; align-items: center; gap: 8px; min-width: 0">
+<a href="A-Hesap-ML.dc.html" style="display: block; min-width: 0; line-height: 42px; height: 44px; box-sizing: border-box; padding: 0 12px; border-radius: 999px; border: 1px solid var(--edge); color: var(--text-2); text-decoration: none; font-size: 13px; text-align: center; overflow: hidden; text-overflow: ellipsis">[BALANCE] credits</a>
+<a href="A-Menu-ML.dc.html" aria-label="Open menu" style="width: 44px; height: 44px; flex: 0 0 auto; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border-radius: 999px; border: 1px solid var(--edge); color: var(--text); text-decoration: none"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></a>
+</div>
+</header>
+
+<section role="status" style="display: flex; flex-direction: column; gap: 12px">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; color: var(--accent-text)"><span style="width: 8px; height: 8px; border-radius: 50%; background: var(--accent-text)"></span>Confirming</span>
+<h1 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: clamp(32px, 4vw, 52px); line-height: 1; letter-spacing: -0.03em">Confirming your payment…</h1>
+<p style="margin: 0; max-width: 620px; font-size: 17px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">This usually takes a few seconds. Do not pay again.</p>
+</section>
+
+<main style="display: flex; flex-wrap: wrap; align-items: stretch; gap: 32px">
+
+<section aria-labelledby="h-order" style="flex: 1 1 420px; min-width: 0; box-sizing: border-box; padding: clamp(16px, 2vw, 24px); border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 24px">
+<h2 id="h-order" style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Your order</h2>
+<dl style="margin: 0; display: flex; flex-direction: column">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding: 12px 0; border-top: 1px solid var(--line); font-size: 15px"><dt style="color: var(--text-2)">Pack</dt><dd style="margin: 0 0 0 auto; font-weight: 600; text-align: right; overflow-wrap: anywhere">Standard pack</dd></div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding: 12px 0; border-top: 1px solid var(--line); font-size: 15px"><dt style="color: var(--text-2)">Credits</dt><dd style="margin: 0 0 0 auto; font-weight: 600; text-align: right; overflow-wrap: anywhere">30</dd></div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding: 12px 0; border-top: 1px solid var(--line); font-size: 15px"><dt style="color: var(--text-2)">Price</dt><dd style="margin: 0 0 0 auto; font-weight: 600; text-align: right; overflow-wrap: anywhere">$54</dd></div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding: 12px 0; border-top: 1px solid var(--line); font-size: 15px"><dt style="color: var(--text-2)">Status</dt><dd style="margin: 0 0 0 auto; font-weight: 600; text-align: right; overflow-wrap: anywhere">Confirming…</dd></div>
+</dl>
+</section>
+
+<section aria-labelledby="h-draft" style="flex: 1 1 420px; min-width: 0; box-sizing: border-box; padding: clamp(16px, 2vw, 24px); border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 24px">
+<h2 id="h-draft" style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Your video is waiting</h2>
+<div style="display: flex; align-items: center; gap: 16px">
+<img src="/_blob/f20a7ed7a7bc172a7da483415800077f" alt="Sample frame of the template" style="width: 72px; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 8px; display: block; flex: 0 0 auto; box-shadow: 0 0 0 1px var(--media-edge)">
+<div style="display: flex; flex-direction: column; gap: 4px; min-width: 0">
+<span style="font-size: 17px; font-weight: 600">Fragrance layering recipe</span>
+<span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">4 products · Fast · 1 variant</span>
+<span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">2 credits</span>
+</div>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Your form is saved.</p>
+</section>
+
+</main>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"theme":{"editor":"enum","options":["dark","light"],"default":"light"},"$preview":{"width":390,"height":960}}'>
+class Component extends DCLogic {
+renderVals() {
+return { theme: this.props.theme ?? 'light' };
+}
+}
+</script>
+</body>
+</html>

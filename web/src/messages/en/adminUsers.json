@@ -1,0 +1,143 @@
+{
+  "title": "Users",
+  "lead": "Everyone who signed up. Open a user to see purchases, jobs, and credit history.",
+  "export": "Export CSV",
+  "list": {
+    "label": "User list"
+  },
+  "search": {
+    "label": "Search users",
+    "placeholder": "Search by email or name"
+  },
+  "filter": {
+    "label": "Filter",
+    "all": "All",
+    "paying": "Paying",
+    "free-only": "Free video only",
+    "not-verified": "Not verified",
+    "blocked": "Blocked"
+  },
+  "table": {
+    "caption": "Users",
+    "user": "User",
+    "joined": "Joined",
+    "email": "Email",
+    "balance": "Balance",
+    "paid": "Paid in total",
+    "spent": "Credits spent",
+    "videos": "Videos",
+    "lastActive": "Last active",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "verified": "Verified",
+  "notVerified": "Not verified",
+  "status": {
+    "active": "Active",
+    "blocked": "Blocked"
+  },
+  "open": "Open",
+  "empty": {
+    "text": "No users match your search or filter.",
+    "clear": "Clear search and filter"
+  },
+  "placeholder": {
+    "amount": "—"
+  },
+  "detail": {
+    "back": "Users",
+    "meta": "Joined {joined} · {verified} · Last active {last}",
+    "emailVerified": "Email verified",
+    "emailNotVerified": "Email not verified",
+    "tile": {
+      "balance": {
+        "label": "Balance",
+        "sub": "Credits the user can spend now"
+      },
+      "paid": {
+        "label": "Paid in total",
+        "sub": "All paid purchases"
+      },
+      "bought": {
+        "label": "Credits bought",
+        "sub": "From credit packs"
+      },
+      "spent": {
+        "label": "Credits spent",
+        "sub": "Used to generate videos"
+      },
+      "videos": {
+        "label": "Videos generated",
+        "sub": "Finished videos"
+      }
+    },
+    "actions": {
+      "title": "Actions"
+    },
+    "add": {
+      "title": "Add credits",
+      "credits": "Credits to add",
+      "submit": "Add credits",
+      "error": {
+        "credits": "Enter a whole number from 1 to 10,000."
+      }
+    },
+    "access": {
+      "title": "Access",
+      "reset": "Send password reset email",
+      "resetSent": "Reset email sent",
+      "resetFailed": "The email was not sent. Try again.",
+      "block": "Block user",
+      "unblock": "Unblock user",
+      "note": "A blocked user cannot log in. Their credits are not deleted.",
+      "blockedOn": "Blocked on {date}",
+      "blockReason": "Reason: {reason}",
+      "blocked": "The user is blocked.",
+      "unblocked": "The user can log in again."
+    },
+    "purchases": {
+      "title": "Purchases",
+      "empty": "No purchases yet.",
+      "date": "Date",
+      "pack": "Pack",
+      "credits": "Credits",
+      "amount": "Amount",
+      "invoice": "Invoice",
+      "status": "Status",
+      "noInvoice": "No invoice",
+      "pdf": "PDF",
+      "view": "View",
+      "packName": "{name} pack"
+    },
+    "jobs": {
+      "title": "Jobs",
+      "empty": "No jobs yet.",
+      "started": "Started",
+      "template": "Template",
+      "format": "Format",
+      "quality": "Quality",
+      "language": "Language",
+      "credits": "Credits",
+      "status": "Status",
+      "actions": "Actions",
+      "open": "Open",
+      "free": "Free video"
+    },
+    "history": {
+      "title": "Credit history",
+      "empty": "No credit activity yet."
+    }
+  },
+  "format": {
+    "no-talking": "No talking",
+    "talking": "Talking"
+  },
+  "quality": {
+    "fast": "Fast",
+    "best": "Best"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Turkish"
+  }
+}

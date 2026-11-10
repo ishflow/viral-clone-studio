@@ -1,0 +1,152 @@
+{
+  "title": "Upload your products",
+  "lead": "One image and a name per product is enough. A photo with a clearly visible label gives the best result.",
+  "aside": {
+    "label": "Selected template",
+    "needs": "Needs {list}",
+    "promise": "The structure stays the same: shots, order, timing and on-screen text. People, setting and music are made new around your product.",
+    "presenterNote": "What the presenter says is written from your product description. Only claims you typed are used."
+  },
+  "unit": {
+    "product": {
+      "one": "{count} product",
+      "other": "{count} products"
+    },
+    "shot": {
+      "one": "{count} shot",
+      "other": "{count} shots"
+    },
+    "variant": {
+      "one": "{count} variant",
+      "other": "{count} variants"
+    },
+    "clip": {
+      "one": "{count} clip",
+      "other": "{count} clips"
+    },
+    "image": {
+      "one": "{count} image",
+      "other": "{count} images"
+    },
+    "track": {
+      "one": "{count} music track",
+      "other": "{count} music tracks"
+    }
+  },
+  "product": {
+    "legend": "Product {n}",
+    "name": "Product name",
+    "info": "Short description",
+    "infoPlaceholder": "What it does, its key feature",
+    "addImage": "Add image",
+    "imageAlt": "Uploaded product image",
+    "removeImage": "Remove image {name}",
+    "replace": "Replace",
+    "remove": "Remove",
+    "drop": "Drop images here or choose files"
+  },
+  "upload": {
+    "terms": "JPG, PNG or WebP · up to 10 MB each · 1 to 8 images per product",
+    "uploading": "Uploading…",
+    "type": "{name} is not supported. Use JPG, PNG or WebP.",
+    "size": "{name} is larger than 10 MB.",
+    "quota": "You have added many photos today. Try again tomorrow.",
+    "unreadable": "{name} could not be read as a picture. Use a JPG, PNG or WebP photo.",
+    "tooMany": "You can add up to 8 images per product.",
+    "failed": "Upload failed. Check your connection.",
+    "retry": "Try again",
+    "dismiss": "Dismiss",
+    "wait": "Wait for the uploads to finish."
+  },
+  "quality": {
+    "label": "Quality",
+    "fast": {
+      "sub": "720p"
+    },
+    "best": {
+      "sub": "1080p"
+    }
+  },
+  "variants": {
+    "label": "Variants",
+    "group": "Number of variants"
+  },
+  "language": {
+    "label": "Video language",
+    "hint": "The site language is set in your account."
+  },
+  "submit": "Generate",
+  "hint": "You are charged when you confirm. If the video is not delivered, the credits come back.",
+  "error": {
+    "name": "Give this product a name.",
+    "images": "Add at least one image of this product.",
+    "nameLong": "The name can be at most 120 characters.",
+    "infoLong": "The description can be at most 300 characters.",
+    "item": {
+      "name": "Product {n} needs a name.",
+      "name-long": "Product {n}: the name can be at most 120 characters.",
+      "description-long": "Product {n}: the description can be at most 300 characters.",
+      "images": "Product {n} needs an image."
+    },
+    "summary": {
+      "n1": "One thing to fix before generating.",
+      "n2": "Two things to fix before generating.",
+      "n3": "Three things to fix before generating.",
+      "n4": "Four things to fix before generating.",
+      "n5": "Five things to fix before generating.",
+      "n6": "Six things to fix before generating.",
+      "n7": "Seven things to fix before generating.",
+      "n8": "Eight things to fix before generating.",
+      "other": "{count} things to fix before generating."
+    },
+    "notReady": "This template is not ready yet. Try again in a moment.",
+    "failed": "This video could not be turned into a template, so no video can be made from it. The template page says why.",
+    "addAnother": "Add another video",
+    "providerCap": "The provider spending limit has been reached. No credits were charged and no provider request was sent.",
+    "freeVideoCap": "A free video is not available right now. You can continue with credits.",
+    "generic": "Something went wrong. Nothing was spent. Try again.",
+    "paused": "Generation is paused for a short time. Nothing was charged. Try again later."
+  },
+  "confirm": {
+    "title": "Confirm generation",
+    "lead": "{template} · {quality} · {variants} · {language}",
+    "pricing": "Getting the price…",
+    "final": "Final video",
+    "finalValue": "{duration} · 9:16 · {resolution}",
+    "credits": "Credits for this job",
+    "freeValue": "Free video · 0 credits",
+    "was": "Was",
+    "balance": "Balance now",
+    "after": "After this job",
+    "time": "Estimated time",
+    "timeValue": "about {minutes} min",
+    "generate": "What we generate",
+    "generateValue": "{images} · {clips} ({seconds} sec of footage) · {music}. The clips are cut to the template's {final} seconds.",
+    "free": "This uses your one free video.",
+    "needs": "You need {needed} and have {balance}.",
+    "saved": "Nothing was charged. Your form is saved.",
+    "changedPrice": "Our prices were updated since you opened this. This job is now {now}, not {was}. Check and confirm again.",
+    "changedBalance": "Your balance changed in another tab. Check and confirm again.",
+    "starting": "Starting your job. You will not be charged twice.",
+    "startingButton": "Starting…",
+    "paused": "Generation is paused for a short time. Nothing was charged. Try again later.",
+    "unconfirmed": "We could not confirm that your job started. Check My videos before you try again. You are not charged twice.",
+    "openVideos": "Open My videos",
+    "note": "You are charged when you confirm. A job cannot be cancelled once it starts. If the video is not delivered, the credits come back.",
+    "cancel": "Cancel",
+    "close": "Close",
+    "submit": "Confirm and generate",
+    "buy": "Buy credits"
+  },
+  "draft": "We kept your entries from your last visit, with their images.",
+  "pausedNote": "Generation is paused for a short time. Come back a little later: nothing is charged.",
+  "cost": {
+    "free": "Free video · 0 credits",
+    "freeNote": "This uses your one free video.",
+    "freeLimit": "Your free video covers Fast quality and one variant. This choice costs {credits}.",
+    "freeHeld": "Today's free videos are all taken. Your free video is kept: use it another day, or make this one with credits."
+  },
+  "draftNoImages": "We kept your entries from your last visit. Add the images again.",
+  "fromJob": "We filled in the entries of this video, with their images. Check them, then generate.",
+  "fromJobNoImages": "We filled in the entries of this video. Add the images again."
+}

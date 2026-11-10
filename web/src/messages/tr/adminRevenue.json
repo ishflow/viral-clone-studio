@@ -1,0 +1,171 @@
+{
+  "title": "Gelir",
+  "lead": "Kredi paketi satın almaları, faturalar ve iadeler.",
+  "export": "CSV indir",
+  "period": {
+    "label": "Dönem",
+    "today": "Bugün",
+    "7d": "7 gün",
+    "30d": "30 gün",
+    "all": "Tüm zamanlar"
+  },
+  "sections": "Gelir bölümleri",
+  "tab": {
+    "purchases": "Satın almalar",
+    "credits": "Krediler"
+  },
+  "placeholder": {
+    "amount": "—",
+    "price": "[PRICE]",
+    "percent": "—"
+  },
+  "tile": {
+    "revenue": {
+      "label": "Gelir",
+      "sub": "Bu dönemdeki ödenmiş satın almalar"
+    },
+    "purchases": {
+      "label": "Satın alma",
+      "sub": "Ödenmiş kredi paketi satın almaları"
+    },
+    "average": {
+      "label": "Ortalama satın alma",
+      "sub": "Gelir bölü satın alma sayısı"
+    },
+    "paying": {
+      "label": "Ödeme yapanlar",
+      "sub": "En az bir kredi paketi alanlar"
+    },
+    "notCompleted": {
+      "label": "Tamamlanmayan ödemeler",
+      "sub": "Ödeme başladı, ödenmedi"
+    },
+    "refunds": {
+      "label": "İadeler",
+      "sub": "Müşterilere iade edilen para",
+      "pending": "Müşterilere iade edilen para · {amount} daha gönderildi, sonucu bekleniyor"
+    }
+  },
+  "chart": "Günlük gelir",
+  "packs": {
+    "title": "Kredi paketine göre",
+    "caption": "Kredi paketine göre gelir",
+    "pack": "Paket",
+    "price": "Fiyat",
+    "credits": "Kredi",
+    "sold": "Satılan",
+    "revenue": "Gelir",
+    "share": "Gelir payı",
+    "name": "{name} paketi"
+  },
+  "purchases": {
+    "title": "Satın almalar",
+    "date": "Tarih",
+    "user": "Kullanıcı",
+    "pack": "Paket",
+    "credits": "Kredi",
+    "amount": "Tutar",
+    "tax": "Vergi",
+    "charged": "Çekilen {total}",
+    "invoice": "Fatura",
+    "status": "Durum",
+    "actions": "İşlemler",
+    "noInvoice": "Fatura yok",
+    "pdf": "PDF",
+    "view": "Görüntüle",
+    "empty": "Bu dönemde satın alma yok.",
+    "by": "Yapan: {name}",
+    "review": {
+      "disputed": "Ödeme sağlayıcısında itiraz var. Krediler harcanamaz. İtirazı sağlayıcıda yanıtla: orada kazanılırsa paket kendiliğinden serbest kalır. Başka her sonuçta (kaybedildi, kabul edildi, iptal edildi ya da süresi doldu) paket donuk kalır; buradan iade edilemez ve serbest bırakılamaz.",
+      "refund-review": "Ödeme sağlayıcısındaki bir iade, buradan gönderilenle eşleşmiyor ve ödemenin tamamının geri gittiği bilinmiyor. Sağlayıcıya bak ve orada kapat: kredisi harcanmış paket buradan iade edilemez.",
+      "refund-partial": "Ödeme sağlayıcısında kısmi iade ({amount}), buradan değil: ödemenin tamamı geri gitmedi. Paket dondurulmadı, kredi silinmedi. Senin kararını bekliyor: kendiliğinden hiçbir şey düşülmez.",
+      "refund-amount-unknown": "Ödeme sağlayıcısında buradan yapılmamış bir iade var; tutarı bilinmiyor. Paket dondurulmadı, kredi silinmedi. Sağlayıcının panelinden bak: senin kararını bekliyor, kendiliğinden hiçbir şey düşülmez.",
+      "refund-outside": "Ödemenin tamamı ödeme sağlayıcısında iade edilmiş, buradan değil. Krediler harcanamaz. Kapatmak için iadeyi buradan gönder: para ikinci kez geri gitmez, pakette kalan krediler silinir.",
+      "refund-conflict": "Ödeme sağlayıcısı bu ödemenin zaten bir iadesi olduğunu söyledi, ama tamamlanmış bir iade listelemiyor. Kredi geri verilmedi. Sağlayıcıya bak: orada yapılan iade bunu kapatır.",
+      "refund-overdue": "Üç günden uzun süre önce gönderildi ve ödeme sağlayıcısı nasıl sonuçlandığını bildirmedi. Artık sorulmuyor, kredi de geri verilmedi. Sağlayıcıya bak: bu iadenin bildirimi oradan yeniden gönderilince sonuçlanır.",
+      "refund-unknown": "Sonuç bekleniyor: ödeme sağlayıcısı bu iadeyi aldığını doğrulamadı. Sağlayıcıya soruluyor; para geri gitmediyse krediler geri döner ve iade tekrar gönderilebilir.",
+      "refund-not-found": "Ödeme sağlayıcısı bu satın alma için tamamlanmış bir iade listelemiyor. Para geri gitmedi, krediler bakiyeye geri döndü. İadeyi tekrar dene.",
+      "refund-no-funds": "Ödeme sağlayıcısı bu iadeyi reddetti: hesabındaki bakiye (Dodo cüzdanı) bu tutara yetmiyor. Para geri gitmedi, krediler bakiyeye geri döndü. Bakiye yetince iadeyi tekrar dene.",
+      "second-payment": "Aynı ödeme oturumunda iki kez ödenmiş. Bir ödemenin kredisi yok: onu ödeme sağlayıcısından iade et."
+    }
+  },
+  "uncredited": {
+    "title": "Kredisi yazılmayan ödemeler",
+    "why": "Neden",
+    "reason": {
+      "amount": "Ödenen tutar paketin fiyatı değil. Kredi yazılmadı: ödemeye sağlayıcıda bak.",
+      "currency": "Ödeme paketin para biriminden başka bir para biriminde yapılmış. Kredi yazılmadı: ödemeye sağlayıcıda bak.",
+      "tax-unknown": "Sağlayıcı bu ödeme için vergi bildirmedi, bu yüzden fiyatı denetlenemedi. Kredi yazılmadı: ödemeye sağlayıcıda bak.",
+      "cart": "Ödeme bu paketten başka bir ürün ya da adet için yapılmış. Kredi yazılmadı: ödemeye sağlayıcıda bak.",
+      "facts-missing": "Sağlayıcının bu ödemeye ait kendi bilgileri eksikti. Kredi yazılmadı: ödemeye sağlayıcıda bak.",
+      "no-account": "Bu ödemenin hesabı artık yok. Kredi yazılmadı: ödemeyi sağlayıcıdan iade et.",
+      "binding": "Sağlayıcının bu ödeme oturumu için verdiği cevap, ona bağlı olmayan bir ödemeyi gösteriyor. Kredi yazılmadı: ödemeye sağlayıcıda bak.",
+      "gave-up": "Bu ödeme oturumu sona erdikten sonra üç gün boyunca sağlayıcıya sorulamadı; ödenip ödenmediği bilinmiyor. Kredi yazılmadı: sağlayıcıda ara."
+    }
+  },
+  "credits": {
+    "title": "Krediler",
+    "lead": "Satılan, verilen ya da harcanan her kredi.",
+    "tile": {
+      "sold": {
+        "label": "Satılan kredi",
+        "sub": "Ödenmiş paketlerdeki kredi"
+      },
+      "spent": {
+        "label": "Harcanan kredi",
+        "sub": "Video üretmek için kullanıldı"
+      },
+      "unspent": {
+        "label": "Harcanmamış bakiye",
+        "sub": "Müşterilerde kalan kredi"
+      },
+      "free": {
+        "label": "Verilen ücretsiz video",
+        "sub": "Doğrulanmış e-posta başına bir"
+      },
+      "admin": {
+        "label": "Admin ekledi",
+        "sub": "Elle, neden yazılarak verildi"
+      },
+      "refunded": {
+        "label": "İade edilen",
+        "sub": "Satın alma iadeleriyle geri alındı"
+      }
+    },
+    "byQuality": "Kaliteye göre harcama",
+    "byFormat": "Formata göre harcama",
+    "jobs": "İş",
+    "credits": "Kredi",
+    "cost": "Üretim maliyeti",
+    "ledger": {
+      "title": "Kredi defteri",
+      "type": "Tür",
+      "empty": "Bu filtreye uyan kredi hareketi yok."
+    }
+  },
+  "ledgerFilter": {
+    "all": "Hepsi",
+    "purchase": "Satın almalar",
+    "generation": "Üretimler",
+    "free-video": "Ücretsiz videolar",
+    "admin": "Yönetici",
+    "refund": "İadeler",
+    "returned": "Geri verildi"
+  },
+  "ledgerType": {
+    "purchase": "Satın alma",
+    "generation": "Üretim",
+    "free-video": "Ücretsiz video",
+    "admin": "Admin ekledi",
+    "refund": "İade",
+    "returned": "Krediler geri verildi"
+  },
+  "quality": {
+    "fast": "Fast",
+    "best": "Best"
+  },
+  "format": {
+    "no-talking": "Konuşmasız",
+    "talking": "Konuşmalı"
+  }
+}

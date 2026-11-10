@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "gallery": "Galeri",
+    "myVideos": "Videolarım",
+    "pricing": "Fiyatlar",
+    "account": "Hesap",
+    "swap": "Kişi değiştir",
+    "howItWorks": "Nasıl çalışır",
+    "logIn": "Giriş yap",
+    "getStarted": "Başla",
+    "requestInvite": "Davet iste",
+    "logOut": "Çıkış yap",
+    "mainMenu": "Ana menü",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "skip": "İçeriğe geç",
+    "adminPanel": "Yönetici paneli"
+  },
+  "admin": {
+    "menu": "Yönetim menüsü",
+    "overview": "Genel bakış",
+    "users": "Kullanıcılar",
+    "revenue": "Gelir",
+    "jobs": "İşler",
+    "photoReview": "Fotoğraf ön onayı",
+    "templates": "Şablonlar",
+    "settings": "Ayarlar",
+    "viewSite": "Siteyi gör",
+    "label": "Yönetim",
+    "deletedAccount": "Silinmiş hesap"
+  },
+  "language": {
+    "label": "Dil: {name}. Değiştir",
+    "en": "English",
+    "tr": "Türkçe",
+    "short": {
+      "en": "EN",
+      "tr": "TR"
+    },
+    "menu": "Site dili",
+    "note": "Bu, site dilini değiştirir. Bir videonun dili formda seçilir."
+  },
+  "credits": {
+    "count": {
+      "one": "{count} kredi",
+      "other": "{count} kredi"
+    },
+    "freeVideo": "1 ücretsiz video"
+  },
+  "footer": {
+    "menu": "Alt menü",
+    "terms": "Kullanım şartları",
+    "privacy": "Gizlilik",
+    "refunds": "İadeler",
+    "company": "© {company}",
+    "contact": "İletişim",
+    "cookies": "Çerezler",
+    "cookieSettings": "Çerez tercihleri",
+    "content": "İçerik politikası"
+  },
+  "cookies": {
+    "title": "Çerezler",
+    "label": "Çerez bildirimi",
+    "text": "Oturumun, dilin, teman ve çerez seçimin için çerez kullanırız. Şu anda analitik veya reklam çerezi kullanılmaz.",
+    "policy": "Çerez politikası",
+    "necessary": "Yalnızca gerekli olanlar",
+    "acceptAll": "Tümünü kabul et"
+  },
+  "status": {
+    "done": "Bitti",
+    "running": "Üretiliyor",
+    "stopped": "Durdu",
+    "waiting": "Bekliyor",
+    "generating": "Üretiliyor",
+    "ready": "Bitti",
+    "queued": "Sırada",
+    "closed": "Kapatıldı"
+  },
+  "queue": {
+    "waiting": {
+      "one": "Önünde {count} video · yaklaşık {minutes} dk sonra başlar",
+      "other": "Önünde {count} video · yaklaşık {minutes} dk sonra başlar"
+    },
+    "soon": "Birazdan başlıyor"
+  },
+  "format": {
+    "mp4": "mp4",
+    "noTalking": "Konuşmasız",
+    "talking": "Konuşmalı"
+  },
+  "quality": {
+    "fast": "Fast",
+    "best": "Best"
+  },
+  "pager": {
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "showing": "Gösterilen: {shown}",
+    "range": "{total} içinden {shown}"
+  },
+  "duration": {
+    "sec": "{count} sn",
+    "min": "{count} dk"
+  },
+  "home": {
+    "titleLead": "Aynı video.",
+    "titleAccent": "Senin ürünün."
+  },
+  "menu": {
+    "firstFree": "İlk videon ücretsiz.",
+    "creditBalance": "Kredi bakiyen",
+    "buyCredits": "Kredi satın al"
+  },
+  "notFound": {
+    "title": "Bu sayfa yok.",
+    "text": "Bağlantı eski ya da yanlış yazılmış olabilir. Tüm şablonlar galeride.",
+    "back": "Galeriye dön",
+    "adminText": "Bağlantı eski ya da yanlış yazılmış olabilir.",
+    "adminBack": "Yönetici paneline dön"
+  },
+  "serviceError": {
+    "title": "Bizim tarafımızda bir şey ters gitti. Birkaç dakika sonra tekrar dene.",
+    "note": "Az önce ödeme yaptıysan ya da bir video başlattıysan, tekrar denemeden önce Hesap ya da Videolarım sayfasına bak. İki kez ücret alınmaz.",
+    "retry": "Tekrar dene",
+    "support": "Destekle iletişime geç"
+  },
+  "forbidden": {
+    "title": "Bu sayfaya erişimin yok.",
+    "back": "Galeriye dön"
+  },
+  "deleteVideo": {
+    "title": {
+      "one": "Bu video silinsin mi?",
+      "other": "Bu {count} video silinsin mi?"
+    },
+    "body": "Videolarım listesinden kaldırılır ve geri getirilemez. Krediler iade edilmez.",
+    "keep": "Kalsın",
+    "submit": "Videoyu sil",
+    "failed": "Video silinemedi. Tekrar dene."
+  },
+  "loadError": {
+    "retry": "Tekrar dene",
+    "support": "Destekle iletişime geç"
+  },
+  "reference": {
+    "likes": "{count} beğeni",
+    "views": "{count} izlenme",
+    "label": "referans"
+  }
+}

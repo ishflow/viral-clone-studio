@@ -1,0 +1,111 @@
+{
+  "title": "Hesap",
+  "balance": {
+    "title": "Kredi bakiyen",
+    "buy": "Kredi satın al",
+    "held": "{credits} kredi daha iade isteği için ayrıldı."
+  },
+  "activity": {
+    "title": "Kredi hareketleri",
+    "empty": "Henüz kredi hareketi yok.",
+    "pack": "{name} paketi",
+    "type": {
+      "purchase": "Satın alma",
+      "generation": "Üretim",
+      "free-video": "Ücretsiz video",
+      "admin": "Destek tarafından eklendi",
+      "refund": "İade",
+      "returned": "Krediler geri verildi"
+    },
+    "detail": "{type} · {date}",
+    "fallbackName": "Kredi"
+  },
+  "profile": {
+    "title": "Profil",
+    "name": "Ad",
+    "namePlaceholder": "Adın",
+    "email": "E-posta",
+    "emailPlaceholder": "ad@ornek.com",
+    "language": "Dil",
+    "languageNote": "Videonun dili her işte ayrıca seçilir.",
+    "emailPending": "{email} adresine bir bağlantı gönderdik. E-postan bağlantıyı açtıktan sonra değişir. O zamana kadar eskisiyle giriş yaparsın.",
+    "passwordTitle": "Şifre",
+    "passwordChange": "Şifreyi değiştir",
+    "passwordGoogle": "Google ile giriş yapıyorsun. Değiştirilecek bir şifre yok.",
+    "currentPassword": "Mevcut şifre",
+    "currentPasswordHint": "E-postanı değiştirmek için gerekli.",
+    "appearance": "Görünüm",
+    "save": "Kaydet",
+    "saved": "Kaydedildi.",
+    "theme": {
+      "system": "Sistem",
+      "dark": "Koyu",
+      "light": "Açık"
+    },
+    "error": {
+      "nameLong": "En fazla 80 karakter kullan.",
+      "emailInvalid": "Geçerli bir e-posta adresi yaz.",
+      "emailTaken": "Bu e-posta başka bir hesapta kullanılıyor.",
+      "passwordRequired": "E-postanı değiştirmek için mevcut şifreni yaz.",
+      "passwordWrong": "Bu, mevcut şifren değil.",
+      "emailWait": "Çok fazla e-posta değişikliği. Birkaç dakika bekleyip tekrar dene.",
+      "failed": "Kaydedilemedi. Değişikliklerin burada duruyor. Tekrar dene."
+    }
+  },
+  "purchases": {
+    "title": "Satın almalar",
+    "empty": "Henüz satın alma yok.",
+    "line": "{status} · {date} · {amount}",
+    "lineTaxed": "{status} · {date} · {total} ({amount} + {tax} vergi)",
+    "download": "Faturayı indir",
+    "invoiceDodo": "Fatura (Dodo)",
+    "help": "Faturadaki bilgiler yanlış mı?",
+    "helpLink": "Destekle iletişime geç.",
+    "status": {
+      "paid": "Ödendi",
+      "not-completed": "Tamamlanmadı",
+      "refund-requested": "İade istendi",
+      "refund-sent": "İade gönderildi",
+      "refunded": "İade edildi",
+      "refund-failed": "İade olmadı"
+    },
+    "refund": {
+      "request": "İade iste",
+      "cancel": "İsteği geri al",
+      "used": "İade edilemez: bu paketteki krediler kullanıldı.",
+      "tooOld": "İade edilemez: {days} günden fazla oldu.",
+      "requested": "{reply} iş günü içinde yanıtlıyoruz. {credits} kredi o zamana kadar ayrılır.",
+      "sent": "{credits} kredi düşüldü. Para ödeme yöntemine doğru yolda; bu birkaç gün sürer.",
+      "refunded": "{date} tarihinde iade edildi. {amount} ödeme yöntemine geri döndü.",
+      "failed": "İade gerçekleşmedi. {credits} kredin bakiyene geri döndü. Destekle iletişime geç, birlikte çözelim.",
+      "support": "Destekle iletişime geç",
+      "cancelled": "İstek geri alındı. {credits} kredin yeniden kullanılabilir.",
+      "error": "Bu yapılamadı. Hiçbir şey değişmedi. Tekrar dene."
+    },
+    "dialog": {
+      "title": "{pack} · {credits} kredi · {amount} için iade istensin mi?",
+      "text": "{credits} kredi biz yanıtlayana kadar ayrılır.",
+      "keep": "Kredilerim kalsın",
+      "submit": "İade iste"
+    }
+  },
+  "delete": {
+    "open": "Hesabı sil",
+    "title": "Hesabın silinsin mi?",
+    "intro": "Bu geri alınamaz. Olacaklar:",
+    "videos": "Videoların, görsellerin ve şablonların",
+    "videosValue": "hesabından hemen kaldırılır",
+    "credits": "Kalan kredilerin",
+    "creditsValue": "{credits}, kaybolur",
+    "invoicesNote": "Faturalar, vergi mevzuatının gerektirdiği süre boyunca saklanır.",
+    "running": "Çalışan bir işin var.",
+    "runningText": "Bitmesini bekle, sonra hesabını sil.",
+    "failed": "Hesabın silinemedi.",
+    "failedText": "Hiçbir şey silinmedi. Tekrar dene.",
+    "deleting": "Siliniyor…",
+    "confirm": "Onaylamak için DELETE yaz",
+    "keep": "Hesabım kalsın",
+    "submit": "Hesabı sil",
+    "word": "DELETE"
+  }
+}

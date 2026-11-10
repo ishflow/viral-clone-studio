@@ -1,0 +1,12 @@
+{
+  "format": "hypit.cli-paths@1",
+  "project": "/path/to/viral-clone",
+  "profileSource": "project",
+  "selectionFile": "/path/to/viral-clone/.hypit/runtime",
+  "projectState": "/path/to/viral-clone/.hypit",
+  "profile": "/path/to/viral-clone/hypit.runtime.json",
+  "runtimeData": "/path/to/viral-clone/.hypit/runtimes/local",
+  "hostState": "/path/to/Library/Application Support/Hypit",
+  "machinePackages": "/path/to/Library/Application Support/Hypit/packages",
+  "distribution": "/opt/homebrew/lib/node_modules/@hypit/hypit"
+}

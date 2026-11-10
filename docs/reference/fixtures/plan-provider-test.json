@@ -1,0 +1,135 @@
+{
+  "format": "hypit.cli-plan@1",
+  "ok": false,
+  "run": "productions/_provider-test/provider-test.svrun",
+  "targetCount": 3,
+  "targets": [
+    "still.image",
+    "poster.image",
+    "take.video"
+  ],
+  "requestCount": 3,
+  "requestIssueCount": 0,
+  "providerRequestCount": 3,
+  "localRequestCount": 0,
+  "unresolvedRequestCount": 0,
+  "unsupportedRequestCount": 0,
+  "choiceCount": 0,
+  "providers": [
+    {
+      "request": "need:author%3A%2Fpath%2Fto%2Fviral-clone%2Fproductions%2F_provider-test%2Fprovider-test.svml%3A%3Acomponent%3A%3Aposter:generate",
+      "capability": "@hypit/gpt-image@1#gpt-image-2",
+      "status": "resolved",
+      "endpoint": "magnific.default",
+      "use": "@viral-clone/provider-magnific",
+      "pricing": {
+        "kind": "page",
+        "url": "https://www.magnific.com/ai/docs/ai-video-generator-credits"
+      },
+      "binding": "magnific.default"
+    },
+    {
+      "request": "need:author%3A%2Fpath%2Fto%2Fviral-clone%2Fproductions%2F_provider-test%2Fprovider-test.svml%3A%3Acomponent%3A%3Astill:generate",
+      "capability": "@hypit/nano-banana@1#nano-banana-pro",
+      "status": "resolved",
+      "endpoint": "magnific.default",
+      "use": "@viral-clone/provider-magnific",
+      "pricing": {
+        "kind": "page",
+        "url": "https://www.magnific.com/ai/docs/ai-video-generator-credits"
+      },
+      "binding": "magnific.default"
+    },
+    {
+      "request": "need:author%3A%2Fpath%2Fto%2Fviral-clone%2Fproductions%2F_provider-test%2Fprovider-test.svml%3A%3Acomponent%3A%3Atake:generate",
+      "capability": "@hypit/seedance@1#seedance-2-mini",
+      "status": "resolved",
+      "endpoint": "magnific.default",
+      "use": "@viral-clone/provider-magnific",
+      "pricing": {
+        "kind": "page",
+        "url": "https://www.magnific.com/ai/docs/ai-video-generator-credits"
+      },
+      "binding": "magnific.default"
+    }
+  ],
+  "needs": [
+    {
+      "request": "need:author%3A%2Fpath%2Fto%2Fviral-clone%2Fproductions%2F_provider-test%2Fprovider-test.svml%3A%3Acomponent%3A%3Aposter:generate",
+      "step": "operation:author%3A%2Fpath%2Fto%2Fviral-clone%2Fproductions%2F_provider-test%2Fprovider-test.svml%3A%3Acomponent%3A%3Aposter:generate",
+      "port": "generation",
+      "capability": "@hypit/gpt-image@1#gpt-image-2",
+      "endpoint": "magnific.default",
+      "summary": {
+        "fields": {
+          "prompt": "13 words",
+          "aspectRatio": "9:16",
+          "resolution": "1K"
+        },
+        "references": {}
+      },
+      "pending": []
+    },
+    {
+      "request": "need:author%3A%2Fpath%2Fto%2Fviral-clone%2Fproductions%2F_provider-test%2Fprovider-test.svml%3A%3Acomponent%3A%3Astill:generate",
+      "step": "operation:author%3A%2Fpath%2Fto%2Fviral-clone%2Fproductions%2F_provider-test%2Fprovider-test.svml%3A%3Acomponent%3A%3Astill:generate",
+      "port": "generation",
+      "capability": "@hypit/nano-banana@1#nano-banana-pro",
+      "endpoint": "magnific.default",
+      "summary": {
+        "fields": {
+          "prompt": "12 words",
+          "aspectRatio": "9:16",
+          "resolution": "2K",
+          "outputFormat": "png"
+        },
+        "references": {
+          "image": 1
+        }
+      },
+      "pending": []
+    },
+    {
+      "request": "need:author%3A%2Fpath%2Fto%2Fviral-clone%2Fproductions%2F_provider-test%2Fprovider-test.svml%3A%3Acomponent%3A%3Atake:generate",
+      "step": "operation:author%3A%2Fpath%2Fto%2Fviral-clone%2Fproductions%2F_provider-test%2Fprovider-test.svml%3A%3Acomponent%3A%3Atake:generate",
+      "port": "generation",
+      "capability": "@hypit/seedance@1#seedance-2-mini",
+      "endpoint": "magnific.default",
+      "summary": {
+        "fields": {
+          "prompt": "12 words",
+          "resolution": "720p",
+          "aspectRatio": "9:16",
+          "duration": 5,
+          "generateAudio": true,
+          "webSearch": false
+        },
+        "references": {
+          "image": 1,
+          "audio": 1
+        }
+      },
+      "pending": [
+        {
+          "input": "referenceImage",
+          "record": "record:author%3A%2Fpath%2Fto%2Fviral-clone%2Fproductions%2F_provider-test%2Fprovider-test.svml%3A%3Acomponent%3A%3Astill:select-primary-image",
+          "sourceStep": "operation:author%3A%2Fpath%2Fto%2Fviral-clone%2Fproductions%2F_provider-test%2Fprovider-test.svml%3A%3Acomponent%3A%3Astill:select-primary-image",
+          "kind": "image"
+        }
+      ]
+    }
+  ],
+  "preflight": {
+    "ok": false,
+    "capabilityCount": 3,
+    "diagnosticCount": 1,
+    "diagnostics": [
+      {
+        "severity": "error",
+        "code": "RUNTIME_CREDENTIAL_MISSING",
+        "message": "Magnific API key for Endpoint magnific.default is not configured. Set MAGNIFIC_API_KEY in this process environment.",
+        "subject": "magnific.default.apiKey"
+      }
+    ]
+  }
+}

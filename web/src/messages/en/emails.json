@@ -1,0 +1,165 @@
+{
+  "footer": {
+    "intro": "You get this email because you have a Viral Clone account. Questions?",
+    "contact": "Contact support",
+    "company": "© {company} · {address}"
+  },
+  "placeholder": {
+    "email": "[EMAIL]",
+    "credits": "[CREDITS]",
+    "balance": "[BALANCE]",
+    "amount": "[AMOUNT]",
+    "date": "[DATE]",
+    "invoiceNumber": "[INVOICE NUMBER]",
+    "minutes": "[MINUTES]",
+    "details": "[DETAILS]",
+    "saved": "[SAVED SO FAR]",
+    "missing": "[MISSING]",
+    "title": "[TEMPLATE TITLE]",
+    "pack": "[PACK]"
+  },
+  "validity": {
+    "hours": {
+      "one": "{count} hour",
+      "other": "{count} hours"
+    }
+  },
+  "verify": {
+    "subject": "Verify your email",
+    "title": "Verify your email.",
+    "body": "Confirm this address to activate your account and get your free video.",
+    "bodyPlain": "Confirm this address to activate your account.",
+    "action": "Verify email",
+    "note": "The link works for {validity}. If you did not sign up, you can ignore this email.",
+    "changeSubject": "Confirm your new email",
+    "changeTitle": "Confirm your new email.",
+    "changeBody": "Confirm this address to use it for your account. Until then your old address stays.",
+    "changeNote": "The link works for {validity}. If you did not ask for this, ignore this email; nothing changes."
+  },
+  "reset": {
+    "subject": "Set a new password",
+    "title": "Set a new password.",
+    "body": "We got a request to reset the password for {email}.",
+    "action": "Set new password",
+    "note": "The link works for {validity}. If you did not ask for this, ignore this email; your password stays the same."
+  },
+  "ready": {
+    "subject": "Your video is ready",
+    "status": "Done",
+    "title": "Your video is ready.",
+    "body": "It took about {minutes} minutes. You can watch it, download it, or generate another variant.",
+    "thumbAlt": "Frame from your video",
+    "action": "Watch and download",
+    "note": "The video stays in My videos for 12 months.",
+    "bodyUnknown": "You can watch your video, download it, or generate another variant.",
+    "details": "{seconds} sec · {quality} · mp4"
+  },
+  "stopped": {
+    "subject": "Your video stopped halfway",
+    "status": "Stopped",
+    "title": "Your video stopped halfway.",
+    "template": "Template",
+    "saved": "Saved so far",
+    "missing": "Missing",
+    "part": {
+      "images": { "one": "{count} image", "other": "{count} images" },
+      "clips": { "one": "{count} clip", "other": "{count} clips" },
+      "music": "music",
+      "imagesOf": "{done} of {total} images",
+      "clipsOf": "{done} of {total} clips"
+    },
+    "action": "Open the job",
+    "note": "Continuing costs {credits} credits. You never pay more than the price you first confirmed.",
+    "reason": {
+      "clips-failed": "Clips could not be generated.",
+      "unknown": "One step could not be finished."
+    },
+    "after": "Nothing was retried and no extra credits were spent.",
+    "returned": "Credits returned",
+    "freeReturned": "Returned",
+    "freeVideo": "Your free video",
+    "body": "One step failed, so we stopped. Your {credits} credits are back in your balance. Open the job to continue or close it.",
+    "freeBody": "Your free video is back. Open the job to continue or close it.",
+    "contentBody": "This job stopped because the provider reported a content-rule refusal. Open the job for its status or contact support; it cannot be continued.",
+    "checkingBody": "A request to the video service got no clear answer, so we stopped. We are checking it with the video service ourselves. You do not need to do anything, and nothing more is charged.",
+    "freeNote": "Continuing uses your free video again if it is still available; otherwise the job shows the credit price before confirmation.",
+    "retention": "The saved parts are kept for 30 days.",
+    "contentNote": "This job cannot be continued. Contact support if you think this is a mistake.",
+    "checkingNote": "We will continue the job or write to you. The credits or the free video this job used are back.",
+    "swapOffBody": "Person swap is switched off right now, so this job cannot be continued. Your {credits} credits are back in your balance.",
+    "swapOffNote": "Nothing more is charged for this job.",
+    "swapPhotoRefusedBody": "The photo could not be used for this video, so nothing was made. Your {credits} credits are back in your balance.",
+    "swapPhotoRefusedNote": "You cannot continue this job. Start a new one with another photo.",
+    "swapPersonMissingBody": "The person to replace could not be found, in the video or in your photo, so nothing was made. Your {credits} credits are back in your balance.",
+    "swapPersonMissingNote": "You cannot continue this job. Start a new one with another photo, or contact support."
+  },
+  "refused": {
+    "subject": "Your person swap was not approved",
+    "title": "Your person swap was not approved.",
+    "body": "Your photo was not approved for this video, so nothing was generated. Your {credits} credits are back in your balance.",
+    "action": "Open the job",
+    "note": "Your photos were deleted. You can start again with another photo."
+  },
+  "payment": {
+    "subject": "Payment received: {credits} credits added",
+    "status": "Payment received",
+    "title": "{credits} credits added.",
+    "body": "Thank you. Your balance is now {balance} credits.",
+    "saved": "Your form is saved.",
+    "pack": "Pack",
+    "credits": "Credits",
+    "price": "Pack price",
+    "tax": "Tax",
+    "paid": "Paid",
+    "date": "Date",
+    "invoiceNumber": "Invoice number",
+    "action": "Back to your video",
+    "invoice": "Download invoice",
+    "invoiceDodo": "Invoice (Dodo)",
+    "note": "All invoices are on your Account page."
+  },
+  "sample": {
+    "title": "Fragrance layering recipe",
+    "pack": "Standard pack",
+    "minutes": "7",
+    "readyDetails": "8 sec · 720p · mp4",
+    "stoppedSaved": "5 images, 3 of 5 clips, music",
+    "stoppedMissing": "2 clips"
+  },
+  "refund": {
+    "subject": "Your refund is complete",
+    "title": "Your refund is complete.",
+    "body": "The refund for {pack} has been confirmed. Check your Account page for its status.",
+    "action": "Open your account",
+    "note": "Contact support if you have questions about the refund."
+  },
+  "refundSent": {
+    "subject": "Your refund is on its way",
+    "status": "Refund sent",
+    "title": "Your refund is on its way.",
+    "body": "We sent the refund for {pack} to your payment method. The {credits} credits of this pack were taken out of your balance. The money can take a few days to reach your card.",
+    "pack": "Pack",
+    "credits": "Credits removed",
+    "amount": "Refund amount",
+    "date": "Sent on",
+    "action": "Open your account",
+    "note": "If the refund does not go through, the credits come back to your balance. Contact support if you have questions about the refund."
+  },
+  "delivery": {
+    "title": "Email delivery",
+    "back": "Back to overview",
+    "recipient": "Recipient",
+    "kind": "Email",
+    "status": "Status",
+    "attempts": "Attempts",
+    "lead": "Every email the site made and whether it left. A failed or blocked email can be sent again; it goes out with the next sweep (within a minute).",
+    "action": "Action",
+    "sendAgain": "Send again",
+    "sendAgainFailed": "Could not queue it again. Try again.",
+    "empty": "No emails yet.",
+    "queued": "Queued",
+    "sent": "Sent",
+    "failed": "Needs attention",
+    "blocked-by-allowlist": "Blocked by recipient allowlist"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "title": "Overview",
+  "lead": "Customers, payments, credits, and what the videos cost to generate.",
+  "period": {
+    "label": "Period",
+    "today": "Today",
+    "7d": "7 days",
+    "30d": "30 days",
+    "all": "All time"
+  },
+  "placeholder": {
+    "amount": "—"
+  },
+  "customers": {
+    "title": "Customers",
+    "users": {
+      "label": "Users",
+      "sub": "All accounts, verified or not"
+    },
+    "signups": {
+      "label": "New sign-ups",
+      "sub": "Accounts created in this period"
+    },
+    "verified": {
+      "label": "Verified emails",
+      "sub": "Confirmed their email address"
+    },
+    "paying": {
+      "label": "Paying users",
+      "sub": "Bought at least one credit pack"
+    }
+  },
+  "money": {
+    "title": "Money and credits",
+    "revenue": {
+      "label": "Revenue",
+      "sub": "Paid purchases in this period"
+    },
+    "sold": {
+      "label": "Credits sold",
+      "sub": "Credits in paid packs"
+    },
+    "spent": {
+      "label": "Credits spent",
+      "sub": "Used to generate videos"
+    },
+    "free": {
+      "label": "Free videos used",
+      "sub": "First video, free of charge"
+    },
+    "cost": {
+      "label": "Generation cost",
+      "sub": "Paid to generate the videos"
+    },
+    "margin": {
+      "label": "Margin",
+      "sub": "Revenue minus generation cost"
+    }
+  },
+  "attention": {
+    "title": "Needs attention",
+    "stopped": {
+      "title": "Stopped jobs",
+      "text": "Jobs that stopped before they finished."
+    },
+    "payments": {
+      "title": "Payments not completed",
+      "text": "Checkouts that were started but not paid."
+    },
+    "templates": {
+      "title": "Templates waiting to publish",
+      "text": "Prepared templates that are not in the gallery yet."
+    },
+    "refunds": {
+      "title": "Refund requests",
+      "text": "Purchases with a refund request that is not answered yet."
+    }
+  },
+  "chart": {
+    "title": "Revenue and generation cost",
+    "label": "Revenue and generation cost per day"
+  },
+  "purchases": {
+    "title": "Latest purchases",
+    "date": "Date",
+    "user": "User",
+    "pack": "Pack",
+    "amount": "Amount",
+    "refunded": "Refunded",
+    "packName": "{name} pack",
+    "empty": "No purchases in this period.",
+    "all": "See all purchases"
+  },
+  "signups": {
+    "title": "Latest sign-ups",
+    "date": "Date",
+    "user": "User",
+    "email": "Email",
+    "firstVideo": "First video",
+    "verified": "Verified",
+    "notVerified": "Not verified",
+    "first": {
+      "done": "Done",
+      "running": "Running",
+      "stopped": "Stopped",
+      "none": "Not yet"
+    },
+    "empty": "No sign-ups yet.",
+    "all": "See all users"
+  }
+}

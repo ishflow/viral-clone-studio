@@ -1,0 +1,187 @@
+{
+  "title": "Jobs",
+  "lead": "Every job from every user: what it cost and where it stands.",
+  "period": {
+    "label": "Period",
+    "today": "Today",
+    "7d": "7 days",
+    "30d": "30 days",
+    "all": "All time"
+  },
+  "tile": {
+    "running": {
+      "label": "Running now",
+      "sub": "Jobs in progress at this moment"
+    },
+    "done": {
+      "label": "Done",
+      "sub": "Finished in this period"
+    },
+    "stopped": {
+      "label": "Stopped",
+      "sub": "Stopped before they finished"
+    },
+    "average": {
+      "label": "Average time to finish",
+      "sub": "From start to finished video"
+    },
+    "cost": {
+      "label": "Generation cost",
+      "sub": "Paid to generate the videos"
+    }
+  },
+  "list": {
+    "label": "Job list"
+  },
+  "search": {
+    "label": "Search jobs",
+    "placeholder": "Search by user or template"
+  },
+  "filter": {
+    "label": "Status",
+    "all": "All",
+    "running": "Running",
+    "done": "Done",
+    "stopped": "Stopped",
+    "queued": "In queue",
+    "closed": "Closed"
+  },
+  "table": {
+    "caption": "Jobs",
+    "started": "Started",
+    "user": "User",
+    "template": "Template",
+    "video": "Video",
+    "credits": "Credits",
+    "cost": "Cost",
+    "status": "Status",
+    "actions": "Actions",
+    "returned": "Credits returned"
+  },
+  "freeVideo": "Free video",
+  "none": "None yet",
+  "placeholder": {
+    "amount": "—"
+  },
+  "stepOf": "Step {n} of {total} · {step}",
+  "open": "Open",
+  "empty": {
+    "text": "No jobs match your search or filter.",
+    "clear": "Clear search and filter"
+  },
+  "step": {
+    "adaptation": "Adaptation",
+    "images": "Images",
+    "clips": "Clips",
+    "music": "Music",
+    "edit": "Edit",
+    "render": "Render"
+  },
+  "stepPlural": {
+    "adaptation": "adaptation",
+    "images": "images",
+    "clips": "clips",
+    "music": "music",
+    "edit": "edit",
+    "render": "render"
+  },
+  "reason": {
+    "clips-failed": "Some clips could not be made",
+    "content-rule": "The images or text of this job break our content rules, so it was stopped. It cannot be continued.",
+    "generic": "The job stopped",
+    "submission-unknown": "A request to the video provider got no clear answer: it may or may not exist there. Look in the provider's task list. If it is not there, settle it here, then retry the job.",
+    "short": {
+      "provider-credits": "Provider out of credits",
+      "provider-cap": "Spending limit reached",
+      "provider-refused": "Provider refused a request",
+      "provider-setup": "Provider key or spending limit",
+      "upload-failed": "Photo upload failed",
+      "no-products": "No product photo",
+      "submission-unknown": "Provider answer unclear",
+      "content-rule": "Broke a content rule"
+    },
+    "detail": {
+      "provider-credits": "The video provider has no credits left. Top up the provider account, then retry the job. The finished parts are kept.",
+      "provider-cap": "Our spending limit was reached (daily or per job). Raise it in the worker settings or wait for the next UTC day, then retry.",
+      "provider-refused": "The provider refused a request (rate limit or a rejected input). Retry later; if it repeats, look at the job's stop.json.",
+      "provider-setup": "The provider key is missing or not accepted, or the spending limits are not set (VC_PROVIDER_DAILY_CAP, VC_PROVIDER_JOB_CAP). Fix the worker's settings, then retry.",
+      "upload-failed": "A product photo could not be uploaded to the provider. Retry; if it repeats, check the photo.",
+      "no-products": "The sample was started with no product photo."
+    }
+  },
+  "detail": {
+    "titleStopped": "Stopped job",
+    "title": "Job",
+    "label": "Job details",
+    "meta": "{email} · {format} · {quality} · {language} · Started {started}",
+    "steps": "Steps",
+    "stopped": "Stopped here",
+    "stoppedAt": "Stopped at",
+    "reason": "Reason",
+    "saved": "Saved parts",
+    "savedPartial": "{done} of {total} {step}",
+    "currentStep": "Current step",
+    "finished": "Finished",
+    "credits": "Credits charged",
+    "retry": "Retry job",
+    "openUser": "Open user",
+    "note": "The customer is not charged. The finished parts stay saved. A retry runs only the missing part.",
+    "returned": "Credits returned"
+  },
+  "position": "Position {count}",
+  "language": {
+    "en": "English",
+    "tr": "Turkish"
+  },
+  "problem": {
+    "looksDifferent": "The product looks different",
+    "textWrong": "Text is wrong or cut off",
+    "doesNotPlay": "The video does not play",
+    "other": "Something else",
+    "notMe": "This is not me / no permission (person swap)"
+  },
+  "review": {
+    "link": "Photo review ({count})",
+    "title": "Photo review",
+    "lead": "Person-swap jobs wait here until an admin has looked at their photos. The one that waits longest is first.",
+    "back": "All jobs",
+    "list": "Jobs that wait for the look",
+    "since": "Waiting since {date}",
+    "leftHours": "Refused by itself in {hours} h {minutes} min",
+    "leftMinutes": "Refused by itself in {minutes} min",
+    "credits": "Credits charged: {count}",
+    "photos": "The customer's photos",
+    "frame": "The video",
+    "frameAlt": "Frame of the video {title}",
+    "noFrame": "No frame to show",
+    "person": "Person in the video: {hint}",
+    "kind": {
+      "body": "Full-body photo",
+      "face": "Face photo",
+      "side": "Side photo"
+    },
+    "photoAlt": "{kind} of {email}",
+    "noFile": "No file in test mode",
+    "gone": "This photo can no longer be shown.",
+    "decided": "Already decided: the photo is not shown any more.",
+    "deleted": "Deleted.",
+    "approve": "Approve",
+    "reject": "Reject",
+    "rejectDialog": {
+      "title": "Reject these photos?",
+      "body": "The job is closed and nothing is generated. All its credits go back, the photos are deleted now and the customer gets an email. This cannot be undone.",
+      "keep": "Keep waiting",
+      "confirm": "Reject"
+    },
+    "approved": "Approved: the job of {email} takes its place in the line.",
+    "rejected": "Rejected: the credits of {email} are back and the photos are deleted.",
+    "already": "This job already had its answer on {date}. Nothing was changed.",
+    "failed": "The answer did not go through. Nothing was changed.",
+    "refresh": "Update the list",
+    "empty": {
+      "title": "No photos wait for a look",
+      "on": "A person-swap job appears here as soon as a customer starts one.",
+      "off": "The look at photos is switched off in Settings: person-swap jobs start without it."
+    }
+  }
+}

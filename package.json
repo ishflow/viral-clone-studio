@@ -1,0 +1,10 @@
+{
+  "name": "viral-klon",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Viral video clone studio: Hypit + Magnific API",
+  "dependencies": {
+    "@viral-clone/provider-magnific": "file:packages/provider-magnific"
+  }
+}

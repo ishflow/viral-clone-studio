@@ -1,0 +1,111 @@
+{
+  "title": "Account",
+  "balance": {
+    "title": "Your credit balance",
+    "buy": "Buy credits",
+    "held": "{credits} more credits are held for a refund request."
+  },
+  "activity": {
+    "title": "Credit activity",
+    "empty": "No credit activity yet.",
+    "pack": "{name} pack",
+    "type": {
+      "purchase": "Purchase",
+      "generation": "Generation",
+      "free-video": "Free video",
+      "admin": "Added by support",
+      "refund": "Refund",
+      "returned": "Credits returned"
+    },
+    "detail": "{type} · {date}",
+    "fallbackName": "Credits"
+  },
+  "profile": {
+    "title": "Profile",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "name@example.com",
+    "language": "Language",
+    "languageNote": "Video language is chosen on each job.",
+    "emailPending": "We sent a link to {email}. Your email changes after you open it. Until then you log in with the old one.",
+    "passwordTitle": "Password",
+    "passwordChange": "Change password",
+    "passwordGoogle": "You sign in with Google. There is no password to change.",
+    "currentPassword": "Current password",
+    "currentPasswordHint": "Needed to change your email.",
+    "appearance": "Appearance",
+    "save": "Save",
+    "saved": "Saved.",
+    "theme": {
+      "system": "System",
+      "dark": "Dark",
+      "light": "Light"
+    },
+    "error": {
+      "nameLong": "Use 80 characters or fewer.",
+      "emailInvalid": "Enter a valid email address.",
+      "emailTaken": "This email is already used by another account.",
+      "passwordRequired": "Enter your current password to change your email.",
+      "passwordWrong": "This is not your current password.",
+      "emailWait": "Too many email changes. Wait a few minutes and try again.",
+      "failed": "Could not save. Your changes are still here. Try again."
+    }
+  },
+  "purchases": {
+    "title": "Purchases",
+    "empty": "No purchases yet.",
+    "line": "{status} · {date} · {amount}",
+    "lineTaxed": "{status} · {date} · {total} ({amount} + {tax} tax)",
+    "download": "Download invoice",
+    "invoiceDodo": "Invoice (Dodo)",
+    "help": "Wrong details on an invoice?",
+    "helpLink": "Contact support.",
+    "status": {
+      "paid": "Paid",
+      "not-completed": "Not completed",
+      "refund-requested": "Refund requested",
+      "refund-sent": "Refund sent",
+      "refunded": "Refunded",
+      "refund-failed": "Refund failed"
+    },
+    "refund": {
+      "request": "Request a refund",
+      "cancel": "Cancel request",
+      "used": "Not refundable: credits from this pack were used.",
+      "tooOld": "Not refundable: more than {days} days ago.",
+      "requested": "We answer within {reply} business days. The {credits} credits are held until then.",
+      "sent": "{credits} credits were removed. The money is on its way to your payment method; this takes a few days.",
+      "refunded": "Refunded on {date}. {amount} went back to your payment method.",
+      "failed": "The refund did not go through. Your {credits} credits are back in your balance. Contact support and we sort it out.",
+      "support": "Contact support",
+      "cancelled": "Request cancelled. Your {credits} credits are available again.",
+      "error": "Could not do this. Nothing changed. Try again."
+    },
+    "dialog": {
+      "title": "Request a refund for {pack} · {credits} credits · {amount}?",
+      "text": "The {credits} credits are held until we answer.",
+      "keep": "Keep the credits",
+      "submit": "Request refund"
+    }
+  },
+  "delete": {
+    "open": "Delete account",
+    "title": "Delete your account?",
+    "intro": "This cannot be undone. Here is what happens:",
+    "videos": "Your videos, images and templates",
+    "videosValue": "removed from your account at once",
+    "credits": "Remaining credits",
+    "creditsValue": "{credits}, lost",
+    "invoicesNote": "Invoices are kept for as long as tax law requires.",
+    "running": "You have a job running.",
+    "runningText": "Wait until it finishes, then delete your account.",
+    "failed": "Could not delete your account.",
+    "failedText": "Nothing was removed. Try again.",
+    "deleting": "Deleting…",
+    "confirm": "Type DELETE to confirm",
+    "keep": "Keep my account",
+    "submit": "Delete account",
+    "word": "DELETE"
+  }
+}

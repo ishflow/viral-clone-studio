@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "language": "en",
+  "canvas": { "width": 720, "height": 1280, "fps": 30 },
+  "frames": 270,
+  "media": {
+    "pour": { "file": "assets/pour.mp4", "kind": "video" },
+    "apply": { "file": "assets/apply.mp4", "kind": "video" },
+    "glow": { "file": "assets/glow.mp4", "kind": "video" },
+    "shelf": { "file": "assets/shelf.mp4", "kind": "video" },
+    "product": { "file": "assets/product.png", "kind": "image" },
+    "music": { "file": "assets/music.mp3", "kind": "audio" }
+  },
+  "shots": [
+    { "id": "pour", "at": 0, "for": 60, "media": "pour", "motion": { "kind": "push-in" } },
+    { "id": "apply", "at": 60, "for": 60, "media": "apply", "from": 15, "in": { "kind": "whip", "to": "left" }, "motion": { "kind": "punch-in", "at": 90 } },
+    { "id": "glow", "at": 120, "for": 75, "media": "glow", "in": { "kind": "crossfade" }, "motion": { "kind": "pull-out" } },
+    { "id": "shelf", "at": 195, "for": 75, "media": "shelf", "in": { "kind": "zoom" }, "motion": { "kind": "push-in", "to": 1.12 } }
+  ],
+  "texts": [
+    { "id": "hook", "at": 0, "for": 54, "box": { "left": 9, "top": 15, "right": 91, "bottom": 27 }, "style": "hook", "copy": "The serum everyone keeps asking about" },
+    { "id": "step", "at": 68, "for": 48, "box": { "left": 9, "top": 30, "right": 91, "bottom": 37 }, "style": "label", "copy": "Two drops, every night" },
+    { "id": "proof", "at": 130, "for": 60, "box": { "left": 28, "top": 16, "right": 72, "bottom": 22 }, "style": "tag", "copy": "Day 14" },
+    { "id": "offer", "at": 203, "for": 62, "box": { "left": 9, "top": 16, "right": 91, "bottom": 24 }, "style": "label", "copy": "Glow serum, 30 ml" }
+  ],
+  "cards": [
+    { "id": "bottle", "at": 205, "for": 60, "media": "product", "box": { "left": 30, "top": 28, "right": 70, "bottom": 62 } }
+  ],
+  "audio": {
+    "music": { "media": "music", "gain": 0.6, "fadeOut": 15 }
+  }
+}

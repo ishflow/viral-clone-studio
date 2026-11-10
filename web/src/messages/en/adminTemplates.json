@@ -1,0 +1,423 @@
+{
+  "nav": {
+    "label": "Templates",
+    "all": "All templates",
+    "inbox": "Inbox",
+    "scans": "Scan history"
+  },
+  "placeholder": {
+    "amount": "—"
+  },
+  "unit": {
+    "sec": "{count} sec",
+    "views": "{count} views"
+  },
+  "status": {
+    "published": "Published",
+    "waiting": "Waiting to publish",
+    "hidden": "Hidden",
+    "private": "Private",
+    "privateNote": "Only the owner sees it"
+  },
+  "source": {
+    "topads": "TikTok Creative Center Top Ads",
+    "shorts": "YouTube Shorts",
+    "link": "A link added by hand",
+    "topadsShort": "Top Ads",
+    "shortsShort": "Shorts"
+  },
+  "reason": {
+    "noCategory": "Choose a category before publishing.",
+    "source-unavailable": "The source could not be reached. It will be retried at the next scheduled time.",
+    "scan-failed": "The scan stopped on an unexpected error. It runs again at the next scheduled time; if it stops again, look at the worker log.",
+    "generic": "The scan stopped.",
+    "no-matching-industry": "No ads matched the selected industry. The scan completed without candidates."
+  },
+  "list": {
+    "title": "Templates",
+    "lead": "Every template: the ones in the gallery, the ones waiting to publish, and the private ones made from a user’s own video.",
+    "addLink": "Add from a link",
+    "searchLabel": "Search templates",
+    "searchPlaceholder": "Search by title or category",
+    "filterLabel": "Status",
+    "filter": {
+      "all": "All",
+      "published": "Published",
+      "waiting": "Waiting",
+      "hidden": "Hidden",
+      "private": "Private"
+    },
+    "caption": "Templates",
+    "col": {
+      "template": "Template",
+      "category": "Category",
+      "format": "Format",
+      "length": "Length",
+      "views": "Reference engagement",
+      "generated": "Times generated",
+      "status": "Status",
+      "edited": "Last edited",
+      "actions": "Actions",
+      "sample": "Sample"
+    },
+    "edit": "Edit",
+    "noCategory": "No category",
+    "empty": {
+      "text": "No templates match your search or filter.",
+      "clear": "Clear search and filter"
+    },
+    "sample": {
+      "current": "Sample up to date",
+      "outdated": "Sample out of date",
+      "none": "No sample yet"
+    },
+    "addSwap": "Add a person-swap video"
+  },
+  "inbox": {
+    "title": "Inbox",
+    "lead": "New templates wait here until you publish them. Scans run {count} times a day · next {next}.",
+    "linkLabel": "Video link",
+    "linkPlaceholder": "Paste a link: TikTok or YouTube video",
+    "addCandidate": "Add candidate",
+    "linkAdded": "Link added. It is being prepared as a private template.",
+    "linkInvalid": "Paste a link that starts with https:// from TikTok or YouTube.",
+    "chooseCategory": "Choose a category",
+    "linkFailed": "The link was not added. Try again.",
+    "linkList": {
+      "title": "Prepare from a list of links",
+      "lead": "One link per line, at most {max}. TikTok, Instagram or YouTube, https only. Each one is prepared for the gallery. This costs no credit and makes no sample: you generate and confirm each sample yourself.",
+      "label": "Links, one per line",
+      "placeholder": "https://www.tiktok.com/@name/video/…\nhttps://www.youtube.com/shorts/…",
+      "submit": "Prepare",
+      "empty": "Paste at least one link.",
+      "tooMany": "At most {max} links at a time. Nothing was prepared.",
+      "failed": "The list was not prepared. Try again.",
+      "results": "Result for each link",
+      "summary": "{queued} queued · {exists} already there · {invalid} not valid · {limit} over the daily limit · {failed} not queued",
+      "status": {
+        "queued": "Queued to be prepared",
+        "exists": "Already there",
+        "invalid": "Not a link the gallery takes",
+        "limit": "Daily limit reached",
+        "failed": "Not queued. Try again."
+      }
+    },
+    "scanStopped": "The {source} scan stopped on its last run.",
+    "waitingTitle": "Templates waiting to publish",
+    "waitingEmpty": "Nothing is waiting. A candidate that scores above the threshold is prepared as a template and shows up here.",
+    "reference": "Reference video",
+    "referenceViews": "Reference · {views} views",
+    "sample": "Our sample",
+    "noSample": "No sample yet. It is generated after you confirm its paid requests.",
+    "noSampleYet": "No sample yet.",
+    "product": {
+      "one": "{count} product",
+      "other": "{count} products"
+    },
+    "publish": "Publish",
+    "reject": "Reject",
+    "generateSample": "Generate sample",
+    "candidatesTitle": "Candidates",
+    "threshold": "Threshold {threshold}: anything above becomes a template automatically.",
+    "sourceFilter": {
+      "label": "Source",
+      "all": "All",
+      "topads": "Top Ads",
+      "shorts": "Shorts"
+    },
+    "candidateMeta": "{source} · {views} views · {length}",
+    "score": "Score",
+    "queued": "Queued",
+    "whyScore": "Why this score",
+    "addToGallery": "Add to gallery",
+    "candidatesEmpty": "No candidates yet. The next scan runs {next}. You can also paste a video link above.",
+    "candidatesNone": "No candidates from this source.",
+    "failed": "That did not work. Try again.",
+    "transition": "That is not possible for this template's status.",
+    "waitingFailed": "The template was not changed. Try again.",
+    "candidateFailed": "The candidate was not changed. Try again."
+  },
+  "scans": {
+    "title": "Scan history",
+    "lead": "What each scan checked and how much of it became templates.",
+    "periodLabel": "Period",
+    "period": {
+      "today": "Today",
+      "7d": "7 days",
+      "30d": "30 days",
+      "all": "All time"
+    },
+    "run": "Run a scan now",
+    "started": "A scan is running.",
+    "failed": "The scan did not start. Try again.",
+    "schedule": "Scans run {count} times a day: {times} · next {next}",
+    "changeTimes": "Change times",
+    "tile": {
+      "scans": {
+        "label": "Scans",
+        "sub": "Runs in this period"
+      },
+      "checked": {
+        "label": "Videos checked",
+        "sub": "Scored by the scans"
+      },
+      "above": {
+        "label": "Above the threshold",
+        "sub": "Scored above {threshold}"
+      },
+      "prepared": {
+        "label": "Templates prepared",
+        "sub": "Sent to the Inbox"
+      },
+      "published": {
+        "label": "Published",
+        "sub": "Live in the gallery"
+      }
+    },
+    "caption": "Scans",
+    "col": {
+      "started": "Started",
+      "source": "Source",
+      "checked": "Videos checked",
+      "queued": "Sent to scoring",
+      "above": "Above the threshold",
+      "prepared": "Prepared",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "openCandidates": "Open candidates",
+    "empty": {
+      "text": "No scans in this period.",
+      "clear": "Show all time"
+    }
+  },
+  "edit": {
+    "back": "Templates",
+    "meta": "{category} · {format} · {length} · Last edited {edited}",
+    "sample": "Sample",
+    "play": "Play the sample",
+    "sampleNote": "Sample video, generated by this system.",
+    "noSampleNote": "No sample yet. The reference is shown here instead.",
+    "reference": "Reference",
+    "views": "{views} views",
+    "regenerate": "Regenerate sample",
+    "regenerateNote": "A new sample is generated after you confirm its paid requests.",
+    "generate": "Generate sample",
+    "generateNote": "A sample is generated after you confirm its paid requests.",
+    "details": "Details",
+    "title": "Title",
+    "category": "Category",
+    "chooseCategory": "Choose a category",
+    "format": "Format",
+    "formatNote": "The format follows the reference video.",
+    "visibility": "Visibility",
+    "privateNote": "Private: only its owner sees it. A customer's own template cannot be published.",
+    "length": "Length",
+    "lengthNote": "Follows the reference video. It cannot be edited.",
+    "products": "Products needed",
+    "productsNote": "How many products the form asks the user for.",
+    "shotList": "Shot list",
+    "shotCount": {
+      "one": "{count} shot · {length}",
+      "other": "{count} shots · {length}"
+    },
+    "caption": "Shot list",
+    "col": {
+      "n": "#",
+      "time": "Time",
+      "action": "What happens",
+      "text": "On-screen text",
+      "product": "Product",
+      "actions": "Actions"
+    },
+    "shotAction": "Shot {n}: what happens",
+    "shotText": "Shot {n}: on-screen text",
+    "shotProduct": "Shot {n}: product",
+    "noProduct": "None",
+    "productN": "Product {n}",
+    "up": "Move shot {n} up",
+    "down": "Move shot {n} down",
+    "remove": "Delete shot {n}",
+    "addShot": "Add shot",
+    "shotsNote": "Every new video follows these shots in this order. The times add up to the template length.",
+    "maxShots": "A shot needs at least one second, so this template holds {count} shots at most.",
+    "newShot": "New shot",
+    "save": "Save changes",
+    "discard": "Discard changes",
+    "applyNote": "Changes apply only to videos generated from now on.",
+    "hide": "Hide template",
+    "saved": "Changes saved.",
+    "hidden": "The template is hidden.",
+    "error": {
+      "title": "Write a title of 3 to 120 characters.",
+      "category": "Choose a category.",
+      "products": "Enter a whole number from 1 to 8.",
+      "shots": {
+        "none": "Add at least one shot.",
+        "range": "Shot {n} is outside the template length.",
+        "order": "Shot {n} starts before the shot above it ends.",
+        "product": "Shot {n} uses a product the template does not need.",
+        "invalid": "Shot {n} has text that is too long or missing."
+      },
+      "failed": "Changes were not saved. Try again.",
+      "transition": "That is not possible for this template's status."
+    },
+    "sampleState": {
+      "current": "Sample up to date",
+      "outdated": "Sample out of date"
+    },
+    "outdated": {
+      "title": "Sample out of date",
+      "text": "The shots changed after this sample was made. Generate a new sample before you publish."
+    },
+    "generateNew": "Generate a new sample",
+    "generateNewNote": "A new sample is generated after credit confirmation.",
+    "publish": "Publish",
+    "publishNote": "Publish turns on when the new sample is ready. Jobs that are running finish with the shots they started with."
+  },
+  "when": {
+    "today": "at {time}",
+    "tomorrow": "tomorrow at {time}"
+  },
+  "confirm": {
+    "cancel": "Cancel",
+    "hide": {
+      "title": "Hide this template?",
+      "text": "It leaves the gallery. Videos already made stay as they are. You can publish it again later."
+    },
+    "reject": {
+      "title": "Reject this template?",
+      "text": "It is hidden and will not be published. You can bring it back from its edit page."
+    },
+    "rejectCandidate": {
+      "title": "Reject this candidate?",
+      "text": "It is removed from the list and will not become a template."
+    }
+  },
+  "preparation": {
+    "preparing": "Being prepared",
+    "failed": "Not prepared.",
+    "note": {
+      "below-threshold": "It scored below the threshold.",
+      "unsupported": "The system cannot build this structure yet.",
+      "split-screen": "The video uses a split screen, which the system cannot build yet.",
+      "too-long": "The video is longer than the maximum length in Settings.",
+      "bad-range": "The part of the video that was picked could not be used (it must be 3 to 60 seconds and inside the video).",
+      "check-failed": "The card did not pass the system check, so the change was not taken over.",
+      "source-unavailable": "The video could not be fetched from its source.",
+      "llm-invalid": "The analysis of the video came back unusable.",
+      "daily-cap": "The daily cap of prepared templates was reached.",
+      "generic": "The template could not be prepared."
+    }
+  },
+  "sample": {
+    "title": "Generate a sample?",
+    "lead": "One sample of this template makes these paid requests. No credits are taken from anyone.",
+    "images": "Images",
+    "clips": "Clips",
+    "clipsValue": "{count} · {seconds} sec billed",
+    "music": "Music tracks",
+    "voice": "Voice-overs",
+    "confirm": "Generate sample",
+    "changed": "The paid requests changed. Check the new counts and confirm again.",
+    "failed": "The sample did not start. Nothing was spent. Try again.",
+    "started": "The sample is being generated.",
+    "follow": "Follow it",
+    "costFailed": "The paid requests could not be read. Nothing was spent. Try again.",
+    "running": "A sample of this template is already being generated.",
+    "unknown": "It is not known whether the sample started. Look in Jobs before you try again.",
+    "jobs": "Open Jobs",
+    "productsLead": "A sample needs the same products a customer gives. Add your own photo and a name for each.",
+    "productN": "Product {n}",
+    "productName": "Product name",
+    "photoAdd": "Add a photo",
+    "photoReplace": "Replace photo",
+    "photoUploading": "Uploading…",
+    "photoFailed": "The photo was not taken: use a JPG, PNG or WebP up to 10 MB, and try again.",
+    "photoAlt": "Photo of product {n}",
+    "needProducts": "Add a photo and a name for every product to generate the sample."
+  },
+  "swap": {
+    "tag": "Person swap",
+    "new": {
+      "back": "Templates",
+      "title": "Add a person-swap video",
+      "lead": "A video of {min} to {max} seconds. It is prepared first; then you set where each person stands and how the model finds them, and publish it.",
+      "linkLabel": "Video link",
+      "linkPlaceholder": "Paste a link: TikTok or YouTube video",
+      "addLink": "Add from the link",
+      "fileLabel": "Or send a video file",
+      "fileHint": "mp4 or mov, up to 100 MB.",
+      "uploading": "Sending the file… {percent}%",
+      "added": "The video is added and is being prepared.",
+      "open": "Open it",
+      "error": {
+        "linkInvalid": "Paste a link that starts with https:// from TikTok or YouTube.",
+        "link": "The link could not be read: it is private, removed, not found, or from a site the system does not take.",
+        "type": "Use an mp4 or mov file.",
+        "size": "The file is over 100 MB.",
+        "length": "The video must be {min} to {max} seconds long.",
+        "ratio": "This video is not vertical. Use a 9:16 video.",
+        "range": "The part of the video that was picked cannot be used.",
+        "unreadable": "The video could not be read.",
+        "uploadFailed": "The file was not sent. Try again.",
+        "uploadQuota": "Too many files were sent today. Try again tomorrow.",
+        "uploadTimeout": "The file took too long to arrive. Try again.",
+        "failed": "The video was not added. Try again."
+      }
+    },
+    "edit": {
+      "meta": "{category} · {length} · Last edited {edited}",
+      "frame": "Picture of the video",
+      "frameHint": "Draw a box around the person on the picture; the fields next to it follow.",
+      "frameAlt": "A picture of the video",
+      "noFrame": "The video has no picture yet.",
+      "people": "People in the video",
+      "person": "Person {n}",
+      "drawFor": "Draw for",
+      "left": "Left",
+      "top": "Top",
+      "right": "Right",
+      "bottom": "Bottom",
+      "boxNote": "The box in percent of the picture.",
+      "hint": "Words the model finds this person by",
+      "hintNote": "In English, one line, up to {max} characters. For example: the woman in the red dress on the left.",
+      "hintPlaceholder": "e.g. the woman in the red dress on the left",
+      "addPerson": "Add a second person",
+      "removePerson": "Remove person 2",
+      "save": "Save people",
+      "saved": "Saved.",
+      "unset": "The preparation found no one to suggest. Draw each person's box and write the words by hand.",
+      "pending": "Saved. The worker is writing the people into the video; it takes a few seconds. What you see may still be the people before: reload to be sure.",
+      "error": {
+        "people": "A video has one or two people.",
+        "slot": "The people must be numbered 1, then 2.",
+        "box": "Each box must lie inside the picture (0 to 100), with left before right and top above bottom.",
+        "hint": "Write the words in one line, up to {max} characters.",
+        "notReady": "The video is still being prepared. Set its people when it is ready.",
+        "gone": "This video is not there any more.",
+        "failed": "The people were not saved. Try again."
+      }
+    },
+    "status": {
+      "publish": "Publish",
+      "withdraw": "Withdraw",
+      "published": "Published. It shows on the person-swap page while person swap is switched on in Settings, and never in the gallery of product templates.",
+      "withdrawn": "Withdrawn. It is gone from the person-swap page; videos already made stay as they are.",
+      "blocked": {
+        "dirty": "Save the people first: publishing takes the people that are saved.",
+        "unset": "Publishing needs the people of the video: set them above and save.",
+        "pending": "The people you saved are still being written into the video by the worker. Reload in a few seconds, then you can publish."
+      },
+      "confirm": {
+        "title": "Withdraw this video?",
+        "text": "It leaves the person-swap page. Videos already made stay as they are. You can publish it again later."
+      },
+      "error": {
+        "peopleUnset": "The people of this video are not set (or not written yet), so it cannot be published.",
+        "transition": "That is not possible for this video's status.",
+        "failed": "The status was not changed. Try again."
+      }
+    }
+  }
+}

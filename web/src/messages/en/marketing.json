@@ -1,0 +1,293 @@
+{
+  "meta": {
+    "home": "The shot-by-shot structure of ad videos with millions of views, ready to use. Upload your product images and get the same video with your product.",
+    "pricing": "Buy credits and generate videos, with no subscription. You see how many credits a video costs before every job; nothing is spent until you confirm."
+  },
+  "home": {
+    "heroLead": "Same video.",
+    "heroAccent": "Your product.",
+    "lead": "The shot-by-shot structure of ad videos with millions of views, ready to use. Upload your product images. A few minutes later the same video is ready with your product.",
+    "browse": "Browse the gallery",
+    "how": "How it works",
+    "freeNote": "Your first video is free: one no-talking video in Fast quality. No card needed.",
+    "stepsTitle": "Three steps.",
+    "steps": {
+      "1": {
+        "title": "Pick a template",
+        "body": "Every template is the structure of a video that really went viral: which shot, how many seconds, what the on-screen text says."
+      },
+      "2": {
+        "title": "Upload your product",
+        "body": "One or a few images, the product name, and a short description are enough. Before generating, you see how many credits it will cost."
+      },
+      "3": {
+        "title": "Download your video",
+        "body": "Shots, text, and music are generated again and edited together. Short videos are ready in about 6–7 minutes."
+      }
+    },
+    "proofLead": "What stays the same,",
+    "proofAccent": "what is made new.",
+    "proofText": "Every video playing in the gallery is this system's own output, not someone else's video. The structure stays the same: shots, order, timing and on-screen text. People, setting and music are made new around your product.",
+    "proofCta": "Watch the samples",
+    "sampleAlt": "Frame from a sample video in the gallery",
+    "sampleCaption": "Sample in the gallery",
+    "yourVideo": "Same video, your product",
+    "yourVideoCaption": "Your video",
+    "faqTitle": "Questions you may have.",
+    "faq": {
+      "1": {
+        "q": "Are you copying someone else’s video?",
+        "a": "No. Only the structure is taken from the video. Footage, voice, and music are generated from scratch for your product."
+      },
+      "2": {
+        "q": "How long does it take?",
+        "a": "A no-talking video takes about 6–7 minutes. You can leave the page; we email you when it is ready."
+      },
+      "3": {
+        "q": "Can I use a video I like?",
+        "a": "Yes. Upload the file or give its link; in 2–5 minutes it becomes a template only you can see."
+      },
+      "4": {
+        "q": "Do I lose credits if something goes wrong?",
+        "a": "No. If a video is not delivered, its credits go back to your balance and the finished parts are saved. Nothing is retried automatically; continuing happens only with your confirmation."
+      }
+    },
+    "finalTitle": "Seen it? Clone it.",
+    "finalCta": "Get started"
+  },
+  "pricing": {
+    "notice": { "tooManyCheckouts": "Too many unfinished checkouts today. Finish or cancel one, or try again tomorrow.", "paymentUnavailable": "We could not open the payment page just now. Nothing was charged. Please try again in a moment." },
+    "titleLead": "Buy credits,",
+    "titleAccent": "generate videos.",
+    "lead": "Your first video is free: one no-talking video in Fast quality. No card needed. After that you buy credits, with no subscription. Before every job you see how many credits it costs; nothing is spent until you confirm.",
+    "leadPaid": "You buy credits, with no subscription. Before every job you see how many credits it costs; nothing is spent until you confirm.",
+    "packsLabel": "Credit packs",
+    "price": "[PRICE]",
+    "creditsLine": "{credits} credits",
+    "note": {
+      "pack-starter": "To try it out.",
+      "pack-standard": "For regular production.",
+      "pack-studio": "Many products, many variants."
+    },
+    "buy": "Buy",
+    "costsTitle": "How many credits per video?",
+    "cost": {
+      "noTalkingFast": {
+        "name": "No-talking video, Fast",
+        "detail": "720p"
+      },
+      "noTalkingBest": {
+        "name": "No-talking video, Best",
+        "detail": "1080p"
+      },
+      "talkingFast": {
+        "name": "Talking video, Fast",
+        "detail": "720p"
+      },
+      "talkingBest": {
+        "name": "Talking video, Best",
+        "detail": "1080p"
+      },
+      "ownTemplate": {
+        "name": "Turn your own video into a template",
+        "detail": "file or link"
+      }
+    },
+    "faqTitle": "Frequently asked",
+    "faq": {
+      "1": {
+        "q": "What is free?",
+        "a": "One no-talking video in Fast quality, one variant. No watermark, and you can download it. If the job stops, your free video comes back."
+      },
+      "2": {
+        "q": "When are credits spent?",
+        "a": "You see the price before every job. You are charged when you confirm. If the video is not delivered, the credits come back."
+      },
+      "3": {
+        "q": "What if a video is not delivered?",
+        "a": "The credits for that video go back to your balance right away, and the finished parts are saved. You can try again, continue with the backup model, or stop the job. You never pay more than the price you first confirmed."
+      },
+      "4": {
+        "q": "Do credits expire?",
+        "a": "No. Credits do not expire. If you delete your account, the remaining credits are deleted."
+      },
+      "5": {
+        "q": "Can I get a refund?",
+        "a": "Yes, in full, within 14 days of the purchase if no credit from the pack was used. Once a credit is used there is no refund; the remaining credits stay valid. A credit counts as used when a video is delivered or a template is prepared with it. Credits that came back from a stopped job do not count as used."
+      },
+      "6": {
+        "q": "Which format and quality?",
+        "a": "Every video is vertical, 9:16. Fast is 720p and Best is 1080p."
+      },
+      "7": {
+        "q": "Which languages?",
+        "a": "The site is in English and Türkçe. On-screen text and voice in the video can be in English or Türkçe."
+      },
+      "8": {
+        "q": "Can I get an invoice?",
+        "a": "The invoice for every purchase stays on the Account page and downloads as a PDF. Your billing name and address are collected at checkout. Wrong details on an invoice? Contact support."
+      }
+    },
+    "about": "About {count} videos",
+    "aboutBasis": "No talking · Fast · one variant",
+    "tax": "Prices are in US dollars. Tax is added at checkout where it applies.",
+    "costsNote": "The price is fixed: credits per video × the number of variants (1 to 3). The length of the template does not change the price."
+  },
+  "legal": {
+    "nav": "Legal pages",
+    "updated": "Last updated: 7 October 2026",
+    "text": "Read the sections below.",
+    "doc": {
+      "terms": "Terms of use",
+      "privacy": "Privacy",
+      "refunds": "Refunds",
+      "cookies": "Cookies",
+      "content": "Content policy"
+    },
+    "sections": {
+      "terms": {
+        "1": "1. The service",
+        "2": "2. What stays the same",
+        "3": "3. Your account",
+        "4": "4. Credits",
+        "5": "5. Payment and refunds",
+        "6": "6. Videos that are not delivered",
+        "7": "7. Images and videos you upload",
+        "8": "8. Use of generated videos",
+        "9": "9. Content rules",
+        "10": "10. Liability and contact"
+      },
+      "privacy": {
+        "1": "1. What we collect",
+        "2": "2. How we use it",
+        "3": "3. Who receives it",
+        "4": "4. How long we keep it",
+        "5": "5. Your rights",
+        "6": "6. Contact"
+      },
+      "refunds": {
+        "1": "Unused packs",
+        "2": "Used credits",
+        "3": "Videos that are not delivered",
+        "4": "A video that came out wrong",
+        "5": "How to ask for a refund",
+        "6": "After you ask"
+      },
+      "content": {
+        "1": "1. Images and videos you upload",
+        "2": "2. Templates and source videos",
+        "3": "3. Generated videos",
+        "4": "4. Reporting a problem"
+      },
+      "cookies": {
+        "1": "1. What we use",
+        "2": "2. Why",
+        "3": "3. Your choices"
+      }
+    },
+    "heading": {
+      "refunds": "Refund policy"
+    },
+    "body": {
+      "terms": {
+        "1": "- Viral Clone is run by an individual, not a company: {company}, {address}, {supportEmail}.\n- You pick a template (the structure of a short TikTok or YouTube video), upload photos of your own product, and we make a short AI video ad for you. You pay with credits.\n- We do not promise views, sales, or any result from a video.",
+        "2": "- The structure stays: shots, order, timing and on-screen text.\n- People, setting and music are made new around your product.\n- The label and small print on your product can come out a little different from the real thing. Check before you use a video.",
+        "3": "- You need an account with a verified email. Keep your password private. You are responsible for what happens under your account.\n- You must be 18 or older to use the service.\n- You can change your name, email and language, and delete videos and your account in Account. Deleting an account needs you to type DELETE, and is refused while a job is queued or running. Credits left on a deleted account are lost. What deletion removes and keeps is on the Privacy page.\n- We may limit use (for example daily limits on photos, uploaded videos and AI work), and may block an account that breaks these terms or the Content policy. A blocked account is logged out at once.\n- Your first video can be free, once per person, when the offer is on. It is tied to your email, so deleting the account and coming back with the same email does not give a second free video.",
+        "4": "- Credits are sold in packs. There is no subscription.\n- Credits do not expire, cannot be transferred, and have no cash value.\n- You see the credit price of every job before you confirm it. Nothing is spent before that. You never pay more than the price you confirmed.",
+        "5": "- Card payment is handled by an outside payment provider. We never see or keep your card number.\n- The provider asks for your billing name and address. We keep a receipt (invoice) for each purchase in your Account.\n- Prices are shown as they are. ishflow has no tax number; the payment provider may add the tax your country requires at the payment step.\n- Refunds follow the Refund policy.",
+        "6": "- You are charged when you confirm a job. If the video is not delivered, the credits come back to your balance on their own.\n- A video that came out wrong can be reported within 7 days (Refund policy).",
+        "7": "- Upload only what you have the right to use: your own product photos, logos, and videos. Get consent from any person who can be recognised.\n- By uploading or linking, you let us store, process and send it to our providers (see Privacy) only to make your video.\n- You keep your rights in what you upload. You are responsible for it.\n- Content rules are in the Content policy.",
+        "8": "- You may use the videos we make for you freely, including in your business and ads. ishflow does not show your video as an example without your permission.\n- AI output may not be protected by copyright, and may not meet an ad platform’s rules. Many platforms ask you to label AI content: check the rules of the platform where you publish.\n- Review every video before you publish it. Videos are kept for 12 months, then no longer shown; you can delete a video earlier.",
+        "9": "- Do not break the Content policy. A job that breaks the content rule is stopped and cannot be continued.\n- A failed generation is not by itself a finding that you broke a rule.\n- If a job is stopped for a clear breach, we warn you first. If it happens again, we may block your account. You can object within 14 days by writing to {supportEmail}.",
+        "10": "- The service is provided “as is”. AI output can contain mistakes.\n- Our liability to you is limited to the amount you paid in the last 12 months.\n- These terms are governed by the law of the operator’s country. Disputes are settled in the courts of the operator’s place of business.\n- We may change these terms; we will show the new date at the top. Questions: {company}, {address}, {supportEmail}."
+      },
+      "refunds": {
+        "1": "- If you have not used any credit from a pack, we refund the whole pack within 14 days of the purchase. Every such request is approved.\n- Refunds are for a whole pack only, not part of one. The refund is the full amount you paid.",
+        "2": "- A credit is used when a video is delivered, or when a template of your own is prepared with it.\n- Credits that came back from a stopped job do not count as used.\n- Once a credit from a pack is used, that pack is not refunded. Your remaining credits stay valid; credits do not expire.",
+        "3": "- If a video is not delivered, its credits go back to your balance on their own. You will see “Credits returned” in your account.\n- This is credits back, not money back, so you do not need to ask.",
+        "4": "- Tell us within 7 days: open the result and choose “Report a problem”.\n- We look at it within 2 business days. If the video is wrong, we make it again at no cost.\n- A video is wrong when it clearly does not show your product or has broken text. A different taste in style is not a reason.",
+        "5": "- Open Account → Purchases and choose “Request a refund” on the pack.\n- While the request is open, the credits of that pack are held. You can cancel the request and use them again.\n- We answer within 2 business days.\n- If a refund does not go through, the credits return to your balance.",
+        "6": "- Purchases shows where your request is: Refund requested → Refund sent → Refunded (or Refund failed).\n- The money goes back to the payment method you used. It can take a few days to show up, depending on the payment provider.\n- When the refund is sent, the credits of that pack are removed.\n- If a card payment is disputed with the bank (chargeback), we may pause the account while we review it.\n- Nothing in this policy limits any right you have by law."
+      },
+      "privacy": {
+        "1": "- Account: email address, optional name, language, account status. Your password is stored only as a salted hash (scrypt), never in readable form.\n- What you give us for a video: product photos, product descriptions, links to TikTok / YouTube videos, video files you upload.\n- What we make: generated videos, job history, credit entries, purchases, invoices.\n- Messages you send to support.\n- Security records: sign-in links (verify email, reset password, change email) and failed sign-in attempts.\n- Cookies: see the Cookie policy. We use no analytics or advertising tools.\n- We do not see or keep your card number; the payment provider handles it.",
+        "2": "- To sign you in, verify your email and reset passwords.\n- To make, show and store your videos.\n- To manage credits, purchases, invoices and refunds, and to send you the emails about them.\n- To answer support, to stop abuse (limits, blocks), and to run the service.\n- We handle personal data under the personal data legislation of the operator’s country. If you are in the EU or EEA, your GDPR rights also apply (see Your rights).",
+        "3": "We send data only to the services that make the product work:\n- Video / image / music generation: Magnific. Receives your product photos, and the prompts for each generation.\n- AI language model: an AI model (Anthropic’s Claude) reads the source video’s frames and your product photos to write the plan for your video. Your product photos are sent to it.\n- Video download: when you give a TikTok / YouTube link, our server downloads that video from the platform to study its structure.\n- Payment: an outside payment provider. Receives your email and what you buy; collects billing details and card data itself.\n- Email: an email sending service (Resend) sends our emails to you.\n- Hosting: the service runs on the operator’s own server. If that changes, this page is updated.\n- We do not sell your data. The providers above are outside the operator’s country, so your data leaves the country when we send it to them; we send them only what the service needs.",
+        "4": "- Uploaded photos that no job uses are removed from view after 2 days.\n- A stopped job can be continued for 30 days. Paid in-between images are kept 30 days after the job ends.\n- Finished videos are kept 12 months, then no longer shown.\n- When you delete your account, your account, password hash, jobs, private templates, open unpaid checkouts, drafts and sign-in links are removed, and your videos, uploads and templates stop being shown at once.\n- Kept after deletion: purchases, invoices and credit history (as long as tax and accounting rules need), and a one-way fingerprint (SHA-256) of your email with the date of your free video, so the free video cannot be claimed twice. We keep the fingerprint at least 12 months.\n- Be aware: “no longer shown” is not the same as erased from the disk. Files are moved aside, not wiped. Backups and old files stay for as long as security and accounting need them; we do not promise a date for physical deletion.",
+        "5": "- You can see and change your name, email and language in Account, delete your videos, and delete your account.\n- To ask for a copy of your data, a correction, or deletion, write to {supportEmail}. We answer within 30 days.\n- If you are in the EU or EEA, you also have the rights the GDPR gives you, including access, correction, erasure, restriction, objection and portability. Write to the same address.\n- You can complain to the authority of the operator’s country that is responsible for the protection of personal data.\n- Account deletion is refused while a job is running; wait for it to finish.",
+        "6": "{company}, {address}, {supportEmail}. ishflow is an individual, not a company."
+      },
+      "cookies": {
+        "1": "- vc_session: keeps you signed in. Signed, HttpOnly, SameSite=Lax, Secure on HTTPS. Lasts 30 days, renewed while you use the site.\n- vc_locale: remembers your language. Lasts up to 1 year.\n- vc_theme: remembers light or dark theme. Choosing “System” removes it. Lasts up to 1 year.\n- vc_cookies: remembers your answer to the cookie notice. Lasts 1 year.\n- No analytics cookies. No advertising cookies. No tracking by other companies.\n- Fonts are served from our own site, so your browser does not call other font servers.",
+        "2": "- vc_session is needed to sign in and to use your account.\n- vc_locale and vc_theme keep your preferences.\n- vc_cookies remembers that you answered the notice.\n- Today, “Accept all” and “Only necessary” both just save your choice; “Accept all” does not turn anything extra on.",
+        "3": "- Pick either button in the notice. You can change your mind with “Cookie settings” in the footer.\n- You can delete or block cookies in your browser. Deleting vc_session signs you out; blocking it means you cannot sign in. Deleting the preference cookies brings back the defaults; deleting vc_cookies shows the notice again.\n- If we ever add optional cookies (for example analytics), we will update this page and ask you first.\n- Questions: {supportEmail}."
+      },
+      "content": {
+        "1": "Upload only material you have the right to use.\n- Your own product photos, packaging and logos, or ones you have permission for.\n- A person who can be recognised must have agreed to appear. Do not upload photos of other people (including children) without their consent.\n- You are responsible for what you upload.\nDo not upload, or ask us to make:\n- sexual or adult content;\n- content that is violent, hateful, or harasses or threatens people;\n- content that copies or pretends to be another person or brand, or that is meant to deceive (fake reviews, fake endorsements, fake medical or financial claims);\n- content that breaks another person’s rights (copyright, trademark, privacy, likeness);\n- anything illegal, or about products the platforms ban in ads;\n- ads for weapons, tobacco or nicotine, drugs, prescription medicine or health claims without proof, gambling, or adult content.\nYou must be 18 or older to use the service.",
+        "2": "- A template is the structure of a short video (shots, order, timing, on-screen text). A link to a TikTok or YouTube video is a pointer to that structure, not a licence to another person’s footage, brand, face or music.\n- We make new people, a new setting and new music around your product. We do not give you the original video, and you may not ask us to copy a real person’s face or voice.\n- Give us a source video link only for a video you may study and learn from. You are responsible for the right to use what you submit.\n- Copyright complaint: if you hold the rights to a video or footage a template was built from, write to {supportEmail} with the template or video link. We look at it within 5 business days and, if the complaint is justified, we remove the template.",
+        "3": "- A job whose images or text clearly break these rules is stopped by the content rule. It cannot be continued.\n- A generation that failed for another reason is not a finding that you broke a rule.\n- Generated videos can contain mistakes (wrong text, odd hands, a different label). Review before you publish.\n- Check the ad rules of TikTok, YouTube, Meta and others, and label AI content where they ask for it.\n- If you break these rules, we warn you first. If it happens again, we may block your account. You can object within 14 days by writing to {supportEmail}.",
+        "4": "- Problem with a video you got: open the result and choose “Report a problem” (within 7 days; see the Refund policy).\n- Problem with content or a rights concern (yours or someone else’s): write to {supportEmail} with the job or video link and what is wrong. Do not send passwords.\n- We answer within 2 business days."
+      }
+    },
+    "refundsContact": {
+      "before": "You can also",
+      "link": "contact support",
+      "after": "or write to {supportEmail}."
+    }
+  },
+  "contact": {
+    "title": "How can we help?",
+    "lead": "Write to us and the answer comes by email. We answer within 2 business days. If it is about a video, add its link so we can look at the same job.",
+    "formLabel": "Contact form",
+    "topic": "What is it about?",
+    "topics": {
+      "video": "A problem with a video",
+      "refund": "Refund",
+      "payment": "Payment and credits",
+      "account": "My account",
+      "other": "Something else"
+    },
+    "email": "Your email",
+    "emailPlaceholder": "name@example.com",
+    "link": "Link to the video (optional)",
+    "linkPlaceholder": "Paste the link from My videos",
+    "message": "Message",
+    "messagePlaceholder": "What happened, and what did you expect?",
+    "send": "Send message",
+    "error": {
+      "email": "Enter a valid email address.",
+      "link": "Enter a link that starts with https://.",
+      "message": "Write at least 10 characters (at most 2000).",
+      "topic": "Choose a topic.",
+      "limited": "You sent several messages in a short time. Your message is still here: try again in an hour."
+    },
+    "again": "Write another message",
+    "quickTitle": "Quick answers",
+    "quick": {
+      "1": {
+        "q": "When are credits spent?",
+        "a": "Only when you confirm a job. You see the price first."
+      },
+      "2": {
+        "q": "What if a video is not delivered?",
+        "a": "The credits for the video that was not delivered go back to your balance, and the finished parts are saved. You never pay more than the price you first confirmed."
+      },
+      "3": {
+        "q": "Can I get an invoice?",
+        "a": "Every purchase has an invoice on your Account page. If the details on an invoice are wrong, write to us here."
+      }
+    },
+    "emailLead": "Prefer email? Write to",
+    "emailAddress": "{supportEmail}",
+    "sending": "Sending…",
+    "sent": "Message sent. Reference {reference}. We answer within {days} business days.",
+    "duplicate": "You already sent this message.",
+    "reference": "Reference {reference}.",
+    "failed": "Could not send. Your message is still here. Try again.",
+    "tryAgain": "Try again",
+    "aboutJob": "About job",
+    "noJob": "Not about a job",
+    "jobHint": "The job ID is added for you.",
+    "answerTo": "We answer by email to {email}."
+  }
+}

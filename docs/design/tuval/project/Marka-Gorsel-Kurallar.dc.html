@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Viral Clone — imagery and rules</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ay{--bg:#0B0C0A;--surface:#151712;--raised:#1C1F17;--line:#23261E;--edge:#33372B;--edge-strong:#676B5D;--text:#F2F3EC;--text-2:#C9CCBF;--text-3:#A9AC9F;--accent:#C8F03C;--accent-hover:#E0FF7A;--accent-text:#C8F03C;--on-accent:#0B0C0A;--warn:#FF9A6B;--warn-edge:#5A3A2A;--mark-edge:#C8F03C;--scrim:rgba(11,12,10,0.76);--on-scrim:#F2F3EC;--media-edge:transparent;--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Onest',system-ui,sans-serif}
+.ay[data-theme="light"],.ay [data-theme="light"]{--bg:#F4F5EE;--surface:#FFFFFF;--raised:#E8EADF;--line:#E0E2D7;--edge:#CBCEBF;--edge-strong:#80856F;--text:#0B0C0A;--text-2:#3E4236;--text-3:#5A5F50;--accent-hover:#B6E01F;--accent-text:#456300;--warn:#A8400F;--warn-edge:#E3B7A2;--mark-edge:#0B0C0A;--media-edge:rgba(11,12,10,0.12)}
+a{color:var(--accent-text)}a:hover{color:var(--text)}
+</style>
+</helmet>
+<div class="ay" style="width: 1440px; min-height: 1480px; box-sizing: border-box; padding: 80px; background: var(--bg); color: var(--text); font-family: var(--body); display: flex; flex-direction: column; gap: 56px">
+
+<header style="display: flex; flex-direction: column; gap: 16px; max-width: 860px">
+<h1 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 64px; line-height: 0.98; letter-spacing: -0.03em">Imagery and rules</h1>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">The only visual material is the system's own output. No stock photos, no illustrations, no frames from anyone else's video.</p>
+</header>
+
+<section aria-label="Imagery" style="display: flex; flex-direction: column; gap: 32px">
+<div style="display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 16px">
+<div style="position: relative; aspect-ratio: 9 / 16; border-radius: 16px; overflow: hidden; background: var(--surface)">
+<img src="/_blob/f20a7ed7a7bc172a7da483415800077f" alt="Frame from a video the system generated: products side by side" style="width: 100%; height: 100%; object-fit: cover; display: block">
+<span style="position: absolute; top: 10px; left: 10px; padding: 5px 10px; border-radius: 999px; background: var(--scrim); color: var(--on-scrim); font-size: 13px; font-weight: 500">No talking</span>
+<span style="position: absolute; top: 10px; right: 10px; padding: 5px 10px; border-radius: 999px; background: var(--scrim); color: var(--on-scrim); font-size: 13px; font-weight: 500">8 sec</span>
+<span style="position: absolute; top: 44px; left: 10px; padding: 5px 10px; border-radius: 999px; background: var(--scrim); color: var(--accent); font-size: 13px; font-weight: 500">Free</span>
+</div>
+<img src="/_blob/1377349dbc87784232ac59cf9cf04986" alt="Frame from a video the system generated: eye close-up" style="width: 100%; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 16px; display: block">
+<img src="/_blob/619ee0e5a13e318118b291c1451be9b8" alt="Frame from a video the system generated: product in hand" style="width: 100%; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 16px; display: block">
+<img src="/_blob/de5244c861eb9107996b5404d64ca159" alt="Frame from a video the system generated: hair spray" style="width: 100%; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 16px; display: block">
+<img src="/_blob/874b55ddf9761a230dda46e2aa4afa85" alt="Frame from a video the system generated: presenter" style="width: 100%; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 16px; display: block">
+<div style="aspect-ratio: 9 / 16; box-sizing: border-box; border-radius: 16px; border: 1.5px dashed var(--edge-strong); display: flex; align-items: center; justify-content: center; font-size: 15px; color: var(--text-3)">No sample</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">Always 9:16.</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">On the card, the template page, and the result, the video frame is vertical and the same ratio. Its corner is 16; anything that overflows is cropped from the center.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">Three tags, at most.</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Format on the left, length on the right. Free sits under the format while your first video is unused. No gradient, logo, or watermark goes over the video.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">Real output.</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Every sample playing in the gallery is a video this system generated. A reference video appears only in the Inbox.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">No image, empty frame.</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">A template without a sample is shown as an empty frame with a dashed border. No stand-in image takes its place.</p>
+</div>
+</div>
+</section>
+
+<section style="display: flex; flex-direction: column; gap: 10px; padding-top: 40px; border-top: 1px solid var(--line)">
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; padding-bottom: 6px">
+<h2 style="margin: 0; display: flex; align-items: center; gap: 10px; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="stroke: var(--accent-text)"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Do</h2>
+<h2 style="margin: 0; display: flex; align-items: center; gap: 10px; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" aria-hidden="true" style="stroke: var(--warn)"><path d="M6 6l12 12M18 6L6 18"></path></svg>Don't</h2>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-items: stretch">
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; background: var(--surface); font-size: 17px; line-height: 1.5; text-wrap: pretty">One lime panel or one lime primary button in view.</p>
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; border: 1px solid var(--edge); font-size: 17px; line-height: 1.5; color: var(--text-3); text-wrap: pretty">A lime button next to a lime panel, or two lime buttons side by side.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-items: stretch">
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; background: var(--surface); font-size: 17px; line-height: 1.5; text-wrap: pretty">Give status with color, shape, and a label together.</p>
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; border: 1px solid var(--edge); font-size: 17px; line-height: 1.5; color: var(--text-3); text-wrap: pretty">Status told by color alone.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-items: stretch">
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; background: var(--surface); font-size: 17px; line-height: 1.5; text-wrap: pretty">Leave the unknown in square brackets: [BALANCE].</p>
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; border: 1px solid var(--edge); font-size: 17px; line-height: 1.5; color: var(--text-3); text-wrap: pretty">Made-up numbers, customer quotes, or logo strips.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-items: stretch">
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; background: var(--surface); font-size: 17px; line-height: 1.5; text-wrap: pretty">Keep the video big and the interface quiet.</p>
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; border: 1px solid var(--edge); font-size: 17px; line-height: 1.5; color: var(--text-3); text-wrap: pretty">Gradients, glows, shadows, or decorative frames.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-items: stretch">
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; background: var(--surface); font-size: 17px; line-height: 1.5; text-wrap: pretty">State the fact: "reference 1.9M views".</p>
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; border: 1px solid var(--edge); font-size: 17px; line-height: 1.5; color: var(--text-3); text-wrap: pretty">Promised results: "this will go viral", "this will explode your sales".</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-items: stretch">
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; background: var(--surface); font-size: 17px; line-height: 1.5; text-wrap: pretty">Pick values from the ladder: ten type steps, five corners, four heights.</p>
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; border: 1px solid var(--edge); font-size: 17px; line-height: 1.5; color: var(--text-3); text-wrap: pretty">Values in between: 14 px type, 18 px corners, a 56 px button.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-items: stretch">
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; background: var(--surface); font-size: 17px; line-height: 1.5; text-wrap: pretty">Call colors by name: background, surface, accent.</p>
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; border: 1px solid var(--edge); font-size: 17px; line-height: 1.5; color: var(--text-3); text-wrap: pretty">Color codes written straight into a screen.</p>
+</div>
+</section>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1480}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

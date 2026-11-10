@@ -1,0 +1,119 @@
+{
+  "gallery": {
+    "title": "Person swap",
+    "lead": "Pick a video. Upload your photo. The video stays the same, and the person in it becomes you.",
+    "empty": {
+      "title": "No videos yet",
+      "text": "Person swap videos will show up here once there is one to pick."
+    },
+    "people": {
+      "one": "{count} person",
+      "other": "{count} people"
+    },
+    "open": "Use this video",
+    "priceUnknown": "Price is shown on the next page",
+    "uses": {
+      "one": "Used {count} time",
+      "other": "Used {count} times"
+    }
+  },
+  "form": {
+    "back": "All videos",
+    "title": "Put yourself in this video",
+    "lead": "Upload a photo of the person who should be in the video. Nothing is charged until you confirm.",
+    "aside": {
+      "label": "The video",
+      "box": "Person {n}",
+      "promise": "The video, its cuts and its sound stay as they are. Only the person changes."
+    },
+    "tips": {
+      "title": "A photo that works",
+      "one": "One person only, nobody else in the picture",
+      "light": "Even light, no strong shadows on the face",
+      "frame": "Framed like the video: standing, the whole body in the picture",
+      "clothes": "Clothes that fit, not loose or bulky"
+    },
+    "person": "Person {n}",
+    "body": {
+      "label": "Full-body photo",
+      "hint": "Required. Upright, from head to feet.",
+      "add": "Add full-body photo",
+      "alt": "Your full-body photo"
+    },
+    "face": {
+      "label": "Face photo, close",
+      "hint": "Recommended. It makes the face more like yours.",
+      "add": "Add face photo",
+      "alt": "Your face photo"
+    },
+    "side": {
+      "label": "Side photo",
+      "hint": "Optional. Taken from the side, for the moments the person turns.",
+      "add": "Add side photo",
+      "alt": "Your side photo"
+    },
+    "photo": {
+      "rules": "JPG, PNG or WebP · up to 10 MB · the short side at least {min} px",
+      "uploading": "Uploading…",
+      "replace": "Replace",
+      "remove": "Remove",
+      "error": {
+        "type": "{name} was not added: only JPG, PNG or WebP.",
+        "size": "{name} was not added: it is larger than 10 MB.",
+        "small": "{name} was not added: its short side is under {min} px.",
+        "landscape": "{name} was not added: a full-body photo must be upright (taller than wide).",
+        "quota": "{name} was not added: you have reached today's number of uploads.",
+        "unreadable": "{name} was not added: the file could not be read as a picture.",
+        "failed": "{name} was not uploaded. Try again."
+      }
+    },
+    "outfit": {
+      "legend": "Clothes",
+      "keep": "Keep the clothes from the video",
+      "photo": "Use the clothes from my photo"
+    },
+    "consent": {
+      "legend": "Before you start",
+      "ownPerson": "The person in the photo is me, or I have their written permission",
+      "adults": "Everybody in the photo is over 18",
+      "notCelebrity": "Nobody famous, and nobody I do not know",
+      "kept": "What we keep and for how long: your photos are sent to the AI provider we work with to make the video, and are deleted when the job is finished, at the latest {hours} hours later. The finished video is kept for {days} days, then deleted. It carries an \"AI-generated\" label in the corner, and the sound of the original video stays.",
+      "missing": "Tick all three boxes to start."
+    },
+    "priceNote": "You see the credits again and confirm before anything is charged.",
+    "paused": "Generation is paused for a short time. You can fill in the form; starting is off until it is back.",
+    "review": "A person may look at your photo before the video is made; that can take up to {hours} hours. While it waits you can cancel and get every credit back.",
+    "submit": "Start",
+    "wait": "Wait for the photos to finish uploading.",
+    "error": {
+      "people": "The full-body photo is missing or can no longer be used. Add it again.",
+      "photo": "A photo could not be used: it is too small (short side under {min} px), a full-body photo is not upright, or the file cannot be read as a picture. Nothing was charged. Add your photos again and start.",
+      "consent": "Tick all three boxes to start.",
+      "paused": "Generation is paused for a short time. Nothing was charged.",
+      "gone": "This video can no longer be used. Pick another one.",
+      "generic": "The job could not be started. Nothing was charged. Try again."
+    },
+    "needsPhoto": "Add a full-body photo to start."
+  },
+  "confirm": {
+    "title": "Confirm and start",
+    "lead": "{template} · person swap",
+    "pricing": "Asking for the price…",
+    "final": "Final video",
+    "credits": "Credits for this video",
+    "was": "Was",
+    "balance": "Your balance",
+    "after": "Balance after",
+    "time": "Estimated time",
+    "timeValue": "about {minutes} min",
+    "needs": "You need {needed}, and you have {balance}.",
+    "changedPrice": "The price changed while this window was open: it is now {now} (was {was}). Nothing was charged.",
+    "changedBalance": "Your balance changed while this window was open. Nothing was charged.",
+    "note": "If the job stops, everything it was charged comes back to your balance.",
+    "starting": "Starting your job…",
+    "startingButton": "Starting…",
+    "cancel": "Cancel",
+    "submit": "Confirm and start",
+    "buy": "Buy credits"
+  }
+}

@@ -1,0 +1,83 @@
+@import "tailwindcss";
+@import "../core/tokens.css";
+
+/* Tailwind v4: `--ns-*: initial` clears a whole default namespace (docs: tailwindcss.com/docs/theme,
+   "Overriding the default theme"). Everything below replaces the defaults; spacing keeps the 4px base. */
+@theme inline {
+  --color-*: initial;
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-raised: var(--raised);
+  --color-line: var(--line);
+  --color-edge: var(--edge);
+  --color-edge-strong: var(--edge-strong);
+  --color-text: var(--text);
+  --color-text-2: var(--text-2);
+  --color-text-3: var(--text-3);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-text: var(--accent-text);
+  --color-on-accent: var(--on-accent);
+  --color-warn: var(--warn);
+  --color-warn-edge: var(--warn-edge);
+  --color-scrim: var(--scrim);
+  --color-on-scrim: var(--on-scrim);
+  --color-media-edge: var(--media-edge);
+  --color-mark-edge: var(--mark-edge);
+
+  --text-*: initial;
+  --text-13: 13px;
+  --text-15: 15px;
+  --text-17: 17px;
+  --text-20: 20px;
+  --text-24: 24px;
+  --text-32: 32px;
+
+  --radius-*: initial;
+  --radius-8: 8px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-24: 24px;
+  --radius-full: 9999px;
+
+  --font-*: initial;
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+
+  --breakpoint-*: initial;
+  --breakpoint-nav: 56.25rem;
+  --breakpoint-panel: 64rem;
+  --breakpoint-wide: 80rem;
+}
+
+@layer base {
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+  }
+  a {
+    color: var(--accent-text);
+  }
+  :focus-visible {
+    outline: 2px solid var(--accent-text);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* Side padding of every page frame (the boards' clamp(16px, 4vw, 60px)); no step on the 4px scale fits a fluid value. */
+  .page-gutter { padding-inline: clamp(16px, 4vw, 60px); }
+  .heading-2 { font: 800 clamp(36px, 4.6vw, 64px)/0.98 var(--font-display); letter-spacing: -0.03em; }
+  .heading-3 { font: 800 clamp(32px, 4vw, 52px)/1 var(--font-display); letter-spacing: -0.03em; }
+  .heading-4 { font: 800 32px/1.1 var(--font-display); letter-spacing: -0.02em; }
+  .heading-5 { font: 700 24px/1.2 var(--font-display); letter-spacing: -0.01em; }
+  .heading-6 { font: 700 20px/1.25 var(--font-display); letter-spacing: -0.01em; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

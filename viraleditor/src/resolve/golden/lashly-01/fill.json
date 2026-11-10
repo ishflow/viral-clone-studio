@@ -1,0 +1,50 @@
+{
+  "language": "en",
+  "products": [
+    {
+      "name": "ACME Lashly Eyelash Serum",
+      "images": [
+        "uploads/seed/lashly-01/tube-closed.png",
+        "uploads/seed/lashly-01/tube-open-applicator.png",
+        "uploads/seed/lashly-01/applicator-serum-drop.png"
+      ]
+    }
+  ],
+  "texts": {
+    "hook": "My 4-week lash serum test",
+    "tag-before": "WEEK 0",
+    "tag-after": "WEEK 4",
+    "tag-inside": "Aloe · Shea · Jojoba",
+    "tag-brand": "Lashly by ACME"
+  },
+  "shots": {
+    "s1": {
+      "motion_prompt": "Mood: she is sharing the outcome of her own experiment and can hardly keep it to herself. On \"four weeks\" her free hand shows four fingers, and the matte white tube never leaves the spot by her cheek, label toward the lens. She tips toward the camera for a second on \"let me show you\". \"Week zero\" gets a tiny apologetic shrug; on \"week four\" her eyes go wide and her voice rises."
+    },
+    "s2": {
+      "motion_prompt": "Mood: an easy tip from one friend to another, no sales voice. On \"Lashly serum\" she moves the tube up to the lens until the label can be read, then lets it sink back beside her face. On \"swipe it on your lash line\" she draws one unhurried line just above her upper lashes with the closed tube, never touching the eye, and finishes \"like eyeliner\" relaxed, with a small sure smile."
+    },
+    "s3": {
+      "motion_prompt": "Mood: quiet pride. On \"look at them now\" she comes nearer to the camera, glances upward so the light falls on her lashes, and closes her eyes once, slowly. \"And honestly?\" is a teasing beat with her brows up; \"I see it\" comes with a nod. \"This is your sign\" goes straight to the viewer, with a pointed finger and a warm, knowing look."
+    }
+  },
+  "music": {
+    "prompt": "Instrumental only. Light, upbeat bedroom pop that sits under a speaking voice: soft plucked synth, warm bass and a gentle clap on two and four at about 105 beats per minute, steady from the first second, without a long intro. No vocals, no spoken words."
+  },
+  "script": {
+    "trial": "[promise]I tried the lash serum everyone keeps asking me about for four weeks. Let me show you my before and after.[/promise] [before]So this is week zero. No serum, nothing.[/before] [after]And this is week four. I'm honestly so impressed.[/after]",
+    "formula": "It's the [name]Lashly serum from ACME.[/name] [inside]Aloe, shea, jojoba,[/inside] and you just [routine]swipe it on your lash line every night, like eyeliner.[/routine]",
+    "verdict": "Look at them now. The box said results in six weeks, and honestly? I see it. [close]If you've been thinking about a lash serum, this is your sign.[/close]"
+  },
+  "presenter": {
+    "still_prompt": "One frame of a phone selfie video, vertical 9:16: a woman in her mid twenties in a bright bathroom, cream knit cardigan over a white top, dark hair pulled back, natural make-up and long natural lashes. She stands a little left of the middle of the frame and holds the slim matte white serum tube of the reference image upright next to her cheek on the left side of the frame, its label to the camera, and looks into the lens in the middle of a sentence, friendly and a little excited. Her eyes are at about two fifths of the frame height. The wall above her head and the right quarter of the frame beside her face are plain and empty. Soft window light, real skin texture, no text."
+  },
+  "stills": {
+    "proof-before": {
+      "prompt": "A macro photograph for a before picture: one bare eye of a young woman with brown iris, short and sparse natural lashes, no mascara and no make-up, a natural eyebrow above it. The eye sits in the left half of the frame at mid height; the right side of the frame shows only plain skin of the temple and cheek. Even, soft light, sharp focus, real skin texture, vertical 9:16, no text."
+    },
+    "proof-after": {
+      "prompt": "The photograph of the reference image again, the same person, the same framing and the same light. One thing has changed: the lashes are clearly longer, darker and fuller, still natural and without mascara. Nothing else is different. Vertical 9:16, no text."
+    }
+  }
+}

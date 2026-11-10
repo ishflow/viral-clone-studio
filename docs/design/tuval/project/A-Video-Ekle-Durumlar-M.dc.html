@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Add your own video: states · mobile</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ay{--bg:#0B0C0A;--surface:#151712;--raised:#1C1F17;--line:#23261E;--edge:#33372B;--edge-strong:#676B5D;--text:#F2F3EC;--text-2:#C9CCBF;--text-3:#A9AC9F;--accent:#C8F03C;--accent-hover:#E0FF7A;--accent-text:#C8F03C;--on-accent:#0B0C0A;--warn:#FF9A6B;--warn-edge:#5A3A2A;--mark-edge:#C8F03C;--scrim:rgba(11,12,10,0.76);--on-scrim:#F2F3EC;--media-edge:transparent;--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Onest',system-ui,sans-serif}
+.ay[data-theme="light"],.ay [data-theme="light"]{--bg:#F4F5EE;--surface:#FFFFFF;--raised:#E8EADF;--line:#E0E2D7;--edge:#CBCEBF;--edge-strong:#80856F;--text:#0B0C0A;--text-2:#3E4236;--text-3:#5A5F50;--accent-hover:#B6E01F;--accent-text:#456300;--warn:#A8400F;--warn-edge:#E3B7A2;--mark-edge:#0B0C0A;--media-edge:rgba(11,12,10,0.12)}
+a{color:var(--accent-text)}a:hover{color:var(--text)}
+</style>
+</helmet>
+<div class="ay" data-theme="{{ theme }}" style="min-height: 2740px; box-sizing: border-box; background: var(--bg); color: var(--text); font-family: var(--body); padding: 0 clamp(16px, 4vw, 60px) 72px">
+<div style="max-width: 1320px; margin: 0 auto; padding-top: clamp(24px, 4vw, 48px); display: flex; flex-direction: column; gap: 32px">
+<h1 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em">Add your own video · states</h1>
+<div style="display: flex; flex-wrap: wrap; gap: 32px">
+
+<section style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-weight: 400; font-size: 13px; line-height: 1.4; color: var(--text-3)">Checking the file</h2>
+<div style="box-sizing: border-box; padding: 24px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; align-items: center; gap: 12px; min-width: 0">
+<span aria-hidden="true" style="flex: 0 0 auto; width: 48px; height: 48px; border-radius: 50%; background: var(--raised); color: var(--accent-text); display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.5 3h5a2.5 2.5 0 0 1 2.5 2.5v13a2.5 2.5 0 0 1 -2.5 2.5h-5a2.5 2.5 0 0 1 -2.5 -2.5v-13a2.5 2.5 0 0 1 2.5 -2.5zM10.8 9.8v4.4l3.6-2.2z"></path></svg></span>
+<div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px">
+<span style="font-size: 15px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">a-very-long-reference-video-name-final-v2.mov</span>
+<span role="status" style="font-size: 13px; font-weight: 600; line-height: 1.4; color: var(--text-2)">Uploading… 60%</span>
+</div>
+</div>
+<span role="progressbar" aria-label="Upload progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60" style="height: 4px; border-radius: 999px; background: var(--line); overflow: hidden; display: flex"><span style="width: 60%; background: var(--accent); border-radius: 999px"></span></span>
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">We check the type, size, length and ratio first. Nothing is charged for this check.</p>
+</div>
+</section>
+
+<section style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-weight: 400; font-size: 13px; line-height: 1.4; color: var(--text-3)">File cannot be used</h2>
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3); text-wrap: pretty">Each reason has its own message: file type, size, length, ratio, unreadable file, link not found, private video, removed video, unsupported site.</p>
+<div style="display: flex; flex-direction: column; gap: 16px">
+<p role="alert" style="margin: 0; display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; border-radius: 12px; background: var(--surface); border: 1px solid var(--warn-edge); font-size: 15px; line-height: 1.5; color: var(--text)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; color: var(--warn)"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg><span style="min-width: 0"><span style="display: block; font-size: 13px; line-height: 1.4; color: var(--text-3); overflow-wrap: anywhere">a-very-long-reference-video-name-final-v2.mov</span><strong style="font-weight: 600; color: var(--warn)">This video is longer than 60 seconds.</strong> Trim it and try again. Nothing was charged.</span></p>
+<div style="box-sizing: border-box; padding: clamp(24px, 5vw, 32px) clamp(16px, 4vw, 24px); border: 1.5px dashed var(--edge-strong); border-radius: 16px; display: flex; flex-direction: column; align-items: center; gap: 12px; text-align: center">
+<span style="width: 48px; height: 48px; border-radius: 50%; background: var(--raised); display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" style="stroke: var(--accent-text)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20V9M7 13l5-5 5 5M5 4h14"></path></svg></span>
+<span style="font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Upload a video</span>
+<span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">mp4 or mov · up to 60 sec · up to 100 MB · vertical (9:16)</span>
+<button type="button" style="min-height: 52px; padding: 0 24px; border-radius: 12px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font: inherit; font-size: 15px; font-weight: 600; cursor: pointer">Choose a file</button>
+</div>
+</div>
+</section>
+
+<section style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-weight: 400; font-size: 13px; line-height: 1.4; color: var(--text-3)">Daily limit reached</h2>
+<div style="display: flex; flex-direction: column; gap: 16px">
+<p role="status" style="margin: 0; display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; border-radius: 12px; background: var(--surface); border: 1px solid var(--warn-edge); font-size: 15px; line-height: 1.5; color: var(--text)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; color: var(--warn)"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg><span style="min-width: 0"><strong style="font-weight: 600; color: var(--warn)">You reached today's limit for your own videos.</strong> Try again tomorrow.</span></p>
+<div style="box-sizing: border-box; padding: clamp(24px, 5vw, 32px) clamp(16px, 4vw, 24px); border: 1.5px dashed var(--edge-strong); border-radius: 16px; display: flex; flex-direction: column; align-items: center; gap: 12px; text-align: center">
+<span style="width: 48px; height: 48px; border-radius: 50%; background: var(--raised); display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" style="stroke: var(--text-3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20V9M7 13l5-5 5 5M5 4h14"></path></svg></span>
+<span style="font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em; color: var(--text-3)">Upload a video</span>
+<span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">mp4 or mov · up to 60 sec · up to 100 MB · vertical (9:16)</span>
+<button type="button" aria-disabled="true" style="min-height: 52px; padding: 0 24px; border-radius: 12px; border: 0; background: var(--raised); color: var(--text-3); font: inherit; font-size: 15px; font-weight: 600">Choose a file</button>
+</div>
+</div>
+</section>
+
+<section style="flex: 1 1 560px; min-width: 0; max-width: 640px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-weight: 400; font-size: 13px; line-height: 1.4; color: var(--text-3)">Confirm before preparing</h2>
+<div role="dialog" aria-labelledby="hazirla-onay" style="width: 100%; box-sizing: border-box; padding: 24px; border-radius: 24px; background: var(--surface); border: 1px solid var(--edge); display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h3 id="hazirla-onay" style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em">Prepare this template</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty; overflow-wrap: anywhere">[VIDEO NAME] · 12 sec · 5 shots · No talking</p>
+</div>
+<dl style="margin: 0; display: flex; flex-direction: column; border-bottom: 1px solid var(--edge)">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding: 16px 0; border-top: 1px solid var(--edge); font-size: 17px"><dt style="font-weight: 600">Preparing this template</dt><dd style="margin: 0 0 0 auto; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere; color: var(--accent-text)">1 credit</dd></div>
+<div style="display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-top: 1px solid var(--edge); font-size: 15px"><dt style="color: var(--text-2)">Balance now</dt><dd style="margin: 0; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere">[BALANCE]</dd></div>
+<div style="display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-top: 1px solid var(--edge); font-size: 15px"><dt style="color: var(--text-2)">After this</dt><dd style="margin: 0; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere">[BALANCE AFTER]</dd></div>
+</dl>
+<div style="display: flex; flex-wrap: wrap-reverse; gap: 12px">
+<a href="A-Video-Ekle-M.dc.html" style="flex: 1 1 160px; display: flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 12px; border: 1px solid var(--edge-strong); color: var(--text); font-weight: 600; font-size: 15px; text-decoration: none">Cancel</a>
+<a href="A-Video-Ekle-M.dc.html" style="flex: 2 1 240px; display: flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 12px; background: var(--accent); color: var(--on-accent); font-weight: 600; font-size: 15px; text-decoration: none">Prepare template</a>
+</div>
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3); text-wrap: pretty">Preparing this template costs 1 credit. You are charged when you confirm. If the template cannot be prepared, the credit comes back.</p>
+</div>
+</section>
+
+<section style="flex: 1 1 560px; min-width: 0; max-width: 640px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-weight: 400; font-size: 13px; line-height: 1.4; color: var(--text-3)">Not enough credits</h2>
+<div role="dialog" aria-labelledby="hazirla-yetersiz" style="width: 100%; box-sizing: border-box; padding: 24px; border-radius: 24px; background: var(--surface); border: 1px solid var(--edge); display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h3 id="hazirla-yetersiz" style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em">Prepare this template</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty; overflow-wrap: anywhere">[VIDEO NAME] · 12 sec · 5 shots · No talking</p>
+</div>
+<dl style="margin: 0; display: flex; flex-direction: column; border-bottom: 1px solid var(--edge)">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding: 16px 0; border-top: 1px solid var(--edge); font-size: 17px"><dt style="font-weight: 600">Preparing this template</dt><dd style="margin: 0 0 0 auto; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere">1 credit</dd></div>
+<div style="display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-top: 1px solid var(--edge); font-size: 15px"><dt style="color: var(--text-2)">Balance now</dt><dd style="margin: 0; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere; color: var(--warn)">[BALANCE]</dd></div>
+</dl>
+<p role="alert" style="margin: 0; display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; border-radius: 12px; background: var(--bg); border: 1px solid var(--warn-edge); font-size: 15px; line-height: 1.5; color: var(--text)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; color: var(--warn)"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg><span style="min-width: 0; overflow-wrap: anywhere"><strong style="font-weight: 600; color: var(--warn)">You need 1 credit.</strong> Nothing was charged.</span></p>
+<div style="display: flex; flex-wrap: wrap-reverse; gap: 12px">
+<a href="A-Video-Ekle-M.dc.html" style="flex: 1 1 160px; display: flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 12px; border: 1px solid var(--edge-strong); color: var(--text); font-weight: 600; font-size: 15px; text-decoration: none">Cancel</a>
+<a href="A-Fiyatlar-M.dc.html" style="flex: 2 1 240px; display: flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 12px; background: var(--accent); color: var(--on-accent); font-weight: 600; font-size: 15px; text-decoration: none">Buy credits</a>
+</div>
+</div>
+</section>
+
+<section style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-weight: 400; font-size: 13px; line-height: 1.4; color: var(--text-3)">Template could not be prepared</h2>
+<article style="box-sizing: border-box; padding: 16px; border-radius: 16px; background: var(--surface); border: 1px solid var(--warn-edge); display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; justify-content: space-between; gap: 12px; align-items: baseline">
+<h3 style="margin: 0; min-width: 0; font-size: 15px; font-weight: 600; overflow-wrap: anywhere">[VIDEO NAME]</h3>
+<span style="flex: 0 0 auto"><span style="display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; color: var(--warn)"><span style="width: 8px; height: 8px; border-radius: 2px; background: var(--warn)"></span>Not prepared</span></span>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2)">We could not prepare this template. Your credit was returned.</p>
+<button type="button" style="align-self: flex-start; display: flex; align-items: center; justify-content: center; box-sizing: border-box; border-radius: 12px; font: inherit; font-weight: 600; text-decoration: none; cursor: pointer; min-height: 52px; padding: 0 24px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font-size: 15px; gap: 8px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12a7 7 0 1 1-2.05-4.95M17 3.5v3.6h-3.6"></path></svg>Try again</button>
+</article>
+</section>
+
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"theme":{"editor":"enum","options":["dark","light"],"default":"dark"},"$preview":{"width":390,"height":2740}}'>
+class Component extends DCLogic {
+renderVals() {
+return { theme: this.props.theme ?? 'dark' };
+}
+}
+</script>
+</body>
+</html>

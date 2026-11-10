@@ -1,0 +1,187 @@
+{
+  "title": "İşler",
+  "lead": "Tüm kullanıcıların tüm işleri: maliyeti ve durumu.",
+  "period": {
+    "label": "Dönem",
+    "today": "Bugün",
+    "7d": "7 gün",
+    "30d": "30 gün",
+    "all": "Tüm zamanlar"
+  },
+  "tile": {
+    "running": {
+      "label": "Şu an üretilen",
+      "sub": "Şu anda sürmekte olan işler"
+    },
+    "done": {
+      "label": "Bitti",
+      "sub": "Bu dönemde tamamlanan"
+    },
+    "stopped": {
+      "label": "Durdu",
+      "sub": "Bitmeden duran işler"
+    },
+    "average": {
+      "label": "Ortalama bitiş süresi",
+      "sub": "Başlangıçtan hazır videoya"
+    },
+    "cost": {
+      "label": "Üretim maliyeti",
+      "sub": "Videoları üretmek için ödenen"
+    }
+  },
+  "list": {
+    "label": "İş listesi"
+  },
+  "search": {
+    "label": "İşlerde ara",
+    "placeholder": "Kullanıcı veya şablona göre ara"
+  },
+  "filter": {
+    "label": "Durum",
+    "all": "Hepsi",
+    "running": "Üretiliyor",
+    "done": "Bitti",
+    "stopped": "Durdu",
+    "queued": "Sırada",
+    "closed": "Kapandı"
+  },
+  "table": {
+    "caption": "İşler",
+    "started": "Başladı",
+    "user": "Kullanıcı",
+    "template": "Şablon",
+    "video": "Video",
+    "credits": "Kredi",
+    "cost": "Maliyet",
+    "status": "Durum",
+    "actions": "İşlemler",
+    "returned": "İade edilen kredi"
+  },
+  "freeVideo": "Ücretsiz video",
+  "none": "Henüz yok",
+  "placeholder": {
+    "amount": "—"
+  },
+  "stepOf": "Adım {n} / {total} · {step}",
+  "open": "Aç",
+  "empty": {
+    "text": "Aramana veya filtreye uyan iş yok.",
+    "clear": "Aramayı ve filtreyi temizle"
+  },
+  "step": {
+    "adaptation": "Uyarlama",
+    "images": "Görseller",
+    "clips": "Klipler",
+    "music": "Müzik",
+    "edit": "Kurgu",
+    "render": "Çıktı"
+  },
+  "stepPlural": {
+    "adaptation": "uyarlama",
+    "images": "görsel",
+    "clips": "klip",
+    "music": "müzik",
+    "edit": "kurgu",
+    "render": "çıktı"
+  },
+  "reason": {
+    "clips-failed": "Bazı klipler üretilemedi",
+    "content-rule": "Bu işin görselleri ya da metni içerik kurallarımıza uymadığı için iş durduruldu. Devam ettirilemez.",
+    "generic": "İş durdu",
+    "submission-unknown": "Video sağlayıcıya giden bir isteğin yanıtı belli olmadı: orada olabilir de olmayabilir de. Sağlayıcının görev listesine bakın. Orada yoksa burada çözün, sonra işi yeniden deneyin.",
+    "short": {
+      "provider-credits": "Sağlayıcı kredisi bitti",
+      "provider-cap": "Harcama sınırına ulaşıldı",
+      "provider-refused": "Sağlayıcı isteği reddetti",
+      "provider-setup": "Sağlayıcı anahtarı ya da harcama sınırı",
+      "upload-failed": "Fotoğraf yüklenemedi",
+      "no-products": "Ürün fotoğrafı yok",
+      "submission-unknown": "Sağlayıcı yanıtı belirsiz",
+      "content-rule": "İçerik kuralını aştı"
+    },
+    "detail": {
+      "provider-credits": "Video sağlayıcısının kredisi bitti. Sağlayıcı hesabına kredi yükleyin, sonra işi yeniden deneyin. Biten parçalar saklanıyor.",
+      "provider-cap": "Harcama sınırımıza ulaşıldı (günlük ya da iş başına). Worker ayarlarından yükseltin ya da bir sonraki UTC gününü bekleyin, sonra yeniden deneyin.",
+      "provider-refused": "Sağlayıcı bir isteği reddetti (hız sınırı ya da kabul edilmeyen girdi). Sonra yeniden deneyin; tekrarlarsa işin stop.json dosyasına bakın.",
+      "provider-setup": "Sağlayıcı anahtarı eksik ya da kabul edilmiyor veya harcama sınırları tanımlı değil (VC_PROVIDER_DAILY_CAP, VC_PROVIDER_JOB_CAP). Worker ayarlarını düzeltin, sonra yeniden deneyin.",
+      "upload-failed": "Bir ürün fotoğrafı sağlayıcıya yüklenemedi. Yeniden deneyin; tekrarlarsa fotoğrafı kontrol edin.",
+      "no-products": "Örnek, ürün fotoğrafı olmadan başlatıldı."
+    }
+  },
+  "detail": {
+    "titleStopped": "Duran iş",
+    "title": "İş",
+    "label": "İş ayrıntıları",
+    "meta": "{email} · {format} · {quality} · {language} · Başladı {started}",
+    "steps": "Adımlar",
+    "stopped": "Burada durdu",
+    "stoppedAt": "Durduğu yer",
+    "reason": "Neden",
+    "saved": "Kaydedilen parçalar",
+    "savedPartial": "{total} {step} içinden {done}",
+    "currentStep": "Geçerli adım",
+    "finished": "Bitti",
+    "credits": "Düşülen kredi",
+    "retry": "İşi tekrar dene",
+    "openUser": "Kullanıcıyı aç",
+    "note": "Müşteriden ücret alınmaz. Biten parçalar kayıtlı kalır. Tekrar deneme yalnız eksik parçayı yapar.",
+    "returned": "İade edilen kredi"
+  },
+  "position": "Sıra {count}",
+  "language": {
+    "en": "İngilizce",
+    "tr": "Türkçe"
+  },
+  "problem": {
+    "looksDifferent": "Ürün farklı görünüyor",
+    "textWrong": "Yazı yanlış ya da kesilmiş",
+    "doesNotPlay": "Video oynatılmıyor",
+    "other": "Başka bir şey",
+    "notMe": "Bu ben değilim / iznim yok (kişi değiştirme)"
+  },
+  "review": {
+    "link": "Fotoğraf ön onayı ({count})",
+    "title": "Fotoğraf ön onayı",
+    "lead": "Kişi değiştirme işleri, bir yönetici fotoğraflarına bakana kadar burada bekler. En uzun bekleyen en üsttedir.",
+    "back": "Tüm işler",
+    "list": "Ön onay bekleyen işler",
+    "since": "{date} tarihinden beri bekliyor",
+    "leftHours": "{hours} sa {minutes} dk sonra kendiliğinden reddedilir",
+    "leftMinutes": "{minutes} dk sonra kendiliğinden reddedilir",
+    "credits": "Kesilen kredi: {count}",
+    "photos": "Müşterinin fotoğrafları",
+    "frame": "Video",
+    "frameAlt": "{title} videosundan kare",
+    "noFrame": "Gösterilecek kare yok",
+    "person": "Videodaki kişi: {hint}",
+    "kind": {
+      "body": "Tam boy fotoğraf",
+      "face": "Yüz fotoğrafı",
+      "side": "Yandan fotoğraf"
+    },
+    "photoAlt": "{email}: {kind}",
+    "noFile": "Test modunda dosya yok",
+    "gone": "Bu fotoğraf artık gösterilemiyor.",
+    "decided": "Karar verildi: fotoğraf artık gösterilmiyor.",
+    "deleted": "Silindi.",
+    "approve": "Onayla",
+    "reject": "Reddet",
+    "rejectDialog": {
+      "title": "Bu fotoğraflar reddedilsin mi?",
+      "body": "İş kapanır ve hiçbir şey üretilmez. Tüm kredileri geri döner, fotoğraflar hemen silinir ve müşteriye e-posta gider. Bu geri alınamaz.",
+      "keep": "Beklemeye devam",
+      "confirm": "Reddet"
+    },
+    "approved": "Onaylandı: {email} kullanıcısının işi sıraya girdi.",
+    "rejected": "Reddedildi: {email} kullanıcısının kredileri geri döndü, fotoğraflar silindi.",
+    "already": "Bu işe {date} tarihinde zaten cevap verilmiş. Hiçbir şey değişmedi.",
+    "failed": "Cevap iletilemedi. Hiçbir şey değişmedi.",
+    "refresh": "Listeyi güncelle",
+    "empty": {
+      "title": "Ön onay bekleyen fotoğraf yok",
+      "on": "Bir müşteri kişi değiştirme işi başlattığında burada görünür.",
+      "off": "Fotoğraf ön onayı Ayarlar'da kapalı: kişi değiştirme işleri ön onaysız başlar."
+    }
+  }
+}

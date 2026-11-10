@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Viral Clone — spacing, corners, grid</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ay{--bg:#0B0C0A;--surface:#151712;--raised:#1C1F17;--line:#23261E;--edge:#33372B;--edge-strong:#676B5D;--text:#F2F3EC;--text-2:#C9CCBF;--text-3:#A9AC9F;--accent:#C8F03C;--accent-hover:#E0FF7A;--accent-text:#C8F03C;--on-accent:#0B0C0A;--warn:#FF9A6B;--warn-edge:#5A3A2A;--mark-edge:#C8F03C;--scrim:rgba(11,12,10,0.76);--on-scrim:#F2F3EC;--media-edge:transparent;--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Onest',system-ui,sans-serif}
+.ay[data-theme="light"],.ay [data-theme="light"]{--bg:#F4F5EE;--surface:#FFFFFF;--raised:#E8EADF;--line:#E0E2D7;--edge:#CBCEBF;--edge-strong:#80856F;--text:#0B0C0A;--text-2:#3E4236;--text-3:#5A5F50;--accent-hover:#B6E01F;--accent-text:#456300;--warn:#A8400F;--warn-edge:#E3B7A2;--mark-edge:#0B0C0A;--media-edge:rgba(11,12,10,0.12)}
+a{color:var(--accent-text)}a:hover{color:var(--text)}
+</style>
+</helmet>
+<div class="ay" style="width: 1440px; min-height: 1320px; box-sizing: border-box; padding: 80px; background: var(--bg); color: var(--text); font-family: var(--body); display: flex; flex-direction: column; gap: 56px">
+
+<header style="display: flex; flex-direction: column; gap: 16px; max-width: 860px">
+<h1 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 64px; line-height: 0.98; letter-spacing: -0.03em">Scale</h1>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Spacing, corners, and control heights are each a short ladder. No value is used between the steps. The ladder applies to the product screens. These brand boards are laid out more loosely.</p>
+</header>
+
+<section style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; align-items: start">
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Spacing</h2>
+<div style="display: flex; flex-direction: column">
+<sc-for list="{{ steps }}" as="s" hint-placeholder-count="9">
+<div style="display: grid; grid-template-columns: 124px 56px minmax(0, 1fr); gap: 16px; align-items: center; min-height: 40px; border-top: 1px solid var(--line)">
+<span style="width: {{ s.w }}; height: 16px; border-radius: 2px; background: var(--text)"></span>
+<span style="font-size: 15px; font-weight: 600">{{ s.n }}</span>
+<span style="font-size: 15px; color: var(--text-2)">{{ s.use }}</span>
+</div>
+</sc-for>
+</div>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Page and grid</h2>
+<div aria-hidden="true" style="display: flex; flex-direction: column; gap: 8px">
+<div style="box-sizing: border-box; padding: 0 48px; border-radius: 12px; border: 1px solid var(--edge); background: var(--surface)">
+<div style="box-sizing: border-box; padding: 0 10px 16px; border-left: 1px dashed var(--edge-strong); border-right: 1px dashed var(--edge-strong); display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; align-items: center; justify-content: space-between; height: 34px; border-bottom: 1px solid var(--edge)"><span style="width: 44px; height: 8px; border-radius: 4px; background: var(--text-3)"></span><span style="width: 120px; height: 8px; border-radius: 4px; background: var(--edge-strong)"></span><span style="width: 64px; height: 8px; border-radius: 4px; background: var(--edge-strong)"></span></div>
+<div style="display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 8px">
+<span style="aspect-ratio: 9 / 16; border-radius: 6px; background: var(--raised)"></span>
+<span style="aspect-ratio: 9 / 16; border-radius: 6px; background: var(--raised)"></span>
+<span style="aspect-ratio: 9 / 16; border-radius: 6px; background: var(--raised)"></span>
+<span style="aspect-ratio: 9 / 16; border-radius: 6px; background: var(--raised)"></span>
+<span style="aspect-ratio: 9 / 16; border-radius: 6px; background: var(--raised)"></span>
+<span style="aspect-ratio: 9 / 16; border-radius: 6px; background: var(--raised)"></span>
+</div>
+</div>
+</div>
+<div style="display: flex; justify-content: space-between; font-size: 13px; color: var(--text-3)"><span>margin</span><span>container: 1320 px max, centered</span><span>margin</span></div>
+</div>
+<ul style="margin: 8px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 14px; font-size: 15px; line-height: 1.5; color: var(--text-2)">
+<li><strong style="font-weight: 600; color: var(--text)">Margin</strong> 4% of the screen; 16 px minimum, 60 px maximum.</li>
+<li><strong style="font-weight: 600; color: var(--text)">Top bar</strong> 80 px, one line below it. The same on every page.</li>
+<li><strong style="font-weight: 600; color: var(--text)">Video grid</strong> columns at least 210 px; 16 between columns, 32 between rows. The width decides how many columns fit.</li>
+<li><strong style="font-weight: 600; color: var(--text)">Two-column page</strong> narrow column 240–400 px, the wide column takes the rest. They stack on a narrow screen.</li>
+<li><strong style="font-weight: 600; color: var(--text)">Reading width</strong> text stays within 620 px, legal text within 760 px.</li>
+</ul>
+</div>
+
+</section>
+
+<section style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; align-items: start; padding-top: 40px; border-top: 1px solid var(--line)">
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Corners</h2>
+<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; align-items: start">
+<div style="display: flex; flex-direction: column; gap: 10px"><span style="height: 104px; box-sizing: border-box; border-radius: 8px; background: var(--surface); border: 1.5px solid var(--edge-strong)"></span><span style="font-size: 13px; line-height: 1.4; color: var(--text-3)"><strong style="display: block; font-size: 15px; font-weight: 600; color: var(--text)">8</strong>small images</span></div>
+<div style="display: flex; flex-direction: column; gap: 10px"><span style="height: 104px; box-sizing: border-box; border-radius: 12px; background: var(--surface); border: 1.5px solid var(--edge-strong)"></span><span style="font-size: 13px; line-height: 1.4; color: var(--text-3)"><strong style="display: block; font-size: 15px; font-weight: 600; color: var(--text)">12</strong>buttons, inputs</span></div>
+<div style="display: flex; flex-direction: column; gap: 10px"><span style="height: 104px; box-sizing: border-box; border-radius: 16px; background: var(--surface); border: 1.5px solid var(--edge-strong)"></span><span style="font-size: 13px; line-height: 1.4; color: var(--text-3)"><strong style="display: block; font-size: 15px; font-weight: 600; color: var(--text)">16</strong>cards, video frames</span></div>
+<div style="display: flex; flex-direction: column; gap: 10px"><span style="height: 104px; box-sizing: border-box; border-radius: 24px; background: var(--surface); border: 1.5px solid var(--edge-strong)"></span><span style="font-size: 13px; line-height: 1.4; color: var(--text-3)"><strong style="display: block; font-size: 15px; font-weight: 600; color: var(--text)">24</strong>dialogs, large panels</span></div>
+<div style="display: flex; flex-direction: column; gap: 10px"><span style="height: 44px; box-sizing: border-box; border-radius: 999px; background: var(--surface); border: 1.5px solid var(--edge-strong)"></span><span style="font-size: 13px; line-height: 1.4; color: var(--text-3)"><strong style="display: block; font-size: 15px; font-weight: 600; color: var(--text)">full</strong>tags, menus, filters</span></div>
+</div>
+<p style="margin: 8px 0 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">In nested corners, the inner radius is smaller than the outer one by the gap between them: a button 8 px inside a 16 card takes 8.</p>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Control height</h2>
+<div style="display: flex; flex-direction: column; gap: 14px">
+<div style="display: grid; grid-template-columns: 200px 48px minmax(0, 1fr); gap: 16px; align-items: center">
+<button type="button" style="justify-self: start; min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid var(--edge); background: transparent; color: var(--text-2); font: inherit; font-size: 15px">Lashes and brows</button>
+<span style="font-size: 15px; font-weight: 600">44</span>
+<span style="font-size: 15px; color: var(--text-2)">menus, filters, quiet buttons, row actions</span>
+</div>
+<div style="display: grid; grid-template-columns: 200px 48px minmax(0, 1fr); gap: 16px; align-items: center">
+<button type="button" style="justify-self: start; min-height: 52px; padding: 0 24px; border-radius: 12px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font: inherit; font-size: 15px; font-weight: 600">Cancel</button>
+<span style="font-size: 15px; font-weight: 600">52</span>
+<span style="font-size: 15px; color: var(--text-2)">inputs, standard buttons</span>
+</div>
+<div style="display: grid; grid-template-columns: 200px 48px minmax(0, 1fr); gap: 16px; align-items: center">
+<button type="button" style="justify-self: start; min-height: 60px; padding: 0 32px; border-radius: 12px; border: 0; background: var(--accent); color: var(--on-accent); font: inherit; font-size: 17px; font-weight: 600">Clone it</button>
+<span style="font-size: 15px; font-weight: 600">60</span>
+<span style="font-size: 15px; color: var(--text-2)">the page's main action</span>
+</div>
+<div style="display: grid; grid-template-columns: 200px 48px minmax(0, 1fr); gap: 16px; align-items: center">
+<button type="button" style="justify-self: stretch; min-height: 72px; padding: 10px 16px; border-radius: 12px; border: 1.5px solid var(--accent-text); background: var(--surface); color: var(--text); font: inherit; text-align: left; display: flex; flex-direction: column; justify-content: center; gap: 2px"><span style="font-size: 15px; font-weight: 600">Fast</span><span style="font-size: 13px; color: var(--text-3)">720p</span></button>
+<span style="font-size: 15px; font-weight: 600">72</span>
+<span style="font-size: 15px; color: var(--text-2)">two-line option box</span>
+</div>
+</div>
+<p style="margin: 8px 0 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Nothing you can tap goes below 44 px.</p>
+</div>
+
+</section>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1320}}'>
+class Component extends DCLogic {
+renderVals() {
+function s(n, use) { return { n: String(n), w: n + 'px', use: use }; }
+return {
+steps: [
+s(4, 'between icon and label'),
+s(8, 'between tags, inside buttons'),
+s(12, 'items inside a card'),
+s(16, 'card padding, grid column gap'),
+s(24, 'between form groups'),
+s(32, 'blocks in a section, grid row gap'),
+s(48, 'between page sections'),
+s(72, 'page bottom, large sections'),
+s(112, 'between sections on marketing pages')
+]
+};
+}
+}
+</script>
+</body>
+</html>

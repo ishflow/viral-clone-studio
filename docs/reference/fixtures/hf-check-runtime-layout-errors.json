@@ -1,0 +1,261 @@
+{
+  "ok": false,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": false,
+    "errorCount": 4,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "console_error",
+        "severity": "error",
+        "message": "boom from page",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-width": "720",
+          "data-height": "1280",
+          "data-fps": "30",
+          "data-duration": "2",
+          "data-no-timeline": ""
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 1280
+        },
+        "time": 0,
+        "url": "http://127.0.0.1:PORT/",
+        "line": 1106
+      },
+      {
+        "code": "page_error",
+        "severity": "error",
+        "message": "script broke",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-width": "720",
+          "data-height": "1280",
+          "data-fps": "30",
+          "data-duration": "2",
+          "data-no-timeline": ""
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 1280
+        },
+        "time": 0
+      },
+      {
+        "code": "http_error",
+        "severity": "error",
+        "message": "404 loading assets/fonts/missing.woff2",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-width": "720",
+          "data-height": "1280",
+          "data-fps": "30",
+          "data-duration": "2",
+          "data-no-timeline": ""
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 1280
+        },
+        "time": 0,
+        "url": "http://127.0.0.1:PORT/assets/fonts/missing.woff2"
+      },
+      {
+        "code": "request_failed",
+        "severity": "error",
+        "message": "Failed to load assets/fonts/missing.woff2: net::ERR_ABORTED",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-width": "720",
+          "data-height": "1280",
+          "data-fps": "30",
+          "data-duration": "2",
+          "data-no-timeline": ""
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 1280
+        },
+        "time": 0,
+        "url": "http://127.0.0.1:PORT/assets/fonts/missing.woff2"
+      }
+    ]
+  },
+  "layout": {
+    "ok": false,
+    "errorCount": 1,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "text_box_overflow",
+        "severity": "error",
+        "time": 1,
+        "selector": "#t-hook",
+        "message": "Text extends outside its nearest visual/container box.",
+        "rect": {
+          "left": -397.87,
+          "top": 556,
+          "right": 1117.89,
+          "bottom": 596,
+          "width": 1515.76,
+          "height": 40
+        },
+        "containerSelector": "#root",
+        "text": "scent layering combo that is far too long for its box and the whole canvas width",
+        "fixHint": "Text is 1516px x 40px inside 720px x 1280px and overflows by up to 398px; widen the container to at least ~1516px or shrink font-size from 40px to ~19px, or allow wrapping with max-width/fitTextFontSize.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 720,
+          "bottom": 1280,
+          "width": 720,
+          "height": 1280
+        },
+        "overflow": {
+          "left": 397.87,
+          "right": 397.89
+        },
+        "dataAttributes": {
+          "data-start": "0.3333333333333333",
+          "data-duration": "1.3333333333333333",
+          "data-track-index": "1"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -397.87,
+          "y": 556,
+          "width": 1515.76,
+          "height": 40
+        },
+        "firstSeen": 1,
+        "lastSeen": 1,
+        "occurrences": 1,
+        "heldMs": 0
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 1,
+        "selector": "#t-hook",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": -397.87,
+          "top": 554,
+          "right": 1117.89,
+          "bottom": 598,
+          "width": 1515.76,
+          "height": 44
+        },
+        "containerSelector": "#root",
+        "text": "scent layering combo that is far too long for its box and the whole canvas width",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 720,
+          "bottom": 1280,
+          "width": 720,
+          "height": 1280
+        },
+        "overflow": {
+          "left": 397.87,
+          "right": 397.89
+        },
+        "dataAttributes": {
+          "data-start": "0.3333333333333333",
+          "data-duration": "1.3333333333333333",
+          "data-track-index": "1"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -397.87,
+          "y": 554,
+          "width": 1515.76,
+          "height": 44
+        },
+        "firstSeen": 1,
+        "lastSeen": 1,
+        "occurrences": 1,
+        "heldMs": 0
+      }
+    ],
+    "duration": 2,
+    "samples": [
+      1
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 2,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": [],
+    "checked": 0,
+    "passed": 0
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "_meta": {
+    "version": "0.8.120",
+    "latestVersion": "0.8.92",
+    "updateAvailable": false
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "meta": {
+    "home": "Milyonlarca izlenen reklam videolarının çekim çekim yapısı, hazır. Ürün görsellerini yükle, aynı videoyu senin ürününle al.",
+    "pricing": "Abonelik olmadan kredi al, video üret. Her işten önce bir videonun kaç kredi tuttuğunu görürsün; sen onaylamadan hiçbir şey harcanmaz."
+  },
+  "home": {
+    "heroLead": "Aynı video.",
+    "heroAccent": "Senin ürünün.",
+    "lead": "Milyonlarca izlenen reklam videolarının çekim çekim yapısı, hazır. Ürün görsellerini yükle. Birkaç dakika sonra aynı video senin ürününle hazır.",
+    "browse": "Galeriye göz at",
+    "how": "Nasıl çalışır",
+    "freeNote": "İlk videon ücretsiz: Fast kalitede, konuşmasız bir video. Kart gerekmez.",
+    "stepsTitle": "Üç adım.",
+    "steps": {
+      "1": {
+        "title": "Bir şablon seç",
+        "body": "Her şablon gerçekten viral olmuş bir videonun yapısıdır: hangi çekim, kaç saniye, ekrandaki yazı ne diyor."
+      },
+      "2": {
+        "title": "Ürününü yükle",
+        "body": "Bir ya da birkaç görsel, ürün adı ve kısa bir açıklama yeter. Üretmeden önce kaç kredi tutacağını görürsün."
+      },
+      "3": {
+        "title": "Videonu indir",
+        "body": "Çekimler, yazılar ve müzik yeniden üretilip birleştirilir. Kısa videolar yaklaşık 6–7 dakikada hazır olur."
+      }
+    },
+    "proofLead": "Aynı kalan,",
+    "proofAccent": "yeni yapılan.",
+    "proofText": "Galeride oynayan her video bu sistemin kendi çıktısıdır, başkasının videosu değil. Yapı aynı kalır: çekimler, sıra, zamanlama ve ekran yazısı. İnsanlar, ortam ve müzik ürününün etrafında yeniden yapılır.",
+    "proofCta": "Örnekleri izle",
+    "sampleAlt": "Galerideki bir örnek videodan kare",
+    "sampleCaption": "Galerideki örnek",
+    "yourVideo": "Aynı video, senin ürünün",
+    "yourVideoCaption": "Senin videon",
+    "faqTitle": "Merak ettiklerin.",
+    "faq": {
+      "1": {
+        "q": "Başkasının videosunu mu kopyalıyorsun?",
+        "a": "Hayır. Videodan yalnızca yapı alınır. Görüntü, ses ve müzik senin ürünün için sıfırdan üretilir."
+      },
+      "2": {
+        "q": "Ne kadar sürer?",
+        "a": "Konuşmasız bir video yaklaşık 6–7 dakika sürer. Sayfadan ayrılabilirsin; hazır olunca sana e-posta göndeririz."
+      },
+      "3": {
+        "q": "Beğendiğim bir videoyu kullanabilir miyim?",
+        "a": "Evet. Dosyayı yükle ya da bağlantısını ver; 2–5 dakikada yalnızca senin görebildiğin bir şablon olur."
+      },
+      "4": {
+        "q": "Bir şey ters giderse kredi kaybeder miyim?",
+        "a": "Hayır. Bir video teslim edilmezse kredileri bakiyene geri döner ve biten parçalar kaydedilir. Hiçbir şey otomatik olarak yeniden denenmez; devam etmek yalnızca senin onayınla olur."
+      }
+    },
+    "finalTitle": "Gördün mü? Klonla.",
+    "finalCta": "Başla"
+  },
+  "pricing": {
+    "notice": { "tooManyCheckouts": "Bugün çok fazla yarım ödeme açtın. Birini bitir ya da iptal et, ya da yarın tekrar dene.", "paymentUnavailable": "Ödeme sayfasını şu anda açamadık. Senden ücret alınmadı. Biraz sonra tekrar dene." },
+    "titleLead": "Kredi al,",
+    "titleAccent": "video üret.",
+    "lead": "İlk videon ücretsiz: Fast kalitede, konuşmasız bir video. Kart gerekmez. Sonrasında abonelik olmadan kredi alırsın. Her işten önce kaç kredi tuttuğunu görürsün; sen onaylamadan hiçbir şey harcanmaz.",
+    "leadPaid": "Abonelik olmadan kredi alırsın. Her işten önce kaç kredi tuttuğunu görürsün; sen onaylamadan hiçbir şey harcanmaz.",
+    "packsLabel": "Kredi paketleri",
+    "price": "[PRICE]",
+    "creditsLine": "{credits} kredi",
+    "note": {
+      "pack-starter": "Denemek için.",
+      "pack-standard": "Düzenli üretim için.",
+      "pack-studio": "Çok ürün, çok varyant."
+    },
+    "buy": "Satın al",
+    "costsTitle": "Video başına kaç kredi?",
+    "cost": {
+      "noTalkingFast": {
+        "name": "Konuşmasız video, Fast",
+        "detail": "720p"
+      },
+      "noTalkingBest": {
+        "name": "Konuşmasız video, Best",
+        "detail": "1080p"
+      },
+      "talkingFast": {
+        "name": "Konuşmalı video, Fast",
+        "detail": "720p"
+      },
+      "talkingBest": {
+        "name": "Konuşmalı video, Best",
+        "detail": "1080p"
+      },
+      "ownTemplate": {
+        "name": "Kendi videonu şablona çevirmek",
+        "detail": "dosya ya da bağlantı"
+      }
+    },
+    "faqTitle": "Sık sorulanlar",
+    "faq": {
+      "1": {
+        "q": "Ne ücretsiz?",
+        "a": "Fast kalitede, tek varyantlı bir konuşmasız video. Filigran yok ve indirebilirsin. İş durursa ücretsiz videon geri gelir."
+      },
+      "2": {
+        "q": "Krediler ne zaman harcanır?",
+        "a": "Her işten önce fiyatı görürsün. Ücret, sen onayladığında alınır. Video teslim edilmezse krediler geri döner."
+      },
+      "3": {
+        "q": "Video teslim edilmezse ne olur?",
+        "a": "O videonun kredileri hemen bakiyene geri döner ve biten parçalar kaydedilir. Tekrar deneyebilir, yedek modelle devam edebilir ya da işi durdurabilirsin. İlk onayladığın fiyattan fazlasını asla ödemezsin."
+      },
+      "4": {
+        "q": "Kredilerin süresi dolar mı?",
+        "a": "Hayır. Kredilerin süresi dolmaz. Hesabını silersen kalan krediler silinir."
+      },
+      "5": {
+        "q": "İade alabilir miyim?",
+        "a": "Evet, paketten hiç kredi kullanılmadıysa satın almadan sonraki 14 gün içinde tam iade. Bir kredi kullanıldıktan sonra iade yoktur; kalan krediler geçerli kalır. Bir video teslim edildiğinde ya da onunla bir şablon hazırlandığında kredi kullanılmış sayılır. Durmuş bir işten geri dönen krediler kullanılmış sayılmaz."
+      },
+      "6": {
+        "q": "Hangi format ve kalite?",
+        "a": "Her video dikeydir, 9:16. Fast 720p, Best 1080p."
+      },
+      "7": {
+        "q": "Hangi diller?",
+        "a": "Site İngilizce ve Türkçe. Videodaki ekran yazısı ve ses İngilizce ya da Türkçe olabilir."
+      },
+      "8": {
+        "q": "Fatura alabilir miyim?",
+        "a": "Her satın almanın faturası Hesap sayfanda durur ve PDF olarak iner. Fatura adın ve adresin ödeme sırasında alınır. Faturadaki bilgiler yanlış mı? Destekle iletişime geç."
+      }
+    },
+    "about": "Yaklaşık {count} video",
+    "aboutBasis": "Konuşmasız · Fast · tek varyant",
+    "tax": "Fiyatlar ABD doları cinsindendir. Vergi, geçerli olduğu yerde ödeme sırasında eklenir.",
+    "costsNote": "Fiyat sabittir: video başına kredi × varyant sayısı (1 ile 3 arası). Şablonun uzunluğu fiyatı değiştirmez."
+  },
+  "legal": {
+    "nav": "Yasal sayfalar",
+    "updated": "Son güncelleme: 7 Ekim 2026",
+    "text": "Aşağıdaki bölümleri oku.",
+    "doc": {
+      "terms": "Kullanım şartları",
+      "privacy": "Gizlilik",
+      "refunds": "İadeler",
+      "cookies": "Çerezler",
+      "content": "İçerik politikası"
+    },
+    "sections": {
+      "terms": {
+        "1": "1. Hizmet",
+        "2": "2. Aynı kalan",
+        "3": "3. Hesabın",
+        "4": "4. Krediler",
+        "5": "5. Ödeme ve iadeler",
+        "6": "6. Teslim edilmeyen videolar",
+        "7": "7. Yüklediğin görseller ve videolar",
+        "8": "8. Üretilen videoların kullanımı",
+        "9": "9. İçerik kuralları",
+        "10": "10. Sorumluluk ve iletişim"
+      },
+      "privacy": {
+        "1": "1. Ne topluyoruz",
+        "2": "2. Nasıl kullanıyoruz",
+        "3": "3. Kimlerle paylaşılır",
+        "4": "4. Ne kadar saklarız",
+        "5": "5. Hakların",
+        "6": "6. İletişim"
+      },
+      "refunds": {
+        "1": "Kullanılmamış paketler",
+        "2": "Kullanılan krediler",
+        "3": "Teslim edilmeyen videolar",
+        "4": "Yanlış çıkan bir video",
+        "5": "İade nasıl istenir",
+        "6": "İstedikten sonra"
+      },
+      "content": {
+        "1": "1. Yüklediğin görseller ve videolar",
+        "2": "2. Şablonlar ve kaynak videolar",
+        "3": "3. Üretilen videolar",
+        "4": "4. Sorun bildirme"
+      },
+      "cookies": {
+        "1": "1. Ne kullanıyoruz",
+        "2": "2. Neden",
+        "3": "3. Seçeneklerin"
+      }
+    },
+    "heading": {
+      "refunds": "İade politikası"
+    },
+    "body": {
+      "terms": {
+        "1": "- Viral Clone’u şirket değil, bir kişi işletir: {company}, {address}, {supportEmail}.\n- Bir şablon seçersin (kısa bir TikTok veya YouTube videosunun yapısı), kendi ürününün fotoğraflarını yüklersin, biz de senin için kısa bir yapay zekâ reklam videosu üretiriz. Ödemeyi kredi ile yaparsın.\n- Videodan görüntülenme, satış ya da herhangi bir sonuç sözü vermeyiz.",
+        "2": "- Yapı aynı kalır: çekimler, sıra, zamanlama ve ekran yazısı.\n- İnsanlar, ortam ve müzik ürününün etrafında yeniden yapılır.\n- Ürünün üzerindeki etiket ve küçük yazı gerçeğinden biraz farklı çıkabilir. Kullanmadan önce kontrol et.",
+        "3": "- Doğrulanmış e-postası olan bir hesap gerekir. Şifreni gizli tut. Hesabında olanlardan sen sorumlusun.\n- Hizmeti kullanmak için 18 yaşında ya da daha büyük olman gerekir.\n- Hesap bölümünden adını, e-postanı ve dilini değiştirebilir, videolarını ve hesabını silebilirsin. Hesabı silmek için DELETE yazman gerekir; sırada ya da çalışan iş varken hesap silinemez. Silinen hesapta kalan krediler kaybolur. Silinenlerin ve kalanların listesi Gizlilik sayfasında.\n- Kullanımı sınırlayabiliriz (örneğin günlük fotoğraf, yüklenen video ve yapay zekâ işi sınırları) ve bu şartları ya da İçerik politikasını çiğneyen hesabı engelleyebiliriz. Engellenen hesabın oturumu hemen kapanır.\n- İlk videon, teklif açıkken, kişi başına bir kez ücretsiz olabilir. Hak e-postana bağlıdır: hesabı silip aynı e-postayla dönmek ikinci ücretsiz video vermez.",
+        "4": "- Krediler paket olarak satılır. Abonelik yoktur.\n- Kredilerin süresi dolmaz, devredilemez ve nakit değeri yoktur.\n- Her işin kredi fiyatını onaylamadan önce görürsün. Ondan önce hiçbir şey harcanmaz. Onayladığın fiyattan fazlasını asla ödemezsin.",
+        "5": "- Kart ödemesini dışarıdaki bir ödeme sağlayıcısı yapar. Kart numaranı görmeyiz, saklamayız.\n- Sağlayıcı fatura adını ve adresini ister. Her satın alma için Hesap’ında bir makbuz (fatura) tutarız.\n- Fiyatlar gösterildiği gibidir. ishflow’un vergi numarası yoktur; ödeme sağlayıcısı, ülkenin gerektirdiği vergiyi ödeme adımında ekleyebilir.\n- İadeler İade politikasına tabidir.",
+        "6": "- Ücret, işi onayladığında alınır. Video teslim edilmezse krediler kendiliğinden bakiyene döner.\n- Yanlış çıkan video 7 gün içinde bildirilebilir (İade politikası).",
+        "7": "- Yalnızca kullanma hakkın olanı yükle: kendi ürün fotoğrafların, logoların, videoların. Tanınabilen herkesin rızasını al.\n- Yükleyerek ya da bağlantı vererek, bunları yalnızca videonu yapmak için saklamamıza, işlememize ve sağlayıcılarımıza göndermemize izin verirsin (Gizlilik’e bak).\n- Yüklediğin içerikteki haklar sende kalır. İçerikten sen sorumlusun.\n- İçerik kuralları İçerik politikasında.",
+        "8": "- Bizim senin için yaptığımız videoları ticari amaç dâhil serbestçe kullanabilirsin. ishflow, videonu iznin olmadan örnek olarak göstermez.\n- Yapay zekâ çıktısı telif korumasına uygun olmayabilir ve reklam platformunun kurallarını karşılamayabilir. Birçok platform yapay zekâ içeriğini etiketlemeni ister: yayınladığın platformun kurallarına bak.\n- Yayınlamadan önce her videoyu incele. Videolar 12 ay saklanır, sonra gösterilmez; istersen daha önce silebilirsin.",
+        "9": "- İçerik politikasını çiğneme. İçerik kuralını çiğneyen iş durur ve devam ettirilemez.\n- Üretim hatası tek başına kural ihlali kararı değildir.\n- Bir iş açık bir ihlal yüzünden durursa önce seni uyarırız. Tekrarlanırsa hesabını engelleyebiliriz. Karara 14 gün içinde {supportEmail} adresine yazarak itiraz edebilirsin.",
+        "10": "- Hizmet “olduğu gibi” sunulur. Yapay zekâ çıktısı hata içerebilir.\n- Sana karşı sorumluluğumuz, son 12 ayda ödediğin tutarla sınırlıdır.\n- Bu şartlara işleticinin ülkesinin hukuku uygulanır. Uyuşmazlıklar işleticinin iş yeri mahkemelerinde çözülür.\n- Bu şartları değiştirebiliriz; yeni tarihi en üstte gösteririz. Sorular: {company}, {address}, {supportEmail}."
+      },
+      "refunds": {
+        "1": "- Bir paketten hiç kredi kullanmadıysan, satın almadan sonraki 14 gün içinde paketin tamamını iade ederiz. Böyle her istek onaylanır.\n- İade yalnızca paketin tamamı içindir, bir kısmı için değil. İade, ödediğin tutarın tamamıdır.",
+        "2": "- Bir video teslim edildiğinde ya da onunla kendi şablonun hazırlandığında kredi kullanılmış sayılır.\n- Durmuş bir işten geri dönen krediler kullanılmış sayılmaz.\n- Bir paketten bir kredi kullanıldıktan sonra o paket iade edilmez. Kalan kredilerin geçerli kalır; kredilerin süresi dolmaz.",
+        "3": "- Bir video teslim edilmezse kredileri kendiliğinden bakiyene geri döner. Hesabında “Geri dönen krediler” olarak görürsün.\n- Bu paranın değil kredinin geri dönüşüdür; bu yüzden bir şey istemen gerekmez.",
+        "4": "- 7 gün içinde bize söyle: sonucu aç ve “Sorun bildir”i seç.\n- 2 iş günü içinde bakarız. Video yanlışsa ücretsiz yeniden üretiriz.\n- Video, ürünün açıkça görünmediği ya da yazısı bozuk olduğu zaman yanlıştır. Üslupta farklı bir beğeni sebep değildir.",
+        "5": "- Hesap → Satın almalar’ı aç ve pakette “İade iste”yi seç.\n- İstek açıkken o paketin kredileri ayrılır. İsteği geri alıp kredileri yeniden kullanabilirsin.\n- 2 iş günü içinde cevap veririz.\n- İade gerçekleşmezse krediler bakiyene geri döner.",
+        "6": "- Satın almalar’da isteğinin nerede olduğunu görürsün: İade istendi → İade gönderildi → İade edildi (ya da İade olmadı).\n- Para, kullandığın ödeme yöntemine geri döner. Ödeme sağlayıcısına bağlı olarak görünmesi birkaç gün sürebilir.\n- İade gönderildiğinde o paketin kredileri düşülür.\n- Kart ödemesine bankada itiraz edilirse (chargeback), inceleme sürerken hesabı durdurabiliriz.\n- Bu politikadaki hiçbir şey yasadan gelen haklarını sınırlamaz."
+      },
+      "privacy": {
+        "1": "- Hesap: e-posta adresi, isteğe bağlı ad, dil, hesap durumu. Şifren yalnızca tuzlanmış hash (scrypt) olarak saklanır, okunabilir biçimde asla.\n- Video için verdiklerin: ürün fotoğrafları, ürün açıklamaları, TikTok / YouTube video bağlantıları, yüklediğin video dosyaları.\n- Bizim ürettiklerimiz: üretilen videolar, iş geçmişi, kredi hareketleri, satın almalar, faturalar.\n- Destek’e yazdığın mesajlar.\n- Güvenlik kayıtları: giriş bağlantıları (e-posta doğrulama, şifre sıfırlama, e-posta değiştirme) ve başarısız giriş denemeleri.\n- Çerezler: Çerez politikasına bak. Analitik ya da reklam aracı kullanmıyoruz.\n- Kart numaranı görmeyiz, saklamayız; ödeme sağlayıcısı halleder.",
+        "2": "- Girişini yapmak, e-postanı doğrulamak, şifre sıfırlamak için.\n- Videolarını üretmek, göstermek ve saklamak için.\n- Kredileri, satın almaları, faturaları ve iadeleri yönetmek ve bunlarla ilgili e-postaları göndermek için.\n- Desteğe cevap vermek, kötüye kullanımı önlemek (sınırlar, engeller) ve hizmeti işletmek için.\n- Kişisel verileri işleticinin ülkesinin kişisel veri mevzuatına göre işleriz. AB ya da AEA’dasan GDPR hakların da geçerlidir (Hakların bölümüne bak).",
+        "3": "Veriyi yalnızca ürünü çalıştıran hizmetlere göndeririz:\n- Video / görsel / müzik üretimi: Magnific. Ürün fotoğraflarını ve her üretimin istemlerini (prompt) alır.\n- Yapay zekâ dil modeli: bir yapay zekâ modeli (Anthropic’in Claude’u) videon için planı yazmak üzere kaynak videonun karelerini ve ürün fotoğraflarını okur. Ürün fotoğrafların ona gönderilir.\n- Video indirme: TikTok / YouTube bağlantısı verdiğinde sunucumuz o videoyu platformdan indirip yapısını inceler.\n- Ödeme: dışarıdaki bir ödeme sağlayıcısı. E-postanı ve ne aldığını alır; fatura bilgilerini ve kart verisini kendisi toplar.\n- E-posta: bir e-posta gönderim hizmeti (Resend) e-postalarımızı sana ulaştırır.\n- Barındırma: hizmet, işleticinin kendi sunucusunda çalışır. Bu değişirse bu sayfa güncellenir.\n- Verini satmayız. Yukarıdaki sağlayıcılar işleticinin ülkesi dışında olduğundan, onlara gönderdiğimizde verin ülke dışına çıkar; onlara yalnızca hizmetin gerektirdiğini göndeririz.",
+        "4": "- Hiçbir işin kullanmadığı yüklenmiş fotoğraflar 2 gün sonra gösterilmez olur.\n- Duran bir iş 30 gün boyunca devam ettirilebilir. Ödenmiş ara görseller iş bittikten sonra 30 gün saklanır.\n- Bitmiş videolar 12 ay saklanır, sonra gösterilmez.\n- Hesabını sildiğinde hesabın, şifre hash’in, işlerin, özel şablonların, açık ödenmemiş ödeme işlemlerin, taslakların ve giriş bağlantıların kaldırılır; videoların, yüklemelerin ve şablonların hemen gösterilmez olur.\n- Silindikten sonra kalanlar: satın almalar, faturalar ve kredi geçmişi (vergi ve muhasebe kuralları gerektirdiği sürece) ve e-postanın tek yönlü parmak izi (SHA-256) ile ücretsiz video tarihi; böylece ücretsiz video iki kez alınamaz. Parmak izini en az 12 ay saklarız.\n- Dikkat: “gösterilmez” diskten silinmiş demek değildir. Dosyalar silinmez, kenara taşınır. Yedekler ve eski dosyalar güvenlik ve muhasebe için gerektiği sürece kalır; fiziksel silme için tarih sözü vermeyiz.",
+        "5": "- Hesap bölümünden adını, e-postanı ve dilini görüp değiştirebilir, videolarını ve hesabını silebilirsin.\n- Verinin bir kopyasını, düzeltmeyi ya da silmeyi istemek için {supportEmail} adresine yaz. 30 gün içinde cevap veririz.\n- AB ya da AEA’dasan GDPR’nin verdiği haklara da sahipsin: erişim, düzeltme, silme, kısıtlama, itiraz ve taşınabilirlik. Aynı adrese yaz.\n- işleticinin ülkesinin kişisel verilerin korunmasında yetkili kurumuna şikâyet edebilirsin.\n- İş çalışırken hesap silinemez; bitmesini bekle.",
+        "6": "{company}, {address}, {supportEmail}. ishflow şirket değil, bir kişidir."
+      },
+      "cookies": {
+        "1": "- vc_session: girişini açık tutar. İmzalı, HttpOnly, SameSite=Lax, HTTPS’te Secure. 30 gün sürer, siteyi kullandıkça yenilenir.\n- vc_locale: dilini hatırlar. En çok 1 yıl sürer.\n- vc_theme: açık ya da koyu temayı hatırlar. “Sistem” seçilince silinir. En çok 1 yıl sürer.\n- vc_cookies: çerez bildirimine verdiğin cevabı hatırlar. 1 yıl sürer.\n- Analitik çerezi yok. Reklam çerezi yok. Başka şirketlerin izlemesi yok.\n- Yazı tipleri kendi sitemizden sunulur; tarayıcın başka yazı tipi sunucularına gitmez.",
+        "2": "- vc_session giriş yapmak ve hesabını kullanmak için gereklidir.\n- vc_locale ve vc_theme tercihlerini saklar.\n- vc_cookies bildirime cevap verdiğini hatırlar.\n- Bugün “Tümünü kabul et” ile “Yalnızca gerekli olanlar” ikisi de sadece seçimini kaydeder; “Tümünü kabul et” fazladan bir şey açmaz.",
+        "3": "- Bildirimdeki iki düğmeden birini seç. Fikrini altbilgideki “Çerez ayarları” ile değiştirebilirsin.\n- Çerezleri tarayıcında silebilir ya da engelleyebilirsin. vc_session’ı silmek seni çıkışa götürür; engellemek giriş yapmanı engeller. Tercih çerezlerini silmek varsayılanları geri getirir; vc_cookies’i silmek bildirimi yeniden gösterir.\n- İleride isteğe bağlı çerez (örneğin analitik) eklersek bu sayfayı güncelleriz ve önce sana sorarız.\n- Sorular: {supportEmail}."
+      },
+      "content": {
+        "1": "Yalnızca kullanma hakkın olan materyali yükle.\n- Kendi ürün fotoğrafların, ambalajın ve logoların ya da izin aldıkların.\n- Tanınabilen bir kişi görünmeyi kabul etmiş olmalı. Başkalarının (çocuklar dâhil) fotoğraflarını rızaları olmadan yükleme.\n- Yüklediğinin sorumluluğu sende.\nŞunları yükleme, bize de yaptırma:\n- cinsel ya da yetişkin içerik;\n- şiddet içeren, nefret söylemi barındıran, insanları taciz eden ya da tehdit eden içerik;\n- başka bir kişi ya da markayı taklit eden ya da onun gibi görünen, aldatmaya yönelik içerik (sahte yorum, sahte tavsiye, sahte sağlık ya da finans iddiası);\n- başkasının haklarını çiğneyen içerik (telif, marka, gizlilik, görüntü hakkı);\n- yasa dışı olan ya da platformların reklamda yasakladığı ürünlerle ilgili her şey;\n- silah, tütün veya nikotin, uyuşturucu, reçeteli ilaç ve kanıtsız sağlık iddiası, kumar ya da yetişkin içerik reklamları.\nHizmeti kullanmak için 18 yaşında ya da daha büyük olman gerekir.",
+        "2": "- Şablon, kısa bir videonun yapısıdır (çekimler, sıra, zamanlama, ekran yazısı). Bir TikTok ya da YouTube video bağlantısı bu yapıya işaret eder; başkasının görüntüsü, markası, yüzü ya da müziği için lisans değildir.\n- Ürününün etrafında yeni insanlar, yeni ortam ve yeni müzik yaparız. Orijinal videoyu vermeyiz; gerçek bir kişinin yüzünü ya da sesini kopyalamamızı isteyemezsin.\n- Kaynak video bağlantısını yalnızca inceleyip yapısından öğrenebileceğin bir video için ver. Gönderdiğin şeyi kullanma hakkından sen sorumlusun.\n- Telif şikâyeti: bir şablonun dayandığı videonun ya da görüntünün hakları sendeyse, şablon ya da video bağlantısıyla {supportEmail} adresine yaz. 5 iş günü içinde inceleriz; şikâyet haklıysa şablonu kaldırırız.",
+        "3": "- Görselleri ya da yazısı bu kuralları açıkça çiğneyen iş, içerik kuralıyla durdurulur. Devam ettirilemez.\n- Başka bir nedenle başarısız olan üretim, kuralı çiğnediğin anlamına gelmez.\n- Üretilen videolar hata içerebilir (yanlış yazı, garip eller, farklı bir etiket). Yayınlamadan önce incele.\n- TikTok, YouTube, Meta ve diğerlerinin reklam kurallarına bak; yapay zekâ içeriğini istedikleri yerde etiketle.\n- Bu kuralları çiğnersen önce seni uyarırız. Tekrarlanırsa hesabını engelleyebiliriz. Karara 14 gün içinde {supportEmail} adresine yazarak itiraz edebilirsin.",
+        "4": "- Aldığın videoyla ilgili sorun: sonucu aç ve “Sorun bildir”i seç (7 gün içinde; İade politikasına bak).\n- İçerik ya da hak sorunu (senin ya da başkasının): {supportEmail} adresine iş ya da video bağlantısı ve neyin yanlış olduğu ile yaz. Şifre gönderme.\n- 2 iş günü içinde cevap veririz."
+      }
+    },
+    "refundsContact": {
+      "before": "Ayrıca",
+      "link": "destekle iletişime geçebilir",
+      "after": "veya {supportEmail} adresine yazabilirsin."
+    }
+  },
+  "contact": {
+    "title": "Nasıl yardımcı olabiliriz?",
+    "lead": "Bize yaz, yanıt e-postayla gelir. 2 iş günü içinde yanıtlıyoruz. Konu bir videoysa, aynı işe bakabilmemiz için bağlantısını ekle.",
+    "formLabel": "İletişim formu",
+    "topic": "Konu nedir?",
+    "topics": {
+      "video": "Bir videoyla ilgili sorun",
+      "refund": "İade",
+      "payment": "Ödeme ve krediler",
+      "account": "Hesabım",
+      "other": "Başka bir şey"
+    },
+    "email": "E-postan",
+    "emailPlaceholder": "ad@ornek.com",
+    "link": "Videonun bağlantısı (isteğe bağlı)",
+    "linkPlaceholder": "Videolarım'dan bağlantıyı yapıştır",
+    "message": "Mesaj",
+    "messagePlaceholder": "Ne oldu, sen ne bekliyordun?",
+    "send": "Mesajı gönder",
+    "error": {
+      "email": "Geçerli bir e-posta adresi gir.",
+      "link": "https:// ile başlayan bir bağlantı gir.",
+      "message": "En az 10 karakter yaz (en fazla 2000).",
+      "topic": "Bir konu seç.",
+      "limited": "Kısa sürede birkaç mesaj gönderdin. Mesajın burada duruyor: bir saat sonra yeniden dene."
+    },
+    "again": "Yeni bir mesaj yaz",
+    "quickTitle": "Kısa yanıtlar",
+    "quick": {
+      "1": {
+        "q": "Krediler ne zaman harcanır?",
+        "a": "Yalnızca bir işi onayladığında. Önce fiyatı görürsün."
+      },
+      "2": {
+        "q": "Video teslim edilmezse ne olur?",
+        "a": "Teslim edilmeyen videonun kredileri bakiyene geri döner ve biten parçalar kaydedilir. İlk onayladığın fiyattan fazlasını asla ödemezsin."
+      },
+      "3": {
+        "q": "Fatura alabilir miyim?",
+        "a": "Her satın almanın faturası Hesap sayfanda. Fatura bilgileri yanlışsa bize buradan yaz."
+      }
+    },
+    "emailLead": "E-posta mı tercih edersin? Şuraya yaz:",
+    "emailAddress": "{supportEmail}",
+    "sending": "Gönderiliyor…",
+    "sent": "Mesaj gönderildi. Referans {reference}. {days} iş günü içinde yanıtlıyoruz.",
+    "duplicate": "Bu mesajı zaten gönderdin.",
+    "reference": "Referans {reference}.",
+    "failed": "Gönderilemedi. Mesajın burada duruyor. Tekrar dene.",
+    "tryAgain": "Tekrar dene",
+    "aboutJob": "İlgili iş",
+    "noJob": "Bir işle ilgili değil",
+    "jobHint": "İş kimliği senin için eklenir.",
+    "answerTo": "Yanıtı {email} adresine e-postayla veririz."
+  }
+}

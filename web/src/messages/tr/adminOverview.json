@@ -1,0 +1,111 @@
+{
+  "title": "Genel bakış",
+  "lead": "Müşteriler, ödemeler, krediler ve videoların üretim maliyeti.",
+  "period": {
+    "label": "Dönem",
+    "today": "Bugün",
+    "7d": "7 gün",
+    "30d": "30 gün",
+    "all": "Tüm zamanlar"
+  },
+  "placeholder": {
+    "amount": "—"
+  },
+  "customers": {
+    "title": "Müşteriler",
+    "users": {
+      "label": "Kullanıcı",
+      "sub": "Doğrulanmış ya da değil, tüm hesaplar"
+    },
+    "signups": {
+      "label": "Yeni kayıt",
+      "sub": "Bu dönemde açılan hesaplar"
+    },
+    "verified": {
+      "label": "Doğrulanmış e-posta",
+      "sub": "E-posta adresini onaylayanlar"
+    },
+    "paying": {
+      "label": "Ödeme yapanlar",
+      "sub": "En az bir kredi paketi alanlar"
+    }
+  },
+  "money": {
+    "title": "Para ve krediler",
+    "revenue": {
+      "label": "Gelir",
+      "sub": "Bu dönemdeki ödenmiş satın almalar"
+    },
+    "sold": {
+      "label": "Satılan kredi",
+      "sub": "Ödenmiş paketlerdeki kredi"
+    },
+    "spent": {
+      "label": "Harcanan kredi",
+      "sub": "Video üretmek için kullanıldı"
+    },
+    "free": {
+      "label": "Kullanılan ücretsiz video",
+      "sub": "İlk video, ücretsiz"
+    },
+    "cost": {
+      "label": "Üretim maliyeti",
+      "sub": "Videoları üretmek için ödenen"
+    },
+    "margin": {
+      "label": "Brüt kâr",
+      "sub": "Gelir eksi üretim maliyeti"
+    }
+  },
+  "attention": {
+    "title": "İlgi bekleyenler",
+    "stopped": {
+      "title": "Duran işler",
+      "text": "Bitmeden duran işler."
+    },
+    "payments": {
+      "title": "Tamamlanmayan ödemeler",
+      "text": "Başlatılan ama ödenmeyen ödemeler."
+    },
+    "templates": {
+      "title": "Yayın bekleyen şablonlar",
+      "text": "Hazırlanmış ama henüz galeride olmayan şablonlar."
+    },
+    "refunds": {
+      "title": "İade istekleri",
+      "text": "Henüz yanıtlanmamış iade isteği olan satın almalar."
+    }
+  },
+  "chart": {
+    "title": "Gelir ve üretim maliyeti",
+    "label": "Günlük gelir ve üretim maliyeti"
+  },
+  "purchases": {
+    "title": "Son satın almalar",
+    "date": "Tarih",
+    "user": "Kullanıcı",
+    "pack": "Paket",
+    "amount": "Tutar",
+    "refunded": "İade edildi",
+    "packName": "{name} paketi",
+    "empty": "Bu dönemde satın alma yok.",
+    "all": "Tüm satın almaları gör"
+  },
+  "signups": {
+    "title": "Son kayıtlar",
+    "date": "Tarih",
+    "user": "Kullanıcı",
+    "email": "E-posta",
+    "firstVideo": "İlk video",
+    "verified": "Doğrulandı",
+    "notVerified": "Doğrulanmadı",
+    "first": {
+      "done": "Bitti",
+      "running": "Üretiliyor",
+      "stopped": "Durdu",
+      "none": "Henüz yok"
+    },
+    "empty": "Henüz kayıt yok.",
+    "all": "Tüm kullanıcıları gör"
+  }
+}

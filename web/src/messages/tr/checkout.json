@@ -1,0 +1,117 @@
+{
+  "success": {
+    "title": "{credits} eklendi.",
+    "waiting": {
+      "title": "Videon seni bekliyor",
+      "back": "Videona dön"
+    },
+    "browse": "Galeriye göz at",
+    "back": "Kaldığın yere dön",
+    "receipt": "Makbuz",
+    "pack": "Paket",
+    "packName": "{name} paketi",
+    "credits": "Kredi",
+    "paid": "Ödenen",
+    "price": "Paket bedeli",
+    "tax": "Vergi",
+    "amount": "[AMOUNT]",
+    "date": "Tarih",
+    "balance": "Yeni bakiye",
+    "invoice": "Faturayı indir",
+    "invoiceDodo": "Fatura (Dodo)",
+    "status": "Ödeme alındı",
+    "text": "Bakiyen artık {balance}. Fatura Hesap sayfanda kayıtlı."
+  },
+  "draft": {
+    "products": {
+      "one": "{count} ürün",
+      "other": "{count} ürün"
+    },
+    "imageAlt": "Şablondan örnek kare"
+  },
+  "failed": {
+    "title": "Ödeme reddedildi.",
+    "next": "Yapabileceklerin",
+    "message": "Kartın ya da bankan ödemeyi onaylamadı. Tekrar denemek yeni bir güvenli ödeme sayfası açar; bilgilerini orada yeniden girersin.",
+    "retry": "Başka bir ödeme yöntemi dene",
+    "retrySub": "{pack} paketi · {credits} kredi · {price}",
+    "another": "Başka paket seç",
+    "anotherSub": "Fiyatlara dön",
+    "support": "Destekle iletişime geç",
+    "safe": "Hiçbir şey kaybolmadı",
+    "safeText": "Formun kayıtlı. Yeterli krediye sahip olur olmaz bu videoyu onaylayabilirsin.",
+    "status": "Reddedildi",
+    "text": "Ücret alınmadı. Bakiyen hâlâ {balance}."
+  },
+  "saved": "Formun kayıtlı.",
+  "waiting": { "title": "Videon seni bekliyor", "back": "Videona dön" },
+  "order": {
+    "title": "Siparişin",
+    "pack": "Paket",
+    "credits": "Kredi",
+    "price": "Fiyat",
+    "status": "Durum",
+    "reference": "Referans {reference}"
+  },
+  "verifying": {
+    "status": "Doğrulanıyor",
+    "title": "Ödemen doğrulanıyor…",
+    "text": "Bu genellikle birkaç saniye sürer. Tekrar ödeme yapma.",
+    "state": "Doğrulanıyor…"
+  },
+  "delayed": {
+    "status": "Hâlâ doğrulanıyor",
+    "title": "Ödeme sağlayıcısından yanıt bekliyoruz.",
+    "text": "Ödeme gerçekleştiyse kredilerin kendiliğinden eklenir ve sana e-posta göndeririz. Tekrar ödeme yapman gerekmez.",
+    "check": "Tekrar kontrol et",
+    "support": "Destekle iletişime geç"
+  },
+  "stopped": {
+    "pricing": "Fiyatlara dön",
+    "cancelled": { "status": "İptal edildi", "title": "Ödeme sayfasından ayrıldın.", "text": "Ücret alınmadı." },
+    "expired": { "status": "Süresi doldu", "title": "Bu ödeme oturumunun süresi doldu.", "text": "Ücret alınmadı. Fiyatlar sayfasından yeniden başla." }
+  },
+  "mock": {
+    "title": "Ödeme sağlayıcısı (demo)",
+    "note": "Bu, gerçek bir ödeme sayfasının yerine geçer. Para hareketi yok.",
+    "pack": "Paket",
+    "credits": "Kredi",
+    "price": "[PRICE]",
+    "pay": "Öde",
+    "decline": "Reddet",
+    "pending": "Beklemede",
+    "cancelled": "İptal et",
+    "expired": "Süresi dolsun",
+    "settled": "Bu ödeme zaten sonuçlandı.",
+    "settledLink": "Sonucu gör"
+  },
+  "invoice": {
+    "print": "Yazdır / PDF olarak kaydet",
+    "title": "Fatura",
+    "no": "No.",
+    "date": "Tarih",
+    "from": "Satıcı",
+    "billedTo": "Fatura edilen",
+    "company": "{company}",
+    "address": "{address}",
+    "email": "{supportEmail}",
+    "items": "Bu faturadaki kalemler",
+    "parties": "Satıcı ve müşteri",
+    "totals": "Toplamlar",
+    "description": "Açıklama",
+    "qty": "Adet",
+    "unit": "Birim fiyat",
+    "amount": "Tutar",
+    "line": "Viral Clone için {credits} kredi",
+    "price": "[PRICE]",
+    "subtotal": "Ara toplam",
+    "subtotalValue": "[SUBTOTAL]",
+    "tax": "Vergi",
+    "total": "Toplam",
+    "totalValue": "[AMOUNT]",
+    "paid": "{date} tarihinde ödendi",
+    "note": "Ödeme alındığında krediler hesabına eklendi.",
+    "support": "Destek: {supportEmail}",
+    "page": "Sayfa 1 / 1"
+  }
+}

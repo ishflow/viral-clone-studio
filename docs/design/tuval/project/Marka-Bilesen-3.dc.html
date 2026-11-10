@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Viral Clone — components: tables, panel, phone</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ay{--bg:#0B0C0A;--surface:#151712;--raised:#1C1F17;--line:#23261E;--edge:#33372B;--edge-strong:#676B5D;--text:#F2F3EC;--text-2:#C9CCBF;--text-3:#A9AC9F;--accent:#C8F03C;--accent-hover:#E0FF7A;--accent-text:#C8F03C;--on-accent:#0B0C0A;--warn:#FF9A6B;--warn-edge:#5A3A2A;--mark-edge:#C8F03C;--scrim:rgba(11,12,10,0.76);--on-scrim:#F2F3EC;--media-edge:transparent;--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Onest',system-ui,sans-serif}
+.ay[data-theme="light"],.ay [data-theme="light"]{--bg:#F4F5EE;--surface:#FFFFFF;--raised:#E8EADF;--line:#E0E2D7;--edge:#CBCEBF;--edge-strong:#80856F;--text:#0B0C0A;--text-2:#3E4236;--text-3:#5A5F50;--accent-hover:#B6E01F;--accent-text:#456300;--warn:#A8400F;--warn-edge:#E3B7A2;--mark-edge:#0B0C0A;--media-edge:rgba(11,12,10,0.12)}
+a{color:var(--accent-text)}a:hover{color:var(--text)}
+</style>
+</helmet>
+<div class="ay" data-theme="{{ theme }}" style="width: 1440px; min-height: 3620px; box-sizing: border-box; padding: 80px; background: var(--bg); color: var(--text); font-family: var(--body); display: flex; flex-direction: column; gap: 56px">
+<header style="display: flex; flex-direction: column; gap: 16px">
+<h1 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 64px; line-height: 0.98; letter-spacing: -0.03em">Components: tables, panel, phone</h1>
+<p style="margin: 0; max-width: 860px; font-size: 17px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Everything the admin panel, the phone, and email add: panel menu, number tile, chart, table, phone top bar, email.</p>
+</header>
+
+<section style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Panel menu and tabs</h2>
+<div style="padding: 0 24px 24px; border-radius: 16px; border: 1px solid var(--edge)">
+<header style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px; padding: 18px 0; border-bottom: 1px solid var(--line)">
+<div style="display: flex; align-items: center; gap: 12px">
+<a href="#" style="display: flex; align-items: baseline; gap: 0.34em; font-family: var(--display); font-weight: 800; font-size: 24px; line-height: 1; letter-spacing: -0.04em; color: var(--text); text-decoration: none"><svg viewBox="0 0 42 32" fill="none" aria-hidden="true" style="width: 0.97em; height: 0.74em; flex: 0 0 auto; display: block"><rect x="1.5" y="1.5" width="15" height="29" rx="3" stroke="currentColor" stroke-width="3"></rect><rect x="25.5" y="1.5" width="15" height="29" rx="3" fill="#C8F03C" stroke-width="3" style="stroke: var(--mark-edge)"></rect></svg><span>viral clone</span></a>
+<span style="font-size: 13px; font-weight: 600; color: var(--text-2); border: 1px solid var(--edge); border-radius: 8px; padding: 4px 8px">Admin</span>
+</div>
+<nav aria-label="Admin menu" style="display: flex; flex-wrap: wrap; gap: 4px">
+<a href="#" style="display: flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 999px; color: var(--text-3); text-decoration: none; font-weight: 500; font-size: 15px">Overview</a>
+<a href="#" style="display: flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 999px; color: var(--text-3); text-decoration: none; font-weight: 500; font-size: 15px">Users</a>
+<a href="#" aria-current="page" style="display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px; border-radius: 999px; background: var(--raised); color: var(--text); text-decoration: none; font-weight: 500; font-size: 15px"><span style="width: 7px; height: 7px; border-radius: 50%; background: var(--accent-text)"></span>Revenue</a>
+<a href="#" style="display: flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 999px; color: var(--text-3); text-decoration: none; font-weight: 500; font-size: 15px">Jobs</a>
+<a href="#" style="display: flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 999px; color: var(--text-3); text-decoration: none; font-weight: 500; font-size: 15px">Templates</a>
+<a href="#" style="display: flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 999px; color: var(--text-3); text-decoration: none; font-weight: 500; font-size: 15px">Settings</a>
+</nav>
+<a href="#" style="display: flex; align-items: center; gap: 8px; min-height: 44px; color: var(--text-2); text-decoration: none; font-size: 15px; font-weight: 500">View site<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 5h5v5M19 5l-8 8M11 7H7a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-4"></path></svg></a>
+</header>
+<nav aria-label="Revenue sections" style="display: flex; flex-wrap: wrap; gap: 0 24px; border-bottom: 1px solid var(--line)">
+<a href="#" aria-current="page" style="display: flex; align-items: center; min-height: 44px; font-size: 15px; font-weight: 500; text-decoration: none; min-width: 44px; justify-content: center; color: var(--text); box-shadow: inset 0 -2px 0 var(--accent-text)">Purchases</a>
+<a href="#" style="display: flex; align-items: center; min-height: 44px; font-size: 15px; font-weight: 500; text-decoration: none; min-width: 44px; justify-content: center; color: var(--text-3)">Credits</a>
+</nav>
+</div>
+<p style="margin: 0; max-width: 860px; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">The admin panel has its own menu: the Admin tag next to the logo, six sections, and View site on the right. A section with more than one page gets a row of tabs attached under the menu; the selected tab is underlined.</p>
+</section>
+
+<section style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; align-items: start">
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Number tile</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 16px; grid-auto-rows: 1fr">
+<div style="box-sizing: border-box; padding: 24px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 8px; min-width: 0">
+<span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">Users</span>
+<span style="font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em; font-variant-numeric: tabular-nums">[COUNT]</span>
+<span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">All accounts, verified or not</span>
+</div>
+<div style="box-sizing: border-box; padding: 24px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 8px; min-width: 0">
+<span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">New sign-ups</span>
+<span style="font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em; font-variant-numeric: tabular-nums">[COUNT]</span>
+<span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">Accounts created in this period</span>
+</div>
+<div style="box-sizing: border-box; padding: 24px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 8px; min-width: 0">
+<span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">Revenue</span>
+<span style="font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em; font-variant-numeric: tabular-nums">[AMOUNT]</span>
+<span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">Paid purchases in this period</span>
+</div>
+<div style="box-sizing: border-box; padding: 24px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 8px; min-width: 0">
+<span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">Credits sold</span>
+<span style="font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em; font-variant-numeric: tabular-nums">[CREDITS]</span>
+<span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">Credits in paid packs</span>
+</div>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">A label, the value, and one line that says what is counted. Values use tabular figures, so they line up from tile to tile.</p>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Chart</h2>
+<div style="display: flex; flex-direction: column; gap: 6px; min-width: 0">
+<figure aria-labelledby="sample-chart-1-1" style="margin: 0; box-sizing: border-box; padding: clamp(16px, 2vw, 24px); border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 16px; min-width: 0">
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 24px">
+<h3 id="sample-chart-1-2" style="margin: 0; font-size: 17px; font-weight: 600; line-height: 1.3">Revenue per day</h3>
+<span style="display: flex; align-items: center; gap: 8px; white-space: nowrap"><span aria-hidden="true" style="flex: 0 0 auto; width: 8px; height: 8px; background: var(--accent-text)"></span><span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">[DATE]</span><span style="font-size: 15px; font-weight: 600; color: var(--text); font-variant-numeric: tabular-nums">[AMOUNT]</span></span>
+</div>
+<div aria-hidden="true" style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 16px 12px">
+<span style="font-size: 13px; line-height: 1; color: var(--text-3); white-space: nowrap; font-variant-numeric: tabular-nums; text-align: right">USD</span><span></span>
+<div style="position: relative; height: 120px"><span style="position: absolute; right: 0; top: 0px; transform: translateY(-50%); font-size: 13px; line-height: 1; color: var(--text-3); white-space: nowrap; font-variant-numeric: tabular-nums">[AMOUNT]</span><span style="position: absolute; right: 0; top: 60px; transform: translateY(-50%); font-size: 13px; line-height: 1; color: var(--text-3); white-space: nowrap; font-variant-numeric: tabular-nums">[AMOUNT]</span><span style="position: absolute; right: 0; top: 120px; transform: translateY(-50%); font-size: 13px; line-height: 1; color: var(--text-3); white-space: nowrap; font-variant-numeric: tabular-nums">0</span></div>
+<div style="position: relative; height: 120px"><div style="position: absolute; left: 0; right: 0; top: 0px; height: 1px; background: var(--line)"></div><div style="position: absolute; left: 0; right: 0; top: 60px; height: 1px; background: var(--line)"></div><div style="position: absolute; left: 0; right: 0; top: 120px; height: 1px; background: var(--edge)"></div><div style="position: absolute; top: 0; bottom: 0; right: 0; width: calc((100% - 116px) / 30); background: var(--raised)"></div><div style="position: absolute; left: 0; right: 0; top: 0px; height: 120px; display: flex; align-items: flex-end; gap: 4px"><div style="flex: 1 1 0; height: 34%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 41%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 38%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 52%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 47%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 60%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 71%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 44%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 0%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 36%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 49%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 57%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 53%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 68%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 79%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 58%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 46%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 42%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 55%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 63%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 61%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 74%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 86%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 66%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 9%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 51%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 59%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 70%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 64%; background: var(--text-2)"></div><div style="flex: 1 1 0; height: 77%; background: var(--accent-text)"></div></div></div>
+<span></span><div style="display: flex; justify-content: space-between; gap: 8px; font-size: 13px; line-height: 1; color: var(--text-3); white-space: nowrap; font-variant-numeric: tabular-nums"><span>[DATE]</span><span>[DATE]</span><span>[DATE]</span></div>
+</div>
+<div style="position: relative; overflow-x: auto; border-radius: 12px; border: 1px solid var(--line); background: var(--bg)">
+<table style="border-collapse: collapse; font-size: 15px; line-height: 1.4; color: var(--text-2); text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums">
+<caption style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Revenue per day</caption>
+<thead><tr style="font-size: 13px; color: var(--text-3)"><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: left">Date</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th><th scope="col" style="padding: 8px 12px; font-weight: 500; text-align: right">[DATE]</th></tr></thead>
+<tbody>
+<tr style="border-top: 1px solid var(--line)"><th scope="row" style="padding: 8px 12px; font-weight: 500; text-align: left; color: var(--text)">Revenue</th><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td><td style="padding: 8px 12px">[AMOUNT]</td></tr>
+</tbody>
+</table>
+</div>
+</figure>
+<span style="font-size: 13px; color: var(--text-3)">With data · example heights</span>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">The axis names its unit (USD). The picked day is marked and its value sits in the corner. The table under the chart gives the same data. On this canvas the bar heights are examples and the values are placeholders. On the site a chart is drawn only from real data.</p>
+</div>
+
+</section>
+
+<section style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 48px; align-items: start">
+<div style="display: flex; flex-direction: column; gap: 6px; min-width: 0">
+<figure aria-labelledby="sample-chart-2-3" style="margin: 0; box-sizing: border-box; padding: clamp(16px, 2vw, 24px); border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 16px; min-width: 0">
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 24px">
+<h3 id="sample-chart-2-4" style="margin: 0; font-size: 17px; font-weight: 600; line-height: 1.3">Revenue per day</h3>
+</div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 16px 12px">
+<span style="font-size: 13px; line-height: 1; color: var(--text-3); white-space: nowrap; font-variant-numeric: tabular-nums; text-align: right">USD</span><span></span>
+<div style="position: relative; height: 120px"><span style="position: absolute; right: 0; top: 120px; transform: translateY(-50%); font-size: 13px; line-height: 1; color: var(--text-3); white-space: nowrap; font-variant-numeric: tabular-nums">0</span></div>
+<div style="position: relative; height: 120px"><div style="position: absolute; left: 0; right: 0; top: 0px; height: 1px; background: var(--line)"></div><div style="position: absolute; left: 0; right: 0; top: 60px; height: 1px; background: var(--line)"></div><div style="position: absolute; left: 0; right: 0; top: 120px; height: 1px; background: var(--edge)"></div><p style="position: absolute; left: 0; right: 0; top: 0; height: 120px; margin: 0; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty"><span style="padding: 0 12px; background: var(--surface)">No sales in this period.</span></p></div>
+<span></span><div style="display: flex; justify-content: space-between; gap: 8px; font-size: 13px; line-height: 1; color: var(--text-3); white-space: nowrap; font-variant-numeric: tabular-nums"><span>[DATE]</span><span>[DATE]</span><span>[DATE]</span></div>
+</div>
+</figure>
+<span style="font-size: 13px; color: var(--text-3)">chart, empty: the axis and the dates stay; one sentence takes the place of the bars</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px; min-width: 0">
+<figure aria-labelledby="sample-chart-4-3" aria-busy="true" style="margin: 0; box-sizing: border-box; padding: clamp(16px, 2vw, 24px); border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 16px; min-width: 0">
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 24px">
+<h3 id="sample-chart-4-4" style="margin: 0; font-size: 17px; font-weight: 600; line-height: 1.3">Revenue per day</h3>
+<p role="status" style="margin: 0; display: flex; align-items: center; gap: 8px; font-size: 13px; line-height: 1.4; color: var(--text-3)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5a8.5 8.5 0 1 0 8.5 8.5"></path></svg>Loading chart…</p>
+</div>
+<div aria-hidden="true" style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 16px 12px">
+<span style="font-size: 13px; line-height: 1; color: var(--text-3); white-space: nowrap; font-variant-numeric: tabular-nums; text-align: right">USD</span><span></span>
+<div style="height: 120px; display: flex; flex-direction: column; align-items: flex-end; justify-content: space-between"><span style="height: 12px; width: 48px; border-radius: 999px; background: var(--raised)"></span><span style="height: 12px; width: 48px; border-radius: 999px; background: var(--raised)"></span><span style="height: 12px; width: 24px; border-radius: 999px; background: var(--raised)"></span></div>
+<div style="height: 120px; display: flex; align-items: flex-end; gap: 4px"><div style="flex: 1 1 0; height: 34%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 41%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 38%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 52%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 47%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 60%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 71%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 44%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 12%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 36%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 49%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 57%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 53%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 68%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 79%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 58%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 46%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 42%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 55%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 63%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 61%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 74%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 86%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 66%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 9%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 51%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 59%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 70%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 64%; background: var(--raised)"></div><div style="flex: 1 1 0; height: 77%; background: var(--raised)"></div></div>
+<span></span><div style="display: flex; justify-content: space-between"><span style="height: 12px; width: 48px; border-radius: 999px; background: var(--raised)"></span><span style="height: 12px; width: 48px; border-radius: 999px; background: var(--raised)"></span><span style="height: 12px; width: 48px; border-radius: 999px; background: var(--raised)"></span></div>
+</div>
+<div aria-hidden="true" style="display: flex; flex-direction: column; gap: 12px; padding: 12px; border-radius: 12px; border: 1px solid var(--line); background: var(--bg)"><span style="height: 12px; width: 80%; border-radius: 999px; background: var(--raised)"></span><span style="height: 12px; width: 50%; border-radius: 999px; background: var(--raised)"></span></div>
+</figure>
+<span style="font-size: 13px; color: var(--text-3)">chart, loading: skeleton bars and a skeleton table</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px; min-width: 0">
+<figure aria-labelledby="sample-chart-3-1" style="margin: 0; box-sizing: border-box; padding: clamp(16px, 2vw, 24px); border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 16px; min-width: 0">
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 24px">
+<h3 id="sample-chart-3-2" style="margin: 0; font-size: 17px; font-weight: 600; line-height: 1.3">Revenue per day</h3>
+</div>
+<div role="alert" style="padding: 24px 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; text-align: center">
+<span aria-hidden="true" style="width: 48px; height: 48px; border-radius: 50%; background: var(--raised); color: var(--warn); display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg></span>
+<p style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">Could not load the chart.</p>
+<button type="button" style="display: flex; align-items: center; justify-content: center; box-sizing: border-box; border-radius: 12px; font: inherit; font-weight: 600; text-decoration: none; cursor: pointer; min-height: 52px; padding: 0 24px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font-size: 15px; gap: 8px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12a7 7 0 1 1-2.05-4.95M17 3.5v3.6h-3.6"></path></svg>Try again</button>
+</div>
+</figure>
+<span style="font-size: 13px; color: var(--text-3)">chart, error: one sentence and Try again</span>
+</div>
+</section>
+
+<section style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Table</h2>
+<div style="position: relative; overflow-x: auto; border-radius: 16px; border: 1px solid var(--line); background: var(--surface)">
+<table style="width: 100%; min-width: 960px; border-collapse: collapse">
+<caption style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Users</caption>
+<thead><tr><th scope="col" style="padding: 12px 16px; text-align: left; font-size: 13px; font-weight: 500; color: var(--text-3); border-bottom: 1px solid var(--line); white-space: nowrap">User</th><th scope="col" style="padding: 12px 16px; text-align: left; font-size: 13px; font-weight: 500; color: var(--text-3); border-bottom: 1px solid var(--line); white-space: nowrap">Joined</th><th scope="col" style="padding: 12px 16px; text-align: left; font-size: 13px; font-weight: 500; color: var(--text-3); border-bottom: 1px solid var(--line); white-space: nowrap">Email</th><th scope="col" style="padding: 12px 16px; text-align: left; font-size: 13px; font-weight: 500; color: var(--text-3); border-bottom: 1px solid var(--line); white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap">Balance</th><th scope="col" style="padding: 12px 16px; text-align: left; font-size: 13px; font-weight: 500; color: var(--text-3); border-bottom: 1px solid var(--line); white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap">Paid in total</th><th scope="col" style="padding: 12px 16px; text-align: left; font-size: 13px; font-weight: 500; color: var(--text-3); border-bottom: 1px solid var(--line); white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap">Videos</th><th scope="col" style="padding: 12px 16px; text-align: left; font-size: 13px; font-weight: 500; color: var(--text-3); border-bottom: 1px solid var(--line); white-space: nowrap">Status</th><th scope="col" style="padding: 12px 16px; text-align: left; font-size: 13px; font-weight: 500; color: var(--text-3); border-bottom: 1px solid var(--line); white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap"><span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Actions</span></th></tr></thead>
+<tbody>
+<tr><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle; color: var(--text); font-weight: 500"><span style="display: flex; flex-direction: column; gap: 4px"><span>[EMAIL]</span><span style="font-size: 13px; line-height: 1.4; color: var(--text-3); font-weight: 400">[NAME]</span></span></td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle">[DATE]</td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle"><span style="display: flex; align-items: center; gap: 8px; white-space: nowrap"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color: var(--text-3)"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Verified</span></td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap">[BALANCE]</td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap">[AMOUNT]</td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap">[COUNT]</td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle"><span style="display: flex; white-space: nowrap; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; color: var(--accent-text)"><span style="display: flex; justify-content: center; width: 18px"><span style="width: 8px; height: 8px; border-radius: 50%; background: var(--accent-text)"></span></span>Active</span></td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap"><a href="#" style="display: inline-flex; align-items: center; min-height: 44px; font-size: 15px; font-weight: 500; text-decoration: none; padding: 0 12px; margin: -12px">Open</a></td></tr>
+<tr><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle; color: var(--text); font-weight: 500"><span style="display: flex; flex-direction: column; gap: 4px"><span>[EMAIL]</span><span style="font-size: 13px; line-height: 1.4; color: var(--text-3); font-weight: 400">[NAME]</span></span></td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle">[DATE]</td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle"><span style="display: flex; white-space: nowrap; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; color: var(--text-2)"><span style="display: flex; justify-content: center; width: 18px"><span style="width: 8px; height: 8px; box-sizing: border-box; border-radius: 50%; border: 2px solid var(--text-3)"></span></span>Not verified</span></td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap">[BALANCE]</td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap">[AMOUNT]</td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap">[COUNT]</td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle"><span style="display: flex; white-space: nowrap; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; color: var(--accent-text)"><span style="display: flex; justify-content: center; width: 18px"><span style="width: 8px; height: 8px; border-radius: 50%; background: var(--accent-text)"></span></span>Active</span></td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap"><a href="#" style="display: inline-flex; align-items: center; min-height: 44px; font-size: 15px; font-weight: 500; text-decoration: none; padding: 0 12px; margin: -12px">Open</a></td></tr>
+<tr><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); vertical-align: middle; color: var(--text); font-weight: 500"><span style="display: flex; flex-direction: column; gap: 4px"><span>[EMAIL]</span><span style="font-size: 13px; line-height: 1.4; color: var(--text-3); font-weight: 400">[NAME]</span></span></td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); vertical-align: middle">[DATE]</td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); vertical-align: middle"><span style="display: flex; align-items: center; gap: 8px; white-space: nowrap"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color: var(--text-3)"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Verified</span></td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); vertical-align: middle; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap">[BALANCE]</td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); vertical-align: middle; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap">[AMOUNT]</td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); vertical-align: middle; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap">[COUNT]</td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); vertical-align: middle"><span style="display: flex; white-space: nowrap; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; color: var(--warn)"><span style="display: flex; justify-content: center; width: 18px"><span style="width: 8px; height: 8px; border-radius: 2px; background: var(--warn)"></span></span>Blocked</span></td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); vertical-align: middle; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap"><a href="#" style="display: inline-flex; align-items: center; min-height: 44px; font-size: 15px; font-weight: 500; text-decoration: none; padding: 0 12px; margin: -12px">Open</a></td></tr>
+</tbody>
+</table>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px">
+<span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">Showing [COUNT] of [COUNT]</span>
+<div style="display: flex; gap: 8px">
+<button type="button" style="display: flex; align-items: center; justify-content: center; box-sizing: border-box; border-radius: 12px; font: inherit; font-weight: 600; text-decoration: none; cursor: pointer; min-height: 44px; padding: 0 16px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font-size: 15px; gap: 8px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"></path></svg>Previous</button>
+<button type="button" style="display: flex; align-items: center; justify-content: center; box-sizing: border-box; border-radius: 12px; font: inherit; font-weight: 600; text-decoration: none; cursor: pointer; min-height: 44px; padding: 0 16px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font-size: 15px; gap: 8px">Next<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg></button>
+</div>
+</div>
+<p style="margin: 0; max-width: 860px; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">The first column names the row and is darker. Number columns are right-aligned in tabular figures. A status is a shape and a word, never color alone. The row action sits in the last column: a link if it takes you somewhere (Open, View), a bordered button if it changes something (Refund, Retry). On a narrow screen the table scrolls sideways inside its own box; the page does not. Under the table: how many rows are shown, then Previous and Next.</p>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; align-items: stretch">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<div style="flex: 1 1 auto; position: relative; overflow-x: auto; border-radius: 16px; border: 1px solid var(--line); background: var(--surface)">
+<table style="width: 100%; min-width: 520px; border-collapse: collapse">
+<caption style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Jobs: no rows</caption>
+<thead><tr><th scope="col" style="padding: 12px 16px; text-align: left; font-size: 13px; font-weight: 500; color: var(--text-3); border-bottom: 1px solid var(--line); white-space: nowrap">Started</th><th scope="col" style="padding: 12px 16px; text-align: left; font-size: 13px; font-weight: 500; color: var(--text-3); border-bottom: 1px solid var(--line); white-space: nowrap">User</th><th scope="col" style="padding: 12px 16px; text-align: left; font-size: 13px; font-weight: 500; color: var(--text-3); border-bottom: 1px solid var(--line); white-space: nowrap">Template</th><th scope="col" style="padding: 12px 16px; text-align: left; font-size: 13px; font-weight: 500; color: var(--text-3); border-bottom: 1px solid var(--line); white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap">Credits</th><th scope="col" style="padding: 12px 16px; text-align: left; font-size: 13px; font-weight: 500; color: var(--text-3); border-bottom: 1px solid var(--line); white-space: nowrap">Status</th></tr></thead>
+<tbody>
+<tr><td colspan="5" style="padding: 32px 24px; text-align: center"><div style="display: flex; flex-direction: column; align-items: center; gap: 16px"><p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">No jobs match this filter.</p><button type="button" style="display: flex; align-items: center; justify-content: center; box-sizing: border-box; border-radius: 12px; font: inherit; font-weight: 600; text-decoration: none; cursor: pointer; min-height: 52px; padding: 0 24px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font-size: 15px">Clear filter</button></div></td></tr>
+</tbody>
+</table>
+</div>
+<span style="font-size: 13px; color: var(--text-3)">empty: the header row stays; one sentence and one action in a single cell</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<div style="flex: 1 1 auto; position: relative; overflow-x: auto; border-radius: 16px; border: 1px solid var(--line); background: var(--surface)">
+<table aria-busy="true" style="width: 100%; min-width: 520px; border-collapse: collapse">
+<caption style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Jobs: loading</caption>
+<thead><tr><th scope="col" style="padding: 12px 16px; text-align: left; font-size: 13px; font-weight: 500; color: var(--text-3); border-bottom: 1px solid var(--line); white-space: nowrap">Started</th><th scope="col" style="padding: 12px 16px; text-align: left; font-size: 13px; font-weight: 500; color: var(--text-3); border-bottom: 1px solid var(--line); white-space: nowrap">User</th><th scope="col" style="padding: 12px 16px; text-align: left; font-size: 13px; font-weight: 500; color: var(--text-3); border-bottom: 1px solid var(--line); white-space: nowrap">Template</th><th scope="col" style="padding: 12px 16px; text-align: left; font-size: 13px; font-weight: 500; color: var(--text-3); border-bottom: 1px solid var(--line); white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap">Credits</th><th scope="col" style="padding: 12px 16px; text-align: left; font-size: 13px; font-weight: 500; color: var(--text-3); border-bottom: 1px solid var(--line); white-space: nowrap">Status</th></tr></thead>
+<tbody>
+<tr aria-hidden="true"><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle"><span style="display: inline-block; vertical-align: middle; height: 12px; border-radius: 999px; background: var(--raised); width: 64px"></span></td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle"><span style="display: inline-block; vertical-align: middle; height: 12px; border-radius: 999px; background: var(--raised); width: 96px"></span></td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle"><span style="display: inline-block; vertical-align: middle; height: 12px; border-radius: 999px; background: var(--raised); width: 144px"></span></td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap"><span style="display: inline-block; vertical-align: middle; height: 12px; border-radius: 999px; background: var(--raised); width: 48px"></span></td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle"><span style="display: inline-block; vertical-align: middle; height: 12px; border-radius: 999px; background: var(--raised); width: 64px"></span></td></tr>
+<tr aria-hidden="true"><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle"><span style="display: inline-block; vertical-align: middle; height: 12px; border-radius: 999px; background: var(--raised); width: 64px"></span></td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle"><span style="display: inline-block; vertical-align: middle; height: 12px; border-radius: 999px; background: var(--raised); width: 96px"></span></td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle"><span style="display: inline-block; vertical-align: middle; height: 12px; border-radius: 999px; background: var(--raised); width: 144px"></span></td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap"><span style="display: inline-block; vertical-align: middle; height: 12px; border-radius: 999px; background: var(--raised); width: 48px"></span></td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); border-bottom: 1px solid var(--line); vertical-align: middle"><span style="display: inline-block; vertical-align: middle; height: 12px; border-radius: 999px; background: var(--raised); width: 64px"></span></td></tr>
+<tr aria-hidden="true"><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); vertical-align: middle"><span style="display: inline-block; vertical-align: middle; height: 12px; border-radius: 999px; background: var(--raised); width: 64px"></span></td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); vertical-align: middle"><span style="display: inline-block; vertical-align: middle; height: 12px; border-radius: 999px; background: var(--raised); width: 96px"></span></td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); vertical-align: middle"><span style="display: inline-block; vertical-align: middle; height: 12px; border-radius: 999px; background: var(--raised); width: 144px"></span></td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); vertical-align: middle; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap"><span style="display: inline-block; vertical-align: middle; height: 12px; border-radius: 999px; background: var(--raised); width: 48px"></span></td><td style="padding: 16px; font-size: 15px; line-height: 1.4; color: var(--text-2); vertical-align: middle"><span style="display: inline-block; vertical-align: middle; height: 12px; border-radius: 999px; background: var(--raised); width: 64px"></span></td></tr>
+</tbody>
+</table>
+</div>
+<span style="font-size: 13px; color: var(--text-3)">loading: the header row and three skeleton rows</span>
+</div>
+</div>
+<p style="margin: 0; max-width: 860px; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Every admin list (Jobs, Templates, Scan history, Users) uses this pattern when it is empty or loading.</p>
+</section>
+
+<section style="display: grid; grid-template-columns: 640px minmax(0, 1fr); gap: 48px; align-items: start; padding-top: 40px; border-top: 1px solid var(--line)">
+
+<div style="display: flex; flex-direction: column; gap: 48px">
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Phone top bar</h2>
+<div style="display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px">
+<div style="width: 390px; box-sizing: border-box; border-radius: 16px; box-shadow: 0 0 0 1px var(--edge); background: var(--bg); padding: 0 16px 24px">
+<header style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line)">
+<a href="#" style="display: flex; align-items: baseline; padding: 10px 0; gap: 0.34em; font-family: var(--display); font-weight: 800; font-size: 24px; line-height: 1; letter-spacing: -0.04em; color: var(--text); text-decoration: none"><svg viewBox="0 0 42 32" fill="none" aria-hidden="true" style="width: 0.97em; height: 0.74em; flex: 0 0 auto; display: block"><rect x="1.5" y="1.5" width="15" height="29" rx="3" stroke="currentColor" stroke-width="3"></rect><rect x="25.5" y="1.5" width="15" height="29" rx="3" fill="#C8F03C" stroke-width="3" style="stroke: var(--mark-edge)"></rect></svg><span>viral clone</span></a>
+<div style="display: flex; align-items: center; gap: 8px">
+<a href="#" style="display: flex; align-items: center; min-height: 44px; box-sizing: border-box; padding: 0 12px; border-radius: 999px; border: 1px solid var(--edge); color: var(--text-2); text-decoration: none; font-size: 13px; white-space: nowrap">[BALANCE] credits</a>
+<a href="#" aria-label="Open menu" style="width: 44px; height: 44px; flex: 0 0 auto; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border-radius: 999px; border: 1px solid var(--edge); color: var(--text); text-decoration: none"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></a>
+</div>
+</header>
+</div>
+<span style="font-size: 13px; color: var(--text-3)">signed in: the credit balance</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px">
+<div style="width: 390px; box-sizing: border-box; border-radius: 16px; box-shadow: 0 0 0 1px var(--edge); background: var(--bg); padding: 0 16px 24px">
+<header style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line)">
+<a href="#" style="display: flex; align-items: baseline; padding: 10px 0; gap: 0.34em; font-family: var(--display); font-weight: 800; font-size: 24px; line-height: 1; letter-spacing: -0.04em; color: var(--text); text-decoration: none"><svg viewBox="0 0 42 32" fill="none" aria-hidden="true" style="width: 0.97em; height: 0.74em; flex: 0 0 auto; display: block"><rect x="1.5" y="1.5" width="15" height="29" rx="3" stroke="currentColor" stroke-width="3"></rect><rect x="25.5" y="1.5" width="15" height="29" rx="3" fill="#C8F03C" stroke-width="3" style="stroke: var(--mark-edge)"></rect></svg><span>viral clone</span></a>
+<div style="display: flex; align-items: center; gap: 8px">
+<a href="#" style="display: flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 999px; background: var(--accent); color: var(--on-accent); text-decoration: none; font-size: 15px; font-weight: 600; white-space: nowrap">Get started</a>
+<a href="#" aria-label="Open menu" style="width: 44px; height: 44px; flex: 0 0 auto; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border-radius: 999px; border: 1px solid var(--edge); color: var(--text); text-decoration: none"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></a>
+</div>
+</header>
+</div>
+<span style="font-size: 13px; color: var(--text-3)">visitor: Get started</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px">
+<div style="width: 390px; box-sizing: border-box; border-radius: 16px; box-shadow: 0 0 0 1px var(--edge); background: var(--bg); padding: 0 16px 24px">
+<header style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line)">
+<div style="display: flex; align-items: center; gap: 8px">
+<a href="#" style="display: flex; align-items: baseline; padding: 10px 0; gap: 0.34em; font-family: var(--display); font-weight: 800; font-size: 24px; line-height: 1; letter-spacing: -0.04em; color: var(--text); text-decoration: none"><svg viewBox="0 0 42 32" fill="none" aria-hidden="true" style="width: 0.97em; height: 0.74em; flex: 0 0 auto; display: block"><rect x="1.5" y="1.5" width="15" height="29" rx="3" stroke="currentColor" stroke-width="3"></rect><rect x="25.5" y="1.5" width="15" height="29" rx="3" fill="#C8F03C" stroke-width="3" style="stroke: var(--mark-edge)"></rect></svg><span>viral clone</span></a>
+<span style="font-size: 13px; font-weight: 600; color: var(--text-2); border: 1px solid var(--edge); border-radius: 8px; padding: 4px 8px">Admin</span>
+</div>
+<div style="display: flex; align-items: center; gap: 8px">
+<a href="#" aria-label="Open menu" style="width: 44px; height: 44px; flex: 0 0 auto; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border-radius: 999px; border: 1px solid var(--edge); color: var(--text); text-decoration: none"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></a>
+</div>
+</header>
+</div>
+<span style="font-size: 13px; color: var(--text-3)">admin panel: the Admin tag</span>
+</div>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Below 900 px the top bar takes this form: the logo, the one thing needed most at that moment (the credit balance, or Get started), and the menu button. The menu opens full screen; its items are 60 px high.</p>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Email</h2>
+<div data-theme="light" style="width: 640px; max-width: 100%; box-sizing: border-box; padding: 32px; border-radius: 16px; background: var(--bg); color: var(--text); display: flex; flex-direction: column; gap: 16px; box-shadow: 0 0 0 1px var(--edge)">
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">From: Viral Clone · Subject: Payment received: 30 credits added</p>
+<div style="box-sizing: border-box; padding: clamp(24px, 8vw - 16px, 32px); border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 24px">
+<a href="#" style="padding: 12px 0; margin: -12px 0; display: flex; align-items: baseline; gap: 0.34em; font-family: var(--display); font-weight: 800; font-size: 24px; line-height: 1; letter-spacing: -0.04em; color: var(--text); text-decoration: none"><svg viewBox="0 0 42 32" fill="none" aria-hidden="true" style="width: 0.97em; height: 0.74em; flex: 0 0 auto; display: block"><rect x="1.5" y="1.5" width="15" height="29" rx="3" stroke="currentColor" stroke-width="3"></rect><rect x="25.5" y="1.5" width="15" height="29" rx="3" fill="#C8F03C" stroke-width="3" style="stroke: var(--mark-edge)"></rect></svg><span>viral clone</span></a>
+<div style="display: flex; flex-direction: column; gap: 12px">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; color: var(--accent-text)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Payment received</span>
+<h3 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em">30 credits added.</h3>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Thank you. Your balance is now [BALANCE] credits.</p>
+</div>
+<a href="#" style="display: flex; align-items: center; justify-content: center; box-sizing: border-box; border-radius: 12px; font: inherit; font-weight: 600; text-decoration: none; cursor: pointer; min-height: 52px; padding: 0 24px; border: 0; background: var(--accent); color: var(--on-accent); font-size: 15px; align-self: flex-start; gap: 8px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 11l5 5 5-5M5 20h14"></path></svg>Download invoice (PDF)</a>
+</div>
+<p style="margin: 0; padding: 0 clamp(24px, 8vw - 16px, 32px); font-size: 13px; line-height: 1.4; color: var(--text-3)">You get this email because you have a Viral Clone account. Questions? <a href="#" style="display: inline-block; padding: 16px 0; margin: -16px 0; font-weight: 600; text-decoration: none">Contact support</a>.<br>© [COMPANY NAME] · [ADDRESS]</p>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">An email is 640 px wide with a 576 px card, and always light, whatever the theme of the site. The logo on top, one message, one primary button, and a footer that says why the email came.</p>
+</div>
+
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 48px">
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Phone menu, open</h2>
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 16px 24px">
+<div style="width: 390px; box-sizing: border-box; border-radius: 16px; box-shadow: 0 0 0 1px var(--edge); min-height: 844px; box-sizing: border-box; background: var(--bg); color: var(--text); font-family: var(--body); padding: 0 16px 24px; display: flex; flex-direction: column; gap: 24px">
+<header style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line)">
+<a href="#" style="display: flex; align-items: baseline; padding: 10px 0; gap: 0.34em; font-family: var(--display); font-weight: 800; font-size: 24px; line-height: 1; letter-spacing: -0.04em; color: var(--text); text-decoration: none"><svg viewBox="0 0 42 32" fill="none" aria-hidden="true" style="width: 0.97em; height: 0.74em; flex: 0 0 auto; display: block"><rect x="1.5" y="1.5" width="15" height="29" rx="3" stroke="currentColor" stroke-width="3"></rect><rect x="25.5" y="1.5" width="15" height="29" rx="3" fill="#C8F03C" stroke-width="3" style="stroke: var(--mark-edge)"></rect></svg><span>viral clone</span></a>
+<a href="#" aria-label="Close menu" style="width: 44px; height: 44px; flex: 0 0 auto; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border-radius: 999px; border: 1px solid var(--edge); color: var(--text); text-decoration: none"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></a>
+</header>
+
+<nav aria-label="Main menu" style="display: flex; flex-direction: column">
+<a href="#" aria-current="page" style="display: flex; align-items: center; gap: 12px; min-height: 60px; border-bottom: 1px solid var(--line); font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em; text-decoration: none; color: var(--text)"><span style="width: 7px; height: 7px; border-radius: 50%; background: var(--accent-text)"></span>Gallery</a>
+<a href="#" style="display: flex; align-items: center; gap: 12px; min-height: 60px; border-bottom: 1px solid var(--line); font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em; text-decoration: none; color: var(--text-2)">My videos</a>
+<a href="#" style="display: flex; align-items: center; gap: 12px; min-height: 60px; border-bottom: 1px solid var(--line); font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em; text-decoration: none; color: var(--text-2)">Pricing</a>
+<a href="#" style="display: flex; align-items: center; gap: 12px; min-height: 60px; border-bottom: 1px solid var(--line); font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em; text-decoration: none; color: var(--text-2)">Account</a>
+</nav>
+
+<section aria-label="Credits" style="box-sizing: border-box; padding: 24px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">Your credit balance</span>
+<span style="font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">[BALANCE] credits</span>
+</div>
+<a href="#" style="display: flex; align-items: center; justify-content: center; box-sizing: border-box; border-radius: 12px; font: inherit; font-weight: 600; text-decoration: none; cursor: pointer; min-height: 52px; padding: 0 24px; border: 0; background: var(--accent); color: var(--on-accent); font-size: 15px; width: 100%">Buy credits</a>
+</section>
+
+<div style="margin-top: auto; display: flex; flex-direction: column; gap: 8px">
+<button type="button" aria-label="Language: English. Change" style="display: flex; align-items: center; gap: 12px; width: 100%; min-height: 52px; box-sizing: border-box; padding: 0 16px; border-radius: 12px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font: inherit; font-size: 15px; font-weight: 500; cursor: pointer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M3.5 12h17M12 3.5c2.6 2.6 2.6 14.4 0 17M12 3.5c-2.6 2.6-2.6 14.4 0 17"></path></svg><span style="flex: 1; text-align: left">English</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg></button>
+<a href="#" style="display: flex; align-items: center; gap: 8px; min-height: 44px; font-size: 15px; font-weight: 500; text-decoration: none; color: var(--text-2)">Log out</a>
+</div>
+</div>
+<p style="flex: 1 1 144px; min-width: 0; margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">The menu covers the whole screen. Each item is 60 px high; the current page carries the dot. Under the list: the credit balance and its one action. Language and Log out stay at the bottom.</p>
+</div>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Invoice and print</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">The invoice is a PDF on A4, on a light background. Lines are at least 1 px, so they print. Lime appears only in the logo.</p>
+</div>
+
+</div>
+
+</section>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"theme":{"editor":"enum","options":["dark","light"],"default":"dark"},"$preview":{"width":1440,"height":3620}}'>
+class Component extends DCLogic {
+renderVals() {
+return { theme: this.props.theme ?? 'dark' };
+}
+}
+</script>
+</body>
+</html>

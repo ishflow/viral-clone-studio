@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "language": "en",
+  "canvas": { "width": 720, "height": 1280, "fps": 30 },
+  "frames": 210,
+  "media": {
+    "talk": { "file": "assets/talk.mp4", "kind": "video" },
+    "before": { "file": "assets/before.png", "kind": "image" },
+    "after": { "file": "assets/after.png", "kind": "image" },
+    "music": { "file": "assets/music.mp3", "kind": "audio" }
+  },
+  "shots": [
+    {
+      "id": "talk", "at": 0, "for": 210, "media": "talk", "sound": { "gain": 1 },
+      "windows": [
+        { "at": 45, "for": 135, "corner": "top-right", "behind": "before", "swaps": [{ "at": 112, "behind": "after" }], "behindMotion": { "kind": "push-in" } }
+      ]
+    }
+  ],
+  "texts": [
+    { "id": "hook", "at": 0, "for": 42, "box": { "left": 9, "top": 15, "right": 91, "bottom": 27 }, "style": "hook", "copy": "Same light, two weeks apart" },
+    { "id": "day-one", "at": 58, "for": 50, "box": { "left": 9, "top": 34, "right": 50, "bottom": 40 }, "style": "tag", "copy": "Day 1" },
+    { "id": "day-fourteen", "at": 114, "for": 54, "box": { "left": 9, "top": 34, "right": 50, "bottom": 40 }, "style": "tag", "copy": "Day 14" }
+  ],
+  "audio": {
+    "music": { "media": "music", "gain": 0.35, "fadeOut": 15 }
+  }
+}

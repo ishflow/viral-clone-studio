@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Viral Clone — typography</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ay{--bg:#0B0C0A;--surface:#151712;--raised:#1C1F17;--line:#23261E;--edge:#33372B;--edge-strong:#676B5D;--text:#F2F3EC;--text-2:#C9CCBF;--text-3:#A9AC9F;--accent:#C8F03C;--accent-hover:#E0FF7A;--accent-text:#C8F03C;--on-accent:#0B0C0A;--warn:#FF9A6B;--warn-edge:#5A3A2A;--mark-edge:#C8F03C;--scrim:rgba(11,12,10,0.76);--on-scrim:#F2F3EC;--media-edge:transparent;--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Onest',system-ui,sans-serif}
+.ay[data-theme="light"],.ay [data-theme="light"]{--bg:#F4F5EE;--surface:#FFFFFF;--raised:#E8EADF;--line:#E0E2D7;--edge:#CBCEBF;--edge-strong:#80856F;--text:#0B0C0A;--text-2:#3E4236;--text-3:#5A5F50;--accent-hover:#B6E01F;--accent-text:#456300;--warn:#A8400F;--warn-edge:#E3B7A2;--mark-edge:#0B0C0A;--media-edge:rgba(11,12,10,0.12)}
+a{color:var(--accent-text)}a:hover{color:var(--text)}
+</style>
+</helmet>
+<div class="ay" style="width: 1440px; min-height: 1900px; box-sizing: border-box; padding: 80px; background: var(--bg); color: var(--text); font-family: var(--body); display: flex; flex-direction: column; gap: 56px">
+
+<header style="display: flex; flex-direction: column; gap: 16px; max-width: 860px">
+<h1 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 64px; line-height: 0.98; letter-spacing: -0.03em">Typography</h1>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Two families, ten steps. Bricolage Grotesque speaks in headlines; Onest does the reading. No size is used outside the steps.</p>
+</header>
+
+<section style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 16px; padding: 32px; border-radius: 24px; background: var(--surface)">
+<span aria-hidden="true" style="font-family: var(--display); font-weight: 800; font-size: 112px; line-height: 1; letter-spacing: -0.04em">Aa Gg 49</span>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<h2 style="margin: 0; font-size: 17px; font-weight: 600">Bricolage Grotesque</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2)">Headlines and big numbers. Weights 700 and 800, tight letter spacing. Never set in paragraphs.</p>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 16px; padding: 32px; border-radius: 24px; background: var(--surface)">
+<span aria-hidden="true" style="font-family: var(--body); font-weight: 500; font-size: 112px; line-height: 1; letter-spacing: -0.02em">Aa Gg 49</span>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<h2 style="margin: 0; font-size: 17px; font-weight: 600">Onest</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2)">The whole interface: buttons, labels, forms, descriptions. Weights 400, 500, and 600.</p>
+</div>
+</div>
+</section>
+
+<section aria-label="Scale" style="display: flex; flex-direction: column">
+
+<div style="display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 32px; align-items: center; padding: 20px 0; border-top: 1px solid var(--line)">
+<div style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">Display</span><span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">48–128 px · line 0.92 · −0.04em · 800<br>The one sentence on the home page</span></div>
+<span style="font-family: var(--display); font-weight: 800; font-size: 128px; line-height: 0.92; letter-spacing: -0.04em; white-space: nowrap">Your product.</span>
+</div>
+
+<div style="display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 32px; align-items: center; padding: 20px 0; border-top: 1px solid var(--line)">
+<div style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">Heading 1</span><span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">42–92 px · line 0.95 · −0.035em · 800<br>Gallery and marketing page headlines</span></div>
+<span style="font-family: var(--display); font-weight: 800; font-size: 92px; line-height: 0.95; letter-spacing: -0.035em; white-space: nowrap">Seen it? Clone it.</span>
+</div>
+
+<div style="display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 32px; align-items: center; padding: 20px 0; border-top: 1px solid var(--line)">
+<div style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">Heading 2</span><span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">36–64 px · line 0.98 · −0.03em · 800<br>Template name, page title</span></div>
+<span style="font-family: var(--display); font-weight: 800; font-size: 64px; line-height: 0.98; letter-spacing: -0.03em; white-space: nowrap">Fragrance layering recipe</span>
+</div>
+
+<div style="display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 32px; align-items: center; padding: 20px 0; border-top: 1px solid var(--line)">
+<div style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">Heading 3</span><span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">32–52 px · line 1 · −0.03em · 800<br>Form and job page titles</span></div>
+<span style="font-family: var(--display); font-weight: 800; font-size: 52px; line-height: 1; letter-spacing: -0.03em; white-space: nowrap">Upload your products</span>
+</div>
+
+<div style="display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 32px; align-items: center; padding: 18px 0; border-top: 1px solid var(--line)">
+<div style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">Heading 4</span><span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">32 px · line 1.1 · −0.02em · 800<br>Dialog title</span></div>
+<span style="font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em">Confirm generation</span>
+</div>
+
+<div style="display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 32px; align-items: center; padding: 18px 0; border-top: 1px solid var(--line)">
+<div style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">Heading 5</span><span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">24 px · line 1.2 · −0.01em · 700<br>Section title</span></div>
+<span style="font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Shot list</span>
+</div>
+
+<div style="display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 32px; align-items: center; padding: 18px 0; border-top: 1px solid var(--line)">
+<div style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">Heading 6</span><span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">20 px · line 1.25 · −0.01em · 700<br>Card title</span></div>
+<span style="font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">Add your own video</span>
+</div>
+
+<div style="display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 32px; align-items: center; padding: 18px 0; border-top: 1px solid var(--line)">
+<div style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">Lead</span><span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">Onest 17 px · line 1.5 · 400<br>Intro paragraph, long text</span></div>
+<span style="font-size: 17px; line-height: 1.5; color: var(--text-2)">Upload your images. A few minutes later the same video is ready with your product.</span>
+</div>
+
+<div style="display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 32px; align-items: center; padding: 18px 0; border-top: 1px solid var(--line)">
+<div style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">Body</span><span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">Onest 15 px · line 1.5 · 400, 600 for emphasis<br>Interface default, button labels</span></div>
+<span style="font-size: 15px; line-height: 1.5">One image and a name per product is enough. <span style="font-weight: 600">Confirm and generate</span></span>
+</div>
+
+<div style="display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 32px; align-items: center; padding: 18px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line)">
+<div style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">Small</span><span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">Onest 13 px · line 1.4 · 400, 500 in tags<br>Field labels, tags, card details</span></div>
+<span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">Fragrance · reference 1.9M views</span>
+</div>
+
+</section>
+
+<section style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 48px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">One big headline per screen.</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Display and Heading 1–3 are used once per screen. Every other heading is Heading 5 or 6.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">Emphasis comes from weight.</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Body text uses 600. No italics, underlines, or all caps. Accent text marks links, the free offer and one phrase of the page headline; every other color carries status.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">No line longer than 75 characters.</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Reading text is set at most 620 px wide, long legal text at most 760 px.</p>
+</div>
+</section>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1900}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

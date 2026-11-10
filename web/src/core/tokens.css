@@ -1,0 +1,25 @@
+:root, [data-theme="dark"] {
+  color-scheme: dark;
+  --bg:#0B0C0A; --surface:#151712; --raised:#1C1F17; --line:#23261E; --edge:#33372B; --edge-strong:#676B5D;
+  --text:#F2F3EC; --text-2:#C9CCBF; --text-3:#A9AC9F;
+  --accent:#C8F03C; --accent-hover:#E0FF7A; --accent-text:#C8F03C; --on-accent:#0B0C0A;
+  --warn:#FF9A6B; --warn-edge:#5A3A2A; --mark-edge:#C8F03C;
+  --scrim:rgba(11,12,10,0.76); --on-scrim:#F2F3EC; --media-edge:transparent;
+}
+/* The light blocks must stay after the dark block: equal specificity, the later rule wins. */
+[data-theme="light"] {
+  color-scheme: light;
+  --bg:#F4F5EE; --surface:#FFFFFF; --raised:#E8EADF; --line:#E0E2D7; --edge:#CBCEBF; --edge-strong:#80856F;
+  --text:#0B0C0A; --text-2:#3E4236; --text-3:#5A5F50;
+  --accent-hover:#B6E01F; --accent-text:#456300;
+  --warn:#A8400F; --warn-edge:#E3B7A2; --mark-edge:#0B0C0A; --media-edge:rgba(11,12,10,0.12);
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme]) {
+    color-scheme: light;
+    --bg:#F4F5EE; --surface:#FFFFFF; --raised:#E8EADF; --line:#E0E2D7; --edge:#CBCEBF; --edge-strong:#80856F;
+    --text:#0B0C0A; --text-2:#3E4236; --text-3:#5A5F50;
+    --accent-hover:#B6E01F; --accent-text:#456300;
+    --warn:#A8400F; --warn-edge:#E3B7A2; --mark-edge:#0B0C0A; --media-edge:rgba(11,12,10,0.12);
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "unit": {
+    "product": {
+      "one": "{count} product",
+      "other": "{count} products"
+    },
+    "variant": {
+      "one": "{count} variant",
+      "other": "{count} variants"
+    },
+    "finishedImage": {
+      "one": "{count} finished image",
+      "other": "{count} finished images"
+    },
+    "clipReady": {
+      "one": "{count} clip",
+      "other": "{count} clips"
+    },
+    "missingClip": {
+      "one": "{count} missing clip",
+      "other": "{count} missing clips"
+    },
+    "clip": {
+      "one": "{count} clip",
+      "other": "{count} clips"
+    }
+  },
+  "quality": "{quality} · {resolution}",
+  "resolution": {
+    "fast": "720p",
+    "best": "1080p"
+  },
+  "running": {
+    "lead": "{products} · {quality} · {variants}",
+    "left": "about {minutes} min",
+    "rest": "left · {elapsed} elapsed",
+    "stages": "Stages",
+    "shots": "Shots",
+    "shotsTitle": "Your video, shot by shot",
+    "shotsNote": "Each box is one shot of your video. The faded picture is that shot in the original video; your own version is in the finished video.",
+    "shotsNoteMade": "Each box is one shot of your video. The sharp picture is the first frame we made of that shot for your product.",
+    "shotsNoteMadeFaded": "Each box is one shot of your video. The sharp picture is the first frame we made of that shot for your product; the faded one is that shot in the original video.",
+    "shotsNoteBare": "Each box is one shot of your video. Your version of it is in the finished video.",
+    "note": "You can leave this page. We email you when it is ready.",
+    "estimated": "Estimated time",
+    "longer": "Taking longer than usual",
+    "titleClips": "Your clips, shot by shot",
+    "titleMusic": "Your music",
+    "hintImages": "Press a picture to see it larger.",
+    "hintClips": "Press a clip that is ready to play it.",
+    "musicNote": "The music we made for your video.",
+    "musicVariant": "Variant {n}",
+    "sharedLabel": "Used by every shot"
+  },
+  "step": {
+    "adaptation": {
+      "name": "Adaptation",
+      "note": "Text and shot descriptions written for your products"
+    },
+    "images": {
+      "name": "Images",
+      "note": "The first frame of each shot",
+      "noteShared": {
+        "one": "The first frame of each shot, plus {count} picture they all share",
+        "other": "The first frame of each shot, plus {count} pictures they all share"
+      }
+    },
+    "clips": {
+      "name": "Clips",
+      "note": "Video from the first frames"
+    },
+    "music": {
+      "name": "Music",
+      "note": "New music in the mood of the template"
+    },
+    "edit": {
+      "name": "Edit",
+      "note": "Shots, text, and music are put in order"
+    },
+    "render": {
+      "name": "Render",
+      "note": "One file, mp4"
+    }
+  },
+  "state": {
+    "done": "done",
+    "running": "running",
+    "waiting": "waiting",
+    "stopped": "stopped",
+    "count": "{state} · {done} / {total}"
+  },
+  "shot": {
+    "number": "Shot {n}",
+    "waiting": "waiting",
+    "picture": "making the picture",
+    "pictureReady": "picture ready",
+    "clip": "making the clip",
+    "ready": "clip ready",
+    "openPicture": "Open the picture of shot {n}",
+    "playClip": "Play the clip of shot {n}",
+    "sharedPicture": "Shared picture",
+    "openShared": "Open the shared picture"
+  },
+  "stopped": {
+    "section": "What happened and your options",
+    "continue": "Continue with the backup model",
+    "continueSub": "Same price. The look may differ slightly.",
+    "retry": "Try again",
+    "retrySub": "Same price. The same model generates the {missing} again.",
+    "stop": "Stop the job here",
+    "buy": "Buy credits",
+    "failed": "Something went wrong. Nothing was spent. Try again.",
+    "stopSub": "Nothing more is charged. The {credits} stay in your balance and the saved parts are deleted.",
+    "stopSubFree": "Nothing more is charged. The saved parts are deleted.",
+    "back": {
+      "one": "The {count} credit for this video is back in your balance.",
+      "other": "The {count} credits for this video are back in your balance."
+    },
+    "backYour": {
+      "one": "Your {count} credit is back in your balance.",
+      "other": "Your {count} credits are back in your balance."
+    },
+    "freeBack": "Your free video is back.",
+    "finishedSaved": "The finished parts are saved.",
+    "until": "You can continue until {date}.",
+    "contact": "Contact support"
+  },
+  "reason": {
+    "clips-failed": {
+      "title": {
+        "n1": "One clip is missing",
+        "n2": "Two clips are missing",
+        "n3": "Three clips are missing",
+        "n4": "Four clips are missing",
+        "n5": "Five clips are missing",
+        "n6": "Six clips are missing",
+        "n7": "Seven clips are missing",
+        "n8": "Eight clips are missing",
+        "other": "{count} clips are missing"
+      },
+      "body": "The {images}, {clips} and the music are saved."
+    },
+    "adaptation-failed": {
+      "title": "The script for your products could not be written"
+    },
+    "images-failed": {
+      "title": "The first frames could not be generated"
+    },
+    "audio-failed": {
+      "title": "The music could not be generated"
+    },
+    "render-failed": {
+      "title": "The final video could not be put together"
+    },
+    "submission-unknown": {
+      "title": "A request to the video service got no clear answer",
+      "body": "We are checking this request with the video service ourselves. You do not need to do anything, and nothing more is charged. We will continue the job or write to you."
+    },
+    "estimate-exceeded": {
+      "title": "The job needed more than you confirmed"
+    },
+    "llm-invalid": {
+      "title": "The plan for your video came back unusable"
+    },
+    "template-missing": {
+      "title": "The template is no longer available"
+    },
+    "content-rule": {
+      "title": "This job was stopped because the images or text break our content rules",
+      "body": "This job cannot be continued."
+    },
+    "engine-error": {
+      "title": "Something went wrong on our side"
+    },
+    "generic": {
+      "title": "The job stopped",
+      "body": "What was finished is saved."
+    },
+    "provider": {
+      "body": "We cannot generate right now. Your finished parts are saved. Try again later; you are not charged until you do."
+    }
+  },
+  "result": {
+    "ready": "ready.",
+    "single": "Your video is",
+    "many": "{count} variants are",
+    "lead": "{template} · {seconds} sec · {resolution} · mp4",
+    "leadNoLength": "{template} · {resolution} · mp4",
+    "play": "Play the video",
+    "frame": "Frame from the generated video",
+    "frameOf": "Frame from variant {n}",
+    "download": "Download",
+    "downloadVariant": "Download variant {n}",
+    "downloadAll": "Download all {count}",
+    "noFile": "The video file is not available in this demo yet.",
+    "again": "Generate a new variant",
+    "variants": "Variants",
+    "variant": "Variant {n}",
+    "products": "Products",
+    "quality": "Quality",
+    "compare": "Compare with the sample",
+    "oneVariant": "One variant is",
+    "downloadBoth": "Download both",
+    "kept": "Kept in My videos for {months} months. You can use this video in your ads.",
+    "cannotPlay": "This video cannot be played here. Download it instead.",
+    "preparing": "Preparing your file…",
+    "downloadFailed": "The download did not start. Try again.",
+    "downloadRetry": "Try again",
+    "state": {
+      "done": "Done",
+      "generating": "Generating",
+      "waiting": "Waiting",
+      "stopped": "Stopped"
+    },
+    "stoppedText": "This variant could not be generated. Its {credits} are back in your balance.",
+    "regenerate": "Generate the missing variant again",
+    "imagesGone": "The product images for this job are no longer stored. Start a new job from the template.",
+    "openTemplate": "Open the template",
+    "expiredTitle": "This video is no longer stored.",
+    "expiredText": "Videos are kept for {months} months.",
+    "expiredNew": "This starts a new job: you add the product images again and confirm the price.",
+    "expiredAction": "Generate it again",
+    "report": {
+      "open": "Report a problem",
+      "title": "Report a problem",
+      "looksDifferent": "The product looks different",
+      "textWrong": "Text is wrong or cut off",
+      "doesNotPlay": "The video does not play",
+      "other": "Something else",
+      "note": "Add a note (optional)",
+      "send": "Send report",
+      "cancel": "Cancel",
+      "close": "Close",
+      "pick": "Choose what is wrong.",
+      "closed": "Reports are closed for this video.",
+      "error": "The report could not be sent. Try again.",
+      "sentTitle": "Problem reported",
+      "sent": "Thanks. We look at it within {days} business days. If the video is wrong, we generate it again at no cost."
+    },
+    "delete": {
+      "open": "Delete video"
+    },
+    "regenerateDialog": {
+      "title": "Generate variant {n} again",
+      "cost": "Cost",
+      "balance": "Balance now",
+      "needs": "You need {cost} for this.",
+      "changed": "The price changed. Check the numbers and confirm again.",
+      "expired": "The product images for this job are no longer stored. Start a new job from the template.",
+      "error": "Something went wrong. Nothing was charged. Try again.",
+      "confirm": "Confirm and generate",
+      "cancel": "Cancel",
+      "buy": "Buy credits"
+    }
+  },
+  "compare": {
+    "sample": "Sample in the gallery",
+    "sampleSub": "The video you picked",
+    "yours": "Your video",
+    "yoursSub": "Same shot, your product",
+    "sampleAlt": "Frame from the sample video",
+    "yoursAlt": "Frame from your video",
+    "playback": "Playback, both videos together",
+    "play": "Play",
+    "pause": "Pause",
+    "soundOn": "Sound on",
+    "soundOff": "Sound off",
+    "shot": "Shot {n} of {total} · {action}",
+    "download": "Download",
+    "back": "Back to result"
+  },
+  "resume": {
+    "generate": "Missing",
+    "changed": "The cost changed while this window was open. Nothing was spent. Check the new cost before you confirm.",
+    "cancel": "Cancel",
+    "submit": "Confirm and continue",
+    "title": {
+      "continue": "Continue with the backup model",
+      "retry": "Try again"
+    },
+    "info": {
+      "continue": "Same price. The look may differ slightly.",
+      "retry": "The same model generates the {missing} again."
+    },
+    "returned": "Credits returned when it stopped",
+    "costs": "Continuing costs",
+    "after": "Balance after",
+    "freeVideo": "Your free video",
+    "freeCost": "Free video · 0 credits",
+    "freeNote": "This uses your one free video.",
+    "usedElsewhere": "Your free video was used on another job. Continuing this one costs {credits}.",
+    "notEnough": "You need {credits} to continue and have {balance}.",
+    "wait": "The saved parts wait for you until {date}.",
+    "never": "You never pay more than the price you first confirmed."
+  },
+  "notice": {
+    "delayed": "This is taking longer than usual. Your job is still running; you do not need to start it again.",
+    "reconnecting": "Reconnecting… Your job keeps running while this page reconnects.",
+    "paused": "Generation is paused for a short time. Your job continues when it is back. Nothing extra is charged."
+  },
+  "queued": {
+    "section": "Place in the queue",
+    "title": "In queue",
+    "body": "Your job starts when the one before it is done.",
+    "position": "Position {position}",
+    "note": "Nothing more to do; you can leave this page."
+  },
+  "summary": {
+    "charged": "Charged when you confirmed",
+    "returned": "Returned when it stopped",
+    "toContinue": "To continue"
+  },
+  "closed": {
+    "title": "Job closed",
+    "body": {
+      "one": "{count} credit was returned. Nothing else was charged.",
+      "other": "{count} credits were returned. Nothing else was charged."
+    },
+    "bodyFree": "Your free video is back. Nothing else was charged.",
+    "expired": {
+      "one": "This job was closed after {days} days. Your {count} credit was returned when it stopped. Nothing else was charged.",
+      "other": "This job was closed after {days} days. Your {count} credits were returned when it stopped. Nothing else was charged."
+    },
+    "expiredFree": "This job was closed after {days} days. Your free video came back when it stopped. Nothing else was charged.",
+    "balanceNow": "Balance now",
+    "deleted": "The saved parts of this video were deleted.",
+    "another": "Pick another template"
+  },
+  "close": {
+    "title": "Close this job?",
+    "body": "The parts already made for this job are deleted and cannot be brought back. You can start a new job from the template; you see the price before you confirm.",
+    "bodyParts": "The parts already made for this job are deleted and cannot be brought back: {parts}. You can start a new job from the template; you see the price before you confirm.",
+    "keep": "Keep it",
+    "submit": "Close the job",
+    "failed": "Could not close the job. Nothing was changed. Try again."
+  },
+  "viewer": {
+    "previous": "Previous picture",
+    "next": "Next picture",
+    "close": "Close",
+    "count": "{n} of {total}"
+  },
+  "swap": {
+    "lead": "Person swap",
+    "leadLength": "Person swap · {seconds} sec",
+    "step": {
+      "clips": {
+        "name": "Person swap",
+        "note": "The person is changed, part by part"
+      },
+      "edit": {
+        "name": "Join",
+        "note": "The parts are put together"
+      },
+      "render": {
+        "name": "Sound and label",
+        "note": "The original sound and the AI-generated label are added"
+      }
+    },
+    "review": {
+      "status": "Waiting for approval",
+      "section": "Approval",
+      "title": "Waiting for an admin's approval",
+      "body": "A person looks at your photo before the video is made. That takes at most {hours} hours.",
+      "refund": "If the photo is not approved, or nobody looks at it in that time, the job ends and every credit comes back.",
+      "note": "Nothing more to do; you can leave this page.",
+      "cancel": "Cancel and get the credits back",
+      "failed": "The job could not be cancelled. Try again."
+    },
+    "rejected": {
+      "title": {
+        "admin": "Not approved",
+        "customer": "Cancelled",
+        "expired": "Not approved in time"
+      },
+      "body": {
+        "admin": {
+          "one": "This photo was not approved, so no video was made. Your {count} credit was returned.",
+          "other": "This photo was not approved, so no video was made. Your {count} credits were returned."
+        },
+        "customer": {
+          "one": "You cancelled before the video was made. Your {count} credit was returned.",
+          "other": "You cancelled before the video was made. Your {count} credits were returned."
+        },
+        "expired": {
+          "one": "Nobody looked at the photo within {hours} hours, so the job ended. Your {count} credit was returned.",
+          "other": "Nobody looked at the photo within {hours} hours, so the job ended. Your {count} credits were returned."
+        }
+      },
+      "deleted": "Your photos were deleted.",
+      "another": "Try another photo"
+    },
+    "report": {
+      "notMe": "This is not me, or it was made without permission"
+    },
+    "stopped": {
+      "photoRefused": {
+        "title": "Your photo was not accepted",
+        "body": "The photo could not be used for this video, so nothing was made. You cannot continue this job; start a new one with another photo."
+      },
+      "personMissing": {
+        "title": "The person was not found",
+        "body": "The person to replace could not be found, in the video or in your photo, so nothing was made. You cannot continue this job; start a new one with another photo, or contact support."
+      },
+      "off": {
+        "title": "Person swap is switched off right now",
+        "body": "This job cannot be continued while person swap is switched off, and nothing more is charged for it."
+      },
+      "another": "Try with another photo"
+    },
+    "kept": "Kept in My videos for {days} days, then deleted. Download it to keep it longer."
+  }
+}

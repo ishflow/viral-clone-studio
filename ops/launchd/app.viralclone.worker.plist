@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  TEMPLATE, not installed. ops/install.sh fills the @...@ markers and writes the copy to ~/Library/LaunchAgents (dry-run unless --apply).
+  The worker: claims runs from SQLite, runs the scan schedule. ops/run.sh loads the SAME 0600 env file as the site, so VC_PROVIDER,
+  MAGNIFIC_API_KEY and CLAUDE_CODE_OAUTH_TOKEN live there (ops/set-secret.sh), never in this file or the repository.
+  Remove: ops/rollback.sh. Restart: launchctl kickstart -k gui/$UID/app.viralclone.worker
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>app.viralclone.worker</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>@REPO@/ops/run.sh</string>
+    <string>worker</string>
+  </array>
+  <key>WorkingDirectory</key><string>@REPO@/viraleditor</string>
+  <key>RunAtLoad</key><true/>
+  <key>KeepAlive</key><true/>
+  <key>StandardOutPath</key><string>@HOME@/Library/Logs/viralclone/worker.out.log</string>
+  <key>StandardErrorPath</key><string>@HOME@/Library/Logs/viralclone/worker.err.log</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key><string>@PATH@</string>
+    <key>VC_ENV_FILE</key><string>@ENV_FILE@</string>
+    <key>HYPERFRAMES_NO_TELEMETRY</key><string>1</string>
+    <key>DO_NOT_TRACK</key><string>1</string>
+    <key>HYPERFRAMES_NO_UPDATE_CHECK</key><string>1</string>
+  </dict>
+</dict>
+</plist>

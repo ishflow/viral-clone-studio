@@ -1,0 +1,119 @@
+{
+  "gallery": {
+    "title": "Kişi değiştir",
+    "lead": "Bir video seç. Fotoğrafını yükle. Video aynı kalır, içindeki kişi sen olursun.",
+    "empty": {
+      "title": "Henüz video yok",
+      "text": "Seçebileceğin bir kişi değiştirme videosu eklendiğinde burada görünür."
+    },
+    "people": {
+      "one": "{count} kişi",
+      "other": "{count} kişi"
+    },
+    "open": "Bu videoyu kullan",
+    "priceUnknown": "Fiyat sonraki sayfada yazar",
+    "uses": {
+      "one": "{count} kez kullanıldı",
+      "other": "{count} kez kullanıldı"
+    }
+  },
+  "form": {
+    "back": "Tüm videolar",
+    "title": "Bu videoya kendini koy",
+    "lead": "Videoda olacak kişinin fotoğrafını yükle. Sen onaylayana kadar hiçbir şey kesilmez.",
+    "aside": {
+      "label": "Video",
+      "box": "Kişi {n}",
+      "promise": "Video, kesimleri ve sesi olduğu gibi kalır. Yalnızca kişi değişir."
+    },
+    "tips": {
+      "title": "İşe yarayan fotoğraf",
+      "one": "Tek kişi, karede başka kimse yok",
+      "light": "Düz ışık, yüzde sert gölge yok",
+      "frame": "Videodaki gibi kadraj: ayakta, bütün beden karede",
+      "clothes": "Bedene oturan kıyafet, bol ya da kabarık değil"
+    },
+    "person": "Kişi {n}",
+    "body": {
+      "label": "Tam boy fotoğraf",
+      "hint": "Zorunlu. Dik, baştan ayağa.",
+      "add": "Tam boy fotoğraf ekle",
+      "alt": "Tam boy fotoğrafın"
+    },
+    "face": {
+      "label": "Yüz fotoğrafı, yakın",
+      "hint": "Önerilir. Yüz sana daha çok benzer.",
+      "add": "Yüz fotoğrafı ekle",
+      "alt": "Yüz fotoğrafın"
+    },
+    "side": {
+      "label": "Yandan fotoğraf",
+      "hint": "İsteğe bağlı. Yandan çekilmiş; kişinin döndüğü anlar için.",
+      "add": "Yandan fotoğraf ekle",
+      "alt": "Yandan fotoğrafın"
+    },
+    "photo": {
+      "rules": "JPG, PNG ya da WebP · en çok 10 MB · kısa kenar en az {min} px",
+      "uploading": "Yükleniyor…",
+      "replace": "Değiştir",
+      "remove": "Kaldır",
+      "error": {
+        "type": "{name} eklenmedi: yalnızca JPG, PNG ya da WebP.",
+        "size": "{name} eklenmedi: 10 MB'tan büyük.",
+        "small": "{name} eklenmedi: kısa kenarı {min} px'in altında.",
+        "landscape": "{name} eklenmedi: tam boy fotoğraf dik olmalı (eninden uzun).",
+        "quota": "{name} eklenmedi: bugünkü yükleme sayısına ulaştın.",
+        "unreadable": "{name} eklenmedi: dosya resim olarak okunamadı.",
+        "failed": "{name} yüklenemedi. Yeniden dene."
+      }
+    },
+    "outfit": {
+      "legend": "Kıyafet",
+      "keep": "Videodaki kıyafet kalsın",
+      "photo": "Fotoğraftaki kıyafet olsun"
+    },
+    "consent": {
+      "legend": "Başlamadan önce",
+      "ownPerson": "Fotoğraftaki kişi benim ya da yazılı izni var",
+      "adults": "Fotoğraftaki herkes 18 yaşından büyük",
+      "notCelebrity": "Ünlü biri ya da tanımadığım biri değil",
+      "kept": "Neyi ne kadar saklıyoruz: fotoğrafların videoyu üretmek için çalıştığımız yapay zekâ sağlayıcısına gönderilir ve iş bitince, en geç {hours} saat sonra silinir. Biten video {days} gün saklanır, sonra silinir. Köşesinde \"AI-generated\" (yapay zekâ ile üretildi) işareti olur, orijinal videonun sesi kalır.",
+      "missing": "Başlamak için üç kutuyu da işaretle."
+    },
+    "priceNote": "Bir şey kesilmeden önce krediyi yeniden görür ve onaylarsın.",
+    "paused": "Üretim kısa bir süre için durduruldu. Formu doldurabilirsin; başlatma açılana kadar kapalı.",
+    "review": "Video üretilmeden önce fotoğrafına bir kişi bakabilir; bu en çok {hours} saat sürebilir. Beklerken iptal edip kredinin tamamını geri alabilirsin.",
+    "submit": "Başlat",
+    "wait": "Fotoğrafların yüklenmesini bekle.",
+    "error": {
+      "people": "Tam boy fotoğraf eksik ya da artık kullanılamıyor. Yeniden ekle.",
+      "photo": "Bir fotoğraf kullanılamadı: çok küçük (kısa kenarı {min} px'in altında), tam boy fotoğraf dik değil ya da dosya resim olarak okunamıyor. Hiçbir şey kesilmedi. Fotoğraflarını yeniden ekleyip başlat.",
+      "consent": "Başlamak için üç kutuyu da işaretle.",
+      "paused": "Üretim kısa bir süre için durduruldu. Hiçbir şey kesilmedi.",
+      "gone": "Bu video artık kullanılamıyor. Başka bir video seç.",
+      "generic": "İş başlatılamadı. Hiçbir şey kesilmedi. Yeniden dene."
+    },
+    "needsPhoto": "Başlamak için tam boy fotoğraf ekle."
+  },
+  "confirm": {
+    "title": "Onayla ve başlat",
+    "lead": "{template} · kişi değiştirme",
+    "pricing": "Fiyat soruluyor…",
+    "final": "Biten video",
+    "credits": "Bu videonun kredisi",
+    "was": "Önceki",
+    "balance": "Bakiyen",
+    "after": "Sonraki bakiye",
+    "time": "Tahmini süre",
+    "timeValue": "yaklaşık {minutes} dk",
+    "needs": "Bunun için {needed} gerekiyor, sende {balance} var.",
+    "changedPrice": "Bu pencere açıkken fiyat değişti: şimdi {now} (önce {was}). Hiçbir şey kesilmedi.",
+    "changedBalance": "Bu pencere açıkken bakiyen değişti. Hiçbir şey kesilmedi.",
+    "note": "İş durursa kesilen kredinin tamamı bakiyene geri döner.",
+    "starting": "İşin başlatılıyor…",
+    "startingButton": "Başlatılıyor…",
+    "cancel": "Vazgeç",
+    "submit": "Onayla ve başlat",
+    "buy": "Kredi al"
+  }
+}

@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pricing · mobile</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&amp;family=Onest:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ay{--bg:#0B0C0A;--surface:#151712;--raised:#1C1F17;--line:#23261E;--edge:#33372B;--edge-strong:#676B5D;--text:#F2F3EC;--text-2:#C9CCBF;--text-3:#A9AC9F;--accent:#C8F03C;--accent-hover:#E0FF7A;--accent-text:#C8F03C;--on-accent:#0B0C0A;--warn:#FF9A6B;--warn-edge:#5A3A2A;--mark-edge:#C8F03C;--scrim:rgba(11,12,10,0.76);--on-scrim:#F2F3EC;--media-edge:transparent;--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Onest',system-ui,sans-serif}
+.ay[data-theme="light"],.ay [data-theme="light"]{--bg:#F4F5EE;--surface:#FFFFFF;--raised:#E8EADF;--line:#E0E2D7;--edge:#CBCEBF;--edge-strong:#80856F;--text:#0B0C0A;--text-2:#3E4236;--text-3:#5A5F50;--accent-hover:#B6E01F;--accent-text:#456300;--warn:#A8400F;--warn-edge:#E3B7A2;--mark-edge:#0B0C0A;--media-edge:rgba(11,12,10,0.12)}
+a{color:var(--accent-text)}a:hover{color:var(--text)}
+</style>
+</helmet>
+<div class="ay" data-theme="{{ theme }}" style="min-height: 3400px; box-sizing: border-box; background: var(--bg); color: var(--text); font-family: var(--body); padding: 0 clamp(16px, 4vw, 60px) 48px">
+<div style="max-width: 1320px; margin: 0 auto; display: flex; flex-direction: column; gap: clamp(48px, 5vw, 72px)">
+
+<header style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line); container-type: inline-size">
+<a href="A-Ana-Sayfa-M.dc.html" style="display: flex; align-items: baseline; padding: 10px 0; min-width: 44px; white-space: nowrap; flex: 0 0 auto; gap: 0.34em; font-family: var(--display); font-weight: 800; font-size: 24px; line-height: 1; letter-spacing: -0.04em; color: var(--text); text-decoration: none"><svg viewBox="0 0 42 32" fill="none" aria-hidden="true" style="width: 0.97em; height: 0.74em; flex: 0 0 auto; display: block"><rect x="1.5" y="1.5" width="15" height="29" rx="3" stroke="currentColor" stroke-width="3"></rect><rect x="25.5" y="1.5" width="15" height="29" rx="3" fill="#C8F03C" stroke-width="3" style="stroke: var(--mark-edge)"></rect></svg><span><span style="font-size: clamp(0px, (100cqi - 327.5px) * 9999, 1em); letter-spacing: -0.04em">viral clone</span></span></a>
+<div style="display: flex; align-items: center; gap: 8px; min-width: 0">
+<a href="A-Giris-M.dc.html" style="display: flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 999px; background: var(--accent); color: var(--on-accent); text-decoration: none; font-size: 15px; font-weight: 600; white-space: nowrap">Get started</a>
+<a href="A-Menu-Ziyaretci-M.dc.html" aria-label="Open menu" style="width: 44px; height: 44px; flex: 0 0 auto; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border-radius: 999px; border: 1px solid var(--edge); color: var(--text); text-decoration: none"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></a>
+</div>
+</header>
+
+<section style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 24px 48px">
+<h1 style="margin: 0; flex: 1 1 520px; font-family: var(--display); font-weight: 800; font-size: clamp(42px, 6.4vw, 92px); line-height: 0.92; letter-spacing: -0.035em; text-wrap: balance">Buy credits, <span style="color: var(--accent-text)">generate videos.</span></h1>
+<p style="margin: 0; flex: 1 1 320px; max-width: 440px; font-size: 17px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Your first video is free: one no-talking video in Fast quality. No card needed. After that you buy credits, with no subscription. Before every job you see how many credits it costs; nothing is spent until you confirm.</p>
+</section>
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<section aria-label="Credit packs" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 16px">
+<sc-for list="{{ packs }}" as="p" hint-placeholder-count="3">
+<article style="box-sizing: border-box; padding: 16px; border-radius: 16px; background: {{ p.bg }}; color: {{ p.fg }}; border: 1px solid {{ p.bd }}; display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: start; gap: 8px 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; letter-spacing: -0.01em">{{ p.name }}</h2>
+<div style="grid-row: span 2; display: flex; flex-direction: column; align-items: flex-end; gap: 4px; text-align: right">
+<span style="font-family: var(--display); font-weight: 800; font-size: clamp(40px, 4vw, 52px); line-height: 1; letter-spacing: -0.03em">{{ p.price }}</span>
+<span style="font-size: 15px; font-weight: 600">{{ p.credits }}</span>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: {{ p.sub }}">{{ p.note }}</p>
+<p style="margin: 0; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; font-weight: 600">{{ p.about }}</span><span style="font-size: 13px; line-height: 1.4; color: {{ p.dim }}">No talking · Fast · one variant</span></p>
+<a href="A-Giris-M.dc.html" style="grid-column: 1 / -1; margin-top: 8px; display: flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 12px; background: {{ p.btnBg }}; color: {{ p.btnFg }}; border: 1px solid {{ p.btnBd }}; font-weight: 600; font-size: 15px; text-decoration: none">Buy</a>
+</article>
+</sc-for>
+</section>
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">Prices are in US dollars. Tax is added at checkout where it applies.</p>
+</div>
+
+<section aria-labelledby="kac-kredi" style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 24px 72px">
+<div style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+<h2 id="kac-kredi" style="margin: 0; font-family: var(--display); font-weight: 800; font-size: clamp(32px, 4vw, 52px); line-height: 1; letter-spacing: -0.03em; text-wrap: balance">How many credits per video?</h2>
+<p style="margin: 0; max-width: 440px; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">The price is fixed: credits per video × the number of variants (1&nbsp;to&nbsp;3). The length of the template does not change the price.</p>
+</div>
+<dl style="margin: 0; flex: 2 1 480px; min-width: 0; display: flex; flex-direction: column">
+<sc-for list="{{ costs }}" as="c" hint-placeholder-count="4">
+<div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 8px 24px; padding: 16px 0; border-top: 1px solid var(--line)">
+<dt style="flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 17px; font-weight: 600">{{ c.name }}</span><span style="font-size: 13px; color: var(--text-3)">{{ c.detail }}</span></dt>
+<dd style="flex: 0 0 auto; margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; color: var(--accent-text)">{{ c.cost }}</dd>
+</div>
+</sc-for>
+</dl>
+</section>
+
+<section aria-labelledby="sss" style="display: flex; flex-direction: column; gap: 24px">
+<h2 id="sss" style="margin: 0; font-family: var(--display); font-weight: 800; font-size: clamp(32px, 4vw, 52px); line-height: 1; letter-spacing: -0.03em">Frequently asked</h2>
+<dl style="margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(480px, 100%), 1fr)); gap: 0 48px">
+<sc-for list="{{ faqs }}" as="q" hint-placeholder-count="8">
+<div style="display: flex; flex-direction: column; gap: 8px; padding: 24px 0; border-top: 1px solid var(--line)">
+<dt style="font-size: 20px; font-weight: 600; line-height: 1.3">{{ q.q }}</dt>
+<dd style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">{{ q.a }}</dd>
+</div>
+</sc-for>
+</dl>
+</section>
+
+<footer style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px; padding-top: 24px; border-top: 1px solid var(--line); font-size: 13px; color: var(--text-3)">
+<span>© [COMPANY NAME]</span>
+<nav aria-label="Footer menu" style="flex: 1 1 100%; display: grid; grid-template-columns: repeat(3, auto); justify-content: start; gap: 4px 24px">
+<a href="Main-M.dc.html" style="display: flex; align-items: center; min-height: 44px; color: var(--text-2); text-decoration: none">Gallery</a>
+<a href="A-Fiyatlar-M.dc.html" style="display: flex; align-items: center; min-height: 44px; color: var(--text-2); text-decoration: none">Pricing</a>
+<a href="A-Yasal-M.dc.html" style="display: flex; align-items: center; min-height: 44px; color: var(--text-2); text-decoration: none">Terms of use</a>
+<a href="A-Yasal-M.dc.html" style="display: flex; align-items: center; min-height: 44px; color: var(--text-2); text-decoration: none">Privacy</a>
+<a href="A-Yasal-Iade-M.dc.html" style="display: flex; align-items: center; min-height: 44px; color: var(--text-2); text-decoration: none">Refunds</a>
+<a href="A-Iletisim-M.dc.html" style="display: flex; align-items: center; min-height: 44px; color: var(--text-2); text-decoration: none">Contact</a>
+</nav>
+</footer>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"theme":{"editor":"enum","options":["dark","light"],"default":"dark"},"$preview":{"width":390,"height":3400}}'>
+class Component extends DCLogic {
+renderVals() {
+var plain = { bg: 'var(--surface)', fg: 'var(--text)', bd: 'var(--line)', sub: 'var(--text-2)', dim: 'var(--text-3)', btnBg: 'transparent', btnFg: 'var(--text)', btnBd: 'var(--edge-strong)' };
+var hot = { bg: 'var(--accent)', fg: 'var(--on-accent)', bd: 'var(--accent)', sub: 'var(--on-accent)', dim: 'var(--on-accent)', btnBg: 'var(--on-accent)', btnFg: 'var(--on-scrim)', btnBd: 'var(--on-accent)' };
+function pack(name, price, credits, about, note, k) {
+return { name: name, price: price, credits: credits, about: about, note: note, bg: k.bg, fg: k.fg, bd: k.bd, sub: k.sub, dim: k.dim, btnBg: k.btnBg, btnFg: k.btnFg, btnBd: k.btnBd };
+}
+return {
+theme: this.props.theme ?? 'dark',
+packs: [
+pack('Starter', '$19', '10 credits', 'About 5 videos', 'To try it out.', plain),
+pack('Standard', '$54', '30 credits', 'About 15 videos', 'For regular production.', hot),
+pack('Studio', '$169', '100 credits', 'About 50 videos', 'Many products, many variants.', plain)
+],
+costs: [
+{ name: 'No-talking video, Fast', detail: '720p', cost: '2 credits' },
+{ name: 'No-talking video, Best', detail: '1080p', cost: '5 credits' },
+{ name: 'Talking video, Fast', detail: '720p', cost: '4 credits' },
+{ name: 'Talking video, Best', detail: '1080p', cost: '8 credits' },
+{ name: 'Turn your own video into a template', detail: 'file or link', cost: '1 credit' }
+],
+faqs: [
+{ q: 'What is free?', a: 'One no-talking video in Fast quality, one variant. No watermark, and you can download it. If the job stops, your free video comes back.' },
+{ q: 'When are credits spent?', a: 'You see the price before every job. You are charged when you confirm. If the video is not delivered, the credits come back.' },
+{ q: 'What if a video is not delivered?', a: 'The credits for that video go back to your balance right away, and the finished parts are saved. You can try again, continue with the backup model, or stop the job. You never pay more than the price you first confirmed.' },
+{ q: 'Do credits expire?', a: 'No. Credits do not expire. If you delete your account, the remaining credits are deleted.' },
+{ q: 'Can I get a refund?', a: 'Yes, in full, within 14 days of the purchase if no credit from the pack was used. Once a credit is used there is no refund; the remaining credits stay valid. A credit counts as used when a video is delivered or a template is prepared with it. Credits that came back from a stopped job do not count as used.' },
+{ q: 'Which format and quality?', a: 'Every video is vertical, 9:16. Fast is 720p and Best is 1080p.' },
+{ q: 'Which languages?', a: 'The site is in English and Türkçe. On-screen text and voice in the video can be in English or Türkçe.' },
+{ q: 'Can I get an invoice?', a: 'The invoice for every purchase stays on the Account page and downloads as a PDF. Your billing name and address are collected at checkout. Wrong details on an invoice? Contact support.' }
+]
+};
+}
+}
+</script>
+</body>
+</html>

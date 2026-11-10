@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "language": "en",
+  "canvas": { "width": 720, "height": 1280, "fps": 30 },
+  "frames": 240,
+  "media": {
+    "talk-one": { "file": "assets/talk-one.mp4", "kind": "video" },
+    "talk-two": { "file": "assets/talk-two.mp4", "kind": "video" },
+    "product": { "file": "assets/product.png", "kind": "image" },
+    "music": { "file": "assets/music.mp3", "kind": "audio" }
+  },
+  "shots": [
+    { "id": "claim", "at": 0, "for": 120, "media": "talk-one", "sound": { "gain": 1 } },
+    { "id": "result", "at": 120, "for": 120, "media": "talk-two", "sound": { "gain": 1 }, "motion": { "kind": "punch-in", "at": 142 } }
+  ],
+  "texts": [
+    { "id": "later", "at": 124, "for": 56, "box": { "left": 9, "top": 16, "right": 40, "bottom": 22 }, "style": "tag", "copy": "Day 14" }
+  ],
+  "captions": {
+    "box": { "left": 9, "top": 50, "right": 85, "bottom": 63 },
+    "words": [
+      { "text": "Two", "at": 6, "for": 7 },
+      { "text": "weeks", "at": 13, "for": 9 },
+      { "text": "on", "at": 22, "for": 6 },
+      { "text": "this", "at": 28, "for": 7 },
+      { "text": "serum.", "at": 35, "for": 14 },
+      { "text": "No", "at": 66, "for": 6 },
+      { "text": "filter,", "at": 72, "for": 9 },
+      { "text": "no", "at": 81, "for": 5 },
+      { "text": "makeup.", "at": 86, "for": 12 },
+      { "text": "My", "at": 126, "for": 6 },
+      { "text": "skin", "at": 132, "for": 10 },
+      { "text": "never", "at": 142, "for": 12 },
+      { "text": "looked", "at": 154, "for": 10 },
+      { "text": "this", "at": 164, "for": 8 },
+      { "text": "good.", "at": 172, "for": 18 }
+    ]
+  },
+  "cards": [
+    { "id": "bottle", "at": 28, "for": 34, "media": "product", "box": { "left": 56, "top": 16, "right": 92, "bottom": 44 } }
+  ],
+  "audio": {
+    "music": { "media": "music", "gain": 0.5, "fadeOut": 15, "duck": { "to": 0.15, "under": "captions" } }
+  }
+}

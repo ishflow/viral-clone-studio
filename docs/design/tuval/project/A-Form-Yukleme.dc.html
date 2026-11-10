@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Generate: upload states</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ay{--bg:#0B0C0A;--surface:#151712;--raised:#1C1F17;--line:#23261E;--edge:#33372B;--edge-strong:#676B5D;--text:#F2F3EC;--text-2:#C9CCBF;--text-3:#A9AC9F;--accent:#C8F03C;--accent-hover:#E0FF7A;--accent-text:#C8F03C;--on-accent:#0B0C0A;--warn:#FF9A6B;--warn-edge:#5A3A2A;--mark-edge:#C8F03C;--scrim:rgba(11,12,10,0.76);--on-scrim:#F2F3EC;--media-edge:transparent;--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Onest',system-ui,sans-serif}
+.ay[data-theme="light"],.ay [data-theme="light"]{--bg:#F4F5EE;--surface:#FFFFFF;--raised:#E8EADF;--line:#E0E2D7;--edge:#CBCEBF;--edge-strong:#80856F;--text:#0B0C0A;--text-2:#3E4236;--text-3:#5A5F50;--accent-hover:#B6E01F;--accent-text:#456300;--warn:#A8400F;--warn-edge:#E3B7A2;--mark-edge:#0B0C0A;--media-edge:rgba(11,12,10,0.12)}
+a{color:var(--accent-text)}a:hover{color:var(--text)}
+</style>
+</helmet>
+<div class="ay" data-theme="{{ theme }}" style="min-height: 740px; box-sizing: border-box; background: var(--bg); color: var(--text); font-family: var(--body); padding: 0 clamp(16px, 4vw, 60px) 72px">
+<div style="max-width: 1320px; margin: 0 auto; padding-top: clamp(24px, 4vw, 48px); display: flex; flex-direction: column; gap: 32px">
+<h1 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em">Generate form · upload states</h1>
+<div style="display: flex; flex-wrap: wrap; gap: 32px">
+
+<div style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">Empty</p>
+<fieldset style="margin: 0; min-width: 0; box-sizing: border-box; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); padding: 16px; display: flex; flex-wrap: wrap; gap: 12px 16px">
+<legend style="padding: 0 8px; font-size: 15px; color: var(--text-2)">Product 1</legend>
+<div style="display: flex; gap: 8px; min-width: 232px">
+<button type="button" style="width: 232px; height: 96px; box-sizing: border-box; padding: 8px 16px; border-radius: 8px; border: 1.5px dashed var(--edge-strong); background: transparent; color: var(--text-2); font: inherit; font-size: 13px; line-height: 1.4; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; text-align: center; text-wrap: balance; cursor: pointer"><span style="display: flex; color: var(--accent-text)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></span>Drop images here or choose files</button>
+</div>
+</fieldset>
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3); text-wrap: pretty">JPG, PNG or WebP · up to 10 MB each · 1 to 8 images per product</p>
+</div>
+
+<div style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">Uploading</p>
+<fieldset style="margin: 0; min-width: 0; box-sizing: border-box; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); padding: 16px; display: flex; flex-wrap: wrap; gap: 12px 16px">
+<legend style="padding: 0 8px; font-size: 15px; color: var(--text-2)">Product 1</legend>
+<div style="display: flex; gap: 8px; min-width: 232px">
+<div style="position: relative; flex: 0 0 auto; width: 72px; height: 96px; border-radius: 8px; overflow: hidden; background: var(--raised); box-shadow: 0 0 0 1px var(--media-edge)">
+<img src="/_blob/619ee0e5a13e318118b291c1451be9b8" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0.4">
+<span role="progressbar" aria-label="Upload progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60" style="position: absolute; left: 4px; right: 4px; bottom: 4px; display: flex; padding: 4px; border-radius: 999px; background: var(--scrim)"><span style="flex: 60; height: 4px; border-radius: 999px; background: var(--accent)"></span><span style="flex: 40; height: 4px"></span></span>
+</div>
+<div style="flex: 0 0 72px; display: flex; flex-direction: column; gap: 8px; justify-content: center">
+<span role="status" style="font-size: 13px; line-height: 1.4; font-weight: 600; color: var(--text-2)">Uploading… 60%</span>
+</div>
+<button type="button" aria-label="Add image" style="width: 72px; height: 96px; border-radius: 8px; border: 1.5px dashed var(--edge-strong); background: transparent; color: var(--accent-text); display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
+</div>
+</fieldset>
+</div>
+
+<div style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">Uploaded</p>
+<fieldset style="margin: 0; min-width: 0; box-sizing: border-box; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); padding: 16px; display: flex; flex-wrap: wrap; gap: 12px 16px">
+<legend style="padding: 0 8px; font-size: 15px; color: var(--text-2)">Product 1</legend>
+<div style="display: flex; gap: 8px; min-width: 232px">
+<img src="/_blob/619ee0e5a13e318118b291c1451be9b8" alt="Uploaded product image" style="width: 72px; height: 96px; object-fit: cover; border-radius: 8px; display: block; box-shadow: 0 0 0 1px var(--media-edge)">
+<div style="flex: 0 0 72px; display: flex; flex-direction: column; gap: 8px">
+<button type="button" style="min-height: 44px; padding: 0 4px; border: 0; background: transparent; color: var(--text-2); font: inherit; font-size: 13px; font-weight: 600; text-align: left; white-space: nowrap; cursor: pointer">Replace</button>
+<button type="button" style="min-height: 44px; padding: 0 4px; border: 0; background: transparent; color: var(--text-2); font: inherit; font-size: 13px; font-weight: 600; text-align: left; white-space: nowrap; cursor: pointer">Remove</button>
+</div>
+<button type="button" aria-label="Add image" style="width: 72px; height: 96px; border-radius: 8px; border: 1.5px dashed var(--edge-strong); background: transparent; color: var(--accent-text); display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
+</div>
+</fieldset>
+</div>
+
+<div style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">Upload failed</p>
+<fieldset style="margin: 0; min-width: 0; box-sizing: border-box; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); padding: 16px; display: flex; flex-wrap: wrap; gap: 12px 16px">
+<legend style="padding: 0 8px; font-size: 15px; color: var(--text-2)">Product 1</legend>
+<div style="display: flex; gap: 8px; min-width: 232px">
+<div style="position: relative; flex: 0 0 auto; width: 72px; height: 96px; border-radius: 8px; overflow: hidden; background: var(--raised); box-shadow: 0 0 0 1.5px var(--warn)">
+<img src="/_blob/619ee0e5a13e318118b291c1451be9b8" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0.4">
+<span aria-hidden="true" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 32px; height: 32px; border-radius: 50%; background: var(--scrim); color: var(--on-scrim); display: flex; align-items: center; justify-content: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg></span>
+</div>
+<div style="flex: 0 0 72px; display: flex; flex-direction: column; gap: 8px">
+<button type="button" style="min-height: 44px; padding: 0 4px; border: 0; background: transparent; color: var(--text-2); font: inherit; font-size: 13px; font-weight: 600; text-align: left; white-space: nowrap; cursor: pointer">Try again</button>
+<button type="button" style="min-height: 44px; padding: 0 4px; border: 0; background: transparent; color: var(--text-2); font: inherit; font-size: 13px; font-weight: 600; text-align: left; white-space: nowrap; cursor: pointer">Remove</button>
+</div>
+<button type="button" aria-label="Add image" style="width: 72px; height: 96px; border-radius: 8px; border: 1.5px dashed var(--edge-strong); background: transparent; color: var(--accent-text); display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
+</div>
+<p role="alert" style="flex: 1 1 100%; min-width: 0; margin: 0; display: flex; align-items: flex-start; gap: 8px; font-size: 13px; line-height: 1.4; color: var(--warn)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg><span style="min-width: 0; overflow-wrap: anywhere">Upload failed. Check your connection.</span></p>
+</fieldset>
+</div>
+
+<div style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">File not accepted</p>
+<fieldset style="margin: 0; min-width: 0; box-sizing: border-box; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); padding: 16px; display: flex; flex-wrap: wrap; gap: 12px 16px">
+<legend style="padding: 0 8px; font-size: 15px; color: var(--text-2)">Product 1</legend>
+<div style="display: flex; gap: 8px; min-width: 232px">
+<img src="/_blob/619ee0e5a13e318118b291c1451be9b8" alt="Uploaded product image" style="width: 72px; height: 96px; object-fit: cover; border-radius: 8px; display: block; box-shadow: 0 0 0 1px var(--media-edge)">
+<div style="flex: 0 0 72px; display: flex; flex-direction: column; gap: 8px">
+<button type="button" style="min-height: 44px; padding: 0 4px; border: 0; background: transparent; color: var(--text-2); font: inherit; font-size: 13px; font-weight: 600; text-align: left; white-space: nowrap; cursor: pointer">Replace</button>
+<button type="button" style="min-height: 44px; padding: 0 4px; border: 0; background: transparent; color: var(--text-2); font: inherit; font-size: 13px; font-weight: 600; text-align: left; white-space: nowrap; cursor: pointer">Remove</button>
+</div>
+<button type="button" aria-label="Add image" style="width: 72px; height: 96px; border-radius: 8px; border: 1.5px dashed var(--edge-strong); background: transparent; color: var(--accent-text); display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
+</div>
+<ul role="alert" style="flex: 1 1 100%; min-width: 0; margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px">
+<li style="margin: 0; display: flex; align-items: flex-start; gap: 8px; font-size: 13px; line-height: 1.4; color: var(--warn)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg><span style="min-width: 0; overflow-wrap: anywhere">photo.heic is not supported. Use JPG, PNG or WebP.</span></li>
+<li style="margin: 0; display: flex; align-items: flex-start; gap: 8px; font-size: 13px; line-height: 1.4; color: var(--warn)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg><span style="min-width: 0; overflow-wrap: anywhere">a-very-long-product-photo-name-final-v2.png is larger than 10 MB.</span></li>
+<li style="margin: 0; display: flex; align-items: flex-start; gap: 8px; font-size: 13px; line-height: 1.4; color: var(--warn)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg><span style="min-width: 0; overflow-wrap: anywhere">This file could not be read.</span></li>
+<li style="margin: 0; display: flex; align-items: flex-start; gap: 8px; font-size: 13px; line-height: 1.4; color: var(--warn)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg><span style="min-width: 0; overflow-wrap: anywhere">You can add up to 8 images per product.</span></li>
+</ul>
+</fieldset>
+</div>
+
+<div style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">While images are uploading</p>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 16px 24px; padding-top: 24px; border-top: 1px solid var(--line)">
+<button type="button" aria-disabled="true" style="min-height: 60px; padding: 0 48px; border-radius: 12px; border: 0; background: var(--raised); color: var(--text-3); font: inherit; font-size: 17px; font-weight: 600; cursor: default">Generate</button>
+<p role="status" style="margin: 0; flex: 1 1 200px; display: flex; align-items: center; gap: 8px; font-size: 13px; line-height: 1.4; color: var(--text-3)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto"><path d="M12 3.5a8.5 8.5 0 1 0 8.5 8.5"></path></svg>Wait for the uploads to finish.</p>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"theme":{"editor":"enum","options":["dark","light"],"default":"dark"},"$preview":{"width":1440,"height":740}}'>
+class Component extends DCLogic {
+renderVals() {
+return { theme: this.props.theme ?? 'dark' };
+}
+}
+</script>
+</body>
+</html>

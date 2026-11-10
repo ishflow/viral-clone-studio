@@ -1,0 +1,42 @@
+{
+  "format": "hypit.cli-status@1",
+  "build": {
+    "id": "bld_20261003T151434540Z_1F956B68C8",
+    "targets": [
+      "final.video"
+    ],
+    "failure": "Magnific task 735fd6dd-d9b6-453a-92f7-0a31648b7958 failed: 500 - Task failed. Error: Invalid request to service seedance-2-0-mini. Status: 500. Error: {\"error\": {\"param\": \"\", \"message\": \"The service encountered an unexpected internal error. Request id: 021791040529904b70b2a74477c2b606f823ac231da832957cfd9\", \"code\": \"InternalServiceError\", \"type\": \"InternalServerError\"}, \"status_code\": 500}",
+    "work": {
+      "state": "done",
+      "outcome": "failed"
+    },
+    "result": {
+      "state": "failed",
+      "outputCount": 10
+    },
+    "operations": [
+      {
+        "receipt": {
+          "id": "735fd6dd-d9b6-453a-92f7-0a31648b7958"
+        },
+        "endpoint": "magnific.default",
+        "state": "failed",
+        "progress": {
+          "phase": "IN_PROGRESS"
+        },
+        "failure": {
+          "code": "MAGNIFIC_TASK_FAILED",
+          "message": "Magnific task 735fd6dd-d9b6-453a-92f7-0a31648b7958 failed: 500 - Task failed. Error: Invalid request to service seedance-2-0-mini. Status: 500. Error: {\"error\": {\"param\": \"\", \"message\": \"The service encountered an unexpected internal error. Request id: 021791040529904b70b2a74477c2b606f823ac231da832957cfd9\", \"code\": \"InternalServiceError\", \"type\": \"InternalServerError\"}, \"status_code\": 500}"
+        }
+      },
+      {
+        "endpoint": "magnific.default",
+        "state": "pending",
+        "progress": {
+          "phase": "IN_PROGRESS"
+        },
+        "count": 2
+      }
+    ]
+  }
+}

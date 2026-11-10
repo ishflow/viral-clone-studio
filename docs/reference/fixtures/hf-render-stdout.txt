@@ -1,0 +1,40 @@
+
+◆  Rendering good → /work/out1.mp4
+   30fps · standard · 1 workers
+   GPU: browser GPU (auto-detect)
+
+[?25l│
+◒  Checking browser[1G[J◐  Checking browser[1G[J◇  Browser: cache
+[?25h  █░░░░░░░░░░░░░░░░░░░░░░░░  5%  Compiling composition
+  ██░░░░░░░░░░░░░░░░░░░░░░░  10%  Extracting video frames
+  █████░░░░░░░░░░░░░░░░░░░░  20%  Processing audio tracks
+  ██████░░░░░░░░░░░░░░░░░░░  25%  Starting frame capture
+  ██████░░░░░░░░░░░░░░░░░░░  25%  Checking browser GPU
+[BrowserManager] Browser launched (HeadlessChrome/152.0.7977.30, screenshot, gl=--use-gl=angle --use-angle=metal, headlessShell=true, platform=darwin)
+[initSession:screenshot] page.goto start (0ms)
+[HyperFrames] render runtime fps {"canonicalFps":30,"source":"render-options","rawFpsSource":"render-options","rawFps":30}
+[initSession:screenshot] page.goto complete (146ms)
+[initSession:screenshot] GSAP proxy flush complete (152ms)
+[initSession:screenshot] pollHfReady complete (153ms)
+[initSession:screenshot] pollSubCompositionTimelines complete (ready) (155ms)
+[initSession:screenshot] applyVideoMetadataHints complete (156ms)
+[initSession:screenshot] media + fonts + tailwind ready (158ms)
+[initSession:screenshot] captureBeyondViewport downgraded: page content fits the capture viewport (161ms)
+[initSession:screenshot] timeline at-risk predictor: 0/60 frames (0%) (248ms)
+[initSession:screenshot] static-frame dedup: disabled (before-capture hook / video injection active) (250ms)
+[initSession:screenshot] drawElement self-verify armed: 4 ground-truth frame(s) @ [15, 32, 45, 57] of 60 (628ms)
+[initSession:drawelement] drawElement canvas injected (629ms)
+[initSession:drawelement] screenshot fallback: 14 clip-boundary frame(s) (630ms)
+[initSession:drawelement] drawElement worker encode initialized (633ms)
+  ██████░░░░░░░░░░░░░░░░░░░  26%  Streaming frame 1/60
+  ██████████░░░░░░░░░░░░░░░  40%  Streaming frame 16/60
+  █████████████░░░░░░░░░░░░  53%  Streaming frame 31/60
+  ████████████████░░░░░░░░░  64%  Streaming frame 43/60
+  ██████████████████░░░░░░░  75%  Streaming frame 54/60
+  ████████████████████░░░░░  80%  Streaming frame 60/60
+  ██████████████████████░░░  90%  Assembling final video
+  █████████████████████████  100%  Render complete
+
+◇  /work/out1.mp4
+   95.5 KB · 2.0s video · rendered in 3.7s
+   drawelement capture · hardware gpu · compile 0.2s · extract 0.3s · audio 0.2s · probe 0.1s · setup 0.3s · capture 2.3s · encode (during capture) 2.3s · assemble 0.3s

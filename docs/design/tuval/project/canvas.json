@@ -1,0 +1,3735 @@
+{
+  "v": 3,
+  "attachments": {},
+  "boards": {
+    "A-404.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "page": "a",
+      "title": "404",
+      "w": 1440,
+      "x": 7600,
+      "y": 0
+    },
+    "A-Ana-Sayfa.dc.html": {
+      "expand": "fill",
+      "h": 3240,
+      "page": "a",
+      "title": "Home",
+      "w": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "A-Ayarlar.dc.html": {
+      "expand": "fill",
+      "h": 1180,
+      "is_interactive": true,
+      "page": "a",
+      "title": "Admin · settings",
+      "w": 1440,
+      "x": 16720,
+      "y": 19500
+    },
+    "A-Detay.dc.html": {
+      "expand": "fill",
+      "h": 1320,
+      "page": "a",
+      "title": "Template detail",
+      "w": 1440,
+      "x": 4560,
+      "y": 5740
+    },
+    "A-Eposta-Dogrula.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "page": "a",
+      "title": "Verify your email",
+      "w": 1440,
+      "x": 0,
+      "y": 3740
+    },
+    "A-Fiyatlar.dc.html": {
+      "expand": "fill",
+      "h": 2200,
+      "page": "a",
+      "title": "Pricing",
+      "w": 1440,
+      "x": 1520,
+      "y": 0
+    },
+    "A-Form.dc.html": {
+      "expand": "fill",
+      "h": 1360,
+      "is_interactive": true,
+      "page": "a",
+      "title": "Generate form",
+      "w": 1440,
+      "x": 0,
+      "y": 7840
+    },
+    "A-Gelen.dc.html": {
+      "expand": "fill",
+      "h": 1840,
+      "page": "a",
+      "title": "Admin · template inbox",
+      "w": 1440,
+      "x": 10640,
+      "y": 19500
+    },
+    "A-Giris.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "is_interactive": true,
+      "page": "a",
+      "title": "Log in and sign up",
+      "w": 1440,
+      "x": 3040,
+      "y": 0
+    },
+    "A-Hesap-Sil.dc.html": {
+      "h": 500,
+      "page": "a",
+      "title": "Delete account confirmation",
+      "w": 640,
+      "x": 1520,
+      "y": 13960
+    },
+    "A-Hesap.dc.html": {
+      "expand": "fill",
+      "h": 1340,
+      "page": "a",
+      "title": "Account",
+      "w": 1440,
+      "x": 0,
+      "y": 13960
+    },
+    "A-Is-Durdu.dc.html": {
+      "expand": "fill",
+      "h": 920,
+      "page": "a",
+      "title": "Job progress · stopped",
+      "w": 1440,
+      "x": 6000,
+      "y": 7840
+    },
+    "A-Is-Takibi.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "page": "a",
+      "title": "Job progress",
+      "w": 1440,
+      "x": 4480,
+      "y": 7840
+    },
+    "A-Karsilama.dc.html": {
+      "expand": "fill",
+      "h": 1200,
+      "page": "a",
+      "title": "Welcome · first video free",
+      "w": 1440,
+      "x": 1520,
+      "y": 3740
+    },
+    "A-Odeme-Basarili.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "page": "a",
+      "title": "Payment received",
+      "w": 1440,
+      "x": 2240,
+      "y": 13960
+    },
+    "A-Odeme-Basarisiz.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "page": "a",
+      "title": "Payment declined",
+      "w": 1440,
+      "x": 4634,
+      "y": 13960
+    },
+    "A-Onay-Yetersiz.dc.html": {
+      "h": 620,
+      "page": "a",
+      "title": "Credit confirmation · not enough credits",
+      "w": 640,
+      "x": 3760,
+      "y": 7840
+    },
+    "A-Onay.dc.html": {
+      "h": 680,
+      "page": "a",
+      "title": "Credit confirmation",
+      "w": 640,
+      "x": 3040,
+      "y": 7840
+    },
+    "A-Sifre-Gonderildi.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "page": "a",
+      "title": "Reset link sent",
+      "w": 1440,
+      "x": 4560,
+      "y": 3740
+    },
+    "A-Sifre-Unuttum.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "page": "a",
+      "title": "Forgot password",
+      "w": 1440,
+      "x": 3040,
+      "y": 3740
+    },
+    "A-Sifre-Yeni.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "page": "a",
+      "title": "New password",
+      "w": 1440,
+      "x": 6080,
+      "y": 3740
+    },
+    "A-Sonuc.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "page": "a",
+      "title": "Result",
+      "w": 1440,
+      "x": 7520,
+      "y": 7840
+    },
+    "A-Uretimlerim.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "page": "a",
+      "title": "My videos",
+      "w": 1440,
+      "x": 0,
+      "y": 11380
+    },
+    "A-Video-Ekle.dc.html": {
+      "expand": "fill",
+      "h": 920,
+      "page": "a",
+      "title": "Add your own video",
+      "w": 1440,
+      "x": 7600,
+      "y": 5740
+    },
+    "A-Yasal.dc.html": {
+      "expand": "fill",
+      "h": 2120,
+      "page": "a",
+      "title": "Legal page",
+      "w": 1440,
+      "x": 4560,
+      "y": 0
+    },
+    "B-Editoryal-Dizin.dc.html": {
+      "expand": "fill",
+      "h": 1240,
+      "page": "yonler",
+      "title": "B — Editorial Index",
+      "w": 1440,
+      "x": 1520,
+      "y": 0
+    },
+    "C-Studyo-Masasi.dc.html": {
+      "expand": "fill",
+      "h": 980,
+      "page": "yonler",
+      "title": "C — Studio Desk",
+      "w": 1440,
+      "x": 3040,
+      "y": 0
+    },
+    "D-Akis.dc.html": {
+      "expand": "fill",
+      "h": 960,
+      "page": "yonler",
+      "title": "D — Flow",
+      "w": 1440,
+      "x": 4560,
+      "y": 0
+    },
+    "Logo-00-Genel-Bakis.dc.html": {
+      "h": 760,
+      "page": "logo",
+      "title": "Overview: ten names",
+      "w": 2480,
+      "x": 0,
+      "y": 0
+    },
+    "Logo-01-Viral-Klon.dc.html": {
+      "h": 860,
+      "page": "logo",
+      "title": "01 · Viral Klon",
+      "w": 1200,
+      "x": 0,
+      "y": 880
+    },
+    "Logo-02-Cut-for-Cut.dc.html": {
+      "h": 860,
+      "page": "logo",
+      "title": "02 · Cut for Cut",
+      "w": 1200,
+      "x": 1280,
+      "y": 880
+    },
+    "Logo-03-Kloncut.dc.html": {
+      "h": 860,
+      "page": "logo",
+      "title": "03 · Kloncut",
+      "w": 1200,
+      "x": 2560,
+      "y": 880
+    },
+    "Logo-04-Shotswap.dc.html": {
+      "h": 860,
+      "page": "logo",
+      "title": "04 · Shotswap",
+      "w": 1200,
+      "x": 3840,
+      "y": 880
+    },
+    "Logo-05-Selfsame.dc.html": {
+      "h": 860,
+      "page": "logo",
+      "title": "05 · Selfsame",
+      "w": 1200,
+      "x": 5120,
+      "y": 880
+    },
+    "Logo-06-Matchcut.dc.html": {
+      "h": 860,
+      "page": "logo",
+      "title": "06 · Matchcut",
+      "w": 1200,
+      "x": 0,
+      "y": 1860
+    },
+    "Logo-07-Standin.dc.html": {
+      "h": 860,
+      "page": "logo",
+      "title": "07 · Standin",
+      "w": 1200,
+      "x": 1280,
+      "y": 1860
+    },
+    "Logo-08-Remake.dc.html": {
+      "h": 860,
+      "page": "logo",
+      "title": "08 · Remake",
+      "w": 1200,
+      "x": 2560,
+      "y": 1860
+    },
+    "Logo-09-Idem.dc.html": {
+      "h": 860,
+      "page": "logo",
+      "title": "09 · Idem",
+      "w": 1200,
+      "x": 3840,
+      "y": 1860
+    },
+    "Logo-10-Ditto.dc.html": {
+      "h": 860,
+      "page": "logo",
+      "title": "10 · Ditto",
+      "w": 1200,
+      "x": 5120,
+      "y": 1860
+    },
+    "Main.dc.html": {
+      "expand": "fill",
+      "h": 1600,
+      "page": "a",
+      "title": "Gallery",
+      "w": 1440,
+      "x": 0,
+      "y": 5740
+    },
+    "Marka-Bilesen-1.dc.html": {
+      "h": 2120,
+      "page": "marka",
+      "title": "Components: controls",
+      "w": 1440,
+      "x": 0,
+      "y": 2800
+    },
+    "Marka-Bilesen-2.dc.html": {
+      "h": 3020,
+      "page": "marka",
+      "title": "Components: cards and states",
+      "w": 1440,
+      "x": 1520,
+      "y": 2800
+    },
+    "Marka-Gorsel-Kurallar.dc.html": {
+      "h": 1480,
+      "page": "marka",
+      "title": "Imagery, do and don't",
+      "w": 1440,
+      "x": 7040,
+      "y": 2800
+    },
+    "Marka-Hareket.dc.html": {
+      "h": 940,
+      "page": "marka",
+      "title": "Motion",
+      "w": 880,
+      "x": 6080,
+      "y": 2800
+    },
+    "Marka-Ikonlar.dc.html": {
+      "h": 1680,
+      "page": "marka",
+      "title": "Icon library",
+      "w": 1440,
+      "x": 4560,
+      "y": 2800
+    },
+    "Marka-Logo.dc.html": {
+      "h": 2300,
+      "page": "marka",
+      "title": "Logo and wordmark",
+      "w": 1440,
+      "x": 1520,
+      "y": 0
+    },
+    "Marka-Olcu.dc.html": {
+      "h": 1320,
+      "page": "marka",
+      "title": "Spacing, radius, grid",
+      "w": 1440,
+      "x": 7600,
+      "y": 0
+    },
+    "Marka-Oz.dc.html": {
+      "h": 2240,
+      "page": "marka",
+      "title": "Brand essence",
+      "w": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "Marka-Renk.dc.html": {
+      "h": 1920,
+      "page": "marka",
+      "title": "Color: dark and light",
+      "w": 1440,
+      "x": 4560,
+      "y": 0
+    },
+    "Marka-Ses.dc.html": {
+      "h": 1680,
+      "page": "marka",
+      "title": "Voice and tone",
+      "w": 1440,
+      "x": 3040,
+      "y": 0
+    },
+    "Marka-Yazi.dc.html": {
+      "h": 1900,
+      "page": "marka",
+      "title": "Typography",
+      "w": 1440,
+      "x": 6080,
+      "y": 0
+    },
+    "A-Galeri-Yukleniyor.dc.html": {
+      "expand": "fill",
+      "x": 1520,
+      "y": 5740,
+      "w": 1440,
+      "h": 1580,
+      "title": "Gallery · loading",
+      "page": "a"
+    },
+    "A-Galeri-Sonuc-Yok.dc.html": {
+      "expand": "fill",
+      "x": 3040,
+      "y": 5740,
+      "w": 1440,
+      "h": 1280,
+      "title": "Gallery · no results",
+      "page": "a"
+    },
+    "A-Form-Hata.dc.html": {
+      "expand": "fill",
+      "x": 1520,
+      "y": 7840,
+      "w": 1440,
+      "h": 1480,
+      "title": "Generate form · errors",
+      "page": "a"
+    },
+    "A-Uretimlerim-Bos.dc.html": {
+      "expand": "fill",
+      "x": 1520,
+      "y": 11380,
+      "w": 1440,
+      "h": 900,
+      "title": "My videos · empty",
+      "page": "a"
+    },
+    "A-Gelen-Bos.dc.html": {
+      "expand": "fill",
+      "x": 12160,
+      "y": 19500,
+      "w": 1440,
+      "h": 920,
+      "title": "Admin · template inbox, empty",
+      "page": "a"
+    },
+    "A-Detay-Ozel.dc.html": {
+      "expand": "fill",
+      "x": 6080,
+      "y": 5740,
+      "w": 1440,
+      "h": 1400,
+      "title": "Template detail · your own template",
+      "page": "a"
+    },
+    "A-Sonuc-Varyant.dc.html": {
+      "expand": "fill",
+      "x": 9040,
+      "y": 7840,
+      "w": 1440,
+      "h": 920,
+      "title": "Result · several variants",
+      "page": "a"
+    },
+    "A-Karsilastir.dc.html": {
+      "expand": "fill",
+      "x": 10560,
+      "y": 7840,
+      "w": 1440,
+      "h": 1040,
+      "title": "Compare side by side",
+      "page": "a"
+    },
+    "A-Oynatici.dc.html": {
+      "x": 12080,
+      "y": 7840,
+      "w": 1000,
+      "h": 824,
+      "title": "Video player",
+      "page": "a"
+    },
+    "A-Iletisim.dc.html": {
+      "expand": "fill",
+      "x": 6080,
+      "y": 0,
+      "w": 1440,
+      "h": 1080,
+      "title": "Contact and support",
+      "page": "a"
+    },
+    "A-Cerez.dc.html": {
+      "expand": "fill",
+      "x": 9120,
+      "y": 0,
+      "w": 1440,
+      "h": 160,
+      "title": "Cookie notice",
+      "page": "a"
+    },
+    "A-Dil-Menusu.dc.html": {
+      "expand": "fill",
+      "x": 10640,
+      "y": 0,
+      "w": 1440,
+      "h": 300,
+      "title": "Language menu",
+      "page": "a"
+    },
+    "E-Dogrulama.dc.html": {
+      "x": 0,
+      "y": 17420,
+      "w": 640,
+      "h": 500,
+      "title": "Email · verify your address",
+      "page": "a"
+    },
+    "E-Sifre.dc.html": {
+      "x": 720,
+      "y": 17420,
+      "w": 640,
+      "h": 500,
+      "title": "Email · reset password",
+      "page": "a"
+    },
+    "E-Hazir.dc.html": {
+      "x": 1440,
+      "y": 17420,
+      "w": 640,
+      "h": 720,
+      "title": "Email · your video is ready",
+      "page": "a"
+    },
+    "E-Durdu.dc.html": {
+      "x": 2160,
+      "y": 17420,
+      "w": 640,
+      "h": 1580,
+      "title": "Email · job stopped",
+      "page": "a"
+    },
+    "E-Odeme.dc.html": {
+      "x": 2880,
+      "y": 17420,
+      "w": 640,
+      "h": 840,
+      "title": "Email · payment received",
+      "page": "a"
+    },
+    "Marka-Bilesen-3.dc.html": {
+      "x": 3040,
+      "y": 2800,
+      "w": 1440,
+      "h": 3620,
+      "title": "Components: tables, panel, phone",
+      "page": "marka"
+    },
+    "A-Fatura.dc.html": {
+      "x": 3760,
+      "y": 13960,
+      "w": 794,
+      "h": 1123,
+      "title": "Invoice (PDF)",
+      "page": "a"
+    },
+    "A-Admin-Genel.dc.html": {
+      "expand": "fill",
+      "x": 0,
+      "y": 19500,
+      "w": 1440,
+      "h": 1560,
+      "title": "Admin · overview",
+      "page": "a"
+    },
+    "A-Kullanicilar.dc.html": {
+      "expand": "fill",
+      "x": 1520,
+      "y": 19500,
+      "w": 1440,
+      "h": 940,
+      "title": "Admin · users",
+      "page": "a"
+    },
+    "A-Kullanici-Detay.dc.html": {
+      "expand": "fill",
+      "x": 3040,
+      "y": 19500,
+      "w": 1440,
+      "h": 2060,
+      "title": "Admin · user detail",
+      "page": "a"
+    },
+    "A-Gelir.dc.html": {
+      "expand": "fill",
+      "x": 4560,
+      "y": 19500,
+      "w": 1440,
+      "h": 1640,
+      "title": "Admin · revenue",
+      "page": "a"
+    },
+    "A-Krediler.dc.html": {
+      "expand": "fill",
+      "x": 6080,
+      "y": 19500,
+      "w": 1440,
+      "h": 1260,
+      "title": "Admin · credits",
+      "page": "a"
+    },
+    "A-Isler.dc.html": {
+      "expand": "fill",
+      "x": 7600,
+      "y": 19500,
+      "w": 1440,
+      "h": 1600,
+      "title": "Admin · jobs",
+      "page": "a"
+    },
+    "A-Sablonlar.dc.html": {
+      "expand": "fill",
+      "x": 9120,
+      "y": 19500,
+      "w": 1440,
+      "h": 1240,
+      "title": "Admin · templates",
+      "page": "a"
+    },
+    "A-Sablon-Duzenle.dc.html": {
+      "expand": "fill",
+      "x": 13680,
+      "y": 19500,
+      "w": 1440,
+      "h": 1400,
+      "title": "Admin · edit template",
+      "page": "a"
+    },
+    "A-Tarama.dc.html": {
+      "expand": "fill",
+      "x": 15200,
+      "y": 19500,
+      "w": 1440,
+      "h": 1040,
+      "title": "Admin · scan history",
+      "page": "a"
+    },
+    "A-Ana-Sayfa-L.dc.html": {
+      "expand": "fill",
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 3240,
+      "title": "Home",
+      "page": "a-light"
+    },
+    "A-Fiyatlar-L.dc.html": {
+      "expand": "fill",
+      "x": 1520,
+      "y": 0,
+      "w": 1440,
+      "h": 2200,
+      "title": "Pricing",
+      "page": "a-light"
+    },
+    "A-Giris-L.dc.html": {
+      "expand": "fill",
+      "is_interactive": true,
+      "x": 3040,
+      "y": 0,
+      "w": 1440,
+      "h": 900,
+      "title": "Log in and sign up",
+      "page": "a-light"
+    },
+    "A-Yasal-L.dc.html": {
+      "expand": "fill",
+      "x": 4560,
+      "y": 0,
+      "w": 1440,
+      "h": 2120,
+      "title": "Legal page",
+      "page": "a-light"
+    },
+    "A-Iletisim-L.dc.html": {
+      "expand": "fill",
+      "x": 6080,
+      "y": 0,
+      "w": 1440,
+      "h": 1080,
+      "title": "Contact and support",
+      "page": "a-light"
+    },
+    "A-404-L.dc.html": {
+      "expand": "fill",
+      "x": 7600,
+      "y": 0,
+      "w": 1440,
+      "h": 900,
+      "title": "404",
+      "page": "a-light"
+    },
+    "A-Cerez-L.dc.html": {
+      "expand": "fill",
+      "x": 9120,
+      "y": 0,
+      "w": 1440,
+      "h": 160,
+      "title": "Cookie notice",
+      "page": "a-light"
+    },
+    "A-Dil-Menusu-L.dc.html": {
+      "expand": "fill",
+      "x": 10640,
+      "y": 0,
+      "w": 1440,
+      "h": 300,
+      "title": "Language menu",
+      "page": "a-light"
+    },
+    "A-Eposta-Dogrula-L.dc.html": {
+      "expand": "fill",
+      "x": 0,
+      "y": 3740,
+      "w": 1440,
+      "h": 900,
+      "title": "Verify your email",
+      "page": "a-light"
+    },
+    "A-Karsilama-L.dc.html": {
+      "expand": "fill",
+      "x": 1520,
+      "y": 3740,
+      "w": 1440,
+      "h": 1200,
+      "title": "Welcome · first video free",
+      "page": "a-light"
+    },
+    "A-Sifre-Unuttum-L.dc.html": {
+      "expand": "fill",
+      "x": 3040,
+      "y": 3740,
+      "w": 1440,
+      "h": 900,
+      "title": "Forgot password",
+      "page": "a-light"
+    },
+    "A-Sifre-Gonderildi-L.dc.html": {
+      "expand": "fill",
+      "x": 4560,
+      "y": 3740,
+      "w": 1440,
+      "h": 900,
+      "title": "Reset link sent",
+      "page": "a-light"
+    },
+    "A-Sifre-Yeni-L.dc.html": {
+      "expand": "fill",
+      "x": 6080,
+      "y": 3740,
+      "w": 1440,
+      "h": 900,
+      "title": "New password",
+      "page": "a-light"
+    },
+    "Main-L.dc.html": {
+      "expand": "fill",
+      "x": 0,
+      "y": 5740,
+      "w": 1440,
+      "h": 1600,
+      "title": "Gallery",
+      "page": "a-light"
+    },
+    "A-Galeri-Yukleniyor-L.dc.html": {
+      "expand": "fill",
+      "x": 1520,
+      "y": 5740,
+      "w": 1440,
+      "h": 1580,
+      "title": "Gallery · loading",
+      "page": "a-light"
+    },
+    "A-Galeri-Sonuc-Yok-L.dc.html": {
+      "expand": "fill",
+      "x": 3040,
+      "y": 5740,
+      "w": 1440,
+      "h": 1280,
+      "title": "Gallery · no results",
+      "page": "a-light"
+    },
+    "A-Detay-L.dc.html": {
+      "expand": "fill",
+      "x": 4560,
+      "y": 5740,
+      "w": 1440,
+      "h": 1320,
+      "title": "Template detail",
+      "page": "a-light"
+    },
+    "A-Detay-Ozel-L.dc.html": {
+      "expand": "fill",
+      "x": 6080,
+      "y": 5740,
+      "w": 1440,
+      "h": 1400,
+      "title": "Template detail · your own template",
+      "page": "a-light"
+    },
+    "A-Video-Ekle-L.dc.html": {
+      "expand": "fill",
+      "x": 7600,
+      "y": 5740,
+      "w": 1440,
+      "h": 920,
+      "title": "Add your own video",
+      "page": "a-light"
+    },
+    "A-Form-L.dc.html": {
+      "expand": "fill",
+      "is_interactive": true,
+      "x": 0,
+      "y": 7840,
+      "w": 1440,
+      "h": 1360,
+      "title": "Generate form",
+      "page": "a-light"
+    },
+    "A-Form-Hata-L.dc.html": {
+      "expand": "fill",
+      "x": 1520,
+      "y": 7840,
+      "w": 1440,
+      "h": 1480,
+      "title": "Generate form · errors",
+      "page": "a-light"
+    },
+    "A-Onay-L.dc.html": {
+      "x": 3040,
+      "y": 7840,
+      "w": 640,
+      "h": 680,
+      "title": "Credit confirmation",
+      "page": "a-light"
+    },
+    "A-Onay-Yetersiz-L.dc.html": {
+      "x": 3760,
+      "y": 7840,
+      "w": 640,
+      "h": 620,
+      "title": "Credit confirmation · not enough credits",
+      "page": "a-light"
+    },
+    "A-Is-Takibi-L.dc.html": {
+      "expand": "fill",
+      "x": 4480,
+      "y": 7840,
+      "w": 1440,
+      "h": 900,
+      "title": "Job progress",
+      "page": "a-light"
+    },
+    "A-Is-Durdu-L.dc.html": {
+      "expand": "fill",
+      "x": 6000,
+      "y": 7840,
+      "w": 1440,
+      "h": 920,
+      "title": "Job progress · stopped",
+      "page": "a-light"
+    },
+    "A-Sonuc-L.dc.html": {
+      "expand": "fill",
+      "x": 7520,
+      "y": 7840,
+      "w": 1440,
+      "h": 900,
+      "title": "Result",
+      "page": "a-light"
+    },
+    "A-Sonuc-Varyant-L.dc.html": {
+      "expand": "fill",
+      "x": 9040,
+      "y": 7840,
+      "w": 1440,
+      "h": 920,
+      "title": "Result · several variants",
+      "page": "a-light"
+    },
+    "A-Karsilastir-L.dc.html": {
+      "expand": "fill",
+      "x": 10560,
+      "y": 7840,
+      "w": 1440,
+      "h": 1040,
+      "title": "Compare side by side",
+      "page": "a-light"
+    },
+    "A-Oynatici-L.dc.html": {
+      "x": 12080,
+      "y": 7840,
+      "w": 1000,
+      "h": 824,
+      "title": "Video player",
+      "page": "a-light"
+    },
+    "A-Uretimlerim-L.dc.html": {
+      "expand": "fill",
+      "x": 0,
+      "y": 11380,
+      "w": 1440,
+      "h": 900,
+      "title": "My videos",
+      "page": "a-light"
+    },
+    "A-Uretimlerim-Bos-L.dc.html": {
+      "expand": "fill",
+      "x": 1520,
+      "y": 11380,
+      "w": 1440,
+      "h": 900,
+      "title": "My videos · empty",
+      "page": "a-light"
+    },
+    "A-Hesap-L.dc.html": {
+      "expand": "fill",
+      "x": 0,
+      "y": 13960,
+      "w": 1440,
+      "h": 1340,
+      "title": "Account",
+      "page": "a-light"
+    },
+    "A-Hesap-Sil-L.dc.html": {
+      "x": 1520,
+      "y": 13960,
+      "w": 640,
+      "h": 500,
+      "title": "Delete account confirmation",
+      "page": "a-light"
+    },
+    "A-Odeme-Basarili-L.dc.html": {
+      "expand": "fill",
+      "x": 2240,
+      "y": 13960,
+      "w": 1440,
+      "h": 900,
+      "title": "Payment received",
+      "page": "a-light"
+    },
+    "A-Odeme-Basarisiz-L.dc.html": {
+      "expand": "fill",
+      "x": 3760,
+      "y": 13960,
+      "w": 1440,
+      "h": 900,
+      "title": "Payment declined",
+      "page": "a-light"
+    },
+    "A-Admin-Genel-L.dc.html": {
+      "expand": "fill",
+      "x": 0,
+      "y": 17420,
+      "w": 1440,
+      "h": 1560,
+      "title": "Admin · overview",
+      "page": "a-light"
+    },
+    "A-Kullanicilar-L.dc.html": {
+      "expand": "fill",
+      "x": 1520,
+      "y": 17420,
+      "w": 1440,
+      "h": 940,
+      "title": "Admin · users",
+      "page": "a-light"
+    },
+    "A-Kullanici-Detay-L.dc.html": {
+      "expand": "fill",
+      "x": 3040,
+      "y": 17420,
+      "w": 1440,
+      "h": 2060,
+      "title": "Admin · user detail",
+      "page": "a-light"
+    },
+    "A-Gelir-L.dc.html": {
+      "expand": "fill",
+      "x": 4560,
+      "y": 17420,
+      "w": 1440,
+      "h": 1640,
+      "title": "Admin · revenue",
+      "page": "a-light"
+    },
+    "A-Krediler-L.dc.html": {
+      "expand": "fill",
+      "x": 6080,
+      "y": 17420,
+      "w": 1440,
+      "h": 1260,
+      "title": "Admin · credits",
+      "page": "a-light"
+    },
+    "A-Isler-L.dc.html": {
+      "expand": "fill",
+      "x": 7600,
+      "y": 17420,
+      "w": 1440,
+      "h": 1600,
+      "title": "Admin · jobs",
+      "page": "a-light"
+    },
+    "A-Sablonlar-L.dc.html": {
+      "expand": "fill",
+      "x": 9120,
+      "y": 17420,
+      "w": 1440,
+      "h": 1240,
+      "title": "Admin · templates",
+      "page": "a-light"
+    },
+    "A-Gelen-L.dc.html": {
+      "expand": "fill",
+      "x": 10640,
+      "y": 17420,
+      "w": 1440,
+      "h": 1840,
+      "title": "Admin · template inbox",
+      "page": "a-light"
+    },
+    "A-Gelen-Bos-L.dc.html": {
+      "expand": "fill",
+      "x": 12160,
+      "y": 17420,
+      "w": 1440,
+      "h": 920,
+      "title": "Admin · template inbox, empty",
+      "page": "a-light"
+    },
+    "A-Sablon-Duzenle-L.dc.html": {
+      "expand": "fill",
+      "x": 13680,
+      "y": 17420,
+      "w": 1440,
+      "h": 1400,
+      "title": "Admin · edit template",
+      "page": "a-light"
+    },
+    "A-Tarama-L.dc.html": {
+      "expand": "fill",
+      "x": 15200,
+      "y": 17420,
+      "w": 1440,
+      "h": 1040,
+      "title": "Admin · scan history",
+      "page": "a-light"
+    },
+    "A-Ayarlar-L.dc.html": {
+      "expand": "fill",
+      "is_interactive": true,
+      "x": 16720,
+      "y": 17420,
+      "w": 1440,
+      "h": 1180,
+      "title": "Admin · settings",
+      "page": "a-light"
+    },
+    "A-Ana-Sayfa-M.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 390,
+      "h": 3560,
+      "title": "Home",
+      "page": "m-dark"
+    },
+    "A-Fiyatlar-M.dc.html": {
+      "x": 470,
+      "y": 0,
+      "w": 390,
+      "h": 3400,
+      "title": "Pricing",
+      "page": "m-dark"
+    },
+    "A-Giris-M.dc.html": {
+      "is_interactive": true,
+      "x": 940,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "Log in and sign up",
+      "page": "m-dark"
+    },
+    "A-Yasal-M.dc.html": {
+      "x": 1410,
+      "y": 0,
+      "w": 390,
+      "h": 2980,
+      "title": "Legal page",
+      "page": "m-dark"
+    },
+    "A-Iletisim-M.dc.html": {
+      "x": 1880,
+      "y": 0,
+      "w": 390,
+      "h": 1700,
+      "title": "Contact and support",
+      "page": "m-dark"
+    },
+    "A-404-M.dc.html": {
+      "x": 2350,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "404",
+      "page": "m-dark"
+    },
+    "A-Cerez-M.dc.html": {
+      "x": 2820,
+      "y": 0,
+      "w": 390,
+      "h": 220,
+      "title": "Cookie notice",
+      "page": "m-dark"
+    },
+    "A-Menu-Ziyaretci-M.dc.html": {
+      "x": 3290,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "Menu · visitor",
+      "page": "m-dark"
+    },
+    "A-Eposta-Dogrula-M.dc.html": {
+      "x": 0,
+      "y": 4060,
+      "w": 390,
+      "h": 844,
+      "title": "Verify your email",
+      "page": "m-dark"
+    },
+    "A-Karsilama-M.dc.html": {
+      "x": 470,
+      "y": 4060,
+      "w": 390,
+      "h": 1480,
+      "title": "Welcome · first video free",
+      "page": "m-dark"
+    },
+    "A-Sifre-Unuttum-M.dc.html": {
+      "x": 940,
+      "y": 4060,
+      "w": 390,
+      "h": 844,
+      "title": "Forgot password",
+      "page": "m-dark"
+    },
+    "A-Sifre-Gonderildi-M.dc.html": {
+      "x": 1410,
+      "y": 4060,
+      "w": 390,
+      "h": 844,
+      "title": "Reset link sent",
+      "page": "m-dark"
+    },
+    "A-Sifre-Yeni-M.dc.html": {
+      "x": 1880,
+      "y": 4060,
+      "w": 390,
+      "h": 844,
+      "title": "New password",
+      "page": "m-dark"
+    },
+    "Main-M.dc.html": {
+      "x": 0,
+      "y": 8180,
+      "w": 390,
+      "h": 2720,
+      "title": "Gallery",
+      "page": "m-dark"
+    },
+    "A-Menu-M.dc.html": {
+      "x": 470,
+      "y": 8180,
+      "w": 390,
+      "h": 844,
+      "title": "Menu · signed in",
+      "page": "m-dark"
+    },
+    "A-Galeri-Yukleniyor-M.dc.html": {
+      "x": 940,
+      "y": 8180,
+      "w": 390,
+      "h": 1740,
+      "title": "Gallery · loading",
+      "page": "m-dark"
+    },
+    "A-Galeri-Sonuc-Yok-M.dc.html": {
+      "x": 1410,
+      "y": 8180,
+      "w": 390,
+      "h": 1840,
+      "title": "Gallery · no results",
+      "page": "m-dark"
+    },
+    "A-Detay-M.dc.html": {
+      "x": 1880,
+      "y": 8180,
+      "w": 390,
+      "h": 1940,
+      "title": "Template detail",
+      "page": "m-dark"
+    },
+    "A-Detay-Ozel-M.dc.html": {
+      "x": 2350,
+      "y": 8180,
+      "w": 390,
+      "h": 1960,
+      "title": "Template detail · your own template",
+      "page": "m-dark"
+    },
+    "A-Video-Ekle-M.dc.html": {
+      "x": 2820,
+      "y": 8180,
+      "w": 390,
+      "h": 1620,
+      "title": "Add your own video",
+      "page": "m-dark"
+    },
+    "A-Form-M.dc.html": {
+      "is_interactive": true,
+      "x": 0,
+      "y": 11420,
+      "w": 390,
+      "h": 2620,
+      "title": "Generate form",
+      "page": "m-dark"
+    },
+    "A-Form-Hata-M.dc.html": {
+      "x": 470,
+      "y": 11420,
+      "w": 390,
+      "h": 2800,
+      "title": "Generate form · errors",
+      "page": "m-dark"
+    },
+    "A-Onay-M.dc.html": {
+      "x": 940,
+      "y": 11420,
+      "w": 390,
+      "h": 760,
+      "title": "Credit confirmation",
+      "page": "m-dark"
+    },
+    "A-Onay-Yetersiz-M.dc.html": {
+      "x": 1410,
+      "y": 11420,
+      "w": 390,
+      "h": 680,
+      "title": "Credit confirmation · not enough credits",
+      "page": "m-dark"
+    },
+    "A-Is-Takibi-M.dc.html": {
+      "x": 1880,
+      "y": 11420,
+      "w": 390,
+      "h": 1200,
+      "title": "Job progress",
+      "page": "m-dark"
+    },
+    "A-Is-Durdu-M.dc.html": {
+      "x": 2350,
+      "y": 11420,
+      "w": 390,
+      "h": 1480,
+      "title": "Job progress · stopped",
+      "page": "m-dark"
+    },
+    "A-Sonuc-M.dc.html": {
+      "x": 2820,
+      "y": 11420,
+      "w": 390,
+      "h": 1300,
+      "title": "Result",
+      "page": "m-dark"
+    },
+    "A-Sonuc-Varyant-M.dc.html": {
+      "x": 3290,
+      "y": 11420,
+      "w": 390,
+      "h": 1300,
+      "title": "Result · several variants",
+      "page": "m-dark"
+    },
+    "A-Karsilastir-M.dc.html": {
+      "x": 3760,
+      "y": 11420,
+      "w": 390,
+      "h": 844,
+      "title": "Compare side by side",
+      "page": "m-dark"
+    },
+    "A-Oynatici-M.dc.html": {
+      "x": 4230,
+      "y": 11420,
+      "w": 390,
+      "h": 1280,
+      "title": "Video player",
+      "page": "m-dark"
+    },
+    "A-Uretimlerim-M.dc.html": {
+      "x": 0,
+      "y": 17540,
+      "w": 390,
+      "h": 1060,
+      "title": "My videos",
+      "page": "m-dark"
+    },
+    "A-Uretimlerim-Bos-M.dc.html": {
+      "x": 470,
+      "y": 17540,
+      "w": 390,
+      "h": 844,
+      "title": "My videos · empty",
+      "page": "m-dark"
+    },
+    "A-Hesap-M.dc.html": {
+      "x": 0,
+      "y": 21720,
+      "w": 390,
+      "h": 2360,
+      "title": "Account",
+      "page": "m-dark"
+    },
+    "A-Hesap-Sil-M.dc.html": {
+      "x": 470,
+      "y": 21720,
+      "w": 390,
+      "h": 560,
+      "title": "Delete account confirmation",
+      "page": "m-dark"
+    },
+    "A-Odeme-Basarili-M.dc.html": {
+      "x": 940,
+      "y": 21720,
+      "w": 390,
+      "h": 1140,
+      "title": "Payment received",
+      "page": "m-dark"
+    },
+    "A-Odeme-Basarisiz-M.dc.html": {
+      "x": 1410,
+      "y": 21720,
+      "w": 390,
+      "h": 1180,
+      "title": "Payment declined",
+      "page": "m-dark"
+    },
+    "A-Admin-Genel-M.dc.html": {
+      "x": 0,
+      "y": 28160,
+      "w": 390,
+      "h": 3060,
+      "title": "Admin · overview",
+      "page": "m-dark"
+    },
+    "A-Menu-Admin-M.dc.html": {
+      "x": 470,
+      "y": 28160,
+      "w": 390,
+      "h": 844,
+      "title": "Menu · admin",
+      "page": "m-dark"
+    },
+    "A-Kullanicilar-M.dc.html": {
+      "x": 940,
+      "y": 28160,
+      "w": 390,
+      "h": 1100,
+      "title": "Admin · users",
+      "page": "m-dark"
+    },
+    "A-Kullanici-Detay-M.dc.html": {
+      "x": 1410,
+      "y": 28160,
+      "w": 390,
+      "h": 2720,
+      "title": "Admin · user detail",
+      "page": "m-dark"
+    },
+    "A-Gelir-M.dc.html": {
+      "x": 1880,
+      "y": 28160,
+      "w": 390,
+      "h": 2260,
+      "title": "Admin · revenue",
+      "page": "m-dark"
+    },
+    "A-Krediler-M.dc.html": {
+      "x": 2350,
+      "y": 28160,
+      "w": 390,
+      "h": 1820,
+      "title": "Admin · credits",
+      "page": "m-dark"
+    },
+    "A-Isler-M.dc.html": {
+      "x": 2820,
+      "y": 28160,
+      "w": 390,
+      "h": 2720,
+      "title": "Admin · jobs",
+      "page": "m-dark"
+    },
+    "A-Sablonlar-M.dc.html": {
+      "x": 3290,
+      "y": 28160,
+      "w": 390,
+      "h": 1380,
+      "title": "Admin · templates",
+      "page": "m-dark"
+    },
+    "A-Gelen-M.dc.html": {
+      "x": 3760,
+      "y": 28160,
+      "w": 390,
+      "h": 3380,
+      "title": "Admin · template inbox",
+      "page": "m-dark"
+    },
+    "A-Gelen-Bos-M.dc.html": {
+      "x": 4230,
+      "y": 28160,
+      "w": 390,
+      "h": 1040,
+      "title": "Admin · template inbox, empty",
+      "page": "m-dark"
+    },
+    "A-Sablon-Duzenle-M.dc.html": {
+      "x": 4700,
+      "y": 28160,
+      "w": 390,
+      "h": 3700,
+      "title": "Admin · edit template",
+      "page": "m-dark"
+    },
+    "A-Tarama-M.dc.html": {
+      "x": 5170,
+      "y": 28160,
+      "w": 390,
+      "h": 1480,
+      "title": "Admin · scan history",
+      "page": "m-dark"
+    },
+    "A-Ayarlar-M.dc.html": {
+      "is_interactive": true,
+      "x": 5640,
+      "y": 28160,
+      "w": 390,
+      "h": 2720,
+      "title": "Admin · settings",
+      "page": "m-dark"
+    },
+    "A-Ana-Sayfa-ML.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 390,
+      "h": 3560,
+      "title": "Home",
+      "page": "m-light"
+    },
+    "A-Fiyatlar-ML.dc.html": {
+      "x": 470,
+      "y": 0,
+      "w": 390,
+      "h": 3400,
+      "title": "Pricing",
+      "page": "m-light"
+    },
+    "A-Giris-ML.dc.html": {
+      "is_interactive": true,
+      "x": 940,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "Log in and sign up",
+      "page": "m-light"
+    },
+    "A-Yasal-ML.dc.html": {
+      "x": 1410,
+      "y": 0,
+      "w": 390,
+      "h": 2980,
+      "title": "Legal page",
+      "page": "m-light"
+    },
+    "A-Iletisim-ML.dc.html": {
+      "x": 1880,
+      "y": 0,
+      "w": 390,
+      "h": 1700,
+      "title": "Contact and support",
+      "page": "m-light"
+    },
+    "A-404-ML.dc.html": {
+      "x": 2350,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "404",
+      "page": "m-light"
+    },
+    "A-Cerez-ML.dc.html": {
+      "x": 2820,
+      "y": 0,
+      "w": 390,
+      "h": 220,
+      "title": "Cookie notice",
+      "page": "m-light"
+    },
+    "A-Menu-Ziyaretci-ML.dc.html": {
+      "x": 3290,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "Menu · visitor",
+      "page": "m-light"
+    },
+    "A-Eposta-Dogrula-ML.dc.html": {
+      "x": 0,
+      "y": 4060,
+      "w": 390,
+      "h": 844,
+      "title": "Verify your email",
+      "page": "m-light"
+    },
+    "A-Karsilama-ML.dc.html": {
+      "x": 470,
+      "y": 4060,
+      "w": 390,
+      "h": 1480,
+      "title": "Welcome · first video free",
+      "page": "m-light"
+    },
+    "A-Sifre-Unuttum-ML.dc.html": {
+      "x": 940,
+      "y": 4060,
+      "w": 390,
+      "h": 844,
+      "title": "Forgot password",
+      "page": "m-light"
+    },
+    "A-Sifre-Gonderildi-ML.dc.html": {
+      "x": 1410,
+      "y": 4060,
+      "w": 390,
+      "h": 844,
+      "title": "Reset link sent",
+      "page": "m-light"
+    },
+    "A-Sifre-Yeni-ML.dc.html": {
+      "x": 1880,
+      "y": 4060,
+      "w": 390,
+      "h": 844,
+      "title": "New password",
+      "page": "m-light"
+    },
+    "Main-ML.dc.html": {
+      "x": 0,
+      "y": 8180,
+      "w": 390,
+      "h": 2720,
+      "title": "Gallery",
+      "page": "m-light"
+    },
+    "A-Menu-ML.dc.html": {
+      "x": 470,
+      "y": 8180,
+      "w": 390,
+      "h": 844,
+      "title": "Menu · signed in",
+      "page": "m-light"
+    },
+    "A-Galeri-Yukleniyor-ML.dc.html": {
+      "x": 940,
+      "y": 8180,
+      "w": 390,
+      "h": 1740,
+      "title": "Gallery · loading",
+      "page": "m-light"
+    },
+    "A-Galeri-Sonuc-Yok-ML.dc.html": {
+      "x": 1410,
+      "y": 8180,
+      "w": 390,
+      "h": 1840,
+      "title": "Gallery · no results",
+      "page": "m-light"
+    },
+    "A-Detay-ML.dc.html": {
+      "x": 1880,
+      "y": 8180,
+      "w": 390,
+      "h": 1940,
+      "title": "Template detail",
+      "page": "m-light"
+    },
+    "A-Detay-Ozel-ML.dc.html": {
+      "x": 2350,
+      "y": 8180,
+      "w": 390,
+      "h": 1960,
+      "title": "Template detail · your own template",
+      "page": "m-light"
+    },
+    "A-Video-Ekle-ML.dc.html": {
+      "x": 2820,
+      "y": 8180,
+      "w": 390,
+      "h": 1620,
+      "title": "Add your own video",
+      "page": "m-light"
+    },
+    "A-Form-ML.dc.html": {
+      "is_interactive": true,
+      "x": 0,
+      "y": 11420,
+      "w": 390,
+      "h": 2620,
+      "title": "Generate form",
+      "page": "m-light"
+    },
+    "A-Form-Hata-ML.dc.html": {
+      "x": 470,
+      "y": 11420,
+      "w": 390,
+      "h": 2800,
+      "title": "Generate form · errors",
+      "page": "m-light"
+    },
+    "A-Onay-ML.dc.html": {
+      "x": 940,
+      "y": 11420,
+      "w": 390,
+      "h": 760,
+      "title": "Credit confirmation",
+      "page": "m-light"
+    },
+    "A-Onay-Yetersiz-ML.dc.html": {
+      "x": 1410,
+      "y": 11420,
+      "w": 390,
+      "h": 680,
+      "title": "Credit confirmation · not enough credits",
+      "page": "m-light"
+    },
+    "A-Is-Takibi-ML.dc.html": {
+      "x": 1880,
+      "y": 11420,
+      "w": 390,
+      "h": 1200,
+      "title": "Job progress",
+      "page": "m-light"
+    },
+    "A-Is-Durdu-ML.dc.html": {
+      "x": 2350,
+      "y": 11420,
+      "w": 390,
+      "h": 1480,
+      "title": "Job progress · stopped",
+      "page": "m-light"
+    },
+    "A-Sonuc-ML.dc.html": {
+      "x": 2820,
+      "y": 11420,
+      "w": 390,
+      "h": 1300,
+      "title": "Result",
+      "page": "m-light"
+    },
+    "A-Sonuc-Varyant-ML.dc.html": {
+      "x": 3290,
+      "y": 11420,
+      "w": 390,
+      "h": 1300,
+      "title": "Result · several variants",
+      "page": "m-light"
+    },
+    "A-Karsilastir-ML.dc.html": {
+      "x": 3760,
+      "y": 11420,
+      "w": 390,
+      "h": 844,
+      "title": "Compare side by side",
+      "page": "m-light"
+    },
+    "A-Oynatici-ML.dc.html": {
+      "x": 4230,
+      "y": 11420,
+      "w": 390,
+      "h": 1280,
+      "title": "Video player",
+      "page": "m-light"
+    },
+    "A-Uretimlerim-ML.dc.html": {
+      "x": 0,
+      "y": 17540,
+      "w": 390,
+      "h": 1060,
+      "title": "My videos",
+      "page": "m-light"
+    },
+    "A-Uretimlerim-Bos-ML.dc.html": {
+      "x": 470,
+      "y": 17540,
+      "w": 390,
+      "h": 844,
+      "title": "My videos · empty",
+      "page": "m-light"
+    },
+    "A-Hesap-ML.dc.html": {
+      "x": 0,
+      "y": 21720,
+      "w": 390,
+      "h": 2360,
+      "title": "Account",
+      "page": "m-light"
+    },
+    "A-Hesap-Sil-ML.dc.html": {
+      "x": 470,
+      "y": 21720,
+      "w": 390,
+      "h": 560,
+      "title": "Delete account confirmation",
+      "page": "m-light"
+    },
+    "A-Odeme-Basarili-ML.dc.html": {
+      "x": 940,
+      "y": 21720,
+      "w": 390,
+      "h": 1140,
+      "title": "Payment received",
+      "page": "m-light"
+    },
+    "A-Odeme-Basarisiz-ML.dc.html": {
+      "x": 1410,
+      "y": 21720,
+      "w": 390,
+      "h": 1180,
+      "title": "Payment declined",
+      "page": "m-light"
+    },
+    "E-Dogrulama-ML.dc.html": {
+      "x": 0,
+      "y": 28160,
+      "w": 390,
+      "h": 480,
+      "title": "Email · verify your address",
+      "page": "m-light"
+    },
+    "E-Sifre-ML.dc.html": {
+      "x": 470,
+      "y": 28160,
+      "w": 390,
+      "h": 480,
+      "title": "Email · reset password",
+      "page": "m-light"
+    },
+    "E-Hazir-ML.dc.html": {
+      "x": 940,
+      "y": 28160,
+      "w": 390,
+      "h": 700,
+      "title": "Email · your video is ready",
+      "page": "m-light"
+    },
+    "E-Durdu-ML.dc.html": {
+      "x": 1410,
+      "y": 28160,
+      "w": 390,
+      "h": 1640,
+      "title": "Email · job stopped",
+      "page": "m-light"
+    },
+    "E-Odeme-ML.dc.html": {
+      "x": 1880,
+      "y": 28160,
+      "w": 390,
+      "h": 820,
+      "title": "Email · payment received",
+      "page": "m-light"
+    },
+    "A-Admin-Genel-ML.dc.html": {
+      "x": 0,
+      "y": 30300,
+      "w": 390,
+      "h": 3060,
+      "title": "Admin · overview",
+      "page": "m-light"
+    },
+    "A-Menu-Admin-ML.dc.html": {
+      "x": 470,
+      "y": 30300,
+      "w": 390,
+      "h": 844,
+      "title": "Menu · admin",
+      "page": "m-light"
+    },
+    "A-Kullanicilar-ML.dc.html": {
+      "x": 940,
+      "y": 30300,
+      "w": 390,
+      "h": 1100,
+      "title": "Admin · users",
+      "page": "m-light"
+    },
+    "A-Kullanici-Detay-ML.dc.html": {
+      "x": 1410,
+      "y": 30300,
+      "w": 390,
+      "h": 2720,
+      "title": "Admin · user detail",
+      "page": "m-light"
+    },
+    "A-Gelir-ML.dc.html": {
+      "x": 1880,
+      "y": 30300,
+      "w": 390,
+      "h": 2260,
+      "title": "Admin · revenue",
+      "page": "m-light"
+    },
+    "A-Krediler-ML.dc.html": {
+      "x": 2350,
+      "y": 30300,
+      "w": 390,
+      "h": 1820,
+      "title": "Admin · credits",
+      "page": "m-light"
+    },
+    "A-Isler-ML.dc.html": {
+      "x": 2820,
+      "y": 30300,
+      "w": 390,
+      "h": 2720,
+      "title": "Admin · jobs",
+      "page": "m-light"
+    },
+    "A-Sablonlar-ML.dc.html": {
+      "x": 3290,
+      "y": 30300,
+      "w": 390,
+      "h": 1380,
+      "title": "Admin · templates",
+      "page": "m-light"
+    },
+    "A-Gelen-ML.dc.html": {
+      "x": 3760,
+      "y": 30300,
+      "w": 390,
+      "h": 3380,
+      "title": "Admin · template inbox",
+      "page": "m-light"
+    },
+    "A-Gelen-Bos-ML.dc.html": {
+      "x": 4230,
+      "y": 30300,
+      "w": 390,
+      "h": 1040,
+      "title": "Admin · template inbox, empty",
+      "page": "m-light"
+    },
+    "A-Sablon-Duzenle-ML.dc.html": {
+      "x": 4700,
+      "y": 30300,
+      "w": 390,
+      "h": 3700,
+      "title": "Admin · edit template",
+      "page": "m-light"
+    },
+    "A-Tarama-ML.dc.html": {
+      "x": 5170,
+      "y": 30300,
+      "w": 390,
+      "h": 1480,
+      "title": "Admin · scan history",
+      "page": "m-light"
+    },
+    "A-Ayarlar-ML.dc.html": {
+      "is_interactive": true,
+      "x": 5640,
+      "y": 30300,
+      "w": 390,
+      "h": 2720,
+      "title": "Admin · settings",
+      "page": "m-light"
+    },
+    "Marka-Bilesen-4.dc.html": {
+      "x": 8560,
+      "y": 2800,
+      "w": 1440,
+      "h": 2240,
+      "title": "Components: messages and money",
+      "page": "marka"
+    },
+    "A-Yasal-Iade.dc.html": {
+      "expand": "fill",
+      "x": 12160,
+      "y": 0,
+      "w": 1440,
+      "h": 1720,
+      "title": "Legal page · refund policy",
+      "page": "a"
+    },
+    "A-Iletisim-Durumlar.dc.html": {
+      "expand": "fill",
+      "x": 13680,
+      "y": 0,
+      "w": 1440,
+      "h": 1540,
+      "title": "Contact and support · states",
+      "page": "a"
+    },
+    "A-Hata-Servis.dc.html": {
+      "expand": "fill",
+      "x": 15200,
+      "y": 0,
+      "w": 1440,
+      "h": 900,
+      "title": "Service unavailable",
+      "page": "a"
+    },
+    "A-Giris-Durumlar.dc.html": {
+      "expand": "fill",
+      "x": 7600,
+      "y": 3740,
+      "w": 1440,
+      "h": 1500,
+      "title": "Log in and sign up · states",
+      "page": "a"
+    },
+    "A-Baglanti-Gecersiz.dc.html": {
+      "expand": "fill",
+      "x": 9120,
+      "y": 3740,
+      "w": 1440,
+      "h": 900,
+      "title": "Verify link expired",
+      "page": "a"
+    },
+    "A-Sifre-Baglanti-Gecersiz.dc.html": {
+      "expand": "fill",
+      "x": 10640,
+      "y": 3740,
+      "w": 1440,
+      "h": 900,
+      "title": "Reset link expired",
+      "page": "a"
+    },
+    "A-Oturum-Bitti.dc.html": {
+      "expand": "fill",
+      "x": 12160,
+      "y": 3740,
+      "w": 1440,
+      "h": 900,
+      "title": "Session expired",
+      "page": "a"
+    },
+    "A-Hesap-Engelli.dc.html": {
+      "expand": "fill",
+      "x": 13680,
+      "y": 3740,
+      "w": 1440,
+      "h": 900,
+      "title": "Account blocked",
+      "page": "a"
+    },
+    "A-Yetki-Yok.dc.html": {
+      "expand": "fill",
+      "x": 15200,
+      "y": 3740,
+      "w": 1440,
+      "h": 900,
+      "title": "No access",
+      "page": "a"
+    },
+    "A-Galeri-Hata.dc.html": {
+      "expand": "fill",
+      "x": 9120,
+      "y": 5740,
+      "w": 1440,
+      "h": 900,
+      "title": "Gallery · could not load",
+      "page": "a"
+    },
+    "A-Video-Ekle-Durumlar.dc.html": {
+      "expand": "fill",
+      "x": 10640,
+      "y": 5740,
+      "w": 1440,
+      "h": 1340,
+      "title": "Add your own video · states",
+      "page": "a"
+    },
+    "A-Form-Yukleme.dc.html": {
+      "expand": "fill",
+      "x": 13160,
+      "y": 7840,
+      "w": 1440,
+      "h": 740,
+      "title": "Generate form · upload states",
+      "page": "a"
+    },
+    "A-Onay-Durumlar.dc.html": {
+      "expand": "fill",
+      "x": 14680,
+      "y": 7840,
+      "w": 1440,
+      "h": 3020,
+      "title": "Credit confirmation · states",
+      "page": "a"
+    },
+    "A-Is-Kuyrukta.dc.html": {
+      "expand": "fill",
+      "x": 16200,
+      "y": 7840,
+      "w": 1440,
+      "h": 900,
+      "title": "Job progress · in queue",
+      "page": "a"
+    },
+    "A-Is-Durumlar.dc.html": {
+      "expand": "fill",
+      "x": 17720,
+      "y": 7840,
+      "w": 1440,
+      "h": 2960,
+      "title": "Job progress · states",
+      "page": "a"
+    },
+    "A-Is-Durdu-Onay.dc.html": {
+      "x": 19240,
+      "y": 7840,
+      "w": 640,
+      "h": 580,
+      "title": "Job stopped · confirm to continue",
+      "page": "a"
+    },
+    "A-Is-Kapatildi.dc.html": {
+      "expand": "fill",
+      "x": 20680,
+      "y": 7840,
+      "w": 1440,
+      "h": 900,
+      "title": "Job stopped · closed",
+      "page": "a"
+    },
+    "A-Sonuc-Varyant-Kismi.dc.html": {
+      "expand": "fill",
+      "x": 22200,
+      "y": 7840,
+      "w": 1440,
+      "h": 1200,
+      "title": "Result · some variants ready",
+      "page": "a"
+    },
+    "A-Sonuc-Durumlar.dc.html": {
+      "expand": "fill",
+      "x": 23720,
+      "y": 7840,
+      "w": 1440,
+      "h": 3040,
+      "title": "Result · states",
+      "page": "a"
+    },
+    "A-Uretimlerim-Durumlar.dc.html": {
+      "expand": "fill",
+      "x": 3040,
+      "y": 11380,
+      "w": 1440,
+      "h": 2080,
+      "title": "My videos · states",
+      "page": "a"
+    },
+    "A-Odeme-Dogrulaniyor.dc.html": {
+      "expand": "fill",
+      "x": 6154,
+      "y": 13960,
+      "w": 1440,
+      "h": 900,
+      "title": "Payment · confirming",
+      "page": "a"
+    },
+    "A-Odeme-Gecikti.dc.html": {
+      "expand": "fill",
+      "x": 7674,
+      "y": 13960,
+      "w": 1440,
+      "h": 900,
+      "title": "Payment · taking longer",
+      "page": "a"
+    },
+    "A-Odeme-Durumlar.dc.html": {
+      "expand": "fill",
+      "x": 9194,
+      "y": 13960,
+      "w": 1440,
+      "h": 2040,
+      "title": "Payment · cancelled and expired",
+      "page": "a"
+    },
+    "A-Hesap-Durumlar.dc.html": {
+      "expand": "fill",
+      "x": 10714,
+      "y": 13960,
+      "w": 1440,
+      "h": 2960,
+      "title": "Account · states",
+      "page": "a"
+    },
+    "A-Hesap-Sil-Durumlar.dc.html": {
+      "expand": "fill",
+      "x": 12954,
+      "y": 13960,
+      "w": 1440,
+      "h": 1260,
+      "title": "Delete account · states",
+      "page": "a"
+    },
+    "A-Admin-Onaylar.dc.html": {
+      "expand": "fill",
+      "x": 18240,
+      "y": 19500,
+      "w": 1440,
+      "h": 2280,
+      "title": "Admin · action confirmations",
+      "page": "a"
+    },
+    "A-Admin-Islem-Durumlar.dc.html": {
+      "expand": "fill",
+      "x": 19760,
+      "y": 19500,
+      "w": 1440,
+      "h": 3020,
+      "title": "Admin · action states",
+      "page": "a"
+    },
+    "A-Admin-Grafik-Durumlar.dc.html": {
+      "expand": "fill",
+      "x": 21280,
+      "y": 19500,
+      "w": 1440,
+      "h": 980,
+      "title": "Admin · chart states",
+      "page": "a"
+    },
+    "A-Sablon-Ornek-Eski.dc.html": {
+      "expand": "fill",
+      "x": 22800,
+      "y": 19500,
+      "w": 1440,
+      "h": 1480,
+      "title": "Admin · edit template, sample out of date",
+      "page": "a"
+    },
+    "A-Yasal-Iade-L.dc.html": {
+      "expand": "fill",
+      "x": 12160,
+      "y": 0,
+      "w": 1440,
+      "h": 1720,
+      "title": "Legal page · refund policy",
+      "page": "a-light"
+    },
+    "A-Iletisim-Durumlar-L.dc.html": {
+      "expand": "fill",
+      "x": 13680,
+      "y": 0,
+      "w": 1440,
+      "h": 1540,
+      "title": "Contact and support · states",
+      "page": "a-light"
+    },
+    "A-Hata-Servis-L.dc.html": {
+      "expand": "fill",
+      "x": 15200,
+      "y": 0,
+      "w": 1440,
+      "h": 900,
+      "title": "Service unavailable",
+      "page": "a-light"
+    },
+    "A-Giris-Durumlar-L.dc.html": {
+      "expand": "fill",
+      "x": 7600,
+      "y": 3740,
+      "w": 1440,
+      "h": 1500,
+      "title": "Log in and sign up · states",
+      "page": "a-light"
+    },
+    "A-Baglanti-Gecersiz-L.dc.html": {
+      "expand": "fill",
+      "x": 9120,
+      "y": 3740,
+      "w": 1440,
+      "h": 900,
+      "title": "Verify link expired",
+      "page": "a-light"
+    },
+    "A-Sifre-Baglanti-Gecersiz-L.dc.html": {
+      "expand": "fill",
+      "x": 10640,
+      "y": 3740,
+      "w": 1440,
+      "h": 900,
+      "title": "Reset link expired",
+      "page": "a-light"
+    },
+    "A-Oturum-Bitti-L.dc.html": {
+      "expand": "fill",
+      "x": 12160,
+      "y": 3740,
+      "w": 1440,
+      "h": 900,
+      "title": "Session expired",
+      "page": "a-light"
+    },
+    "A-Hesap-Engelli-L.dc.html": {
+      "expand": "fill",
+      "x": 13680,
+      "y": 3740,
+      "w": 1440,
+      "h": 900,
+      "title": "Account blocked",
+      "page": "a-light"
+    },
+    "A-Yetki-Yok-L.dc.html": {
+      "expand": "fill",
+      "x": 15200,
+      "y": 3740,
+      "w": 1440,
+      "h": 900,
+      "title": "No access",
+      "page": "a-light"
+    },
+    "A-Galeri-Hata-L.dc.html": {
+      "expand": "fill",
+      "x": 9120,
+      "y": 5740,
+      "w": 1440,
+      "h": 900,
+      "title": "Gallery · could not load",
+      "page": "a-light"
+    },
+    "A-Video-Ekle-Durumlar-L.dc.html": {
+      "expand": "fill",
+      "x": 10640,
+      "y": 5740,
+      "w": 1440,
+      "h": 1340,
+      "title": "Add your own video · states",
+      "page": "a-light"
+    },
+    "A-Form-Yukleme-L.dc.html": {
+      "expand": "fill",
+      "x": 13160,
+      "y": 7840,
+      "w": 1440,
+      "h": 740,
+      "title": "Generate form · upload states",
+      "page": "a-light"
+    },
+    "A-Onay-Durumlar-L.dc.html": {
+      "expand": "fill",
+      "x": 14680,
+      "y": 7840,
+      "w": 1440,
+      "h": 3020,
+      "title": "Credit confirmation · states",
+      "page": "a-light"
+    },
+    "A-Is-Kuyrukta-L.dc.html": {
+      "expand": "fill",
+      "x": 16200,
+      "y": 7840,
+      "w": 1440,
+      "h": 900,
+      "title": "Job progress · in queue",
+      "page": "a-light"
+    },
+    "A-Is-Durumlar-L.dc.html": {
+      "expand": "fill",
+      "x": 17720,
+      "y": 7840,
+      "w": 1440,
+      "h": 2960,
+      "title": "Job progress · states",
+      "page": "a-light"
+    },
+    "A-Is-Durdu-Onay-L.dc.html": {
+      "x": 19240,
+      "y": 7840,
+      "w": 640,
+      "h": 580,
+      "title": "Job stopped · confirm to continue",
+      "page": "a-light"
+    },
+    "A-Is-Kapatildi-L.dc.html": {
+      "expand": "fill",
+      "x": 20680,
+      "y": 7840,
+      "w": 1440,
+      "h": 900,
+      "title": "Job stopped · closed",
+      "page": "a-light"
+    },
+    "A-Sonuc-Varyant-Kismi-L.dc.html": {
+      "expand": "fill",
+      "x": 22200,
+      "y": 7840,
+      "w": 1440,
+      "h": 1200,
+      "title": "Result · some variants ready",
+      "page": "a-light"
+    },
+    "A-Sonuc-Durumlar-L.dc.html": {
+      "expand": "fill",
+      "x": 23720,
+      "y": 7840,
+      "w": 1440,
+      "h": 3040,
+      "title": "Result · states",
+      "page": "a-light"
+    },
+    "A-Uretimlerim-Durumlar-L.dc.html": {
+      "expand": "fill",
+      "x": 3040,
+      "y": 11380,
+      "w": 1440,
+      "h": 2080,
+      "title": "My videos · states",
+      "page": "a-light"
+    },
+    "A-Odeme-Dogrulaniyor-L.dc.html": {
+      "expand": "fill",
+      "x": 5280,
+      "y": 13960,
+      "w": 1440,
+      "h": 900,
+      "title": "Payment · confirming",
+      "page": "a-light"
+    },
+    "A-Odeme-Gecikti-L.dc.html": {
+      "expand": "fill",
+      "x": 6800,
+      "y": 13960,
+      "w": 1440,
+      "h": 900,
+      "title": "Payment · taking longer",
+      "page": "a-light"
+    },
+    "A-Odeme-Durumlar-L.dc.html": {
+      "expand": "fill",
+      "x": 8320,
+      "y": 13960,
+      "w": 1440,
+      "h": 2040,
+      "title": "Payment · cancelled and expired",
+      "page": "a-light"
+    },
+    "A-Hesap-Durumlar-L.dc.html": {
+      "expand": "fill",
+      "x": 9840,
+      "y": 13960,
+      "w": 1440,
+      "h": 2960,
+      "title": "Account · states",
+      "page": "a-light"
+    },
+    "A-Hesap-Sil-Durumlar-L.dc.html": {
+      "expand": "fill",
+      "x": 12080,
+      "y": 13960,
+      "w": 1440,
+      "h": 1260,
+      "title": "Delete account · states",
+      "page": "a-light"
+    },
+    "A-Admin-Onaylar-L.dc.html": {
+      "expand": "fill",
+      "x": 18240,
+      "y": 17420,
+      "w": 1440,
+      "h": 2280,
+      "title": "Admin · action confirmations",
+      "page": "a-light"
+    },
+    "A-Admin-Islem-Durumlar-L.dc.html": {
+      "expand": "fill",
+      "x": 19760,
+      "y": 17420,
+      "w": 1440,
+      "h": 3020,
+      "title": "Admin · action states",
+      "page": "a-light"
+    },
+    "A-Admin-Grafik-Durumlar-L.dc.html": {
+      "expand": "fill",
+      "x": 21280,
+      "y": 17420,
+      "w": 1440,
+      "h": 980,
+      "title": "Admin · chart states",
+      "page": "a-light"
+    },
+    "A-Sablon-Ornek-Eski-L.dc.html": {
+      "expand": "fill",
+      "x": 22800,
+      "y": 17420,
+      "w": 1440,
+      "h": 1480,
+      "title": "Admin · edit template, sample out of date",
+      "page": "a-light"
+    },
+    "A-Yasal-Iade-M.dc.html": {
+      "x": 3760,
+      "y": 0,
+      "w": 390,
+      "h": 2400,
+      "title": "Legal page · refund policy",
+      "page": "m-dark"
+    },
+    "A-Iletisim-Durumlar-M.dc.html": {
+      "x": 4230,
+      "y": 0,
+      "w": 390,
+      "h": 2580,
+      "title": "Contact and support · states",
+      "page": "m-dark"
+    },
+    "A-Hata-Servis-M.dc.html": {
+      "x": 4700,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "Service unavailable",
+      "page": "m-dark"
+    },
+    "A-Giris-Durumlar-M.dc.html": {
+      "x": 2350,
+      "y": 4060,
+      "w": 390,
+      "h": 3620,
+      "title": "Log in and sign up · states",
+      "page": "m-dark"
+    },
+    "A-Baglanti-Gecersiz-M.dc.html": {
+      "x": 2820,
+      "y": 4060,
+      "w": 390,
+      "h": 844,
+      "title": "Verify link expired",
+      "page": "m-dark"
+    },
+    "A-Sifre-Baglanti-Gecersiz-M.dc.html": {
+      "x": 3290,
+      "y": 4060,
+      "w": 390,
+      "h": 844,
+      "title": "Reset link expired",
+      "page": "m-dark"
+    },
+    "A-Oturum-Bitti-M.dc.html": {
+      "x": 3760,
+      "y": 4060,
+      "w": 390,
+      "h": 844,
+      "title": "Session expired",
+      "page": "m-dark"
+    },
+    "A-Hesap-Engelli-M.dc.html": {
+      "x": 4230,
+      "y": 4060,
+      "w": 390,
+      "h": 844,
+      "title": "Account blocked",
+      "page": "m-dark"
+    },
+    "A-Yetki-Yok-M.dc.html": {
+      "x": 4700,
+      "y": 4060,
+      "w": 390,
+      "h": 844,
+      "title": "No access",
+      "page": "m-dark"
+    },
+    "A-Galeri-Hata-M.dc.html": {
+      "x": 3290,
+      "y": 8180,
+      "w": 390,
+      "h": 920,
+      "title": "Gallery · could not load",
+      "page": "m-dark"
+    },
+    "A-Video-Ekle-Durumlar-M.dc.html": {
+      "x": 3760,
+      "y": 8180,
+      "w": 390,
+      "h": 2740,
+      "title": "Add your own video · states",
+      "page": "m-dark"
+    },
+    "A-Form-Yukleme-M.dc.html": {
+      "x": 4700,
+      "y": 11420,
+      "w": 390,
+      "h": 1640,
+      "title": "Generate form · upload states",
+      "page": "m-dark"
+    },
+    "A-Onay-Durumlar-M.dc.html": {
+      "x": 5170,
+      "y": 11420,
+      "w": 390,
+      "h": 5620,
+      "title": "Credit confirmation · states",
+      "page": "m-dark"
+    },
+    "A-Is-Kuyrukta-M.dc.html": {
+      "x": 5640,
+      "y": 11420,
+      "w": 390,
+      "h": 1020,
+      "title": "Job progress · in queue",
+      "page": "m-dark"
+    },
+    "A-Is-Durumlar-M.dc.html": {
+      "x": 6110,
+      "y": 11420,
+      "w": 390,
+      "h": 4880,
+      "title": "Job progress · states",
+      "page": "m-dark"
+    },
+    "A-Is-Durdu-Onay-M.dc.html": {
+      "x": 6580,
+      "y": 11420,
+      "w": 390,
+      "h": 680,
+      "title": "Job stopped · confirm to continue",
+      "page": "m-dark"
+    },
+    "A-Is-Kapatildi-M.dc.html": {
+      "x": 7520,
+      "y": 11420,
+      "w": 390,
+      "h": 844,
+      "title": "Job stopped · closed",
+      "page": "m-dark"
+    },
+    "A-Sonuc-Varyant-Kismi-M.dc.html": {
+      "x": 7990,
+      "y": 11420,
+      "w": 390,
+      "h": 1540,
+      "title": "Result · some variants ready",
+      "page": "m-dark"
+    },
+    "A-Sonuc-Durumlar-M.dc.html": {
+      "x": 8460,
+      "y": 11420,
+      "w": 390,
+      "h": 3600,
+      "title": "Result · states",
+      "page": "m-dark"
+    },
+    "A-Uretimlerim-Durumlar-M.dc.html": {
+      "x": 940,
+      "y": 17540,
+      "w": 390,
+      "h": 3680,
+      "title": "My videos · states",
+      "page": "m-dark"
+    },
+    "A-Odeme-Dogrulaniyor-M.dc.html": {
+      "x": 1880,
+      "y": 21720,
+      "w": 390,
+      "h": 960,
+      "title": "Payment · confirming",
+      "page": "m-dark"
+    },
+    "A-Odeme-Gecikti-M.dc.html": {
+      "x": 2350,
+      "y": 21720,
+      "w": 390,
+      "h": 1260,
+      "title": "Payment · taking longer",
+      "page": "m-dark"
+    },
+    "A-Odeme-Durumlar-M.dc.html": {
+      "x": 2820,
+      "y": 21720,
+      "w": 390,
+      "h": 3180,
+      "title": "Payment · cancelled and expired",
+      "page": "m-dark"
+    },
+    "A-Hesap-Durumlar-M.dc.html": {
+      "x": 3290,
+      "y": 21720,
+      "w": 390,
+      "h": 5940,
+      "title": "Account · states",
+      "page": "m-dark"
+    },
+    "A-Hesap-Sil-Durumlar-M.dc.html": {
+      "x": 4230,
+      "y": 21720,
+      "w": 390,
+      "h": 1840,
+      "title": "Delete account · states",
+      "page": "m-dark"
+    },
+    "A-Admin-Onaylar-M.dc.html": {
+      "x": 6110,
+      "y": 28160,
+      "w": 390,
+      "h": 5060,
+      "title": "Admin · action confirmations",
+      "page": "m-dark"
+    },
+    "A-Admin-Islem-Durumlar-M.dc.html": {
+      "x": 6580,
+      "y": 28160,
+      "w": 390,
+      "h": 5040,
+      "title": "Admin · action states",
+      "page": "m-dark"
+    },
+    "A-Admin-Grafik-Durumlar-M.dc.html": {
+      "x": 7050,
+      "y": 28160,
+      "w": 390,
+      "h": 1580,
+      "title": "Admin · chart states",
+      "page": "m-dark"
+    },
+    "A-Sablon-Ornek-Eski-M.dc.html": {
+      "x": 7520,
+      "y": 28160,
+      "w": 390,
+      "h": 3780,
+      "title": "Admin · edit template, sample out of date",
+      "page": "m-dark"
+    },
+    "A-Yasal-Iade-ML.dc.html": {
+      "x": 3760,
+      "y": 0,
+      "w": 390,
+      "h": 2400,
+      "title": "Legal page · refund policy",
+      "page": "m-light"
+    },
+    "A-Iletisim-Durumlar-ML.dc.html": {
+      "x": 4230,
+      "y": 0,
+      "w": 390,
+      "h": 2580,
+      "title": "Contact and support · states",
+      "page": "m-light"
+    },
+    "A-Hata-Servis-ML.dc.html": {
+      "x": 4700,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "Service unavailable",
+      "page": "m-light"
+    },
+    "A-Giris-Durumlar-ML.dc.html": {
+      "x": 2350,
+      "y": 4060,
+      "w": 390,
+      "h": 3620,
+      "title": "Log in and sign up · states",
+      "page": "m-light"
+    },
+    "A-Baglanti-Gecersiz-ML.dc.html": {
+      "x": 2820,
+      "y": 4060,
+      "w": 390,
+      "h": 844,
+      "title": "Verify link expired",
+      "page": "m-light"
+    },
+    "A-Sifre-Baglanti-Gecersiz-ML.dc.html": {
+      "x": 3290,
+      "y": 4060,
+      "w": 390,
+      "h": 844,
+      "title": "Reset link expired",
+      "page": "m-light"
+    },
+    "A-Oturum-Bitti-ML.dc.html": {
+      "x": 3760,
+      "y": 4060,
+      "w": 390,
+      "h": 844,
+      "title": "Session expired",
+      "page": "m-light"
+    },
+    "A-Hesap-Engelli-ML.dc.html": {
+      "x": 4230,
+      "y": 4060,
+      "w": 390,
+      "h": 844,
+      "title": "Account blocked",
+      "page": "m-light"
+    },
+    "A-Yetki-Yok-ML.dc.html": {
+      "x": 4700,
+      "y": 4060,
+      "w": 390,
+      "h": 844,
+      "title": "No access",
+      "page": "m-light"
+    },
+    "A-Galeri-Hata-ML.dc.html": {
+      "x": 3290,
+      "y": 8180,
+      "w": 390,
+      "h": 920,
+      "title": "Gallery · could not load",
+      "page": "m-light"
+    },
+    "A-Video-Ekle-Durumlar-ML.dc.html": {
+      "x": 3760,
+      "y": 8180,
+      "w": 390,
+      "h": 2740,
+      "title": "Add your own video · states",
+      "page": "m-light"
+    },
+    "A-Form-Yukleme-ML.dc.html": {
+      "x": 4700,
+      "y": 11420,
+      "w": 390,
+      "h": 1640,
+      "title": "Generate form · upload states",
+      "page": "m-light"
+    },
+    "A-Onay-Durumlar-ML.dc.html": {
+      "x": 5170,
+      "y": 11420,
+      "w": 390,
+      "h": 5620,
+      "title": "Credit confirmation · states",
+      "page": "m-light"
+    },
+    "A-Is-Kuyrukta-ML.dc.html": {
+      "x": 5640,
+      "y": 11420,
+      "w": 390,
+      "h": 1020,
+      "title": "Job progress · in queue",
+      "page": "m-light"
+    },
+    "A-Is-Durumlar-ML.dc.html": {
+      "x": 6110,
+      "y": 11420,
+      "w": 390,
+      "h": 4880,
+      "title": "Job progress · states",
+      "page": "m-light"
+    },
+    "A-Is-Durdu-Onay-ML.dc.html": {
+      "x": 6580,
+      "y": 11420,
+      "w": 390,
+      "h": 680,
+      "title": "Job stopped · confirm to continue",
+      "page": "m-light"
+    },
+    "A-Is-Kapatildi-ML.dc.html": {
+      "x": 7520,
+      "y": 11420,
+      "w": 390,
+      "h": 844,
+      "title": "Job stopped · closed",
+      "page": "m-light"
+    },
+    "A-Sonuc-Varyant-Kismi-ML.dc.html": {
+      "x": 7990,
+      "y": 11420,
+      "w": 390,
+      "h": 1540,
+      "title": "Result · some variants ready",
+      "page": "m-light"
+    },
+    "A-Sonuc-Durumlar-ML.dc.html": {
+      "x": 8460,
+      "y": 11420,
+      "w": 390,
+      "h": 3600,
+      "title": "Result · states",
+      "page": "m-light"
+    },
+    "A-Uretimlerim-Durumlar-ML.dc.html": {
+      "x": 940,
+      "y": 17540,
+      "w": 390,
+      "h": 3680,
+      "title": "My videos · states",
+      "page": "m-light"
+    },
+    "A-Odeme-Dogrulaniyor-ML.dc.html": {
+      "x": 1880,
+      "y": 21720,
+      "w": 390,
+      "h": 960,
+      "title": "Payment · confirming",
+      "page": "m-light"
+    },
+    "A-Odeme-Gecikti-ML.dc.html": {
+      "x": 2350,
+      "y": 21720,
+      "w": 390,
+      "h": 1260,
+      "title": "Payment · taking longer",
+      "page": "m-light"
+    },
+    "A-Odeme-Durumlar-ML.dc.html": {
+      "x": 2820,
+      "y": 21720,
+      "w": 390,
+      "h": 3180,
+      "title": "Payment · cancelled and expired",
+      "page": "m-light"
+    },
+    "A-Hesap-Durumlar-ML.dc.html": {
+      "x": 3290,
+      "y": 21720,
+      "w": 390,
+      "h": 5940,
+      "title": "Account · states",
+      "page": "m-light"
+    },
+    "A-Hesap-Sil-Durumlar-ML.dc.html": {
+      "x": 4230,
+      "y": 21720,
+      "w": 390,
+      "h": 1840,
+      "title": "Delete account · states",
+      "page": "m-light"
+    },
+    "A-Admin-Onaylar-ML.dc.html": {
+      "x": 6110,
+      "y": 30300,
+      "w": 390,
+      "h": 5060,
+      "title": "Admin · action confirmations",
+      "page": "m-light"
+    },
+    "A-Admin-Islem-Durumlar-ML.dc.html": {
+      "x": 6580,
+      "y": 30300,
+      "w": 390,
+      "h": 5040,
+      "title": "Admin · action states",
+      "page": "m-light"
+    },
+    "A-Admin-Grafik-Durumlar-ML.dc.html": {
+      "x": 7050,
+      "y": 30300,
+      "w": 390,
+      "h": 1580,
+      "title": "Admin · chart states",
+      "page": "m-light"
+    },
+    "A-Sablon-Ornek-Eski-ML.dc.html": {
+      "x": 7520,
+      "y": 30300,
+      "w": 390,
+      "h": 3780,
+      "title": "Admin · edit template, sample out of date",
+      "page": "m-light"
+    },
+    "A-Is-Kapat-Onay.dc.html": {
+      "x": 19960,
+      "y": 7840,
+      "w": 640,
+      "h": 280,
+      "title": "Job stopped · confirm to close",
+      "page": "a"
+    },
+    "A-Hesap-Iade-Onay.dc.html": {
+      "x": 12234,
+      "y": 13960,
+      "w": 640,
+      "h": 280,
+      "title": "Account · confirm refund request",
+      "page": "a"
+    },
+    "A-Is-Kapat-Onay-L.dc.html": {
+      "x": 19960,
+      "y": 7840,
+      "w": 640,
+      "h": 280,
+      "title": "Job stopped · confirm to close",
+      "page": "a-light"
+    },
+    "A-Hesap-Iade-Onay-L.dc.html": {
+      "x": 11360,
+      "y": 13960,
+      "w": 640,
+      "h": 280,
+      "title": "Account · confirm refund request",
+      "page": "a-light"
+    },
+    "A-Is-Kapat-Onay-M.dc.html": {
+      "x": 7050,
+      "y": 11420,
+      "w": 390,
+      "h": 360,
+      "title": "Job stopped · confirm to close",
+      "page": "m-dark"
+    },
+    "A-Hesap-Iade-Onay-M.dc.html": {
+      "x": 3760,
+      "y": 21720,
+      "w": 390,
+      "h": 340,
+      "title": "Account · confirm refund request",
+      "page": "m-dark"
+    },
+    "A-Is-Kapat-Onay-ML.dc.html": {
+      "x": 7050,
+      "y": 11420,
+      "w": 390,
+      "h": 360,
+      "title": "Job stopped · confirm to close",
+      "page": "m-light"
+    },
+    "A-Hesap-Iade-Onay-ML.dc.html": {
+      "x": 3760,
+      "y": 21720,
+      "w": 390,
+      "h": 340,
+      "title": "Account · confirm refund request",
+      "page": "m-light"
+    },
+    "A-Video-Sil-Onay.dc.html": {
+      "x": 4560,
+      "y": 11380,
+      "w": 640,
+      "h": 280,
+      "title": "My videos · confirm to delete",
+      "page": "a"
+    },
+    "A-Video-Sil-Onay-L.dc.html": {
+      "x": 4560,
+      "y": 11380,
+      "w": 640,
+      "h": 280,
+      "title": "My videos · confirm to delete",
+      "page": "a-light"
+    },
+    "A-Video-Sil-Onay-M.dc.html": {
+      "x": 1410,
+      "y": 17540,
+      "w": 390,
+      "h": 340,
+      "title": "My videos · confirm to delete",
+      "page": "m-dark"
+    },
+    "A-Video-Sil-Onay-ML.dc.html": {
+      "x": 1410,
+      "y": 17540,
+      "w": 390,
+      "h": 340,
+      "title": "My videos · confirm to delete",
+      "page": "m-light"
+    }
+  },
+  "createdOnFiles": {
+    "at": "2026-10-03T16:30:00Z",
+    "v": 1
+  },
+  "designSystems": [],
+  "launch": {
+    "page": "a",
+    "view": "canvas"
+  },
+  "notes": {
+    "baslik": {
+      "kind": "title1",
+      "maxW": 4480,
+      "page": "yonler",
+      "text": "Other directions: B, C, D",
+      "w": 240,
+      "x": 1520,
+      "y": -300
+    },
+    "logo": {
+      "kind": "title1",
+      "maxW": 6320,
+      "page": "logo",
+      "text": "Logo study: 10 names, 40 logos",
+      "w": 240,
+      "x": 0,
+      "y": -300
+    },
+    "m21": {
+      "kind": "title1",
+      "maxW": 8000,
+      "page": "marka",
+      "text": "2.1 · Foundations",
+      "w": 240,
+      "x": 0,
+      "y": -300
+    },
+    "m22": {
+      "kind": "title1",
+      "maxW": 8000,
+      "page": "marka",
+      "text": "2.2 · Components and rules",
+      "w": 240,
+      "x": 0,
+      "y": 2500
+    },
+    "s31": {
+      "kind": "title1",
+      "maxW": 8000,
+      "page": "a",
+      "text": "3.1 · Home and sign-up",
+      "w": 240,
+      "x": 0,
+      "y": -300
+    },
+    "s32": {
+      "kind": "title1",
+      "maxW": 8000,
+      "page": "a",
+      "text": "3.2 · Account access",
+      "w": 240,
+      "x": 0,
+      "y": 3440
+    },
+    "s33": {
+      "kind": "title1",
+      "maxW": 8000,
+      "page": "a",
+      "text": "3.3 · Gallery and templates",
+      "w": 240,
+      "x": 0,
+      "y": 5440
+    },
+    "s34": {
+      "kind": "title1",
+      "maxW": 8000,
+      "page": "a",
+      "text": "3.4 · Generate a video",
+      "w": 240,
+      "x": 0,
+      "y": 7540
+    },
+    "s35": {
+      "kind": "title1",
+      "maxW": 5200,
+      "page": "a",
+      "text": "3.5 · My videos",
+      "w": 240,
+      "x": 0,
+      "y": 11080
+    },
+    "s36": {
+      "kind": "title1",
+      "maxW": 8000,
+      "page": "a",
+      "text": "3.6 · Credits and account",
+      "w": 240,
+      "x": 0,
+      "y": 13660
+    },
+    "s38": {
+      "kind": "title1",
+      "maxW": 8000,
+      "page": "a",
+      "text": "3.8 · Admin",
+      "w": 240,
+      "x": 0,
+      "y": 19200
+    },
+    "s37": {
+      "kind": "title1",
+      "maxW": 3520,
+      "page": "a",
+      "text": "3.7 · Emails",
+      "w": 240,
+      "x": 0,
+      "y": 17120
+    },
+    "s31-L": {
+      "kind": "title1",
+      "maxW": 8000,
+      "page": "a-light",
+      "text": "4.1 · Home and sign-up",
+      "w": 240,
+      "x": 0,
+      "y": -300
+    },
+    "s32-L": {
+      "kind": "title1",
+      "maxW": 8000,
+      "page": "a-light",
+      "text": "4.2 · Account access",
+      "w": 240,
+      "x": 0,
+      "y": 3440
+    },
+    "s33-L": {
+      "kind": "title1",
+      "maxW": 8000,
+      "page": "a-light",
+      "text": "4.3 · Gallery and templates",
+      "w": 240,
+      "x": 0,
+      "y": 5440
+    },
+    "s34-L": {
+      "kind": "title1",
+      "maxW": 8000,
+      "page": "a-light",
+      "text": "4.4 · Generate a video",
+      "w": 240,
+      "x": 0,
+      "y": 7540
+    },
+    "s35-L": {
+      "kind": "title1",
+      "maxW": 5200,
+      "page": "a-light",
+      "text": "4.5 · My videos",
+      "w": 240,
+      "x": 0,
+      "y": 11080
+    },
+    "s36-L": {
+      "kind": "title1",
+      "maxW": 8000,
+      "page": "a-light",
+      "text": "4.6 · Credits and account",
+      "w": 240,
+      "x": 0,
+      "y": 13660
+    },
+    "s38-L": {
+      "kind": "title1",
+      "maxW": 8000,
+      "page": "a-light",
+      "text": "4.8 · Admin",
+      "w": 240,
+      "x": 0,
+      "y": 17120
+    },
+    "s31-M": {
+      "kind": "title1",
+      "maxW": 5090,
+      "page": "m-dark",
+      "text": "5.1 · Home and sign-up",
+      "w": 240,
+      "x": 0,
+      "y": -300
+    },
+    "s32-M": {
+      "kind": "title1",
+      "maxW": 5090,
+      "page": "m-dark",
+      "text": "5.2 · Account access",
+      "w": 240,
+      "x": 0,
+      "y": 3760
+    },
+    "s33-M": {
+      "kind": "title1",
+      "maxW": 4150,
+      "page": "m-dark",
+      "text": "5.3 · Gallery and templates",
+      "w": 240,
+      "x": 0,
+      "y": 7880
+    },
+    "s34-M": {
+      "kind": "title1",
+      "maxW": 8000,
+      "page": "m-dark",
+      "text": "5.4 · Generate a video",
+      "w": 240,
+      "x": 0,
+      "y": 11120
+    },
+    "s35-M": {
+      "kind": "title1",
+      "maxW": 1800,
+      "page": "m-dark",
+      "text": "5.5 · My videos",
+      "w": 240,
+      "x": 0,
+      "y": 17240
+    },
+    "s36-M": {
+      "kind": "title1",
+      "maxW": 4620,
+      "page": "m-dark",
+      "text": "5.6 · Credits and account",
+      "w": 240,
+      "x": 0,
+      "y": 21420
+    },
+    "s38-M": {
+      "kind": "title1",
+      "maxW": 7910,
+      "page": "m-dark",
+      "text": "5.8 · Admin",
+      "w": 240,
+      "x": 0,
+      "y": 27860
+    },
+    "s31-ML": {
+      "kind": "title1",
+      "maxW": 5090,
+      "page": "m-light",
+      "text": "6.1 · Home and sign-up",
+      "w": 240,
+      "x": 0,
+      "y": -300
+    },
+    "s32-ML": {
+      "kind": "title1",
+      "maxW": 5090,
+      "page": "m-light",
+      "text": "6.2 · Account access",
+      "w": 240,
+      "x": 0,
+      "y": 3760
+    },
+    "s33-ML": {
+      "kind": "title1",
+      "maxW": 4150,
+      "page": "m-light",
+      "text": "6.3 · Gallery and templates",
+      "w": 240,
+      "x": 0,
+      "y": 7880
+    },
+    "s34-ML": {
+      "kind": "title1",
+      "maxW": 8000,
+      "page": "m-light",
+      "text": "6.4 · Generate a video",
+      "w": 240,
+      "x": 0,
+      "y": 11120
+    },
+    "s35-ML": {
+      "kind": "title1",
+      "maxW": 1800,
+      "page": "m-light",
+      "text": "6.5 · My videos",
+      "w": 240,
+      "x": 0,
+      "y": 17240
+    },
+    "s36-ML": {
+      "kind": "title1",
+      "maxW": 4620,
+      "page": "m-light",
+      "text": "6.6 · Credits and account",
+      "w": 240,
+      "x": 0,
+      "y": 21420
+    },
+    "s37-ML": {
+      "kind": "title1",
+      "maxW": 2270,
+      "page": "m-light",
+      "text": "6.7 · Emails",
+      "w": 240,
+      "x": 0,
+      "y": 27860
+    },
+    "s38-ML": {
+      "kind": "title1",
+      "maxW": 7910,
+      "page": "m-light",
+      "text": "6.8 · Admin",
+      "w": 240,
+      "x": 0,
+      "y": 30000
+    }
+  },
+  "order": [
+    "B-Editoryal-Dizin.dc.html",
+    "C-Studyo-Masasi.dc.html",
+    "D-Akis.dc.html",
+    "Logo-00-Genel-Bakis.dc.html",
+    "Logo-01-Viral-Klon.dc.html",
+    "Logo-02-Cut-for-Cut.dc.html",
+    "Logo-03-Kloncut.dc.html",
+    "Logo-04-Shotswap.dc.html",
+    "Logo-05-Selfsame.dc.html",
+    "Logo-06-Matchcut.dc.html",
+    "Logo-07-Standin.dc.html",
+    "Logo-08-Remake.dc.html",
+    "Logo-09-Idem.dc.html",
+    "Logo-10-Ditto.dc.html",
+    "Main.dc.html",
+    "A-Detay.dc.html",
+    "A-Form.dc.html",
+    "A-Onay.dc.html",
+    "A-Is-Takibi.dc.html",
+    "A-Is-Durdu.dc.html",
+    "A-Sonuc.dc.html",
+    "A-Uretimlerim.dc.html",
+    "A-Video-Ekle.dc.html",
+    "A-Gelen.dc.html",
+    "A-Ayarlar.dc.html",
+    "A-Ana-Sayfa.dc.html",
+    "A-Fiyatlar.dc.html",
+    "A-Giris.dc.html",
+    "A-Hesap.dc.html",
+    "A-Yasal.dc.html",
+    "A-404.dc.html",
+    "Marka-Oz.dc.html",
+    "Marka-Logo.dc.html",
+    "Marka-Ses.dc.html",
+    "Marka-Renk.dc.html",
+    "Marka-Yazi.dc.html",
+    "Marka-Olcu.dc.html",
+    "Marka-Bilesen-1.dc.html",
+    "Marka-Bilesen-2.dc.html",
+    "Marka-Ikonlar.dc.html",
+    "Marka-Hareket.dc.html",
+    "Marka-Gorsel-Kurallar.dc.html",
+    "A-Odeme-Basarili.dc.html",
+    "A-Odeme-Basarisiz.dc.html",
+    "A-Onay-Yetersiz.dc.html",
+    "A-Eposta-Dogrula.dc.html",
+    "A-Karsilama.dc.html",
+    "A-Sifre-Unuttum.dc.html",
+    "A-Sifre-Gonderildi.dc.html",
+    "A-Sifre-Yeni.dc.html",
+    "A-Hesap-Sil.dc.html",
+    "A-Galeri-Yukleniyor.dc.html",
+    "A-Galeri-Sonuc-Yok.dc.html",
+    "A-Form-Hata.dc.html",
+    "A-Uretimlerim-Bos.dc.html",
+    "A-Gelen-Bos.dc.html",
+    "A-Detay-Ozel.dc.html",
+    "A-Sonuc-Varyant.dc.html",
+    "A-Karsilastir.dc.html",
+    "A-Oynatici.dc.html",
+    "A-Iletisim.dc.html",
+    "A-Cerez.dc.html",
+    "A-Dil-Menusu.dc.html",
+    "E-Dogrulama.dc.html",
+    "E-Sifre.dc.html",
+    "E-Hazir.dc.html",
+    "E-Durdu.dc.html",
+    "E-Odeme.dc.html",
+    "Marka-Bilesen-3.dc.html",
+    "A-Fatura.dc.html",
+    "A-Admin-Genel.dc.html",
+    "A-Kullanicilar.dc.html",
+    "A-Kullanici-Detay.dc.html",
+    "A-Gelir.dc.html",
+    "A-Krediler.dc.html",
+    "A-Isler.dc.html",
+    "A-Sablonlar.dc.html",
+    "A-Sablon-Duzenle.dc.html",
+    "A-Tarama.dc.html",
+    "A-Ana-Sayfa-L.dc.html",
+    "A-Fiyatlar-L.dc.html",
+    "A-Giris-L.dc.html",
+    "A-Yasal-L.dc.html",
+    "A-Iletisim-L.dc.html",
+    "A-404-L.dc.html",
+    "A-Cerez-L.dc.html",
+    "A-Dil-Menusu-L.dc.html",
+    "A-Eposta-Dogrula-L.dc.html",
+    "A-Karsilama-L.dc.html",
+    "A-Sifre-Unuttum-L.dc.html",
+    "A-Sifre-Gonderildi-L.dc.html",
+    "A-Sifre-Yeni-L.dc.html",
+    "Main-L.dc.html",
+    "A-Galeri-Yukleniyor-L.dc.html",
+    "A-Galeri-Sonuc-Yok-L.dc.html",
+    "A-Detay-L.dc.html",
+    "A-Detay-Ozel-L.dc.html",
+    "A-Video-Ekle-L.dc.html",
+    "A-Form-L.dc.html",
+    "A-Form-Hata-L.dc.html",
+    "A-Onay-L.dc.html",
+    "A-Onay-Yetersiz-L.dc.html",
+    "A-Is-Takibi-L.dc.html",
+    "A-Is-Durdu-L.dc.html",
+    "A-Sonuc-L.dc.html",
+    "A-Sonuc-Varyant-L.dc.html",
+    "A-Karsilastir-L.dc.html",
+    "A-Oynatici-L.dc.html",
+    "A-Uretimlerim-L.dc.html",
+    "A-Uretimlerim-Bos-L.dc.html",
+    "A-Hesap-L.dc.html",
+    "A-Hesap-Sil-L.dc.html",
+    "A-Odeme-Basarili-L.dc.html",
+    "A-Odeme-Basarisiz-L.dc.html",
+    "A-Admin-Genel-L.dc.html",
+    "A-Kullanicilar-L.dc.html",
+    "A-Kullanici-Detay-L.dc.html",
+    "A-Gelir-L.dc.html",
+    "A-Krediler-L.dc.html",
+    "A-Isler-L.dc.html",
+    "A-Sablonlar-L.dc.html",
+    "A-Gelen-L.dc.html",
+    "A-Gelen-Bos-L.dc.html",
+    "A-Sablon-Duzenle-L.dc.html",
+    "A-Tarama-L.dc.html",
+    "A-Ayarlar-L.dc.html",
+    "A-Ana-Sayfa-M.dc.html",
+    "A-Fiyatlar-M.dc.html",
+    "A-Giris-M.dc.html",
+    "A-Yasal-M.dc.html",
+    "A-Iletisim-M.dc.html",
+    "A-404-M.dc.html",
+    "A-Cerez-M.dc.html",
+    "A-Menu-Ziyaretci-M.dc.html",
+    "A-Eposta-Dogrula-M.dc.html",
+    "A-Karsilama-M.dc.html",
+    "A-Sifre-Unuttum-M.dc.html",
+    "A-Sifre-Gonderildi-M.dc.html",
+    "A-Sifre-Yeni-M.dc.html",
+    "Main-M.dc.html",
+    "A-Menu-M.dc.html",
+    "A-Galeri-Yukleniyor-M.dc.html",
+    "A-Galeri-Sonuc-Yok-M.dc.html",
+    "A-Detay-M.dc.html",
+    "A-Detay-Ozel-M.dc.html",
+    "A-Video-Ekle-M.dc.html",
+    "A-Form-M.dc.html",
+    "A-Form-Hata-M.dc.html",
+    "A-Onay-M.dc.html",
+    "A-Onay-Yetersiz-M.dc.html",
+    "A-Is-Takibi-M.dc.html",
+    "A-Is-Durdu-M.dc.html",
+    "A-Sonuc-M.dc.html",
+    "A-Sonuc-Varyant-M.dc.html",
+    "A-Karsilastir-M.dc.html",
+    "A-Oynatici-M.dc.html",
+    "A-Uretimlerim-M.dc.html",
+    "A-Uretimlerim-Bos-M.dc.html",
+    "A-Hesap-M.dc.html",
+    "A-Hesap-Sil-M.dc.html",
+    "A-Odeme-Basarili-M.dc.html",
+    "A-Odeme-Basarisiz-M.dc.html",
+    "A-Admin-Genel-M.dc.html",
+    "A-Menu-Admin-M.dc.html",
+    "A-Kullanicilar-M.dc.html",
+    "A-Kullanici-Detay-M.dc.html",
+    "A-Gelir-M.dc.html",
+    "A-Krediler-M.dc.html",
+    "A-Isler-M.dc.html",
+    "A-Sablonlar-M.dc.html",
+    "A-Gelen-M.dc.html",
+    "A-Gelen-Bos-M.dc.html",
+    "A-Sablon-Duzenle-M.dc.html",
+    "A-Tarama-M.dc.html",
+    "A-Ayarlar-M.dc.html",
+    "A-Ana-Sayfa-ML.dc.html",
+    "A-Fiyatlar-ML.dc.html",
+    "A-Giris-ML.dc.html",
+    "A-Yasal-ML.dc.html",
+    "A-Iletisim-ML.dc.html",
+    "A-404-ML.dc.html",
+    "A-Cerez-ML.dc.html",
+    "A-Menu-Ziyaretci-ML.dc.html",
+    "A-Eposta-Dogrula-ML.dc.html",
+    "A-Karsilama-ML.dc.html",
+    "A-Sifre-Unuttum-ML.dc.html",
+    "A-Sifre-Gonderildi-ML.dc.html",
+    "A-Sifre-Yeni-ML.dc.html",
+    "Main-ML.dc.html",
+    "A-Menu-ML.dc.html",
+    "A-Galeri-Yukleniyor-ML.dc.html",
+    "A-Galeri-Sonuc-Yok-ML.dc.html",
+    "A-Detay-ML.dc.html",
+    "A-Detay-Ozel-ML.dc.html",
+    "A-Video-Ekle-ML.dc.html",
+    "A-Form-ML.dc.html",
+    "A-Form-Hata-ML.dc.html",
+    "A-Onay-ML.dc.html",
+    "A-Onay-Yetersiz-ML.dc.html",
+    "A-Is-Takibi-ML.dc.html",
+    "A-Is-Durdu-ML.dc.html",
+    "A-Sonuc-ML.dc.html",
+    "A-Sonuc-Varyant-ML.dc.html",
+    "A-Karsilastir-ML.dc.html",
+    "A-Oynatici-ML.dc.html",
+    "A-Uretimlerim-ML.dc.html",
+    "A-Uretimlerim-Bos-ML.dc.html",
+    "A-Hesap-ML.dc.html",
+    "A-Hesap-Sil-ML.dc.html",
+    "A-Odeme-Basarili-ML.dc.html",
+    "A-Odeme-Basarisiz-ML.dc.html",
+    "E-Dogrulama-ML.dc.html",
+    "E-Sifre-ML.dc.html",
+    "E-Hazir-ML.dc.html",
+    "E-Durdu-ML.dc.html",
+    "E-Odeme-ML.dc.html",
+    "A-Admin-Genel-ML.dc.html",
+    "A-Menu-Admin-ML.dc.html",
+    "A-Kullanicilar-ML.dc.html",
+    "A-Kullanici-Detay-ML.dc.html",
+    "A-Gelir-ML.dc.html",
+    "A-Krediler-ML.dc.html",
+    "A-Isler-ML.dc.html",
+    "A-Sablonlar-ML.dc.html",
+    "A-Gelen-ML.dc.html",
+    "A-Gelen-Bos-ML.dc.html",
+    "A-Sablon-Duzenle-ML.dc.html",
+    "A-Tarama-ML.dc.html",
+    "A-Ayarlar-ML.dc.html",
+    "Marka-Bilesen-4.dc.html",
+    "A-Yasal-Iade.dc.html",
+    "A-Iletisim-Durumlar.dc.html",
+    "A-Hata-Servis.dc.html",
+    "A-Giris-Durumlar.dc.html",
+    "A-Baglanti-Gecersiz.dc.html",
+    "A-Sifre-Baglanti-Gecersiz.dc.html",
+    "A-Oturum-Bitti.dc.html",
+    "A-Hesap-Engelli.dc.html",
+    "A-Yetki-Yok.dc.html",
+    "A-Galeri-Hata.dc.html",
+    "A-Video-Ekle-Durumlar.dc.html",
+    "A-Form-Yukleme.dc.html",
+    "A-Onay-Durumlar.dc.html",
+    "A-Is-Kuyrukta.dc.html",
+    "A-Is-Durumlar.dc.html",
+    "A-Is-Durdu-Onay.dc.html",
+    "A-Is-Kapatildi.dc.html",
+    "A-Sonuc-Varyant-Kismi.dc.html",
+    "A-Sonuc-Durumlar.dc.html",
+    "A-Uretimlerim-Durumlar.dc.html",
+    "A-Odeme-Dogrulaniyor.dc.html",
+    "A-Odeme-Gecikti.dc.html",
+    "A-Odeme-Durumlar.dc.html",
+    "A-Hesap-Durumlar.dc.html",
+    "A-Hesap-Sil-Durumlar.dc.html",
+    "A-Admin-Onaylar.dc.html",
+    "A-Admin-Islem-Durumlar.dc.html",
+    "A-Admin-Grafik-Durumlar.dc.html",
+    "A-Sablon-Ornek-Eski.dc.html",
+    "A-Yasal-Iade-L.dc.html",
+    "A-Iletisim-Durumlar-L.dc.html",
+    "A-Hata-Servis-L.dc.html",
+    "A-Giris-Durumlar-L.dc.html",
+    "A-Baglanti-Gecersiz-L.dc.html",
+    "A-Sifre-Baglanti-Gecersiz-L.dc.html",
+    "A-Oturum-Bitti-L.dc.html",
+    "A-Hesap-Engelli-L.dc.html",
+    "A-Yetki-Yok-L.dc.html",
+    "A-Galeri-Hata-L.dc.html",
+    "A-Video-Ekle-Durumlar-L.dc.html",
+    "A-Form-Yukleme-L.dc.html",
+    "A-Onay-Durumlar-L.dc.html",
+    "A-Is-Kuyrukta-L.dc.html",
+    "A-Is-Durumlar-L.dc.html",
+    "A-Is-Durdu-Onay-L.dc.html",
+    "A-Is-Kapatildi-L.dc.html",
+    "A-Sonuc-Varyant-Kismi-L.dc.html",
+    "A-Sonuc-Durumlar-L.dc.html",
+    "A-Uretimlerim-Durumlar-L.dc.html",
+    "A-Odeme-Dogrulaniyor-L.dc.html",
+    "A-Odeme-Gecikti-L.dc.html",
+    "A-Odeme-Durumlar-L.dc.html",
+    "A-Hesap-Durumlar-L.dc.html",
+    "A-Hesap-Sil-Durumlar-L.dc.html",
+    "A-Admin-Onaylar-L.dc.html",
+    "A-Admin-Islem-Durumlar-L.dc.html",
+    "A-Admin-Grafik-Durumlar-L.dc.html",
+    "A-Sablon-Ornek-Eski-L.dc.html",
+    "A-Yasal-Iade-M.dc.html",
+    "A-Iletisim-Durumlar-M.dc.html",
+    "A-Hata-Servis-M.dc.html",
+    "A-Giris-Durumlar-M.dc.html",
+    "A-Baglanti-Gecersiz-M.dc.html",
+    "A-Sifre-Baglanti-Gecersiz-M.dc.html",
+    "A-Oturum-Bitti-M.dc.html",
+    "A-Hesap-Engelli-M.dc.html",
+    "A-Yetki-Yok-M.dc.html",
+    "A-Galeri-Hata-M.dc.html",
+    "A-Video-Ekle-Durumlar-M.dc.html",
+    "A-Form-Yukleme-M.dc.html",
+    "A-Onay-Durumlar-M.dc.html",
+    "A-Is-Kuyrukta-M.dc.html",
+    "A-Is-Durumlar-M.dc.html",
+    "A-Is-Durdu-Onay-M.dc.html",
+    "A-Is-Kapatildi-M.dc.html",
+    "A-Sonuc-Varyant-Kismi-M.dc.html",
+    "A-Sonuc-Durumlar-M.dc.html",
+    "A-Uretimlerim-Durumlar-M.dc.html",
+    "A-Odeme-Dogrulaniyor-M.dc.html",
+    "A-Odeme-Gecikti-M.dc.html",
+    "A-Odeme-Durumlar-M.dc.html",
+    "A-Hesap-Durumlar-M.dc.html",
+    "A-Hesap-Sil-Durumlar-M.dc.html",
+    "A-Admin-Onaylar-M.dc.html",
+    "A-Admin-Islem-Durumlar-M.dc.html",
+    "A-Admin-Grafik-Durumlar-M.dc.html",
+    "A-Sablon-Ornek-Eski-M.dc.html",
+    "A-Yasal-Iade-ML.dc.html",
+    "A-Iletisim-Durumlar-ML.dc.html",
+    "A-Hata-Servis-ML.dc.html",
+    "A-Giris-Durumlar-ML.dc.html",
+    "A-Baglanti-Gecersiz-ML.dc.html",
+    "A-Sifre-Baglanti-Gecersiz-ML.dc.html",
+    "A-Oturum-Bitti-ML.dc.html",
+    "A-Hesap-Engelli-ML.dc.html",
+    "A-Yetki-Yok-ML.dc.html",
+    "A-Galeri-Hata-ML.dc.html",
+    "A-Video-Ekle-Durumlar-ML.dc.html",
+    "A-Form-Yukleme-ML.dc.html",
+    "A-Onay-Durumlar-ML.dc.html",
+    "A-Is-Kuyrukta-ML.dc.html",
+    "A-Is-Durumlar-ML.dc.html",
+    "A-Is-Durdu-Onay-ML.dc.html",
+    "A-Is-Kapatildi-ML.dc.html",
+    "A-Sonuc-Varyant-Kismi-ML.dc.html",
+    "A-Sonuc-Durumlar-ML.dc.html",
+    "A-Uretimlerim-Durumlar-ML.dc.html",
+    "A-Odeme-Dogrulaniyor-ML.dc.html",
+    "A-Odeme-Gecikti-ML.dc.html",
+    "A-Odeme-Durumlar-ML.dc.html",
+    "A-Hesap-Durumlar-ML.dc.html",
+    "A-Hesap-Sil-Durumlar-ML.dc.html",
+    "A-Admin-Onaylar-ML.dc.html",
+    "A-Admin-Islem-Durumlar-ML.dc.html",
+    "A-Admin-Grafik-Durumlar-ML.dc.html",
+    "A-Sablon-Ornek-Eski-ML.dc.html",
+    "A-Is-Kapat-Onay.dc.html",
+    "A-Hesap-Iade-Onay.dc.html",
+    "A-Is-Kapat-Onay-L.dc.html",
+    "A-Hesap-Iade-Onay-L.dc.html",
+    "A-Is-Kapat-Onay-M.dc.html",
+    "A-Hesap-Iade-Onay-M.dc.html",
+    "A-Is-Kapat-Onay-ML.dc.html",
+    "A-Hesap-Iade-Onay-ML.dc.html",
+    "A-Video-Sil-Onay.dc.html",
+    "A-Video-Sil-Onay-L.dc.html",
+    "A-Video-Sil-Onay-M.dc.html",
+    "A-Video-Sil-Onay-ML.dc.html"
+  ],
+  "pages": [
+    {
+      "id": "logo",
+      "name": "1 · Logo study"
+    },
+    {
+      "id": "marka",
+      "name": "2 · Branding"
+    },
+    {
+      "id": "a",
+      "name": "3 · Website"
+    },
+    {
+      "id": "a-light",
+      "name": "4 · Website · Light"
+    },
+    {
+      "id": "m-dark",
+      "name": "5 · Mobile · Dark"
+    },
+    {
+      "id": "m-light",
+      "name": "6 · Mobile · Light"
+    },
+    {
+      "id": "yonler",
+      "name": "Archive · Other directions"
+    }
+  ],
+  "title": "Viral Clone — Design"
+}

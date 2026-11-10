@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "language": "en",
+  "canvas": { "width": 720, "height": 1280, "fps": 30 },
+  "frames": 120,
+  "media": { "bars": { "file": "assets/bars.mp4", "kind": "video" } },
+  "shots": [ { "id": "count", "at": 0, "for": 120, "media": "bars" } ]
+}

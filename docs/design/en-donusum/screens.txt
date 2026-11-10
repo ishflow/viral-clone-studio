@@ -1,0 +1,1532 @@
+@@ *
+Ana menü
+==>
+Main menu
+----
+Galeri
+==>
+Gallery
+----
+Üretimlerim
+==>
+My videos
+----
+Gelen
+==>
+Inbox
+----
+Ayarlar
+==>
+Settings
+----
+Hesap
+==>
+Account
+----
+Hesap: ACME / ACME2
+==>
+Account: ACME / ACME2
+----
+Fiyatlar
+==>
+Pricing
+----
+Nasıl çalışır
+==>
+How it works
+----
+Giriş yap
+==>
+Log in
+----
+Başla
+==>
+Get started
+----
+T:TR
+==>
+EN
+----
+Dil: Türkçe. Değiştir
+==>
+Language: English. Change
+----
+Alt menü
+==>
+Footer menu
+----
+Kullanım şartları
+==>
+Terms of use
+----
+Gizlilik
+==>
+Privacy
+----
+İade
+==>
+Refunds
+----
+© [ŞİRKET ADI]
+==>
+© [COMPANY NAME]
+----
+Koku katmanlama tarifi
+==>
+Fragrance layering recipe
+----
+Gün sayacıyla göz yakın planı
+==>
+Eye close-up with a day counter
+----
+"4 hafta denedim" sunucu anlatımı
+==>
+"I tried it for 4 weeks" presenter story
+----
+Muadil karşılaştırması
+==>
+Dupe comparison
+----
+Ekranda yazıyla hikâye
+==>
+Story told in on-screen text
+----
+Duş rutini: sorun, sonuç, kullanım
+==>
+Shower routine: problem, result, how to use
+----
+"Kabullenmedim" hikâyesi ve rutin
+==>
+"I refused to accept it" story and routine
+----
+ASMR içecek hazırlama
+==>
+ASMR drink prep
+----
+Maskara rutini ve hızlı foto montaj
+==>
+Mascara routine and fast photo montage
+----
+Konuşmasız
+==>
+No talking
+----
+Konuşmalı
+==>
+Talking
+----
+Hızlı
+==>
+Fast
+----
+Koku
+==>
+Fragrance
+----
+Kirpik
+==>
+Lashes
+----
+Kirpik ve kaş
+==>
+Lashes and brows
+----
+Saç
+==>
+Hair
+----
+Takviye
+==>
+Supplements
+----
+Tümü
+==>
+All
+----
+Hepsi
+==>
+All
+----
+Bunu yap
+==>
+Clone it
+----
+Vazgeç
+==>
+Cancel
+----
+Onayla ve üret
+==>
+Confirm and generate
+----
+Üretimi onayla
+==>
+Confirm generation
+----
+Tahmini kredi
+==>
+Estimated credits
+----
+[KREDİ TUTARI]
+==>
+[CREDIT AMOUNT]
+----
+Üretiliyor
+==>
+Generating
+----
+Hazır
+==>
+Ready
+----
+Durdu
+==>
+Stopped
+----
+bitti
+==>
+done
+----
+bekliyor
+==>
+waiting
+----
+sürüyor
+==>
+running
+----
+Aşamalar
+==>
+Stages
+----
+Uyarlama
+==>
+Adaptation
+----
+Görseller
+==>
+Images
+----
+Klipler
+==>
+Clips
+----
+Müzik
+==>
+Music
+----
+Kurgu
+==>
+Edit
+----
+Yazılar ve çekim tarifleri ürünlerine göre yazıldı
+==>
+Text and shot descriptions written for your products
+----
+Her çekimin ilk karesi
+==>
+The first frame of each shot
+----
+İlk karelerden video
+==>
+Video from the first frames
+----
+Şablonun havasında yeni müzik
+==>
+New music in the mood of the template
+----
+Çekimler, yazılar ve müzik sıraya dizilir
+==>
+Shots, text, and music are put in order
+----
+Tek dosya, mp4
+==>
+One file, mp4
+----
+4 ürün · Hızlı · 1 varyant
+==>
+4 products · Fast · 1 variant
+----
+Koku katmanlama tarifi · Hızlı · 1 varyant
+==>
+Fragrance layering recipe · Fast · 1 variant
+----
+Ürün adı
+==>
+Product name
+----
+Kısa bilgi
+==>
+Short description
+----
+Ne işe yarar, öne çıkan özelliği
+==>
+What it does, its key feature
+----
+Yüklenen ürün görseli
+==>
+Uploaded product image
+----
+Şablon ara
+==>
+Search templates
+----
+Şablon ara: kategori, format, ürün türü
+==>
+Search templates: category, format, product type
+----
+Kendi videonu ekle
+==>
+Add your own video
+----
+Dosyayı buraya bırak
+==>
+Drop the file here
+----
+mp4 ya da mov · en çok 60 sn
+==>
+mp4 or mov · 60 sec max
+----
+Kaydet
+==>
+Save
+----
+Şifremi unuttum
+==>
+Forgot password
+----
+Hesabı sil
+==>
+Delete account
+----
+ad@ornek.com
+==>
+name@example.com
+----
+E-posta
+==>
+Email
+----
+Reddet
+==>
+Reject
+----
+Örnek yok
+==>
+No sample
+----
+deneysel
+==>
+experimental
+----
+Seedance iki klipte hata verdi
+==>
+Seedance failed on two clips
+----
+Kling 3 ile devam et
+==>
+Continue with Kling 3
+----
+Sayfayı kapatabilirsin; iş arkada sürer ve Üretimlerim'de durur.
+==>
+You can close this page. The job keeps running and stays in My videos.
+----
+Bölünmüş ekran kullanıyor; sistem bu yapıyı henüz kuramıyor. Kredi harcanmadı.
+==>
+This video uses a split screen, and the system can't build that structure yet. No credits were spent.
+----
+Link eskimiş ya da yanlış yazılmış olabilir. Şablonların hepsi galeride.
+==>
+The link may be old or mistyped. Every template is in the gallery.
+----
+Referans video
+==>
+Reference video
+----
+Kalite
+==>
+Quality
+----
+Varyant sayısı
+==>
+Number of variants
+----
+Varyant
+==>
+Variants
+----
+8 sn
+==>
+8 sec
+----
+Üret
+==>
+Generate
+@@ Main.dc.html
+T:Galeri — Karanlık Sinema
+==>
+Gallery
+----
+T:Tutmuş videoyu seç.
+==>
+Pick a viral video.
+----
+T:Ürününü koy.
+==>
+Add your product.
+----
+T:Her şablon gerçek bir viral videonun çekim çekim yapısı. Görsellerini yükle, birkaç dakika sonra aynısı senin ürününle hazır.
+==>
+Every template is the shot-by-shot structure of a real viral video. Upload your images. A few minutes later the same video is ready with your product.
+----
+A:Filtreler
+==>
+Filters
+----
+A:Şablonlar
+==>
+Templates
+----
+T:Ev
+==>
+Home
+----
+T:Teknoloji
+==>
+Tech
+----
+T:Sırala
+==>
+Sort
+----
+T:En yeni
+==>
+Newest
+----
+T:En çok kullanılan
+==>
+Most used
+----
+T:Dosya ya da link ver. 2–5 dakikada sana özel şablon olur.
+==>
+Give a file or a link. In 2–5 minutes it becomes a template only you can see.
+----
+T:{{ c.cat }} · referans {{ c.views }} izlenme
+==>
+{{ c.cat }} · reference {{ c.views }} views
+@@ A-Detay.dc.html
+T:Şablon detayı
+==>
+Template
+----
+A:Koku katmanlama tarifi şablonunun örnek videosundan kare
+==>
+Frame from the sample video of the Fragrance layering recipe template
+----
+A:Örneği oynat
+==>
+Play the sample
+----
+T:Örnek video. Bu sistemin ürettiği gerçek çıktı; senin videon aynı yapıda çıkar.
+==>
+Sample video. Real output generated by this system; your video comes out with the same structure.
+----
+T:El ve ürün
+==>
+Hands and product
+----
+T:Önce ürünler yan yana ve ortada kanca yazısı. Sonra her vuruşta elde bir ürün ve küçük bir etiket. Yüz yok, konuşma yok, sadece müzik.
+==>
+First the products side by side with the hook text in the middle. Then, on every beat, one product in hand with a small label. No face, no talking, just music.
+----
+T:Gereken
+==>
+You need
+----
+T:4 ürün
+==>
+4 products
+----
+T:Çekim
+==>
+Shots
+----
+T:1,9 Mn izlenme · %10,1 beğeni
+==>
+1.9M views · 10.1% likes
+----
+Sahne listesi
+==>
+Shot list
+----
+T:Ekranda: {{ s.text }}
+==>
+On screen: {{ s.text }}
+----
+J:Ürünler yan yana
+==>
+Products side by side
+----
+J:kanca yazısı, ortada iki satır
+==>
+hook text, two lines in the middle
+----
+J:Elde 1. ürün
+==>
+Product 1 in hand
+----
+J:Elde 2. ürün
+==>
+Product 2 in hand
+----
+J:Elde 3. ürün
+==>
+Product 3 in hand
+----
+J:Elde 4. ürün
+==>
+Product 4 in hand
+----
+J:ürün adı, sol üstte
+==>
+product name, top left
+----
+J:ürün adı, sağ altta
+==>
+product name, bottom right
+----
+J:ürün adı, üst ortada
+==>
+product name, top center
+----
+J:ürün adı, alt ortada
+==>
+product name, bottom center
+@@ A-Form.dc.html
+T:Üretim formu
+==>
+Generate
+----
+A:Seçili şablon
+==>
+Selected template
+----
+T:4 ürün ister · 5 çekim · 8 sn · konuşmasız
+==>
+Needs 4 products · 5 shots · 8 sec · no talking
+----
+T:Ürünlerini yükle
+==>
+Upload your products
+----
+T:Her ürün için en az bir görsel ve ad yeterli. Etiketi net görünen fotoğraf en iyi sonucu verir.
+==>
+One image and a name per product is enough. A photo with a clearly visible label gives the best result.
+----
+A:Görsel ekle
+==>
+Add image
+----
+J:Kalite
+==>
+Best
+----
+T:{{ estimate }}. Üret'e basınca önce kredi tahmini gösterilir; onaylamadan hiçbir şey harcanmaz.
+==>
+{{ estimate }}. Press Generate and you see a credit estimate first. Nothing is spent until you confirm.
+----
+J:1. ürün
+==>
+Product 1
+----
+J:2. ürün
+==>
+Product 2
+----
+J:3. ürün
+==>
+Product 3
+----
+J:4. ürün
+==>
+Product 4
+----
+J:vücut yağı
+==>
+body oil
+----
+J:vücut spreyi
+==>
+body mist
+----
+J:saç spreyi
+==>
+hair mist
+----
+J:parfüm
+==>
+perfume
+----
+R:' görsel · '
+==>
+' images · '
+----
+R:' klip ('
+==>
+' clips ('
+----
+R:' sn) · 1 müzik'
+==>
+' sec) · 1 music track'
+@@ A-Onay.dc.html
+T:Kredi onayı penceresi
+==>
+Credit confirmation dialog
+----
+T:Görsel · Nano Banana Pro
+==>
+Images · Nano Banana Pro
+----
+T:Klip · Seedance 2 Mini 720p
+==>
+Clips · Seedance 2 Mini 720p
+----
+T:5 klip, 20 sn
+==>
+5 clips, 20 sec
+----
+T:Müzik · Lyria
+==>
+Music · Lyria
+----
+T:Tahmini süre
+==>
+Estimated time
+----
+T:yaklaşık 7 dk
+==>
+about 7 min
+----
+T:Aktif hesap:
+==>
+Active account:
+----
+T:. Bu hesapla yalnız ACME ve ACME2 ürünleri üretilir. Hata olursa otomatik tekrar denenmez.
+==>
+. This account generates ACME and ACME2 products only. If an error occurs, nothing is retried automatically.
+@@ A-Is-Takibi.dc.html
+T:İş takibi
+==>
+Job progress
+----
+T:yaklaşık 3 dk
+==>
+about 3 min
+----
+T:kaldı · 3 dk 40 sn geçti
+==>
+left · 3 min 40 sec elapsed
+----
+A:Çekimler
+==>
+Shots
+----
+T:Çekimler geldikçe burada görünür
+==>
+Shots appear here as they come in
+----
+J:klip hazır
+==>
+clip ready
+----
+J:üretiliyor
+==>
+generating
+@@ A-Is-Durdu.dc.html
+T:İş takibi — durdu
+==>
+Job progress — stopped
+----
+A:Ne oldu ve seçenekler
+==>
+What happened and your options
+----
+T:Servis 500 döndürdü. Otomatik tekrar denemedik; biten 5 görsel, 3 klip ve müzik saklanıyor. Devam etmek sadece eksik 2 klip için yeni onay ister.
+==>
+The service returned a 500. We did not retry automatically. The 5 finished images, 3 clips, and the music are saved. Continuing needs a new confirmation for the 2 missing clips only.
+----
+T:2 klip · kredi farkı [KREDİ FARKI]
+==>
+2 clips · credit difference [CREDIT DIFFERENCE]
+----
+T:Seedance ile yeniden dene
+==>
+Retry with Seedance
+----
+T:2 klip · aynı model, yeni onay
+==>
+2 clips · same model, new confirmation
+----
+T:İşi burada bırak (biten çıktılar durur)
+==>
+Stop the job here (finished outputs stay)
+----
+J:durdu · 3 / 5
+==>
+stopped · 3 / 5
+@@ A-Sonuc.dc.html
+T:Sonuç
+==>
+Result
+----
+A:Üretilen videodan kare
+==>
+Frame from the generated video
+----
+A:Videoyu oynat
+==>
+Play the video
+----
+T:Videon
+==>
+Your video is
+----
+T:hazır.
+==>
+ready.
+----
+T:Koku katmanlama tarifi · 8 sn · 720p · mp4
+==>
+Fragrance layering recipe · 8 sec · 720p · mp4
+----
+T:İndir
+==>
+Download
+----
+T:Yeni varyant üret
+==>
+Generate a new variant
+----
+T:Ürünler
+==>
+Products
+----
+T:Hızlı · Seedance 2 Mini
+==>
+Fast · Seedance 2 Mini
+----
+T:Bu videoyu şablonun örneği yap
+==>
+Make this video the template's sample
+----
+T:Sadece sen görürsün; satışta gizli.
+==>
+Only you see this; hidden once on sale.
+@@ A-Uretimlerim.dc.html
+A:Durum
+==>
+Status
+----
+T:Süren
+==>
+Running
+----
+T:Duran
+==>
+Stopped
+----
+J:4 ürün: Aurora Body Oil, Body Mist, Hair Mist, Solace Perfume
+==>
+4 products: Aurora Body Oil, Body Mist, Hair Mist, Solace Perfume
+----
+J:1 ürün: Lashly Eyelash Serum
+==>
+1 product: Lashly Eyelash Serum
+----
+J:Hızlı · 1 varyant
+==>
+Fast · 1 variant
+----
+J:Hızlı · 1 varyant · 30 sn
+==>
+Fast · 1 variant · 30 sec
+----
+J:Klipler 3 / 5 · yaklaşık 3 dk kaldı
+==>
+Clips 3 / 5 · about 3 min left
+----
+J:İzle
+==>
+Watch
+----
+J:Aç
+==>
+Open
+----
+J:Seedance hata verdi (500) · 3 / 5 klip hazır
+==>
+Seedance failed (500) · 3 / 5 clips ready
+----
+J:Seçenekleri gör
+==>
+See options
+@@ A-Video-Ekle.dc.html
+T:Beğendiğin videoyu ver,
+==>
+Bring a video you like,
+----
+T:şablonu olsun.
+==>
+get its template.
+----
+T:Videonun yapısını çekim çekim çıkarırız. 2–5 dakika sonra sadece sana görünen bir şablon olur; ürününü yükleyip üretirsin.
+==>
+We extract the video's structure shot by shot. In 2–5 minutes it becomes a template only you can see; upload your product and generate.
+----
+T:Dosya seç
+==>
+Choose a file
+----
+T:ya da link yapıştır
+==>
+or paste a link
+----
+A:TikTok video linki ya da YouTube linki
+==>
+TikTok or YouTube video link
+----
+T:Ekle
+==>
+Add
+----
+T:Sadece yapı alınır. Videonun görüntüsü, sesi ve müziği çıktıda kullanılmaz.
+==>
+Only the structure is taken. The video's footage, voice, and music are never used in the output.
+----
+T:Bu şablonun hazır örneği yoktur; kartında "deneysel" yazar ve sonuç önceden doğrulanmamıştır.
+==>
+This template has no ready sample; its card says "experimental" and the result has not been verified in advance.
+----
+Senin şablonların
+==>
+Your templates
+----
+T:[VİDEO ADI]
+==>
+[VIDEO NAME]
+----
+T:Hazırlanıyor
+==>
+Preparing
+----
+T:Hazır · sadece sana görünür
+==>
+Ready · visible only to you
+----
+T:Uymadı
+==>
+Didn't fit
+----
+J:Konuşma yazıya dökülüyor
+==>
+Transcribing speech
+----
+J:Kareler çıkarılıyor
+==>
+Extracting frames
+----
+J:Uygunluk kontrolü
+==>
+Checking fit
+----
+J:Sahne listesi yazılıyor
+==>
+Writing the shot list
+----
+J:Kurgu kontrolü
+==>
+Checking the edit
+@@ A-Gelen.dc.html
+T:Tarama günde 3 kez çalışır · sıradaki 15:00 · bu sayfa satışta gizli
+==>
+Scans run 3 times a day · next at 15:00 · this page is hidden once on sale
+----
+A:Video linki
+==>
+Video link
+----
+A:Link yapıştır: TikTok video ya da YouTube
+==>
+Paste a link: TikTok or YouTube video
+----
+T:Aday ekle
+==>
+Add candidate
+----
+T:Shorts taraması son denemede hata verdi.
+==>
+The Shorts scan failed on its last run.
+----
+T:Top Ads taraması sürüyor; Shorts bir sonraki saatte yeniden denenecek.
+==>
+The Top Ads scan is running; Shorts will be retried at the next scheduled time.
+----
+Yayın bekleyen şablonlar
+==>
+Templates waiting to publish
+----
+T:Referans · {{ t.views }} izlenme
+==>
+Reference · {{ t.views }} views
+----
+Adaylar
+==>
+Candidates
+----
+T:Elle eklenen
+==>
+Added by hand
+----
+T:Eşik 70: üstündekiler kendiliğinden şablon olur
+==>
+Threshold 70: anything above becomes a template automatically
+----
+T:{{ r.src }} · {{ r.views }} izlenme · {{ r.dur }}
+==>
+{{ r.src }} · {{ r.views }} views · {{ r.dur }}
+----
+T:Galeriye al
+==>
+Add to gallery
+----
+J:Elle eklendi
+==>
+Added by hand
+----
+J:Koku · 8 sn · konuşmasız · 4 ürün
+==>
+Fragrance · 8 sec · no talking · 4 products
+----
+J:Kirpik · 30 sn · konuşmalı · 1 ürün
+==>
+Lashes · 30 sec · talking · 1 product
+----
+J:Kirpik ve kaş · 16 sn · konuşmasız · 1 ürün
+==>
+Lashes and brows · 16 sec · no talking · 1 product
+----
+J:Bizim örnek
+==>
+Our sample
+----
+J:Yayınla
+==>
+Publish
+----
+J:Kredi onayıyla üretilir
+==>
+Generated after credit confirmation
+----
+J:Örnek üret
+==>
+Generate sample
+----
+J:Şablon hazır
+==>
+Template ready
+----
+J:Şablon hazırlanıyor
+==>
+Preparing template
+----
+J:Sırada
+==>
+Queued
+----
+J:Telefon ekran kaydı: ürün sayfası ve yorumlar
+==>
+Phone screen recording: product page and reviews
+----
+J:Ay ay büyüme günlüğü
+==>
+Month-by-month growth diary
+@@ A-Ayarlar.dc.html
+T:Bu sayfa satışta gizlenir.
+==>
+This page is hidden once on sale.
+----
+A:Kredi hangi hesaptan harcansın
+==>
+Which account credits are spent from
+----
+T:Kendi Magnific anahtarın
+==>
+Your own Magnific key
+----
+A:Anahtarı yapıştır
+==>
+Paste the key
+----
+T:Anahtar macOS Keychain'e yazılır. Dosyaya, log'a ya da veritabanına yazılmaz; kaydedildikten sonra burada gösterilmez.
+==>
+The key is stored in the macOS Keychain. It is never written to a file, a log, or the database, and it is not shown here after saving.
+----
+T:Tarama
+==>
+Scanning
+----
+T:Saatler (günde 3)
+==>
+Times (3 a day)
+----
+A:1. tarama saati
+==>
+Scan time 1
+----
+A:2. tarama saati
+==>
+Scan time 2
+----
+A:3. tarama saati
+==>
+Scan time 3
+----
+Kaynaklar
+==>
+Sources
+----
+T:Shorts arama listesi
+==>
+Shorts search list
+----
+A:Her satıra bir arama
+==>
+One search per line
+----
+T:Eşikler
+==>
+Thresholds
+----
+T:Puanı eşiğin üstünde kalan aday kendiliğinden şablona dönüşür; altındakiler Gelen'de bekler.
+==>
+A candidate scoring above the threshold becomes a template automatically; the rest wait in the Inbox.
+----
+T:Günlük tavanlar
+==>
+Daily caps
+----
+T:Tavan dolunca kalan adaylar ertesi güne kalır. Bu adımlar kredi harcamaz; tavan yalnız yapay zekâ kullanımını sınırlar.
+==>
+When a cap is reached, the remaining candidates wait until the next day. These steps spend no credits; the cap only limits AI usage.
+----
+T:Hesap: {{ accLabel }}
+==>
+Account: {{ accLabel }}
+----
+J:Yalnız bu iki markanın ürünleri
+==>
+Products of these two brands only
+----
+J:Kendi anahtarım
+==>
+My own key
+----
+J:Her ürünle üretim
+==>
+Generate with any product
+----
+J:açık
+==>
+on
+----
+J:kapalı
+==>
+off
+----
+J:kendi anahtarım
+==>
+my own key
+----
+J:Puan eşiği (0–100)
+==>
+Score threshold (0–100)
+----
+J:En kısa süre (sn)
+==>
+Minimum length (sec)
+----
+J:En uzun süre (sn)
+==>
+Maximum length (sec)
+----
+J:Shorts: en az izlenme
+==>
+Shorts: minimum views
+----
+J:Top Ads: taranan kart
+==>
+Top Ads: cards scanned
+----
+J:Tarama başına aday
+==>
+Candidates per scan
+----
+J:Ön elemeye giren aday
+==>
+Candidates pre-screened
+----
+J:Hazırlanan şablon
+==>
+Templates prepared
+@@ A-Ana-Sayfa.dc.html
+T:Ana sayfa
+==>
+Home
+----
+T:Tutmuş videoyu seç.
+==>
+Same video.
+----
+T:Ürününü koy.
+==>
+Your product.
+----
+T:Milyonlarca izlenmiş reklam videolarının çekim çekim yapısı hazır. Ürün görsellerini yükle, birkaç dakika sonra aynısı senin ürününle insin.
+==>
+The shot-by-shot structure of ad videos with millions of views, ready to use. Upload your product images. A few minutes later the same video is ready with your product.
+----
+T:Galeriyi gez
+==>
+Browse the gallery
+----
+T:Üç adım.
+==>
+Three steps.
+----
+T:Gördüğün neyse,
+==>
+What you see
+----
+T:alacağın o.
+==>
+is what you get.
+----
+T:Galeride oynayan her video bu sistemin kendi çıktısıdır, başkasının videosu değil. Senin videon aynı çekimler, aynı ritim ve aynı yazı düzeniyle çıkar; değişen tek şey ürün.
+==>
+Every video playing in the gallery is this system's own output, not someone else's video. Yours comes out with the same shots, the same rhythm, and the same text layout. The only thing that changes is the product.
+----
+T:Örnekleri izle
+==>
+Watch the samples
+----
+A:Galerideki örnek videodan kare
+==>
+Frame from a sample video in the gallery
+----
+T:Galerideki örnek
+==>
+Sample in the gallery
+----
+T:Aynı video, senin ürününle
+==>
+Same video, your product
+----
+T:Senin videon
+==>
+Your video
+----
+T:Aklındaki sorular.
+==>
+Questions you may have.
+----
+T:İlk videonu bugün çıkar.
+==>
+Seen it? Clone it.
+----
+T:İletişim: [E-POSTA]
+==>
+Contact: [EMAIL]
+----
+J:Şablonu seç
+==>
+Pick a template
+----
+J:Her şablon gerçekten tutmuş bir videonun yapısı: hangi çekim, kaç saniye, ekranda ne yazıyor.
+==>
+Every template is the structure of a video that really went viral: which shot, how many seconds, what the on-screen text says.
+----
+J:Ürününü yükle
+==>
+Upload your product
+----
+J:Bir ya da birkaç görsel, ürünün adı ve kısa bir bilgi yeter. Üretmeden önce kaç kredi gideceğini görürsün.
+==>
+One or a few images, the product name, and a short description are enough. Before generating, you see how many credits it will cost.
+----
+J:Videonu indir
+==>
+Download your video
+----
+J:Çekimler, yazılar ve müzik yeniden üretilir, kurgulanır. Kısa videolar yaklaşık 6–7 dakikada hazır olur.
+==>
+Shots, text, and music are generated again and edited together. Short videos are ready in about 6–7 minutes.
+----
+J:Başkasının videosunu mu kopyalıyorsunuz?
+==>
+Are you copying someone else’s video?
+----
+J:Hayır. Videodan sadece yapı alınır. Görüntü, ses ve müzik senin ürünün için sıfırdan üretilir.
+==>
+No. Only the structure is taken from the video. Footage, voice, and music are generated from scratch for your product.
+----
+J:Ne kadar sürer?
+==>
+How long does it take?
+----
+J:Konuşmasız 8–15 saniyelik videolar yaklaşık 6–7 dakika, 30 saniyelik konuşmalı videolar yaklaşık 12 dakika.
+==>
+No-talking videos of 8–15 seconds take about 6–7 minutes; 30-second talking videos take about 12 minutes.
+----
+J:Kendi beğendiğim videoyu kullanabilir miyim?
+==>
+Can I use a video I like?
+----
+J:Evet. Dosyayı yükle ya da linkini ver; 2–5 dakikada sadece sana görünen bir şablon olur.
+==>
+Yes. Upload the file or give its link; in 2–5 minutes it becomes a template only you can see.
+----
+J:Bir şey ters giderse kredim yanar mı?
+==>
+Do I lose credits if something goes wrong?
+----
+J:Hata olursa iş durur ve biten parçalar saklanır. Hiçbir şey kendiliğinden yeniden denenmez; devam etmek senin onayınla olur.
+==>
+If an error occurs, the job stops and the finished parts are saved. Nothing is retried automatically; continuing happens only with your confirmation.
+@@ A-Fiyatlar.dc.html
+T:Kredi al,
+==>
+Buy credits,
+----
+T:video üret.
+==>
+generate videos.
+----
+T:Abonelik yok. Her üretimden önce kaç kredi gideceğini görürsün; onaylamadan hiçbir şey harcanmaz.
+==>
+No subscription. Before every job you see how many credits it will cost; nothing is spent until you confirm.
+----
+A:Kredi paketleri
+==>
+Credit packs
+----
+T:[FİYAT]
+==>
+[PRICE]
+----
+T:[KREDİ] kredi
+==>
+[CREDITS] credits
+----
+T:Satın al
+==>
+Buy
+----
+T:Bir video kaç kredi?
+==>
+How many credits per video?
+----
+T:Sık sorulanlar
+==>
+Frequently asked
+----
+J:Başlangıç
+==>
+Starter
+----
+J:Denemek için. Yaklaşık [ADET] kısa video.
+==>
+To try it out. About [COUNT] short videos.
+----
+J:Standart
+==>
+Standard
+----
+J:Düzenli üretim için. Yaklaşık [ADET] kısa video.
+==>
+For regular production. About [COUNT] short videos.
+----
+J:Stüdyo
+==>
+Studio
+----
+J:Çok ürün, çok varyant. Yaklaşık [ADET] kısa video.
+==>
+Many products, many variants. About [COUNT] short videos.
+----
+J:Konuşmasız video, Hızlı
+==>
+No-talking video, Fast
+----
+J:8–15 sn · 720p
+==>
+8–15 sec · 720p
+----
+J:Konuşmasız video, Kalite
+==>
+No-talking video, Best
+----
+J:8–15 sn · 1080p
+==>
+8–15 sec · 1080p
+----
+J:Konuşmalı video, Hızlı
+==>
+Talking video, Fast
+----
+J:30 sn · 720p
+==>
+30 sec · 720p
+----
+J:Kendi videonu şablona çevirme
+==>
+Turning your own video into a template
+----
+J:dosya ya da link
+==>
+file or link
+----
+J:[KREDİ]
+==>
+[CREDITS]
+----
+J:Kredi ne zaman harcanır?
+==>
+When are credits spent?
+----
+J:Üret dedikten sonra önüne bir tahmin gelir. Onayladığında harcanır, öncesinde hiçbir şey gitmez.
+==>
+After you press Generate, you get an estimate. Credits are spent when you confirm; nothing is spent before that.
+----
+J:Üretim yarıda kalırsa?
+==>
+What if a job stops halfway?
+----
+J:İş durur, biten parçalar saklanır. Devam etmek sadece eksik kalan kısım için kredi ister. İade koşulları: [İADE POLİTİKASI].
+==>
+The job stops and the finished parts are saved. Continuing costs credits only for the missing part. Refund terms: [REFUND POLICY].
+----
+J:Kredilerin süresi var mı?
+==>
+Do credits expire?
+----
+J:[KREDİ GEÇERLİLİK SÜRESİ]
+==>
+[CREDIT VALIDITY PERIOD]
+----
+J:Fatura alabilir miyim?
+==>
+Can I get an invoice?
+----
+J:Her alımın faturası Hesap sayfasında durur ve PDF olarak iner.
+==>
+The invoice for every purchase stays on the Account page and downloads as a PDF.
+@@ A-Giris.dc.html
+T:Giriş ve kayıt
+==>
+Log in and sign up
+----
+T:Tutmuş videoyu seç.
+==>
+Same video.
+----
+T:Ürününü koy.
+==>
+Your product.
+----
+A:Giriş ya da kayıt
+==>
+Log in or sign up
+----
+T:Google ile devam et
+==>
+Continue with Google
+----
+T:ya da e-posta ile
+==>
+or with email
+----
+T:Şifre
+==>
+Password
+----
+T:Kayıt olarak
+==>
+By signing up you accept the
+----
+T:kullanım şartlarını
+==>
+terms of use
+----
+T:ve
+==>
+and the
+----
+T:gizlilik metnini
+==>
+privacy policy
+----
+R:</a> kabul edersin.</p>
+==>
+</a>.</p>
+----
+J:Kayıt ol
+==>
+Sign up
+----
+J:Tekrar hoş geldin.
+==>
+Welcome back.
+----
+J:Hesabını aç.
+==>
+Create your account.
+@@ A-Hesap.dc.html
+T:[BAKİYE] kredi
+==>
+[BALANCE] credits
+----
+T:Kredi bakiyen
+==>
+Your credit balance
+----
+T:[BAKİYE]
+==>
+[BALANCE]
+----
+T:Kredi al
+==>
+Buy credits
+----
+T:Kredi hareketleri
+==>
+Credit activity
+----
+T:Profil
+==>
+Profile
+----
+T:Ad
+==>
+Name
+----
+A:Adın
+==>
+Your name
+----
+T:Arayüz dili
+==>
+Interface language
+----
+R:<option>Türkçe</option><option>English</option>
+==>
+<option>English</option><option>Türkçe</option>
+----
+T:Faturalar
+==>
+Invoices
+----
+T:PDF indir
+==>
+Download PDF
+----
+T:Çıkış yap
+==>
+Log out
+----
+J:Üretim · Hızlı · 1 varyant · [TARİH]
+==>
+Generation · Fast · 1 variant · [DATE]
+----
+J:Standart paket
+==>
+Standard pack
+----
+J:Satın alma · [TARİH]
+==>
+Purchase · [DATE]
+----
+J:−[KREDİ]
+==>
+−[CREDITS]
+----
+J:+[KREDİ]
+==>
++[CREDITS]
+----
+J:Başlangıç paketi
+==>
+Starter pack
+----
+J:[TARİH]
+==>
+[DATE]
+----
+J:[TUTAR]
+==>
+[AMOUNT]
+@@ A-Yasal.dc.html
+T:Yasal sayfa
+==>
+Legal
+----
+A:Yasal sayfalar
+==>
+Legal pages
+----
+T:İçerik ve telif
+==>
+Content and copyright
+----
+T:Son güncelleme: [TARİH]
+==>
+Last updated: [DATE]
+----
+J:1. Hizmet
+==>
+1. The service
+----
+J:[HUKUK METNİ]
+==>
+[LEGAL TEXT]
+----
+J:2. Hesap ve krediler
+==>
+2. Account and credits
+----
+J:3. Ödeme ve iade
+==>
+3. Payment and refunds
+----
+J:4. Yüklediğin görseller ve videolar
+==>
+4. Images and videos you upload
+----
+J:5. Üretilen videoların kullanımı
+==>
+5. Use of generated videos
+----
+J:6. Sorumluluk ve iletişim
+==>
+6. Liability and contact
+@@ A-404.dc.html
+T:Sayfa bulunamadı
+==>
+Page not found
+----
+T:Bu sayfa yok.
+==>
+This page doesn't exist.
+----
+T:Galeriye dön
+==>
+Back to the gallery

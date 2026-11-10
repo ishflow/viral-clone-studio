@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  TEMPLATE, not installed. Daily backup of the data folder at 03:30 local time (ops/backup.sh; it never deletes anything).
+  ops/install.sh fills the @...@ markers (dry-run unless --apply).
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>app.viralclone.backup</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>@REPO@/ops/backup.sh</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key><integer>3</integer>
+    <key>Minute</key><integer>30</integer>
+  </dict>
+  <key>StandardOutPath</key><string>@HOME@/Library/Logs/viralclone/backup.out.log</string>
+  <key>StandardErrorPath</key><string>@HOME@/Library/Logs/viralclone/backup.err.log</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key><string>@PATH@</string>
+    <key>VC_ENV_FILE</key><string>@ENV_FILE@</string>
+  </dict>
+</dict>
+</plist>

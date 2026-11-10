@@ -1,0 +1,69 @@
+{
+  "format": "hypit.cli-builds@1",
+  "builds": [
+    {
+      "id": "bld_20261003T153000539Z_71659011B6",
+      "createdAt": "2026-10-03T15:30:00.539Z",
+      "outcome": "complete",
+      "run": "productions/layering-01/runs/main-kling.svrun",
+      "targetCount": 1,
+      "outputCount": 24
+    },
+    {
+      "id": "bld_20261003T152745245Z_E2A090C17A",
+      "createdAt": "2026-10-03T15:27:45.245Z",
+      "outcome": "complete",
+      "run": "productions/layering-01/runs/main-kling.svrun",
+      "targetCount": 1,
+      "outputCount": 23
+    },
+    {
+      "id": "bld_20261003T152653245Z_948E439EF3",
+      "createdAt": "2026-10-03T15:26:53.245Z",
+      "outcome": "complete",
+      "run": "productions/layering-01/runs/main-kling.svrun",
+      "targetCount": 1,
+      "outputCount": 23
+    },
+    {
+      "id": "bld_20261003T152502322Z_26EB950F4F",
+      "createdAt": "2026-10-03T15:25:02.322Z",
+      "outcome": "complete",
+      "run": "productions/layering-01/runs/main-kling.svrun",
+      "targetCount": 1,
+      "outputCount": 23
+    },
+    {
+      "id": "bld_20261003T151434540Z_1F956B68C8",
+      "createdAt": "2026-10-03T15:14:34.540Z",
+      "outcome": "failed",
+      "run": "productions/layering-01/runs/main.svrun",
+      "targetCount": 1,
+      "outputCount": 10
+    },
+    {
+      "id": "bld_20261003T142607452Z_CCEC645DE5",
+      "createdAt": "2026-10-03T14:26:07.452Z",
+      "outcome": "complete",
+      "run": "productions/lashly-01/runs/main-v2.svrun",
+      "targetCount": 1,
+      "outputCount": 23
+    },
+    {
+      "id": "bld_20261003T141418425Z_54C444C8FD",
+      "createdAt": "2026-10-03T14:14:18.425Z",
+      "outcome": "complete",
+      "run": "productions/lashly-01/runs/main.svrun",
+      "targetCount": 1,
+      "outputCount": 32
+    },
+    {
+      "id": "bld_20261003T140527208Z_07C0454EA2",
+      "createdAt": "2026-10-03T14:05:27.208Z",
+      "outcome": "complete",
+      "run": "productions/lashly-01/runs/test-speaker.svrun",
+      "targetCount": 2,
+      "outputCount": 2
+    }
+  ]
+}

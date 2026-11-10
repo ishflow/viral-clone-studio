@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "language": "en",
+  "canvas": { "width": 720, "height": 1280, "fps": 30 },
+  "frames": 90,
+  "media": {
+    "clip": { "file": "assets/clip.mp4", "kind": "video" }
+  },
+  "shots": [
+    { "id": "one", "at": 0, "for": 90, "media": "clip" }
+  ]
+}

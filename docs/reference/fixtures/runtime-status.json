@@ -1,0 +1,30 @@
+{
+  "format": "hypit.cli-runtime-status@1",
+  "ready": false,
+  "attention": false,
+  "worker": {
+    "state": "stopped"
+  },
+  "builds": {
+    "submitting": 0,
+    "working": 0,
+    "savingResult": 0
+  },
+  "programs": {
+    "total": 3,
+    "ready": 2,
+    "unavailable": [
+      {
+        "id": "whisperx.local",
+        "endpoint": "whisperx.local",
+        "state": "down",
+        "logPath": "/path/to/Library/Application Support/Hypit/programs/whisperx-whisperx.local-127.0.0.1%3A8765/program.log",
+        "installationLogPath": "/path/to/Library/Application Support/Hypit/programs/whisperx-whisperx.local-127.0.0.1%3A8765/install.log",
+        "stateDetail": "nothing is answering at http://127.0.0.1:8765"
+      }
+    ]
+  },
+  "capacity": {
+    "active": 0
+  }
+}

@@ -1,0 +1,212 @@
+{
+ "verify.en": {
+  "subject": "Verify your email",
+  "text": "Verify your email.\n\nConfirm this address to activate your account and get your free video.\n\nVerify email: http://localhost:3202/verify-email/confirm?token=a%2Fb%20c\n\nThe link works for 24 hours. If you did not sign up, you can ignore this email.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/verify-email/confirm?token=a%2Fb%20c"
+  ]
+ },
+ "verify.tr": {
+  "subject": "E-postanı doğrula",
+  "text": "E-postanı doğrula.\n\nHesabını etkinleştirmek ve ücretsiz videonu almak için bu adresi onayla.\n\nE-postayı doğrula: http://localhost:3202/verify-email/confirm?token=a%2Fb%20c\n\nBağlantı 24 saat geçerli. Kayıt olmadıysan bu e-postayı yok sayabilirsin.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/verify-email/confirm?token=a%2Fb%20c"
+  ]
+ },
+ "verifyPlain.en": {
+  "subject": "Verify your email",
+  "text": "Verify your email.\n\nConfirm this address to activate your account.\n\nVerify email: http://localhost:3202/verify-email/confirm?token=t1\n\nThe link works for 24 hours. If you did not sign up, you can ignore this email.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/verify-email/confirm?token=t1"
+  ]
+ },
+ "verifyPlain.tr": {
+  "subject": "E-postanı doğrula",
+  "text": "E-postanı doğrula.\n\nHesabını etkinleştirmek için bu adresi onayla.\n\nE-postayı doğrula: http://localhost:3202/verify-email/confirm?token=t1\n\nBağlantı 24 saat geçerli. Kayıt olmadıysan bu e-postayı yok sayabilirsin.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/verify-email/confirm?token=t1"
+  ]
+ },
+ "verifyChange.en": {
+  "subject": "Confirm your new email",
+  "text": "Confirm your new email.\n\nConfirm this address to use it for your account. Until then your old address stays.\n\nVerify email: http://localhost:3202/verify-email/confirm?token=t2\n\nThe link works for 24 hours. If you did not ask for this, ignore this email; nothing changes.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/verify-email/confirm?token=t2"
+  ]
+ },
+ "verifyChange.tr": {
+  "subject": "Yeni e-postanı onayla",
+  "text": "Yeni e-posta adresini onayla.\n\nHesabında bu adresi kullanmak için onayla. O zamana kadar eski adresin geçerli.\n\nE-postayı doğrula: http://localhost:3202/verify-email/confirm?token=t2\n\nBağlantı 24 saat geçerli. Bunu sen istemediysen bu postayı yok say; hiçbir şey değişmez.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/verify-email/confirm?token=t2"
+  ]
+ },
+ "reset.en": {
+  "subject": "Set a new password",
+  "text": "Set a new password.\n\nWe got a request to reset the password for owner@example.com.\n\nSet new password: http://localhost:3202/reset-password?token=r%3C1%3E\n\nThe link works for 1 hour. If you did not ask for this, ignore this email; your password stays the same.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/reset-password?token=r%3C1%3E"
+  ]
+ },
+ "reset.tr": {
+  "subject": "Yeni şifre belirle",
+  "text": "Yeni şifre belirle.\n\nowner@example.com için şifre sıfırlama isteği aldık.\n\nYeni şifre belirle: http://localhost:3202/reset-password?token=r%3C1%3E\n\nBağlantı 1 saat geçerli. Bunu sen istemediysen e-postayı yok say; şifren aynı kalır.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/reset-password?token=r%3C1%3E"
+  ]
+ },
+ "ready.en": {
+  "subject": "Your video is ready",
+  "text": "Your video is ready.\n\nIt took about 7 minutes. You can watch it, download it, or generate another variant.\n\nWatch and download: http://localhost:3202/jobs/job%2F1\n\nThe video stays in My videos for 12 months.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/jobs/job%2F1"
+  ]
+ },
+ "ready.tr": {
+  "subject": "Videon hazır",
+  "text": "Videon hazır.\n\nYaklaşık 7 dakika sürdü. İzleyebilir, indirebilir ya da yeni bir varyant üretebilirsin.\n\nİzle ve indir: http://localhost:3202/jobs/job%2F1\n\nVideo 12 ay boyunca Videolarım'da kalır.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/jobs/job%2F1"
+  ]
+ },
+ "readyUnknown.en": {
+  "subject": "Your video is ready",
+  "text": "Your video is ready.\n\nYou can watch your video, download it, or generate another variant.\n\nWatch and download: http://localhost:3202/jobs/job-2\n\nThe video stays in My videos for 12 months.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/jobs/job-2"
+  ]
+ },
+ "readyUnknown.tr": {
+  "subject": "Videon hazır",
+  "text": "Videon hazır.\n\nVideonu izleyebilir, indirebilir veya başka bir varyant üretebilirsin.\n\nİzle ve indir: http://localhost:3202/jobs/job-2\n\nVideo 12 ay boyunca Videolarım'da kalır.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/jobs/job-2"
+  ]
+ },
+ "stoppedPaid.en": {
+  "subject": "Your video stopped halfway",
+  "text": "Your video stopped halfway.\n\nOne step failed, so we stopped. Your 2 credits are back in your balance. Open the job to continue or close it.\n\nOpen the job: http://localhost:3202/jobs/j1\n\nContinuing costs 2 credits. You never pay more than the price you first confirmed.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/jobs/j1"
+  ]
+ },
+ "stoppedPaid.tr": {
+  "subject": "Videon yarıda durdu",
+  "text": "Videon yarıda durdu.\n\nBir adım başarısız oldu, bu yüzden durduk. 2 kredin bakiyene geri döndü. Devam etmek veya kapatmak için işi aç.\n\nİşi aç: http://localhost:3202/jobs/j1\n\nDevam etmek 2 kredi kullanır. İlk onayladığın fiyattan fazlasını ödemezsin.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/jobs/j1"
+  ]
+ },
+ "stoppedFree.en": {
+  "subject": "Your video stopped halfway",
+  "text": "Your video stopped halfway.\n\nYour free video is back. Open the job to continue or close it.\n\nOpen the job: http://localhost:3202/jobs/j1\n\nContinuing uses your free video again if it is still available; otherwise the job shows the credit price before confirmation.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/jobs/j1"
+  ]
+ },
+ "stoppedFree.tr": {
+  "subject": "Videon yarıda durdu",
+  "text": "Videon yarıda durdu.\n\nÜcretsiz video hakkın geri geldi. Devam etmek veya kapatmak için işi aç.\n\nİşi aç: http://localhost:3202/jobs/j1\n\nDevam etmek, hâlâ kullanılabilir durumdaysa ücretsiz video hakkını yeniden kullanır; aksi hâlde iş, onaydan önce kredi fiyatını gösterir.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/jobs/j1"
+  ]
+ },
+ "stoppedContent.en": {
+  "subject": "Your video stopped halfway",
+  "text": "Your video stopped halfway.\n\nThis job stopped because the provider reported a content-rule refusal. Open the job for its status or contact support; it cannot be continued.\n\nOpen the job: http://localhost:3202/jobs/j1\n\nThis job cannot be continued. Contact support if you think this is a mistake.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/jobs/j1"
+  ]
+ },
+ "stoppedContent.tr": {
+  "subject": "Videon yarıda durdu",
+  "text": "Videon yarıda durdu.\n\nSağlayıcı içerik kuralı nedeniyle reddettiği için bu iş durdu. Durumu görmek için işi aç veya desteğe başvur; işe devam edilemez.\n\nİşi aç: http://localhost:3202/jobs/j1\n\nBu işe devam edilemez. Hata olduğunu düşünüyorsan desteğe başvur.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/jobs/j1"
+  ]
+ },
+ "stoppedChecking.en": {
+  "subject": "Your video stopped halfway",
+  "text": "Your video stopped halfway.\n\nA request to the video service got no clear answer, so we stopped. We are checking it with the video service ourselves. You do not need to do anything, and nothing more is charged.\n\nOpen the job: http://localhost:3202/jobs/j1\n\nWe will continue the job or write to you. The credits or the free video this job used are back.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/jobs/j1"
+  ]
+ },
+ "stoppedChecking.tr": {
+  "subject": "Videon yarıda durdu",
+  "text": "Videon yarıda durdu.\n\nVideo servisine giden bir istek net yanıt almadı, bu yüzden durduk. Bu isteği video servisiyle biz kontrol ediyoruz. Bir şey yapmana gerek yok, başka kredi kesilmez.\n\nİşi aç: http://localhost:3202/jobs/j1\n\nİşi biz sürdüreceğiz ya da sana yazacağız. Bu işin kullandığı kredi ya da ücretsiz video hakkı geri verildi.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/jobs/j1"
+  ]
+ },
+ "payment.en": {
+  "subject": "Payment received: 30 credits added",
+  "text": "30 credits added.\n\nThank you. Your balance is now 42 credits.\n\nPack: Standard\n\nCredits: 30\n\nPaid: $19.00\n\nDate: Oct 6, 2026\n\nInvoice number: 001\n\nBack to your video: http://localhost:3202/templates/t1\n\nAll invoices are on your Account page.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/invoices/inv%2F1",
+   "http://localhost:3202/templates/t1"
+  ]
+ },
+ "payment.tr": {
+  "subject": "Ödeme alındı: 30 kredi eklendi",
+  "text": "30 kredi eklendi.\n\nTeşekkürler. Bakiyen şimdi 42 kredi.\n\nPaket: Standard\n\nKredi: 30\n\nÖdenen: $19.00\n\nTarih: 6 Eki 2026\n\nFatura numarası: 001\n\nVideona dön: http://localhost:3202/templates/t1\n\nTüm faturalar Hesap sayfanda.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/contact",
+   "http://localhost:3202/invoices/inv%2F1",
+   "http://localhost:3202/templates/t1"
+  ]
+ },
+ "refund.en": {
+  "subject": "Your refund is complete",
+  "text": "Your refund is complete.\n\nThe refund for Standard has been confirmed. Check your Account page for its status.\n\nOpen your account: http://localhost:3202/account\n\nContact support if you have questions about the refund.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/account",
+   "http://localhost:3202/contact"
+  ]
+ },
+ "refund.tr": {
+  "subject": "İaden tamamlandı",
+  "text": "İaden tamamlandı.\n\nStandard alımı için iade onaylandı. Durumunu Hesap sayfanda görebilirsin.\n\nHesabını aç: http://localhost:3202/account\n\nİadeyle ilgili soruların varsa destekle iletişime geç.\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/account",
+   "http://localhost:3202/contact"
+  ]
+ },
+ "refundSent.en": {
+  "subject": "Your refund is on its way",
+  "text": "Your refund is on its way.\n\nWe sent the refund for Standard to your payment method. The 30 credits of this pack were taken out of your balance. The money can take a few days to reach your card.\n\nPack: Standard\n\nCredits removed: 30\n\nRefund amount: $19.00\n\nSent on: Oct 5, 2026\n\nOpen your account: http://localhost:3202/account\n\nIf the refund does not go through, the credits come back to your balance. Contact support if you have questions about the refund.\n\nContact support: http://localhost:3202/contact\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/account",
+   "http://localhost:3202/contact"
+  ]
+ },
+ "refundSent.tr": {
+  "subject": "İaden yolda",
+  "text": "İaden yolda.\n\nStandard alımının iadesini ödeme yöntemine gönderdik. Bu paketin 30 kredisi bakiyenden düşüldü. Paranın kartına ulaşması birkaç gün sürebilir.\n\nPaket: Standard\n\nDüşülen kredi: 30\n\nİade tutarı: $19.00\n\nGönderilme tarihi: 5 Eki 2026\n\nHesabını aç: http://localhost:3202/account\n\nİade gerçekleşmezse krediler bakiyene geri döner. İadeyle ilgili soruların varsa destekle iletişime geç.\n\nDestekle iletişime geç: http://localhost:3202/contact\n\n© ishflow · 123 Example St, City, Country",
+  "hrefs": [
+   "http://localhost:3202/account",
+   "http://localhost:3202/contact"
+  ]
+ }
+}

@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "error": "Command failed",
+  "_meta": {
+    "version": "0.8.120",
+    "latestVersion": "0.8.92",
+    "updateAvailable": false
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "format": "hypit.runtime-local@1",
+  "dataRoot": ".hypit/runtimes/local",
+  "credentials": {
+    "platform": {
+      "use": "@hypit/credential-store-platform"
+    },
+    "env": {
+      "use": "@hypit/credential-store-env"
+    }
+  },
+  "endpoints": {
+    "hypihub.default": {
+      "use": "@hypit/provider-hypihub",
+      "config": {
+        "baseUrl": "https://hypit.ai",
+        "apiKey": {
+          "store": "platform",
+          "key": "hypihub.oauth"
+        }
+      }
+    },
+    "media.local": {
+      "use": "@hypit/provider-media-local"
+    },
+    "hyperframes.local": {
+      "use": "@hypit/provider-hyperframes-local"
+    },
+    "whisperx.local": {
+      "use": "@hypit/provider-whisperx-local",
+      "config": {
+        "expectedModel": "small",
+        "expectedDevice": "cpu",
+        "expectedCompute": "int8",
+        "expectedBatchSize": 8,
+        "alignmentLanguages": [
+          "en"
+        ]
+      }
+    },
+    "magnific.default": {
+      "use": "@viral-clone/provider-magnific",
+      "config": {
+        "apiKey": {
+          "store": "env",
+          "key": "MAGNIFIC_API_KEY"
+        },
+        "defaultConcurrency": 3
+      }
+    }
+  },
+  "bindings": {
+    "@hypit/seedance@1#seedance-2": "magnific.default",
+    "@hypit/seedance@1#seedance-2-fast": "magnific.default",
+    "@hypit/seedance@1#seedance-2-mini": "magnific.default",
+    "@hypit/seedance@1#seedance-2.5": "magnific.default",
+    "@hypit/nano-banana@1#nano-banana-pro": "magnific.default",
+    "@hypit/gpt-image@1#gpt-image-2": "magnific.default",
+    "@hypit/whisperx@1#whisperx-alignment": "whisperx.local"
+  }
+}

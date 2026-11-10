@@ -1,0 +1,156 @@
+{
+  "dialog": {
+    "reason": {
+      "label": "Neden",
+      "placeholder": "Bunu neden yapıyorsun",
+      "required": "Neden zorunlu.",
+      "requiredLong": "Neden zorunlu. Kredi geçmişinde görünür."
+    },
+    "note": "Bu işlem senin adınla ve nedenle birlikte kaydedilir.",
+    "cancel": "Vazgeç",
+    "close": "Kapat",
+    "tryAgain": "Tekrar dene"
+  },
+  "state": {
+    "working": "Yapılıyor…",
+    "done": "Tamam",
+    "failed": "İşlem tamamlanmadı. Hiçbir şey değişmedi. Tekrar dene.",
+    "already": "Bu işlem {date} tarihinde zaten yapılmıştı."
+  },
+  "row": {
+    "purchase": "Satın alma",
+    "invoice": "Fatura",
+    "creditsRemoved": "Alınan kredi",
+    "balanceAfter": "Sonraki bakiye",
+    "amount": "İade edilecek tutar",
+    "amountRefunded": "İade edilen tutar",
+    "amountAtProvider": "Sağlayıcıda iade edilen",
+    "job": "İş",
+    "charged": "Düşülen kredi",
+    "toReturn": "İade edilecek kredi",
+    "creditsReturned": "İade edilen kredi",
+    "balanceNow": "Şimdiki bakiye",
+    "toAdd": "Eklenecek kredi",
+    "creditsKept": "Kredi",
+    "videosKept": "Video",
+    "blockedOn": "Engel tarihi",
+    "blockReason": "Engelleme nedeni",
+    "missing": "Eksik",
+    "noInvoice": "Fatura yok",
+    "user": "Kullanıcı"
+  },
+  "value": {
+    "pack": "{pack} paketi · {date}",
+    "creditsKept": {
+      "one": "{count} kredi, korunuyor",
+      "other": "{count} kredi, korunuyor"
+    },
+    "videosKept": {
+      "one": "{count} video, korunuyor",
+      "other": "{count} video, korunuyor"
+    },
+    "clips": {
+      "one": "{count} klip",
+      "other": "{count} klip"
+    }
+  },
+  "refund": {
+    "title": "Bu satın alma iade edilsin mi?",
+    "retryTitle": "İade tekrar denensin mi?",
+    "info": "Bu paketten gelen {credits} istekten beri tutuluyor ve şimdi düşülür. Para birkaç gün içinde ödeme yöntemine iade edilir.",
+    "confirm": "İade et",
+    "retryConfirm": "İadeyi tekrar dene",
+    "closeInfo": "Bu pakette kalan {credits} şimdi düşülür. Para gönderilmez: ödemenin tamamı ödeme sağlayıcısında zaten iade edilmiş.",
+    "sent": "İade gönderildi. Para ödeme yöntemine doğru yolda.",
+    "closed": "Kapatıldı. Buradan para gönderilmedi: ödemenin tamamı ödeme sağlayıcısında zaten iade edilmişti.",
+    "unconfirmed": "İade gönderildi ama ödeme sağlayıcısı aldığını doğrulamadı; paranın geri gidip gitmediği henüz bilinmiyor. Tekrar gönderme: sağlayıcıya soruluyor, liste \"İade edildi\" ya da krediler geri dönmüş olarak \"İade başarısız\" diyecek.",
+    "refused": "Ödeme sağlayıcısı bu iadeyi reddetti. Para geri gitmedi, bu paketin kredileri müşterinin bakiyesine geri döndü. Satın alma artık \"İade başarısız\" görünüyor: sağlayıcıya bak, sonra iadeyi listeden tekrar dene.",
+    "refusedNoFunds": "Ödeme sağlayıcısı bu iadeyi reddetti: hesabındaki bakiye (Dodo cüzdanı) bu tutara yetmiyor. Para geri gitmedi, bu paketin kredileri müşterinin bakiyesine geri döndü. Satın alma artık \"İade başarısız\" görünüyor: bakiye yetince iadeyi listeden tekrar dene."
+  },
+  "returnCredits": {
+    "title": "Krediler iade edilsin mi?",
+    "info": "Krediler bakiyeye geri döner. Para iade edilmez.",
+    "confirm": "Kredileri iade et"
+  },
+  "addCredits": {
+    "title": "Kredi ekle",
+    "confirm": "Kredi ekle"
+  },
+  "block": {
+    "title": "Bu kullanıcı engellensin mi?",
+    "info": "Giriş yapamaz. Kredileri ve videoları silinmez. Engeli buradan istediğin zaman kaldırabilirsin.",
+    "confirm": "Kullanıcıyı engelle"
+  },
+  "unblock": {
+    "title": "Engel kaldırılsın mı?",
+    "info": "Kullanıcı yeniden giriş yapabilir. Kredileri ve videoları eskisi gibi duruyor.",
+    "confirm": "Engeli kaldır"
+  },
+  "retry": {
+    "title": "Bu iş tekrar denensin mi?",
+    "info": "Müşteriden ücret alınmaz.",
+    "confirm": "İşi tekrar dene",
+    "done": "İş, durduğu adımdan yeniden çalışıyor."
+  },
+  "settleUnknown": {
+    "title": "Bu istek çözülsün mü?",
+    "info": "Sağlayıcının görev listesinde bu isteği görmediğinizi doğrulayın; yanlışsa aynı parça iki kez ödenir.",
+    "confirm": "İstek sağlayıcıya ulaşmadı",
+    "done": "İstek çözüldü. Şimdi işi yeniden deneyin: o istek bir kez daha gönderilir."
+  },
+  "ledger": {
+    "caption": "Kredi geçmişi",
+    "date": "Tarih",
+    "user": "Kullanıcı",
+    "type": "Tür",
+    "change": "Değişim",
+    "by": "Yapan",
+    "related": "İlgili",
+    "reason": "Neden",
+    "balanceAfter": "Sonraki bakiye",
+    "empty": "Henüz kredi hareketi yok.",
+    "by_system": "Sistem",
+    "by_customer": "Müşteri",
+    "job": "İş {id}",
+    "purchase": "Satın alma {number}",
+    "typeName": {
+      "purchase": "Satın alma",
+      "generation": "Üretim",
+      "free-video": "Ücretsiz video",
+      "admin": "Yönetici",
+      "refund": "İade",
+      "returned": "Geri verildi"
+    }
+  },
+  "purchaseStatus": {
+    "paid": "Ödendi",
+    "not-completed": "Tamamlanmadı",
+    "refund-requested": "İade istendi",
+    "refund-sent": "İade gönderildi",
+    "refunded": "İade edildi",
+    "refund-failed": "İade başarısız"
+  },
+  "jobStatus": {
+    "queued": "Sırada",
+    "running": "Üretiliyor",
+    "done": "Bitti",
+    "stopped": "Durdu",
+    "closed": "Kapandı"
+  },
+  "chart": {
+    "revenue": "Gelir",
+    "cost": "Üretim maliyeti",
+    "axis": "USD",
+    "date": "Tarih",
+    "empty": "Bu dönemde satış yok.",
+    "error": "Grafik yüklenemedi.",
+    "retry": "Tekrar dene",
+    "loading": "Grafik yükleniyor…",
+    "hint": "Gün seçmek için sol ve sağ ok tuşlarını kullan."
+  },
+  "list": {
+    "errorTitle": "Bu liste yüklenemedi.",
+    "errorText": "Bağlantını kontrol edip tekrar dene. Hiçbir şey değişmedi.",
+    "retry": "Tekrar dene"
+  }
+}

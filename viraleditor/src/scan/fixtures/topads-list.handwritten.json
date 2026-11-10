@@ -1,0 +1,6 @@
+{"code":0,"msg":"success","data":{"materials":[
+  {"id":"7300000000000000001","ad_title":"Glow in 7 days","like":48210,"comment":120,"share":900,"video_info":{"duration":18.4,"cover":"https://example.invalid/c1.jpg","video_url":{"720p":"https://example.invalid/v1-720.mp4","480p":"https://example.invalid/v1-480.mp4"}}},
+  {"id":"7300000000000000002","ad_title":"Pads that work","like":1500,"video_info":{"duration":9,"cover":"https://example.invalid/c2.jpg","video_url":{"480p":"https://example.invalid/v2-480.mp4"}}},
+  {"id":"7300000000000000003","ad_title":"Broken: no video","like":99,"video_info":{"duration":12}},
+  {"ad_title":"Broken: no id","like":5,"video_info":{"duration":12,"video_url":{"720p":"x"}}}
+],"pagination":{"has_more":true,"page":1}}}

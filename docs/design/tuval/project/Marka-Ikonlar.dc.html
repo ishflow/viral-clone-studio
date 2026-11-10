@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Viral Clone — icon library</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ay{--bg:#0B0C0A;--surface:#151712;--raised:#1C1F17;--line:#23261E;--edge:#33372B;--edge-strong:#676B5D;--text:#F2F3EC;--text-2:#C9CCBF;--text-3:#A9AC9F;--accent:#C8F03C;--accent-hover:#E0FF7A;--accent-text:#C8F03C;--on-accent:#0B0C0A;--warn:#FF9A6B;--warn-edge:#5A3A2A;--mark-edge:#C8F03C;--scrim:rgba(11,12,10,0.76);--on-scrim:#F2F3EC;--media-edge:transparent;--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Onest',system-ui,sans-serif}
+.ay[data-theme="light"],.ay [data-theme="light"]{--bg:#F4F5EE;--surface:#FFFFFF;--raised:#E8EADF;--line:#E0E2D7;--edge:#CBCEBF;--edge-strong:#80856F;--text:#0B0C0A;--text-2:#3E4236;--text-3:#5A5F50;--accent-hover:#B6E01F;--accent-text:#456300;--warn:#A8400F;--warn-edge:#E3B7A2;--mark-edge:#0B0C0A;--media-edge:rgba(11,12,10,0.12)}
+a{color:var(--accent-text)}a:hover{color:var(--text)}
+@keyframes ay-don{to{transform:rotate(360deg)}}
+@keyframes ay-ciz{0%{stroke-dashoffset:20}35%,100%{stroke-dashoffset:0}}
+@keyframes ay-yukari{0%,100%{transform:translateY(0)}50%{transform:translateY(-2.5px)}}
+@keyframes ay-asagi{0%,100%{transform:translateY(0)}50%{transform:translateY(2.5px)}}
+@keyframes ay-dalga{0%,100%{transform:scaleY(0.35)}50%{transform:scaleY(1)}}
+@keyframes ay-nabiz{0%,100%{opacity:1}50%{opacity:0.35}}
+.ay-don{animation:ay-don 0.9s linear infinite}
+.ay-ciz{stroke-dasharray:20;animation:ay-ciz 2.4s cubic-bezier(0.2,0,0,1) infinite}
+.ay-yukari{animation:ay-yukari 1.2s ease-in-out infinite}
+.ay-asagi{animation:ay-asagi 1.2s ease-in-out infinite}
+.ay-dalga{transform-box:fill-box;transform-origin:center;animation:ay-dalga 0.9s ease-in-out infinite}
+.ay-d2{animation-delay:0.15s}
+.ay-d3{animation-delay:0.3s}
+.ay-nabiz{animation:ay-nabiz 1.6s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.ay-don,.ay-ciz,.ay-yukari,.ay-asagi,.ay-dalga,.ay-nabiz{animation:none}}
+</style>
+</helmet>
+<div class="ay" data-theme="{{ theme }}" style="width: 1440px; min-height: 1680px; box-sizing: border-box; padding: 80px; background: var(--bg); color: var(--text); font-family: var(--body); display: flex; flex-direction: column; gap: 56px">
+
+<header style="display: flex; flex-direction: column; gap: 16px; max-width: 860px">
+<h1 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 64px; line-height: 0.98; letter-spacing: -0.03em">Icon library</h1>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">45 line icons and 6 animated icons, all drawn on the same grid with the same stroke. Screens take their icons from here. An icon supports the label; it never replaces it.</p>
+</header>
+
+<section style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; align-items: start">
+
+<div style="display: flex; flex-direction: column; gap: 20px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Drawing rules</h2>
+<div style="display: flex; align-items: flex-start; gap: 32px">
+<div aria-hidden="true" style="flex: 0 0 auto; width: 192px; height: 192px; border-radius: 16px; background-color: var(--surface); background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px); background-size: 8px 8px; display: flex; align-items: center; justify-content: center; overflow: hidden"><svg width="192" height="192" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V9M7 13l5-5 5 5M5 4h14"></path></svg></div>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 15px; line-height: 1.5; color: var(--text-2)">
+<li><strong style="font-weight: 600; color: var(--text)">Grid</strong> 24 units; at least 3 units of padding from the edge.</li>
+<li><strong style="font-weight: 600; color: var(--text)">Stroke</strong> 2 units; round caps and joins.</li>
+<li><strong style="font-weight: 600; color: var(--text)">Fill</strong> none. The one exception is the play triangle.</li>
+<li><strong style="font-weight: 600; color: var(--text)">Color</strong> the color of the text beside it. A status icon takes its status color: warn for a problem, accent text for progress.</li>
+<li><strong style="font-weight: 600; color: var(--text)">Size</strong> 18 px in text, 22 in buttons, 26 in the play button.</li>
+</ul>
+</div>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 20px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Animated icons</h2>
+<ul style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 12px">
+<li style="display: flex; flex-direction: column; align-items: center; gap: 8px; font-size: 13px; line-height: 1.4; text-align: center; color: var(--text-3)"><span style="width: 100%; aspect-ratio: 1; border-radius: 16px; background: var(--surface); color: var(--accent-text); display: flex; align-items: center; justify-content: center"><svg class="ay-don" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 3.5a8.5 8.5 0 1 0 8.5 8.5"></path></svg></span>generating</li>
+<li style="display: flex; flex-direction: column; align-items: center; gap: 8px; font-size: 13px; line-height: 1.4; text-align: center; color: var(--text-3)"><span style="width: 100%; aspect-ratio: 1; border-radius: 16px; background: var(--surface); color: var(--accent-text); display: flex; align-items: center; justify-content: center"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path class="ay-ciz" d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span>done</li>
+<li style="display: flex; flex-direction: column; align-items: center; gap: 8px; font-size: 13px; line-height: 1.4; text-align: center; color: var(--text-3)"><span style="width: 100%; aspect-ratio: 1; border-radius: 16px; background: var(--surface); color: var(--text); display: flex; align-items: center; justify-content: center"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path class="ay-yukari" d="M12 20V9M7 13l5-5 5 5"></path><path d="M5 4h14"></path></svg></span>uploading</li>
+<li style="display: flex; flex-direction: column; align-items: center; gap: 8px; font-size: 13px; line-height: 1.4; text-align: center; color: var(--text-3)"><span style="width: 100%; aspect-ratio: 1; border-radius: 16px; background: var(--surface); color: var(--text); display: flex; align-items: center; justify-content: center"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path class="ay-asagi" d="M12 4v11M7 11l5 5 5-5"></path><path d="M5 20h14"></path></svg></span>downloading</li>
+<li style="display: flex; flex-direction: column; align-items: center; gap: 8px; font-size: 13px; line-height: 1.4; text-align: center; color: var(--text-3)"><span style="width: 100%; aspect-ratio: 1; border-radius: 16px; background: var(--surface); color: var(--text); display: flex; align-items: center; justify-content: center"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path class="ay-dalga" d="M7 8v8"></path><path class="ay-dalga ay-d2" d="M12 5v14"></path><path class="ay-dalga ay-d3" d="M17 8v8"></path></svg></span>generating audio</li>
+<li style="display: flex; flex-direction: column; align-items: center; gap: 8px; font-size: 13px; line-height: 1.4; text-align: center; color: var(--text-3)"><span style="width: 100%; aspect-ratio: 1; border-radius: 16px; background: var(--surface); color: var(--accent-text); display: flex; align-items: center; justify-content: center"><svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle class="ay-nabiz" cx="12" cy="12" r="4"></circle></svg></span>running</li>
+</ul>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 15px; line-height: 1.5; color: var(--text-2)">
+<li><strong style="font-weight: 600; color: var(--text)">They only report.</strong> An animated icon says "something is happening" or "this just finished". No icon spins or bounces for decoration.</li>
+<li><strong style="font-weight: 600; color: var(--text)">They play while the job runs.</strong> A finished job draws once and stops; it loops here only as a demo.</li>
+<li><strong style="font-weight: 600; color: var(--text)">They stop under reduced motion.</strong> If the device asks for reduced motion, the still version shows; the meaning stays in the label beside it.</li>
+</ul>
+</div>
+
+</section>
+
+<section aria-label="Icons" style="display: flex; flex-direction: column">
+
+<div style="display: grid; grid-template-columns: 148px minmax(0, 1fr); gap: 32px; padding: 20px 0; border-top: 1px solid var(--line)">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">Navigation</h2>
+<ul style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(11, minmax(0, 1fr)); gap: 12px">
+<sc-for list="{{ nav }}" as="ic" hint-placeholder-count="9">
+<li style="display: flex; flex-direction: column; align-items: center; gap: 8px; font-size: 13px; line-height: 1.4; text-align: center; color: var(--text-3)"><span style="width: 100%; aspect-ratio: 1; border-radius: 16px; background: var(--surface); color: var(--text); display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="{{ ic.d }}" style="fill: {{ ic.fill }}"></path></svg></span>{{ ic.n }}</li>
+</sc-for>
+</ul>
+</div>
+
+<div style="display: grid; grid-template-columns: 148px minmax(0, 1fr); gap: 32px; padding: 20px 0; border-top: 1px solid var(--line)">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">Actions</h2>
+<ul style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(11, minmax(0, 1fr)); gap: 12px">
+<sc-for list="{{ act }}" as="ic" hint-placeholder-count="9">
+<li style="display: flex; flex-direction: column; align-items: center; gap: 8px; font-size: 13px; line-height: 1.4; text-align: center; color: var(--text-3)"><span style="width: 100%; aspect-ratio: 1; border-radius: 16px; background: var(--surface); color: var(--text); display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="{{ ic.d }}" style="fill: {{ ic.fill }}"></path></svg></span>{{ ic.n }}</li>
+</sc-for>
+</ul>
+</div>
+
+<div style="display: grid; grid-template-columns: 148px minmax(0, 1fr); gap: 32px; padding: 20px 0; border-top: 1px solid var(--line)">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">Video</h2>
+<ul style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(11, minmax(0, 1fr)); gap: 12px">
+<sc-for list="{{ vid }}" as="ic" hint-placeholder-count="11">
+<li style="display: flex; flex-direction: column; align-items: center; gap: 8px; font-size: 13px; line-height: 1.4; text-align: center; color: var(--text-3)"><span style="width: 100%; aspect-ratio: 1; border-radius: 16px; background: var(--surface); color: var(--text); display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="{{ ic.d }}" style="fill: {{ ic.fill }}"></path></svg></span>{{ ic.n }}</li>
+</sc-for>
+</ul>
+</div>
+
+<div style="display: grid; grid-template-columns: 148px minmax(0, 1fr); gap: 32px; padding: 20px 0; border-top: 1px solid var(--line)">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">Status</h2>
+<ul style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(11, minmax(0, 1fr)); gap: 12px">
+<sc-for list="{{ stat }}" as="ic" hint-placeholder-count="7">
+<li style="display: flex; flex-direction: column; align-items: center; gap: 8px; font-size: 13px; line-height: 1.4; text-align: center; color: var(--text-3)"><span style="width: 100%; aspect-ratio: 1; border-radius: 16px; background: var(--surface); color: var(--text); display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="{{ ic.d }}" style="fill: {{ ic.fill }}"></path></svg></span>{{ ic.n }}</li>
+</sc-for>
+</ul>
+</div>
+
+<div style="display: grid; grid-template-columns: 148px minmax(0, 1fr); gap: 32px; padding: 20px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line)">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">Account</h2>
+<ul style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(11, minmax(0, 1fr)); gap: 12px">
+<sc-for list="{{ acc }}" as="ic" hint-placeholder-count="9">
+<li style="display: flex; flex-direction: column; align-items: center; gap: 8px; font-size: 13px; line-height: 1.4; text-align: center; color: var(--text-3)"><span style="width: 100%; aspect-ratio: 1; border-radius: 16px; background: var(--surface); color: var(--text); display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="{{ ic.d }}" style="fill: {{ ic.fill }}"></path></svg></span>{{ ic.n }}</li>
+</sc-for>
+</ul>
+</div>
+
+</section>
+
+<section style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 48px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">An icon without a label has a name.</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">An icon button that stands alone gets a hidden name for screen readers and takes up at least 44 px.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">One meaning, one icon.</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">The same icon is never used for two different jobs. If an icon is missing, it is drawn here first, by the same rules.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">No emoji, no colored icons.</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">An icon is not decoration. It is never placed beside a headline or in a card corner as filler.</p>
+</div>
+</section>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"theme":{"editor":"enum","options":["dark","light"],"default":"dark"},"$preview":{"width":1440,"height":1680}}'>
+class Component extends DCLogic {
+renderVals() {
+function i(n, d, fill) { return { n: n, d: d, fill: fill || 'none' }; }
+return {
+theme: this.props.theme ?? 'dark',
+nav: [
+i('search', 'M4 11a7 7 0 1 0 14 0a7 7 0 1 0 -14 0M20 20l-3.5-3.5'),
+i('back', 'M15 6l-6 6 6 6'),
+i('forward', 'M9 6l6 6-6 6'),
+i('expand', 'M6 9l6 6 6-6'),
+i('close', 'M6 6l12 12M18 6L6 18'),
+i('menu', 'M4 7h16M4 12h16M4 17h16'),
+i('filter', 'M4 6h16M7 12h10M10 18h4'),
+i('sort', 'M7 5v14M4 16l3 3 3-3M17 19V5M14 8l3-3 3 3'),
+i('external', 'M14 5h5v5M19 5l-8 8M11 7H7a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-4')
+],
+act: [
+i('add', 'M12 5v14M5 12h14'),
+i('upload', 'M12 20V9M7 13l5-5 5 5M5 4h14'),
+i('download', 'M12 4v11M7 11l5 5 5-5M5 20h14'),
+i('link', 'M10 14a4 4 0 0 0 5.66 0l3-3a4 4 0 0 0-5.66-5.66l-1 1M14 10a4 4 0 0 0-5.66 0l-3 3a4 4 0 0 0 5.66 5.66l1-1'),
+i('copy', 'M11 9h7a2 2 0 0 1 2 2v7a2 2 0 0 1 -2 2h-7a2 2 0 0 1 -2 -2v-7a2 2 0 0 1 2 -2zM15 9V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h3'),
+i('edit', 'M5 19l1-4L16.5 4.5a2.12 2.12 0 0 1 3 3L9 18zM14.5 6.5l3 3'),
+i('retry', 'M19 12a7 7 0 1 1-2.05-4.95M17 3.5v3.6h-3.6'),
+i('share', 'M3.5 12a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0M14.5 6a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0M14.5 18a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0M8.2 10.8l6.6-3.6M8.2 13.2l6.6 3.6'),
+i('delete', 'M5 7h14M10 7V5h4v2M7 7l1 12h8l1-12M10 11v5M14 11v5')
+],
+vid: [
+i('play', 'M8 5.5v13l11-6.5z', 'currentColor'),
+i('pause', 'M9 6v12M15 6v12'),
+i('sound on', 'M4 10v4h3l5 4V6l-5 4zM16 9a4 4 0 0 1 0 6M18.5 6.5a8 8 0 0 1 0 11'),
+i('sound off', 'M4 10v4h3l5 4V6l-5 4zM16 10l4 4M20 10l-4 4'),
+i('fullscreen', 'M4 9V5h4M20 9V5h-4M4 15v4h4M20 15v4h-4'),
+i('template', 'M9.5 3h5a2.5 2.5 0 0 1 2.5 2.5v13a2.5 2.5 0 0 1 -2.5 2.5h-5a2.5 2.5 0 0 1 -2.5 -2.5v-13a2.5 2.5 0 0 1 2.5 -2.5zM10.8 9.8v4.4l3.6-2.2z'),
+i('shot', 'M11 5h6a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2zM5 17V5a2 2 0 0 1 2-2h7'),
+i('image', 'M6.5 4h11a2.5 2.5 0 0 1 2.5 2.5v11a2.5 2.5 0 0 1 -2.5 2.5h-11a2.5 2.5 0 0 1 -2.5 -2.5v-11a2.5 2.5 0 0 1 2.5 -2.5zM7.5 9a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0M5 17l4.5-4.5 3 3 2.5-2.5 4 4'),
+i('text', 'M5 6h14M12 6v13M9 19h6'),
+i('music', 'M4 18a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0M14 16a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0M9 18V6l10-2v12'),
+i('voice', 'M12 3h0a3 3 0 0 1 3 3v5a3 3 0 0 1 -3 3h0a3 3 0 0 1 -3 -3v-5a3 3 0 0 1 3 -3zM5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21')
+],
+stat: [
+i('done', 'M5 12.5l4.5 4.5L19 7.5'),
+i('generating', 'M12 3.5a8.5 8.5 0 1 0 8.5 8.5'),
+i('stopped', 'M8 6h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2z'),
+i('warning', 'M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1'),
+i('info', 'M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 11v5M12 7.8v.1'),
+i('duration', 'M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 7.5V12l3 2'),
+i('private', 'M8 10.5h8a2.5 2.5 0 0 1 2.5 2.5v5a2.5 2.5 0 0 1 -2.5 2.5h-8a2.5 2.5 0 0 1 -2.5 -2.5v-5a2.5 2.5 0 0 1 2.5 -2.5zM8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5')
+],
+acc: [
+i('account', 'M8.5 8.5a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0M5 20a7 7 0 0 1 14 0'),
+i('credits', 'M5 7a7 3 0 1 0 14 0a7 3 0 1 0-14 0M5 7v5a7 3 0 0 0 14 0V7M5 12v5a7 3 0 0 0 14 0v-5'),
+i('invoice', 'M6 3.5h12v17l-3-2-3 2-3-2-3 2zM9 8.5h6M9 12.5h6'),
+i('settings', 'M4 7h9M17 7h3M4 17h3M11 17h9M13 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0M7 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0'),
+i('language', 'M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M3.5 12h17M12 3.5c2.6 2.6 2.6 14.4 0 17M12 3.5c-2.6 2.6-2.6 14.4 0 17'),
+i('key', 'M4 15a4 4 0 1 0 8 0a4 4 0 1 0 -8 0M11 12l8.5-8.5M17 6l2.5 2.5M14.5 8.5l2 2'),
+i('email', 'M6 5.5h12a2.5 2.5 0 0 1 2.5 2.5v8a2.5 2.5 0 0 1 -2.5 2.5h-12a2.5 2.5 0 0 1 -2.5 -2.5v-8a2.5 2.5 0 0 1 2.5 -2.5zM4.5 7.5l7.5 5.5 7.5-5.5'),
+i('inbox', 'M4 13l2.5-8h11L20 13v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zM4 13h4.5a3.5 3.5 0 0 0 7 0H20'),
+i('log out', 'M10 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h4M15 8l4 4-4 4M19 12H9')
+]
+};
+}
+}
+</script>
+</body>
+</html>

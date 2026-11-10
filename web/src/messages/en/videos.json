@@ -1,0 +1,85 @@
+{
+  "title": "My videos",
+  "filter": {
+    "label": "Status",
+    "all": "All"
+  },
+  "products": {
+    "one": "{count} product: {names}",
+    "other": "{count} products: {names}"
+  },
+  "variants": {
+    "one": "{count} variant",
+    "other": "{count} variants"
+  },
+  "spec": "{quality} · {variants}",
+  "specLong": "{quality} · {variants} · {duration}",
+  "step": {
+    "adaptation": "Adaptation",
+    "images": "Images",
+    "clips": "Clips",
+    "music": "Music",
+    "edit": "Edit",
+    "render": "Render"
+  },
+  "detail": {
+    "running": "{step} {done} / {total} · about {minutes} min left",
+    "stopped": "Credits returned · {done} of {total} clips saved",
+    "done": "{format} · {resolution}",
+    "stoppedFree": "Your free video is back · {done} of {total} clips saved",
+    "stoppedRule": "Credits returned · stopped by the content rules",
+    "stoppedRuleFree": "Your free video is back · stopped by the content rules",
+    "stoppedChecking": "Credits returned · we are checking this job",
+    "stoppedCheckingFree": "Your free video is back · we are checking this job",
+    "closed": {
+      "one": "{count} credit was returned. Nothing else was charged.",
+      "other": "{count} credits were returned. Nothing else was charged."
+    },
+    "closedFree": "Your free video is back. Nothing else was charged.",
+    "queued": "Position {position}",
+    "expired": "Videos are kept for {months} months.",
+    "expiredNote": "This starts a new job: you add the product images again and confirm the price.",
+    "expiredLabel": "No longer stored"
+  },
+  "resolution": {
+    "fast": "720p",
+    "best": "1080p"
+  },
+  "swap": {
+    "kind": "Person swap",
+    "kindLength": "Person swap · {duration}",
+    "done": "{format} · {resolution} · kept {days} days",
+    "expired": "Person swap videos are kept for {days} days.",
+    "expiredNote": "This starts a new job: you add your photos again and confirm the price.",
+    "stopped": "Credits returned"
+  },
+  "action": {
+    "watch": "Watch",
+    "open": "Open",
+    "options": "See options",
+    "delete": "Delete",
+    "again": "Generate it again"
+  },
+  "empty": {
+    "title": "Seen it? Clone it.",
+    "text": "Your videos will show up here. Your first video is free: one no-talking video in Fast quality. No card needed.",
+    "action": "Browse the gallery",
+    "usedTitle": "No videos yet.",
+    "usedText": "Your videos will show up here.",
+    "usedAction": "Pick a template"
+  },
+  "emptyFilter": {
+    "title": "No videos here",
+    "text": "No video has this status right now.",
+    "action": "Show all videos"
+  },
+  "notice": {
+    "deleted": "Video deleted."
+  },
+  "error": {
+    "title": "Could not load your videos.",
+    "text": "Check your connection and try again. Your videos and credits are not affected.",
+    "retry": "Try again",
+    "contact": "Contact support"
+  }
+}

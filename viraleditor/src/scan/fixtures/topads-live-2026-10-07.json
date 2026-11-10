@@ -1,0 +1,159 @@
+{
+  "_note": "Synthetic fixture shaped like the public Top Ads page answers (US, 7 days): an industry tree (Beauty & Personal Care and its children, three other branches) and four invented materials of /top_ads/v2/list (ids, titles and URLs made up).",
+  "filters": {
+    "code": 0,
+    "msg": "OK",
+    "data": {
+      "industry": [
+        {
+          "id": 23118000000,
+          "value": "Reading",
+          "label": "label_23118000000",
+          "parent_id": 23000000000
+        },
+        {
+          "id": 17105000000,
+          "value": "Tours & Attractions",
+          "label": "label_17105000000",
+          "parent_id": 17000000000
+        },
+        {
+          "id": 23000000000,
+          "value": "News & Entertainment",
+          "label": "label_23000000000"
+        },
+        {
+          "id": 18102000000,
+          "value": "Glasses & Drinkware",
+          "label": "label_18102000000",
+          "parent_id": 18000000000
+        },
+        {
+          "id": 14106000000,
+          "value": "Fragrances & Perfumes",
+          "label": "label_14106000000",
+          "parent_id": 14000000000
+        },
+        {
+          "id": 14104000000,
+          "value": "Cosmetics",
+          "label": "label_14104000000",
+          "parent_id": 14000000000
+        },
+        {
+          "id": 14100000000,
+          "value": "Oral Care",
+          "label": "label_14100000000",
+          "parent_id": 14000000000
+        },
+        {
+          "id": 14000000000,
+          "value": "Beauty & Personal Care",
+          "label": "label_14000000000"
+        },
+        {
+          "id": 14999000000,
+          "value": "Other Beauty & Personal Care",
+          "label": "label_14999000000",
+          "parent_id": 14000000000
+        },
+        {
+          "id": 14103000000,
+          "value": "Skincare",
+          "label": "label_14103000000",
+          "parent_id": 14000000000
+        },
+        {
+          "id": 14102000000,
+          "value": "Wig & Hair Styling",
+          "label": "label_14102000000",
+          "parent_id": 14000000000
+        },
+        {
+          "id": 18000000000,
+          "value": "Household Products",
+          "label": "label_18000000000"
+        },
+        {
+          "id": 17000000000,
+          "value": "Travel",
+          "label": "label_17000000000"
+        },
+        {
+          "id": 14101000000,
+          "value": "Haircare",
+          "label": "label_14101000000",
+          "parent_id": 14000000000
+        },
+        {
+          "id": 14105000000,
+          "value": "Aesthetic Medicine",
+          "label": "label_14105000000",
+          "parent_id": 14000000000
+        },
+        {
+          "id": 14107000000,
+          "value": "Feminine Care",
+          "label": "label_14107000000",
+          "parent_id": 14000000000
+        }
+      ]
+    }
+  },
+  "list": {
+    "code": 0,
+    "msg": "OK",
+    "data": {
+      "materials": [
+        {
+          "id": "7000000000000000001",
+          "ad_title": "Example story title one",
+          "industry_key": "label_23118000000",
+          "like": 4,
+          "video_info": {
+            "duration": 234.035,
+            "video_url": {
+              "720p": "https://example.invalid/7000000000000000001-720.mp4"
+            }
+          }
+        },
+        {
+          "id": "7000000000000000002",
+          "ad_title": "Example attraction title two",
+          "industry_key": "label_17105000000",
+          "like": 1,
+          "video_info": {
+            "duration": 10.006,
+            "video_url": {
+              "720p": "https://example.invalid/7000000000000000002-720.mp4"
+            }
+          }
+        },
+        {
+          "id": "7000000000000000003",
+          "ad_title": "Example drinkware title three",
+          "industry_key": "label_18102000000",
+          "like": 2,
+          "video_info": {
+            "duration": 5,
+            "video_url": {
+              "720p": "https://example.invalid/7000000000000000003-720.mp4"
+            }
+          }
+        },
+        {
+          "id": "7000000000000000004",
+          "ad_title": "Example fragrance title four",
+          "industry_key": "label_14106000000",
+          "like": 11,
+          "video_info": {
+            "duration": 23,
+            "video_url": {
+              "720p": "https://example.invalid/7000000000000000004-720.mp4"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

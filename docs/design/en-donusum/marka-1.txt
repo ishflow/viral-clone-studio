@@ -1,0 +1,530 @@
+@@ Marka-Oz.dc.html
+<title>Viral Clone — marka özü</title>
+==>
+<title>Viral Clone — brand essence</title>
+----
+Gördüğün neyse,<br>alacağın o.
+==>
+Same video.<br>Your product.
+----
+Viral Clone'un sözü. Her ekran, her cümle ve her tasarım kararı bu cümleye göre sınanır.
+==>
+The Viral Clone promise. Every screen, every sentence, and every design decision is tested against it.
+----
+Viral Clone simgesi: bir boş kare, bir dolu kare
+==>
+Viral Clone mark: one empty frame, one filled frame
+----
+<span style="width: 177px">gördüğün</span><span>aldığın</span>
+==>
+<span style="width: 177px">what you see</span><span>what you get</span>
+----
+>Ne yapar</h2>
+==>
+>What it does</h2>
+----
+Tutmuş bir reklam videosunun çekim çekim yapısını alır, senin ürününle yeniden üretir. Çekim sayısı, sıra, süre, ritim ve yazı düzeni aynı kalır; değişen tek şey ürün.
+==>
+It takes the shot-by-shot structure of a proven ad video and generates it again with your product. Shot count, order, length, rhythm, and text layout stay the same. The only thing that changes is the product.
+----
+>Kime</h2>
+==>
+>Who it's for</h2>
+----
+Ürün satan ve reklam videosuna ihtiyacı olan markalara, satıcılara ve onlara iş yapan tasarımcılara. Ne istediğini tarif etmez, gösterir: “bunun aynısı.”
+==>
+Brands and sellers who need ad videos for their products, and the designers who work for them. They don't describe what they want; they point at it: “exactly this.”
+----
+>Neye karşı</h2>
+==>
+>What it stands against</h2>
+----
+Sürpriz sonuca.</strong> Yazıp bekleyip ne çıkacağını sonradan görmek yok; sonuç galeride baştan oynuyor.
+==>
+Surprise results.</strong> No typing a prompt, waiting, and finding out later. The result is already playing in the gallery.
+----
+Kopyacılığa.</strong> Referansın görüntüsü, sesi ve müziği kullanılmaz; yalnız yapı alınır.
+==>
+Copying.</strong> The reference's footage, voice, and music are never used. Only its structure is.
+----
+Kör harcamaya.</strong> Her üretimden önce tahmin gösterilir; onaylamadan kredi gitmez.
+==>
+Blind spending.</strong> Every job shows an estimate first. No credits are spent until you confirm.
+----
+>Kişiliği</h2>
+==>
+>Personality</h2>
+----
+>Açık sözlü</h3>
+==>
+>Upfront</h3>
+----
+Ne çıkacağını, ne kadar süreceğini ve kaç kredi tutacağını önceden söyler.
+==>
+Says what you will get, how long it takes, and how many credits it costs before anything starts.
+----
+“yaklaşık 3 dk kaldı” <span style="color: var(--text-3); font-size: 13px">İş takibi</span>
+==>
+“about 3 min left” <span style="color: var(--text-3); font-size: 13px">Job progress</span>
+----
+>Sakin</h3>
+==>
+>Calm</h3>
+----
+Video ön planda durur, arayüz geri çekilir. Süs yok, ünlem yok.
+==>
+The video stays in front and the interface steps back. No decoration, no exclamation marks.
+----
+“Videon hazır.” <span style="color: var(--text-3); font-size: 13px">Sonuç</span>
+==>
+“Your video is ready.” <span style="color: var(--text-3); font-size: 13px">Result</span>
+----
+>Titiz</h3>
+==>
+>Precise</h3>
+----
+Çekim çekim, saniye saniye konuşur. Yuvarlak laf yerine sayı verir.
+==>
+Talks shot by shot, second by second. Gives a number instead of a vague word.
+----
+“5 klip, 20 sn” <span style="color: var(--text-3); font-size: 13px">Kredi onayı</span>
+==>
+“5 clips, 20 sec” <span style="color: var(--text-3); font-size: 13px">Credit confirmation</span>
+----
+<section style="display: flex; align-items: center; justify-content: space-between; gap: 48px; padding: 40px; border-radius: 24px; background: var(--surface)">
+==>
+<section style="display: flex; flex-direction: column; gap: 24px; padding-top: 40px; border-top: 1px solid var(--line)">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Two lines, two jobs</h2>
+<p style="margin: 0; max-width: 620px; font-size: 17px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">One explains what you get, the other asks you to act. They never share a view.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<p style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 40px; line-height: 1.1; letter-spacing: -0.02em">Same video. Your product.</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: var(--text-2); text-wrap: pretty"><strong style="font-weight: 600; color: var(--text)">The promise.</strong> Home page headline, under the logo, store listings, and bios.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<p style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 40px; line-height: 1.1; letter-spacing: -0.02em">Seen it? Clone it.</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: var(--text-2); text-wrap: pretty"><strong style="font-weight: 600; color: var(--text)">The call.</strong> Ads, closing sections, emails, and empty states.</p>
+</div>
+</div>
+</section>
+
+<section style="display: flex; align-items: center; justify-content: space-between; gap: 48px; padding: 40px; border-radius: 24px; background: var(--surface)">
+----
+Ad işi iki kelimeyle söyler: tutmuş videonun klonu, senin ürününle. Logodaki iki kare de aynı şeyi çizer.
+==>
+The name says it in two words: a clone of the viral video, with your product. The two frames in the logo draw the same thing.
+@@ Marka-Logo.dc.html
+<title>Viral Clone — logo ve yazı markası</title>
+==>
+<title>Viral Clone — logo and wordmark</title>
+----
+İki eş kare ve küçük harfle ad. Soldaki kare boş: gördüğün videonun yapısı. Sağdaki dolu: senin ürününle klonu.
+==>
+Two identical frames and the name in lowercase. The left frame is empty: the structure of the video you saw. The right one is filled: its clone, with your product.
+----
+aria-label="Ana kilit"
+==>
+aria-label="Primary lockup"
+----
+>Kuruluş</h2>
+==>
+>Construction</h2>
+----
+Simge: eş iki kare, soldaki boş, sağdaki dolu
+==>
+Mark: two identical frames, left empty, right filled
+----
+<span style="width: 168px">gördüğün</span><span>aldığın</span>
+==>
+<span style="width: 168px">what you see</span><span>what you get</span>
+----
+Kare</strong> 9 : 16, dikey video karesi.
+==>
+Frame</strong> 9:16, a vertical video frame.
+----
+Aralık</strong> kare genişliğinin üçte biri.
+==>
+Gap</strong> one third of the frame width.
+----
+Çizgi</strong> kare genişliğinin altıda biri.
+==>
+Stroke</strong> one sixth of the frame width.
+----
+Köşe</strong> kare genişliğinin dörtte biri.
+==>
+Corner</strong> one quarter of the frame width.
+----
+Sıra</strong> boş kare solda, dolu kare sağda.
+==>
+Order</strong> empty frame on the left, filled frame on the right.
+----
+>Boşluk ve en küçük boy</h2>
+==>
+>Clear space and minimum size</h2>
+----
+x = bir kare genişliği
+==>
+x = one frame width
+----
+Boşluk</strong> her yönde en az bir kare genişliği.
+==>
+Clear space</strong> at least one frame width on every side.
+----
+Simge ile ad</strong> arası yazı boyunun üçte biri; simge taban çizgisine oturur.
+==>
+Mark to name</strong> one third of the type size apart; the mark sits on the baseline.
+----
+Ad</strong> hep küçük harf: Bricolage Grotesque 800, harf aralığı −0,04em.
+==>
+Name</strong> always lowercase: Bricolage Grotesque 800, letter spacing −0.04em.
+----
+En küçük</strong> 20 px yazı boyu. Altında uygulama simgesi kullanılır.
+==>
+Minimum</strong> 20 px type size. Below that, use the app icon.
+----
+en küçük boy, 20 px
+==>
+minimum size, 20 px
+----
+>Sürümler</h2>
+==>
+>Versions</h2>
+----
+Koyu zemin</strong>Ana sürüm. Dolu kare çıplak lime.
+==>
+Dark background</strong>Primary version. The filled frame is plain lime.
+----
+Açık zemin</strong>Dolu kare lime kalır, çizgisi koyulaşır.
+==>
+Light background</strong>The filled frame stays lime; its stroke turns dark.
+----
+Lime zemin</strong>Hepsi koyu. Lime üstüne lime gelmez.
+==>
+Lime background</strong>All dark. Lime never sits on lime.
+----
+Tek renk</strong>Renk basılamayan yerde: fatura, damga.
+==>
+One color</strong>Where color can't be printed: invoices, stamps.
+----
+>Uygulama simgesi</h2>
+==>
+>App icon</h2>
+----
+aria-label="Uygulama simgesi, 96 px"
+==>
+aria-label="App icon, 96 px"
+----
+aria-label="Uygulama simgesi, 48 px"
+==>
+aria-label="App icon, 48 px"
+----
+aria-label="Uygulama simgesi, 32 px"
+==>
+aria-label="App icon, 32 px"
+----
+96, 48, 32 ve 16 px. Lime kare, koyu simge. 16 px'te iki kare de dolu çizilir.
+==>
+96, 48, 32, and 16 px. Lime square, dark mark. At 16 px both frames are drawn filled.
+----
+>Yapılmaz</h2>
+==>
+>Don't</h2>
+----
+Kareleri farklı boyda çizme. İkisi eştir.
+==>
+Don't draw the frames at different sizes. They are identical.
+----
+Sırayı çevirme. Dolu kare hep sağda.
+==>
+Don't flip the order. The filled frame is always on the right.
+----
+Koyu zemin sürümünü açık zemine koyma.
+==>
+Don't put the dark-background version on a light background.
+----
+Büyük harfle ya da bitişik yazma.
+==>
+Don't set it in capitals or as one word.
+@@ Marka-Ses.dc.html
+<title>Viral Clone — ses tonu</title>
+==>
+<title>Viral Clone — voice</title>
+----
+>Ses tonu</h1>
+==>
+>Voice</h1>
+----
+Viral Clone az ve net konuşur: önce sonucu, sonra sayıyı söyler. Soldaki cümlelerin hepsi ekranlardan alındı.
+==>
+Viral Clone says little and says it clearly: the outcome first, then the number. Every sentence in the left column comes from the screens.
+----
+aria-label="Beş kural"
+==>
+aria-label="Five rules"
+----
+>Önce sonuç.</h2>
+==>
+>Outcome first.</h2>
+----
+Cümle olanla başlar, nedenle sürer.
+==>
+A sentence opens with what happened, then gives the reason.
+----
+>Sıfat değil sayı.</h2>
+==>
+>Numbers, not adjectives.</h2>
+----
+“Hızlı” yerine “yaklaşık 7 dk”, “kaliteli” yerine “1080p”.
+==>
+“About 7 min” instead of “fast”, “1080p” instead of “high quality”.
+----
+>Sen diye, kısa.</h2>
+==>
+>Short and direct.</h2>
+----
+Emir kipi, tek iş: “Ürünlerini yükle.”
+==>
+Speak to “you”, one action at a time: “Upload your products.”
+----
+>Hata yön gösterir.</h2>
+==>
+>Errors give direction.</h2>
+----
+Ne oldu, ne saklandı, şimdi ne yapılır. Özür ve ünlem yok.
+==>
+What happened, what was saved, what to do now. No apologies, no exclamation marks.
+----
+>Vaat değil olgu.</h2>
+==>
+>Facts, not promises.</h2>
+----
+“Viral olur” denmez; “referans 1,9 Mn izlenme” denir.
+==>
+Never “this will go viral”. Say “reference 1.9M views”.
+----
+</svg>Böyle</h2>
+==>
+</svg>Like this</h2>
+----
+</svg>Böyle değil</h2>
+==>
+</svg>Not like this</h2>
+----
+>İş durduğunda</span>
+==>
+>When a job stops</span>
+----
+Servis 500 döndürdü. Otomatik tekrar denemedik; biten 5 görsel, 3 klip ve müzik saklanıyor.
+==>
+The service returned a 500. We did not retry automatically. The 5 finished images, 3 clips, and the music are saved.
+----
+Üzgünüz, bir şeyler ters gitti. Lütfen daha sonra tekrar deneyin.
+==>
+Sorry, something went wrong. Please try again later.
+----
+>Kredi harcanmadan önce</span>
+==>
+>Before credits are spent</span>
+----
+Üret'e basınca önce kredi tahmini gösterilir; onaylamadan hiçbir şey harcanmaz.
+==>
+Press Generate and you see a credit estimate first. Nothing is spent until you confirm.
+----
+Merak etmeyin, kredileriniz güvende!
+==>
+Don't worry, your credits are safe!
+----
+>Beklerken</span>
+==>
+>While waiting</span>
+----
+Sayfayı kapatabilirsin; iş arkada sürer ve Üretimlerim'de durur.
+==>
+You can close this page. The job keeps running and stays in My videos.
+----
+Lütfen işlem tamamlanana kadar bekleyiniz.
+==>
+Please wait until the process is complete.
+----
+>Video uymadığında</span>
+==>
+>When a video doesn't fit</span>
+----
+Bölünmüş ekran kullanıyor; sistem bu yapıyı henüz kuramıyor. Kredi harcanmadı.
+==>
+This video uses a split screen, and the system can't build that structure yet. No credits were spent.
+----
+Bu video desteklenmiyor.
+==>
+This video is not supported.
+----
+>Video bittiğinde</span>
+==>
+>When the video is done</span>
+----
+>Videon hazır.</p>
+==>
+>Your video is ready.</p>
+----
+Tebrikler! Viral videon başarıyla oluşturuldu!
+==>
+Congratulations! Your viral video was created successfully!
+----
+>Sayfa bulunamadığında</span>
+==>
+>When a page isn't found</span>
+----
+Link eskimiş ya da yanlış yazılmış olabilir. Şablonların hepsi galeride.
+==>
+The link may be old or mistyped. Every template is in the gallery.
+----
+Hata 404: aradığınız sayfa bulunamadı.
+==>
+Error 404: the page you are looking for could not be found.
+----
+>Sözlük: bir şeye tek ad</h2>
+==>
+>Glossary: one name per thing</h2>
+----
+>Aynısını yap</dt>
+==>
+>Clone it</dt>
+----
+Ana eylemin adı. Galeride de şablon detayında da aynı sözle yazılır.
+==>
+The name of the main action. Written the same way in the gallery and on the template page.
+----
+>şablon</dt>
+==>
+>template</dt>
+----
+Bir videonun çekim çekim yapısı. Preset, tema, format denmez.
+==>
+The shot-by-shot structure of a video. Never preset, theme, or format.
+----
+>çekim, klip</dt>
+==>
+>shot, clip</dt>
+----
+Çekim şablondaki tek parçadır; klip o çekim için üretilen videodur. Liste adı “Çekim listesi”; sahne denmez.
+==>
+A shot is one piece of the template. A clip is the video generated for that shot. The list is called “Shot list”. Never scene.
+----
+>örnek, referans</dt>
+==>
+>sample, reference</dt>
+----
+Örnek, galeride oynayan kendi çıktımızdır. Referans, yapının alındığı özgün videodur ve galeride gösterilmez.
+==>
+A sample is our own output playing in the gallery. The reference is the original video the structure came from; it is never shown in the gallery.
+----
+>üret</dt>
+==>
+>generate</dt>
+----
+Tek fiil. Oluştur, yarat, render et denmez.
+==>
+The one verb. Never create, make, or render.
+----
+>kredi</dt>
+==>
+>credit</dt>
+----
+Harcanan birim. Jeton, puan, coin denmez.
+==>
+The unit you spend. Never token, point, or coin.
+----
+>Yazım</h2>
+==>
+>Writing rules</h2>
+----
+<li>Yalnız ilk harf büyük. Başlık nokta alır, düğme almaz.</li>
+==>
+<li>Sentence case only. Headlines take a period, buttons don't.</li>
+----
+<li>Sayı ile birim arasında boşluk, ondalıkta virgül: 8 sn, 7 dk, 1,9 Mn.</li>
+==>
+<li>A space between number and unit, a point for decimals: 8 sec, 7 min, 1.9M views.</li>
+----
+<li>Bilinmeyen değer köşeli parantezle yazılır: [FİYAT].</li>
+==>
+<li>An unknown value goes in square brackets: [PRICE].</li>
+----
+<li>Ünlem, emoji ve üç nokta yok.</li>
+==>
+<li>No exclamation marks, emoji, or ellipses.</li>
+----
+<li>Marka adı cümlede Viral Clone, logoda viral clone. Hiçbir dilde çevrilmez, bitişik yazılmaz.</li>
+==>
+<li>The brand name is Viral Clone in a sentence and viral clone in the logo. It is never translated and never written as one word.</li>
+<li>One line per view: “Same video. Your product.” or “Seen it? Clone it.” Never both.</li>
+@@ Marka-Hareket.dc.html
+<title>Viral Clone — hareket</title>
+==>
+<title>Viral Clone — motion</title>
+----
+>Hareket</h1>
+==>
+>Motion</h1>
+----
+Hareket videonun işidir. Arayüz yalnız cevap verir: renk değiştirir, belirir, dolar.
+==>
+Motion is the video's job. The interface only responds: it changes color, fades in, fills up.
+----
+>Klipler</span>
+==>
+>Clips</span>
+----
+>İlk karelerden video</span>
+==>
+>Video from the first frames</span>
+----
+</span>sürüyor · 3 / 5</span>
+==>
+</span>running · 3 / 5</span>
+----
+>Aynısını yap</button>
+==>
+>Clone it</button>
+----
+Üstüne gel: yalnız renk değişir.
+==>
+Hover: only the color changes.
+----
+Üstüne gelme ve basma. Renk değişir; yer ve boyut değişmez.
+==>
+Hover and press. Color changes; position and size don't.
+----
+Pencere ve menü açılır, kapanır: belirir ve kaybolur, kaymaz.
+==>
+Dialogs and menus open and close: they fade in and out, they don't slide.
+----
+İlerleme çubuğu yeni değerine dolar.
+==>
+The progress bar fills to its new value.
+----
+>Eğri</dt>
+==>
+>Easing</dt>
+----
+Hızlı başlar, yumuşak durur: cubic-bezier(0.2, 0, 0, 1).
+==>
+Starts fast, stops soft: cubic-bezier(0.2, 0, 0, 1).
+----
+>Kendiliğinden</dt>
+==>
+>Autoplay</dt>
+----
+Yalnız üç şey kendiliğinden oynar: üstüne gelinen kartın örneği, süren işin göstergesi ve hareketli ikonlar.
+==>
+Only three things move on their own: the sample on a hovered card, the indicator of a running job, and the animated icons.
+----
+>Azaltılmış</dt>
+==>
+>Reduced</dt>
+----
+Cihazda hareket azaltma açıksa örnek kendiliğinden oynamaz, geçişler anında olur, ikonlar durur.
+==>
+If the device asks for reduced motion, samples don't autoplay, transitions are instant, and icons stay still.

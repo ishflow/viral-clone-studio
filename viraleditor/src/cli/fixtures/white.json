@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "language": "en",
+  "canvas": { "width": 720, "height": 1280, "fps": 30 },
+  "frames": 30,
+  "media": { "paper": { "file": "assets/paper.png", "kind": "image" } },
+  "styles": { "ghost": { "font": "Inter", "weight": 800, "size": 64, "align": "center", "fill": "#cccccc", "shadows": [] } },
+  "shots": [ { "id": "page", "at": 0, "for": 30, "media": "paper" } ],
+  "texts": [
+    { "id": "ghost", "at": 0, "for": 30, "box": { "left": 9, "top": 20, "right": 91, "bottom": 32 }, "style": "ghost", "copy": "White on white", "enter": { "kind": "none" }, "exit": { "kind": "none" } }
+  ]
+}

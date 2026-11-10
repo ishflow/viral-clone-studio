@@ -1,0 +1,165 @@
+{
+  "footer": {
+    "intro": "Bu e-postayı Viral Clone hesabın olduğu için alıyorsun. Sorun mu var?",
+    "contact": "Destekle iletişime geç",
+    "company": "© {company} · {address}"
+  },
+  "placeholder": {
+    "email": "[EMAIL]",
+    "credits": "[CREDITS]",
+    "balance": "[BALANCE]",
+    "amount": "[AMOUNT]",
+    "date": "[DATE]",
+    "invoiceNumber": "[INVOICE NUMBER]",
+    "minutes": "[MINUTES]",
+    "details": "[DETAILS]",
+    "saved": "[SAVED SO FAR]",
+    "missing": "[MISSING]",
+    "title": "[TEMPLATE TITLE]",
+    "pack": "[PACK]"
+  },
+  "validity": {
+    "hours": {
+      "one": "{count} saat",
+      "other": "{count} saat"
+    }
+  },
+  "verify": {
+    "subject": "E-postanı doğrula",
+    "title": "E-postanı doğrula.",
+    "body": "Hesabını etkinleştirmek ve ücretsiz videonu almak için bu adresi onayla.",
+    "bodyPlain": "Hesabını etkinleştirmek için bu adresi onayla.",
+    "action": "E-postayı doğrula",
+    "note": "Bağlantı {validity} geçerli. Kayıt olmadıysan bu e-postayı yok sayabilirsin.",
+    "changeSubject": "Yeni e-postanı onayla",
+    "changeTitle": "Yeni e-posta adresini onayla.",
+    "changeBody": "Hesabında bu adresi kullanmak için onayla. O zamana kadar eski adresin geçerli.",
+    "changeNote": "Bağlantı {validity} geçerli. Bunu sen istemediysen bu postayı yok say; hiçbir şey değişmez."
+  },
+  "reset": {
+    "subject": "Yeni şifre belirle",
+    "title": "Yeni şifre belirle.",
+    "body": "{email} için şifre sıfırlama isteği aldık.",
+    "action": "Yeni şifre belirle",
+    "note": "Bağlantı {validity} geçerli. Bunu sen istemediysen e-postayı yok say; şifren aynı kalır."
+  },
+  "ready": {
+    "subject": "Videon hazır",
+    "status": "Hazır",
+    "title": "Videon hazır.",
+    "body": "Yaklaşık {minutes} dakika sürdü. İzleyebilir, indirebilir ya da yeni bir varyant üretebilirsin.",
+    "thumbAlt": "Videodan bir kare",
+    "action": "İzle ve indir",
+    "note": "Video 12 ay boyunca Videolarım'da kalır.",
+    "bodyUnknown": "Videonu izleyebilir, indirebilir veya başka bir varyant üretebilirsin.",
+    "details": "{seconds} sn · {quality} · mp4"
+  },
+  "stopped": {
+    "subject": "Videon yarıda durdu",
+    "status": "Durdu",
+    "title": "Videon yarıda durdu.",
+    "template": "Şablon",
+    "saved": "Şimdiye kadar kaydedilen",
+    "missing": "Eksik",
+    "part": {
+      "images": { "one": "{count} görsel", "other": "{count} görsel" },
+      "clips": { "one": "{count} klip", "other": "{count} klip" },
+      "music": "müzik",
+      "imagesOf": "{total} görselin {done} tanesi",
+      "clipsOf": "{total} klibin {done} tanesi"
+    },
+    "action": "İşi aç",
+    "note": "Devam etmek {credits} kredi kullanır. İlk onayladığın fiyattan fazlasını ödemezsin.",
+    "reason": {
+      "clips-failed": "Klipler üretilemedi.",
+      "unknown": "Bir adım tamamlanamadı."
+    },
+    "after": "Hiçbir şey yeniden denenmedi ve ek kredi harcanmadı.",
+    "returned": "Geri verilen krediler",
+    "freeReturned": "Geri verildi",
+    "freeVideo": "Ücretsiz videon",
+    "body": "Bir adım başarısız oldu, bu yüzden durduk. {credits} kredin bakiyene geri döndü. Devam etmek veya kapatmak için işi aç.",
+    "freeBody": "Ücretsiz video hakkın geri geldi. Devam etmek veya kapatmak için işi aç.",
+    "contentBody": "Sağlayıcı içerik kuralı nedeniyle reddettiği için bu iş durdu. Durumu görmek için işi aç veya desteğe başvur; işe devam edilemez.",
+    "checkingBody": "Video servisine giden bir istek net yanıt almadı, bu yüzden durduk. Bu isteği video servisiyle biz kontrol ediyoruz. Bir şey yapmana gerek yok, başka kredi kesilmez.",
+    "freeNote": "Devam etmek, hâlâ kullanılabilir durumdaysa ücretsiz video hakkını yeniden kullanır; aksi hâlde iş, onaydan önce kredi fiyatını gösterir.",
+    "retention": "Kaydedilen parçalar 30 gün saklanır.",
+    "contentNote": "Bu işe devam edilemez. Hata olduğunu düşünüyorsan desteğe başvur.",
+    "checkingNote": "İşi biz sürdüreceğiz ya da sana yazacağız. Bu işin kullandığı kredi ya da ücretsiz video hakkı geri verildi.",
+    "swapOffBody": "Kişi değiştirme şu an kapalı, bu yüzden bu işe devam edilemez. {credits} kredin bakiyene geri döndü.",
+    "swapOffNote": "Bu iş için başka kredi kesilmez.",
+    "swapPhotoRefusedBody": "Fotoğraf bu video için kullanılamadı, bu yüzden hiçbir şey üretilmedi. {credits} kredin bakiyene geri döndü.",
+    "swapPhotoRefusedNote": "Bu işe devam edemezsin. Başka bir fotoğrafla yeni bir iş başlat.",
+    "swapPersonMissingBody": "Değiştirilecek kişi videoda ya da fotoğrafında bulunamadı, bu yüzden hiçbir şey üretilmedi. {credits} kredin bakiyene geri döndü.",
+    "swapPersonMissingNote": "Bu işe devam edemezsin. Başka bir fotoğrafla yeni bir iş başlat ya da destekle iletişime geç."
+  },
+  "refused": {
+    "subject": "Kişi değiştirme isteğin onaylanmadı",
+    "title": "Kişi değiştirme isteğin onaylanmadı.",
+    "body": "Bu video için fotoğrafın onaylanmadı, bu yüzden hiçbir şey üretilmedi. {credits} kredin bakiyene geri döndü.",
+    "action": "İşi aç",
+    "note": "Fotoğrafların silindi. Başka bir fotoğrafla yeniden başlatabilirsin."
+  },
+  "payment": {
+    "subject": "Ödeme alındı: {credits} kredi eklendi",
+    "status": "Ödeme alındı",
+    "title": "{credits} kredi eklendi.",
+    "body": "Teşekkürler. Bakiyen şimdi {balance} kredi.",
+    "saved": "Formun kayıtlı.",
+    "pack": "Paket",
+    "credits": "Kredi",
+    "price": "Paket bedeli",
+    "tax": "Vergi",
+    "paid": "Ödenen",
+    "date": "Tarih",
+    "invoiceNumber": "Fatura numarası",
+    "action": "Videona dön",
+    "invoice": "Faturayı indir",
+    "invoiceDodo": "Fatura (Dodo)",
+    "note": "Tüm faturalar Hesap sayfanda."
+  },
+  "sample": {
+    "title": "Fragrance layering recipe",
+    "pack": "Standard pack",
+    "minutes": "7",
+    "readyDetails": "8 sn · 720p · mp4",
+    "stoppedSaved": "5 görsel, 5 klipten 3'ü, müzik",
+    "stoppedMissing": "2 klip"
+  },
+  "refund": {
+    "subject": "İaden tamamlandı",
+    "title": "İaden tamamlandı.",
+    "body": "{pack} alımı için iade onaylandı. Durumunu Hesap sayfanda görebilirsin.",
+    "action": "Hesabını aç",
+    "note": "İadeyle ilgili soruların varsa destekle iletişime geç."
+  },
+  "refundSent": {
+    "subject": "İaden yolda",
+    "status": "İade gönderildi",
+    "title": "İaden yolda.",
+    "body": "{pack} alımının iadesini ödeme yöntemine gönderdik. Bu paketin {credits} kredisi bakiyenden düşüldü. Paranın kartına ulaşması birkaç gün sürebilir.",
+    "pack": "Paket",
+    "credits": "Düşülen kredi",
+    "amount": "İade tutarı",
+    "date": "Gönderilme tarihi",
+    "action": "Hesabını aç",
+    "note": "İade gerçekleşmezse krediler bakiyene geri döner. İadeyle ilgili soruların varsa destekle iletişime geç."
+  },
+  "delivery": {
+    "title": "E-posta gönderimi",
+    "back": "Genel bakışa dön",
+    "recipient": "Alıcı",
+    "kind": "E-posta",
+    "status": "Durum",
+    "attempts": "Deneme",
+    "lead": "Sitenin hazırladığı her e-posta ve gidip gitmediği. Başarısız ya da engellenen e-posta yeniden gönderilebilir; sonraki taramayla (bir dakika içinde) çıkar.",
+    "action": "İşlem",
+    "sendAgain": "Yeniden gönder",
+    "sendAgainFailed": "Yeniden sıraya alınamadı. Tekrar dene.",
+    "empty": "Henüz e-posta yok.",
+    "queued": "Sırada",
+    "sent": "Gönderildi",
+    "failed": "İlgi gerekiyor",
+    "blocked-by-allowlist": "Alıcı izin listesi nedeniyle engellendi"
+  }
+}

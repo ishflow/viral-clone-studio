@@ -1,0 +1,1440 @@
+@@ Marka-Renk.dc.html
+<title>Viral Clone — renk sistemi</title>
+==>
+<title>Viral Clone — color system</title>
+----
+>Renk</h1>
+==>
+>Color</h1>
+----
+İki set, aynı adlar. Ekranlar rengi adıyla çağırır; tema değişince yalnız değer değişir. Sağdaki sayılar kontrast oranıdır: metinde en az 4,5, kontrol kenarında en az 3.
+==>
+Two sets, the same names. Screens call a color by its name; when the theme changes, only the value changes. The numbers on the right are contrast ratios: at least 4.5 for text, at least 3 for control borders.
+----
+<span>ad</span><span>değer</span><span>zemin · yüzey</span>
+==>
+<span>name</span><span>value</span><span>on bg · surface</span>
+----
+</span>Üretiliyor</span>
+==>
+</span>Generating</span>
+----
+>Koku katmanlama tarifi</span>
+==>
+>Fragrance layering recipe</span>
+----
+>4 ürün, Hızlı, 1 varyant. <span style="color: var(--text-3)">Yaklaşık 3 dk kaldı.</span>
+==>
+>4 products, Fast, 1 variant. <span style="color: var(--text-3)">About 3 min left.</span>
+----
+color: var(--text-3)">Ürün adı
+==>
+color: var(--text-3)">Product name
+----
+>Aynısını yap</button>
+==>
+>Clone it</button>
+----
+>Vazgeç</button>
+==>
+>Cancel</button>
+----
+</span>Durdu</span>
+==>
+</span>Stopped</span>
+----
+>Lime az kullanılır.</h2>
+==>
+>Lime is used sparingly.</h2>
+----
+Bir ekranda tek lime ana düğme. Onun dışında lime yalnız seçili öğede ve süren ya da biten işte görünür.
+==>
+One lime primary button per screen. Beyond that, lime appears only on the selected item and on a job that is running or done.
+----
+>Light'ta lime yazı olmaz.</h2>
+==>
+>No lime text in light.</h2>
+----
+Açık zeminde lime'ın oranı 1,2'dir. Yazı ve ikon koyu yeşil vurgu metnini alır; düğme dolgusu iki temada da aynı lime kalır ve yazısı 14,9 oranındadır.
+==>
+On a light background, lime has a ratio of 1.2. Text and icons take the dark green accent text instead. The button fill stays the same lime in both themes, and its label has a ratio of 14.9.
+----
+>Durum rengi tek başına konuşmaz.</h2>
+==>
+>Status color never speaks alone.</h2>
+----
+Lime sürüyor ya da bitti, turuncu durdu, gri bekliyor demektir. Her biri bir yazıyla ve ayrı bir biçimle gelir.
+==>
+Lime means running or done, orange means stopped, gray means waiting. Each one comes with a label and its own shape.
+----
+>Video üstü tema bilmez.</h2>
+==>
+>On video, no themes.</h2>
+----
+Videonun üstündeki etiket iki temada aynıdır: koyu perde, açık yazı. Bembeyaz bir karenin üstünde bile oran 8,5'tir.
+==>
+A tag on top of a video is the same in both themes: dark scrim, light text. Even over a pure white frame the ratio is 8.5.
+----
+t('zemin',
+==>
+t('background',
+----
+t('yüzey',
+==>
+t('surface',
+----
+t('kabarık',
+==>
+t('raised',
+----
+t('çizgi',
+==>
+t('line',
+----
+t('kenar',
+==>
+t('edge',
+----
+t('güçlü kenar',
+==>
+t('strong edge',
+----
+t('metin',
+==>
+t('text',
+----
+t('ikincil metin',
+==>
+t('secondary text',
+----
+t('soluk metin',
+==>
+t('muted text',
+----
+t('vurgu',
+==>
+t('accent',
+----
+t('vurgu (üstüne gelince)',
+==>
+t('accent (hover)',
+----
+t('vurgu üstü',
+==>
+t('on accent',
+----
+t('vurgu metni',
+==>
+t('accent text',
+----
+t('uyarı',
+==>
+t('warning',
+----
+t('uyarı kenarı',
+==>
+t('warning edge',
+----
+t('perde',
+==>
+t('scrim',
+----
+'ayırıcı, süs'
+==>
+'dividers'
+----
+'kart, etiket'
+==>
+'cards, tags'
+----
+'3,6 · 3,3'
+==>
+'3.6 · 3.3'
+----
+'17,6 · 16,2'
+==>
+'17.6 · 16.2'
+----
+'12,0 · 11,1'
+==>
+'12.0 · 11.1'
+----
+'8,5 · 7,8'
+==>
+'8.5 · 7.8'
+----
+'dolgu'
+==>
+'fill'
+----
+'lime üstünde 14,9'
+==>
+'14.9 on lime'
+----
+'14,9 · 13,7'
+==>
+'14.9 · 13.7'
+----
+'9,4 · 8,7'
+==>
+'9.4 · 8.7'
+----
+'kutu kenarı'
+==>
+'box border'
+----
+'%76 koyu'
+==>
+'76% dark'
+----
+'video üstü'
+==>
+'on video'
+----
+'3,5 · 3,8'
+==>
+'3.5 · 3.8'
+----
+'17,9 · 19,6'
+==>
+'17.9 · 19.6'
+----
+'9,4 · 10,3'
+==>
+'9.4 · 10.3'
+----
+'6,0 · 6,6'
+==>
+'6.0 · 6.6'
+----
+'6,3 · 6,9'
+==>
+'6.3 · 6.9'
+----
+'5,6 · 6,2'
+==>
+'5.6 · 6.2'
+@@ Marka-Yazi.dc.html
+<title>Viral Clone — tipografi</title>
+==>
+<title>Viral Clone — typography</title>
+----
+>Tipografi</h1>
+==>
+>Typography</h1>
+----
+İki aile, on basamak. Bricolage Grotesque başlıkta konuşur, Onest okutur. Basamakların dışında boyut kullanılmaz.
+==>
+Two families, ten steps. Bricolage Grotesque speaks in headlines; Onest does the reading. No size is used outside the steps.
+----
+>Aa ığşİ</span>
+==>
+>Aa Gg 49</span>
+----
+Başlık ve büyük sayı. Kalınlık 700 ve 800, harf aralığı sıkı. Paragraf dizilmez.
+==>
+Headlines and big numbers. Weights 700 and 800, tight letter spacing. Never set in paragraphs.
+----
+Arayüzün tamamı: düğme, etiket, form, açıklama. Kalınlık 400, 500 ve 600.
+==>
+The whole interface: buttons, labels, forms, descriptions. Weights 400, 500, and 600.
+----
+aria-label="Ölçek"
+==>
+aria-label="Scale"
+----
+>Afiş</span>
+==>
+>Display</span>
+----
+48–128 px · satır 0,92 · −0,04em · 800<br>Ana sayfanın tek cümlesi
+==>
+48–128 px · line 0.92 · −0.04em · 800<br>The one sentence on the home page
+----
+>alacağın o.</span>
+==>
+>Your product.</span>
+----
+>Başlık 1</span>
+==>
+>Heading 1</span>
+----
+42–92 px · satır 0,95 · −0,035em · 800<br>Galeri ve satış sayfalarının başlığı
+==>
+42–92 px · line 0.95 · −0.035em · 800<br>Gallery and marketing page headlines
+----
+>Ürününü koy.</span>
+==>
+>Seen it? Clone it.</span>
+----
+>Başlık 2</span>
+==>
+>Heading 2</span>
+----
+36–64 px · satır 0,98 · −0,03em · 800<br>Şablon adı, sayfa başlığı
+==>
+36–64 px · line 0.98 · −0.03em · 800<br>Template name, page title
+----
+>Koku katmanlama tarifi</span>
+==>
+>Fragrance layering recipe</span>
+----
+>Başlık 3</span>
+==>
+>Heading 3</span>
+----
+32–52 px · satır 1 · −0,03em · 800<br>Form ve iş sayfalarının başlığı
+==>
+32–52 px · line 1 · −0.03em · 800<br>Form and job page titles
+----
+>Ürünlerini yükle</span>
+==>
+>Upload your products</span>
+----
+>Başlık 4</span>
+==>
+>Heading 4</span>
+----
+32 px · satır 1,1 · −0,02em · 800<br>Pencere başlığı
+==>
+32 px · line 1.1 · −0.02em · 800<br>Dialog title
+----
+>Üretimi onayla</span>
+==>
+>Confirm generation</span>
+----
+>Başlık 5</span>
+==>
+>Heading 5</span>
+----
+24 px · satır 1,2 · −0,01em · 700<br>Bölüm başlığı
+==>
+24 px · line 1.2 · −0.01em · 700<br>Section title
+----
+>Çekim listesi</span>
+==>
+>Shot list</span>
+----
+>Başlık 6</span>
+==>
+>Heading 6</span>
+----
+20 px · satır 1,25 · −0,01em · 700<br>Kart başlığı
+==>
+20 px · line 1.25 · −0.01em · 700<br>Card title
+----
+>Kendi videonu ekle</span>
+==>
+>Add your own video</span>
+----
+>Okuma</span>
+==>
+>Lead</span>
+----
+Onest 17 px · satır 1,5 · 400<br>Giriş paragrafı, uzun metin
+==>
+Onest 17 px · line 1.5 · 400<br>Intro paragraph, long text
+----
+Görsellerini yükle, birkaç dakika sonra aynısı senin ürününle hazır.
+==>
+Upload your images. A few minutes later the same video is ready with your product.
+----
+>Gövde</span>
+==>
+>Body</span>
+----
+Onest 15 px · satır 1,5 · 400, vurguda 600<br>Arayüzün varsayılanı, düğme yazısı
+==>
+Onest 15 px · line 1.5 · 400, 600 for emphasis<br>Interface default, button labels
+----
+Her ürün için en az bir görsel ve ad yeterli. <span style="font-weight: 600">Onayla ve üret</span>
+==>
+One image and a name per product is enough. <span style="font-weight: 600">Confirm and generate</span>
+----
+>Küçük</span>
+==>
+>Small</span>
+----
+Onest 13 px · satır 1,4 · 400, etikette 500<br>Alan adı, etiket, kart altı bilgi
+==>
+Onest 13 px · line 1.4 · 400, 500 in tags<br>Field labels, tags, card details
+----
+>Koku · referans 1,9 Mn izlenme</span>
+==>
+>Fragrance · reference 1.9M views</span>
+----
+>Ekranda bir büyük başlık.</h2>
+==>
+>One big headline per screen.</h2>
+----
+Afiş ve Başlık 1–3 ekran başına bir kez kullanılır. Geri kalan her başlık Başlık 5 ya da 6'dır.
+==>
+Display and Heading 1–3 are used once per screen. Every other heading is Heading 5 or 6.
+----
+>Vurgu kalınlıkla verilir.</h2>
+==>
+>Emphasis comes from weight.</h2>
+----
+Gövdede 600 kullanılır. İtalik, altı çizili ve tümü büyük harf yok; renk yalnız durum taşır.
+==>
+Body text uses 600. No italics, underlines, or all caps. Color carries status only.
+----
+>Satır 75 harfi geçmez.</h2>
+==>
+>No line longer than 75 characters.</h2>
+----
+Okuma metni en çok 620 px, uzun yasal metin en çok 760 px genişlikte dizilir.
+==>
+Reading text is set at most 620 px wide, long legal text at most 760 px.
+@@ Marka-Olcu.dc.html
+<title>Viral Clone — boşluk, köşe, ızgara</title>
+==>
+<title>Viral Clone — spacing, corners, grid</title>
+----
+>Ölçü</h1>
+==>
+>Scale</h1>
+----
+Boşluk, köşe ve kontrol yüksekliği birer kısa merdivendir. Basamakların arasında değer kullanılmaz.
+==>
+Spacing, corners, and control heights are each a short ladder. No value is used between the steps.
+----
+>Boşluk</h2>
+==>
+>Spacing</h2>
+----
+>Köşe</h2>
+==>
+>Corners</h2>
+----
+</strong>küçük görsel</span>
+==>
+</strong>small images</span>
+----
+</strong>düğme, giriş alanı</span>
+==>
+</strong>buttons, inputs</span>
+----
+</strong>kart, video karesi</span>
+==>
+</strong>cards, video frames</span>
+----
+</strong>pencere, büyük pano</span>
+==>
+</strong>dialogs, large panels</span>
+----
+>tam</strong>etiket, menü, filtre</span>
+==>
+>full</strong>tags, menus, filters</span>
+----
+İç içe köşede içteki, dıştakinden aradaki boşluk kadar küçüktür: 16'lık kartın 8 px içindeki düğme 8 alır.
+==>
+In nested corners, the inner radius is smaller than the outer one by the gap between them: a button 8 px inside a 16 card takes 8.
+----
+>Kontrol yüksekliği</h2>
+==>
+>Control height</h2>
+----
+>Kirpik ve kaş</button>
+==>
+>Lashes and brows</button>
+----
+>menü, filtre, sessiz düğme</span>
+==>
+>menus, filters, quiet buttons</span>
+----
+>Vazgeç</button>
+==>
+>Cancel</button>
+----
+>giriş alanı, standart düğme</span>
+==>
+>inputs, standard buttons</span>
+----
+>Aynısını yap</button>
+==>
+>Clone it</button>
+----
+>sayfanın ana eylemi</span>
+==>
+>the page's main action</span>
+----
+>Hızlı</span>
+==>
+>Fast</span>
+----
+>iki satırlı seçim kutusu</span>
+==>
+>two-line option box</span>
+----
+Dokunulan hiçbir şey 44 px'in altına inmez.
+==>
+Nothing you can tap goes below 44 px.
+----
+>Sayfa ve ızgara</h2>
+==>
+>Page and grid</h2>
+----
+<span>kenar</span><span>kap: en çok 1320 px, ortalı</span><span>kenar</span>
+==>
+<span>margin</span><span>container: 1320 px max, centered</span><span>margin</span>
+----
+Kenar</strong> ekranın %4'ü; en az 16, en çok 60 px.
+==>
+Margin</strong> 4% of the screen; 16 px minimum, 60 px maximum.
+----
+Üst menü</strong> 80 px, altında tek çizgi. Her sayfada aynı.
+==>
+Top bar</strong> 80 px, one line below it. The same on every page.
+----
+Video ızgarası</strong> sütun en az 210 px; sütun arası 16, satır arası 32. Kaç sütun sığacağına genişlik karar verir.
+==>
+Video grid</strong> columns at least 210 px; 16 between columns, 32 between rows. The width decides how many columns fit.
+----
+İki sütunlu sayfa</strong> dar sütun 240–400 px, geniş sütun kalanı alır. Dar ekranda alt alta iner.
+==>
+Two-column page</strong> narrow column 240–400 px, the wide column takes the rest. They stack on a narrow screen.
+----
+Okuma genişliği</strong> metin 620 px'i, yasal metin 760 px'i geçmez.
+==>
+Reading width</strong> text stays within 620 px, legal text within 760 px.
+----
+'ikon ile yazı arası'
+==>
+'between icon and label'
+----
+'yan yana etiketler, düğme içi'
+==>
+'between tags, inside buttons'
+----
+'kart içindeki öğeler'
+==>
+'items inside a card'
+----
+'kart iç boşluğu, ızgara sütun arası'
+==>
+'card padding, grid column gap'
+----
+'form grupları arası'
+==>
+'between form groups'
+----
+'bir bölümün blokları, ızgara satır arası'
+==>
+'blocks in a section, grid row gap'
+----
+'sayfa bölümleri arası'
+==>
+'between page sections'
+----
+'sayfa altı, büyük bölümler'
+==>
+'page bottom, large sections'
+----
+'satış sayfasında bölümler arası'
+==>
+'between sections on marketing pages'
+@@ Marka-Bilesen-1.dc.html
+<title>Viral Clone — bileşenler: kontroller</title>
+==>
+<title>Viral Clone — components: controls</title>
+----
+>Bileşenler: kontroller</h1>
+==>
+>Components: controls</h1>
+----
+Basılan ve doldurulan her şey. Ekranlar yalnız bu parçalardan kurulur; yenisi gerekirse önce buraya eklenir.
+==>
+Everything you press or fill in. Screens are built only from these parts; if a new one is needed, it is added here first.
+----
+>Üst menü</h2>
+==>
+>Top bar</h2>
+----
+aria-label="Ana menü"
+==>
+aria-label="Main menu"
+----
+</span>Galeri</a>
+==>
+</span>Gallery</a>
+----
+>Üretimlerim</a>
+==>
+>My videos</a>
+----
+>Gelen</a>
+==>
+>Inbox</a>
+----
+>Hesap: ACME / ACME2</span>
+==>
+>Account: ACME / ACME2</span>
+----
+>Ayarlar</a>
+==>
+>Settings</a>
+----
+Tek biçim: solda logo, ortada menü, sağda hesap. Satışta sağ taraf kredi bakiyesine, girişsiz ziyaretçide Giriş yap ve Başla'ya döner; düzen değişmez. Giriş sayfası da bu menüyü taşır.
+==>
+One layout: logo on the left, menu in the middle, account on the right. Once the product is on sale, the right side becomes the credit balance, or Log in and Get started for signed-out visitors. The layout never changes. The login page carries this bar too.
+----
+>Düğme</h2>
+==>
+>Button</h2>
+----
+>Aynısını yap</button>
+==>
+>Clone it</button>
+----
+>ana, büyük</span>
+==>
+>primary, large</span>
+----
+>üstüne gelince</span>
+==>
+>hover</span>
+----
+>klavye odağı</span>
+==>
+>keyboard focus</span>
+----
+>Üret</button>
+==>
+>Generate</button>
+----
+>kapalı</span>
+==>
+>disabled</span>
+----
+>Onayla ve üret</button>
+==>
+>Confirm and generate</button>
+----
+>ana, orta</span>
+==>
+>primary, medium</span>
+----
+>Vazgeç</button>
+==>
+>Cancel</button>
+----
+>ikincil</span>
+==>
+>secondary</span>
+----
+>Şifremi unuttum</a>
+==>
+>Forgot password</a>
+----
+>sessiz</span>
+==>
+>quiet</span>
+----
+>Hesabı sil</a>
+==>
+>Delete account</a>
+----
+>geri alınmaz iş</span>
+==>
+>cannot be undone</span>
+----
+Bir ekranda tek ana düğme olur. Düğme ne yapacağını söyler ve akış boyunca adını değiştirmez.
+==>
+One primary button per screen. A button says what it does and keeps its name through the whole flow.
+----
+>Seçim kutusu</h2>
+==>
+>Option box</h2>
+----
+aria-label="Kalite"
+==>
+aria-label="Quality"
+----
+<span style="font-size: 13px; color: var(--text-3)">Kalite</span>
+==>
+<span style="font-size: 13px; color: var(--text-3)">Quality</span>
+----
+<span style="font-size: 15px; font-weight: 600">Hızlı</span>
+==>
+<span style="font-size: 15px; font-weight: 600">Fast</span>
+----
+<span style="font-size: 15px; font-weight: 600">Kalite</span>
+==>
+<span style="font-size: 15px; font-weight: 600">Best</span>
+----
+aria-label="Varyant sayısı"
+==>
+aria-label="Number of variants"
+----
+>Varyant</span>
+==>
+>Variants</span>
+----
+>Etiket ve filtre</h2>
+==>
+>Tags and filters</h2>
+----
+>Tümü</button>
+==>
+>All</button>
+----
+>Kirpik ve kaş</button>
+==>
+>Lashes and brows</button>
+----
+>Saç</button>
+==>
+>Hair</button>
+----
+>filtre</span>
+==>
+>filter</span>
+----
+>Hepsi</button>
+==>
+>All</button>
+----
+>Konuşmasız</button>
+==>
+>No talking</button>
+----
+>Konuşmalı</button>
+==>
+>Talking</button>
+----
+>üçlü seçim; kabı 44 px</span>
+==>
+>three-way switch; container 44 px</span>
+----
+>Koku</span>
+==>
+>Fragrance</span>
+----
+>Konuşmasız</span>
+==>
+>No talking</span>
+----
+>8 sn</span>
+==>
+>8 sec</span>
+----
+>deneysel</span>
+==>
+>experimental</span>
+----
+>bilgi etiketi; basılmaz</span>
+==>
+>info tag; not pressable</span>
+----
+>Giriş alanı</h2>
+==>
+>Input</h2>
+----
+color: var(--text-3)">Ürün adı
+==>
+color: var(--text-3)">Product name
+----
+color: var(--text-3)">Kısa bilgi
+==>
+color: var(--text-3)">Short description
+----
+placeholder="Ne işe yarar, öne çıkan özelliği"
+==>
+placeholder="What it does, its key feature"
+----
+color: var(--text-3)">E-posta (odakta)
+==>
+color: var(--text-3)">Email (focused)
+----
+value="ad@ornek.com"
+==>
+value="name@example.com"
+----
+color: var(--text-3)">E-posta (hatalı)
+==>
+color: var(--text-3)">Email (error)
+----
+value="ad@ornek"
+==>
+value="name@example"
+----
+Adresin sonu eksik: ad@ornek.com gibi olmalı.
+==>
+The address is missing its ending. It should look like name@example.com.
+----
+>Şablon ara</span>
+==>
+>Search templates</span>
+----
+placeholder="Şablon ara: kategori, format, ürün türü"
+==>
+placeholder="Search templates: category, format, product type"
+----
+Alan adı hep alanın üstünde durur. Hata, alanın altında ne yapılacağını söyler; renk yanında ikon ve yazı da taşır.
+==>
+The label always sits above the field. An error sits below the field and says what to do; besides color, it carries an icon and text.
+@@ Marka-Bilesen-2.dc.html
+<title>Viral Clone — bileşenler: kartlar ve durumlar</title>
+==>
+<title>Viral Clone — components: cards and states</title>
+----
+>Bileşenler: kartlar ve durumlar</h1>
+==>
+>Components: cards and states</h1>
+----
+Gösteren ve haber veren her şey: video kartı, yüzey kartı, iş durumu, pencere, uyarı.
+==>
+Everything that shows or reports: video card, surface card, job status, dialog, alert.
+----
+>Video kartı</h2>
+==>
+>Video card</h2>
+----
+>Konuşmasız</span>
+==>
+>No talking</span>
+----
+>8 sn</span>
+==>
+>8 sec</span>
+----
+>13 sn</span>
+==>
+>13 sec</span>
+----
+>Koku katmanlama tarifi</h3>
+==>
+>Fragrance layering recipe</h3>
+----
+>Koku · referans 1,9 Mn izlenme</p>
+==>
+>Fragrance · reference 1.9M views</p>
+----
+>Aynısını yap</span>
+==>
+>Clone it</span>
+----
+>Gün sayacıyla göz yakın planı</h3>
+==>
+>Eye close-up with a day counter</h3>
+----
+>Kirpik · referans 19,8 Mn izlenme</p>
+==>
+>Lashes · reference 19.8M views</p>
+----
+>Kendi videonu ekle</span>
+==>
+>Add your own video</span>
+----
+>Dosya ya da link ver.</span>
+==>
+>Give a file or a link.</span>
+----
+Solda duran hali; ortada üstüne gelinmiş ya da klavyeyle seçilmiş hali: halka çıkar, örnek oynar, ana düğme belirir. Sağda boş kare: kesik kenar, hep aynı oran.
+==>
+Left, at rest. Middle, hovered or selected with the keyboard: the ring appears, the sample plays, the main button shows. Right, the empty frame: dashed border, always the same ratio.
+----
+>Yüzey kartı ve bırakma alanı</h2>
+==>
+>Surface card and drop zone</h2>
+----
+>1. ürün</span>
+==>
+>Product 1</span>
+----
+alt="Yüklenen ürün görseli"
+==>
+alt="Uploaded product image"
+----
+>vücut yağı</span>
+==>
+>body oil</span>
+----
+>Dosyayı buraya bırak</span>
+==>
+>Drop the file here</span>
+----
+>mp4 ya da mov · en çok 60 sn</span>
+==>
+>mp4 or mov · 60 sec max</span>
+----
+Kart zeminden bir kademe açıktır, gölgesi yoktur. Kesik kenar yalnız “buraya bir şey gelecek” demektir.
+==>
+A card is one step lighter than the background and has no shadow. A dashed border means only one thing: “something goes here.”
+----
+>Uyarı kutusu</h2>
+==>
+>Alert box</h2>
+----
+</span>Seedance iki klipte hata verdi</span>
+==>
+</span>Seedance failed on two clips</span>
+----
+Servis 500 döndürdü. Otomatik tekrar denemedik; biten 5 görsel, 3 klip ve müzik saklanıyor.
+==>
+The service returned a 500. We did not retry automatically. The 5 finished images, 3 clips, and the music are saved.
+----
+>Kling 3 ile devam et</button>
+==>
+>Continue with Kling 3</button>
+----
+>İşi burada bırak</a>
+==>
+>Stop the job here</a>
+----
+>İş durumu</h2>
+==>
+>Job status</h2>
+----
+>Görseller</span>
+==>
+>Images</span>
+----
+>Her çekimin ilk karesi</span>
+==>
+>The first frame of each shot</span>
+----
+>bitti · 5 / 5</span>
+==>
+>done · 5 / 5</span>
+----
+>Klipler</span>
+==>
+>Clips</span>
+----
+>İlk karelerden video</span>
+==>
+>Video from the first frames</span>
+----
+>sürüyor · 3 / 5</span>
+==>
+>running · 3 / 5</span>
+----
+>Kurgu</span>
+==>
+>Edit</span>
+----
+>Çekimler, yazılar ve müzik sıraya dizilir</span>
+==>
+>Shots, text, and music are put in order</span>
+----
+>bekliyor</span>
+==>
+>waiting</span>
+----
+>durdu · 3 / 5</span>
+==>
+>stopped · 3 / 5</span>
+----
+</span>Üretiliyor</span>
+==>
+</span>Generating</span>
+----
+</svg>Hazır</span>
+==>
+</svg>Ready</span>
+----
+</span>Durdu</span>
+==>
+</span>Stopped</span>
+----
+</span>Bekliyor</span>
+==>
+</span>Waiting</span>
+----
+Dört durum, dört biçim: dolu daire ve tik, halka ve çubuk, kesik halka, köşeli çerçeve. Renk görülmese de durum okunur.
+==>
+Four states, four shapes: filled circle with a check, ring with a bar, dashed ring, square frame. The state reads even without color.
+----
+>Pencere</h2>
+==>
+>Dialog</h2>
+----
+aria-labelledby="ornek-pencere"
+==>
+aria-labelledby="sample-dialog"
+----
+id="ornek-pencere"
+==>
+id="sample-dialog"
+----
+>Üretimi onayla</h3>
+==>
+>Confirm generation</h3>
+----
+>Koku katmanlama tarifi · Hızlı · 1 varyant</p>
+==>
+>Fragrance layering recipe · Fast · 1 variant</p>
+----
+>Klip · Seedance 2 Mini 720p</dt>
+==>
+>Clips · Seedance 2 Mini 720p</dt>
+----
+>5 klip, 20 sn</dd>
+==>
+>5 clips, 20 sec</dd>
+----
+>Tahmini kredi</dt>
+==>
+>Estimated credits</dt>
+----
+>[KREDİ TUTARI]</dd>
+==>
+>[CREDIT AMOUNT]</dd>
+----
+>Vazgeç</button>
+==>
+>Cancel</button>
+----
+>Onayla ve üret</button>
+==>
+>Confirm and generate</button>
+----
+Sayfanın ortasında açılır; arkası %60 koyulukta örtülür. Vazgeçme solda, ana eylem sağda ve daha geniş.
+==>
+Opens in the center of the page; the page behind is dimmed 60%. Cancel on the left, the main action on the right and wider.
+@@ Marka-Ikonlar.dc.html
+<title>Viral Clone — ikon kütüphanesi</title>
+==>
+<title>Viral Clone — icon library</title>
+----
+>İkon kütüphanesi</h1>
+==>
+>Icon library</h1>
+----
+45 çizgi ikon, 6 hareketli ikon. Hepsi aynı ızgarada ve aynı çizgiyle çizildi; ekranlar ikonu buradan alır. İkon yazının yardımcısıdır, yerine geçmez.
+==>
+45 line icons and 6 animated icons, all drawn on the same grid with the same stroke. Screens take their icons from here. An icon supports the label; it never replaces it.
+----
+>Çizim kuralı</h2>
+==>
+>Drawing rules</h2>
+----
+Izgara</strong> 24 birim; kenardan en az 3 birim boşluk.
+==>
+Grid</strong> 24 units; at least 3 units of padding from the edge.
+----
+Çizgi</strong> 2 birim; uçlar ve köşeler yuvarlak.
+==>
+Stroke</strong> 2 units; round caps and joins.
+----
+Dolgu</strong> yok. Tek istisna oynat üçgeni.
+==>
+Fill</strong> none. The one exception is the play triangle.
+----
+Renk</strong> yanındaki yazının rengi; kendi rengi olmaz.
+==>
+Color</strong> the color of the text beside it; never its own.
+----
+Boy</strong> yazı içinde 18, düğmede 22, oynat düğmesinde 26 px.
+==>
+Size</strong> 18 px in text, 22 in buttons, 26 in the play button.
+----
+>Hareketli ikonlar</h2>
+==>
+>Animated icons</h2>
+----
+</span>üretiliyor</li>
+==>
+</span>generating</li>
+----
+</span>bitti</li>
+==>
+</span>done</li>
+----
+</span>yükleniyor</li>
+==>
+</span>uploading</li>
+----
+</span>iniyor</li>
+==>
+</span>downloading</li>
+----
+</span>ses üretiliyor</li>
+==>
+</span>generating audio</li>
+----
+</span>sürüyor</li>
+==>
+</span>running</li>
+----
+Yalnız haber verir.</strong> Hareketli ikon “şu an bir şey oluyor” ya da “az önce bitti” der. Süs için dönen, zıplayan ikon olmaz.
+==>
+They only report.</strong> An animated icon says “something is happening” or “this just finished”. No icon spins or bounces for decoration.
+----
+İş sürdükçe oynar.</strong> Biten iş bir kez çizilir ve durur; burada örnek olsun diye tekrar ediyor.
+==>
+They play while the job runs.</strong> A finished job draws once and stops; it loops here only as a demo.
+----
+Azaltılmış harekette durur.</strong> Cihazda hareket azaltma açıksa durağan hali görünür; anlam yanındaki yazıda kalır.
+==>
+They stop under reduced motion.</strong> If the device asks for reduced motion, the still version shows; the meaning stays in the label beside it.
+----
+aria-label="İkonlar"
+==>
+aria-label="Icons"
+----
+>Gezinme</h2>
+==>
+>Navigation</h2>
+----
+>Eylem</h2>
+==>
+>Actions</h2>
+----
+>Durum</h2>
+==>
+>Status</h2>
+----
+>Hesap</h2>
+==>
+>Account</h2>
+----
+>Yazısız ikon ad taşır.</h2>
+==>
+>An icon without a label has a name.</h2>
+----
+Tek başına duran ikon düğmesi, ekran okuyucu için görünmeyen bir ad alır ve en az 44 px yer kaplar.
+==>
+An icon button that stands alone gets a hidden name for screen readers and takes up at least 44 px.
+----
+>Bir anlam, bir ikon.</h2>
+==>
+>One meaning, one icon.</h2>
+----
+Aynı ikon iki ayrı iş için kullanılmaz. Listede olmayan ikon gerekirse önce buraya, aynı kuralla çizilir.
+==>
+The same icon is never used for two different jobs. If an icon is missing, it is drawn here first, by the same rules.
+----
+>Emoji ve renkli ikon yok.</h2>
+==>
+>No emoji, no colored icons.</h2>
+----
+İkon süs değildir; başlığın yanına, kartın köşesine dolgu olarak konmaz.
+==>
+An icon is not decoration. It is never placed beside a headline or in a card corner as filler.
+----
+i('ara',
+==>
+i('search',
+----
+i('geri',
+==>
+i('back',
+----
+i('ileri',
+==>
+i('forward',
+----
+i('aç',
+==>
+i('expand',
+----
+i('kapat',
+==>
+i('close',
+----
+i('menü',
+==>
+i('menu',
+----
+i('filtre',
+==>
+i('filter',
+----
+i('sırala',
+==>
+i('sort',
+----
+i('dışarı aç',
+==>
+i('external',
+----
+i('ekle',
+==>
+i('add',
+----
+i('yükle',
+==>
+i('upload',
+----
+i('indir',
+==>
+i('download',
+----
+i('bağlantı',
+==>
+i('link',
+----
+i('kopyala',
+==>
+i('copy',
+----
+i('düzenle',
+==>
+i('edit',
+----
+i('yeniden dene',
+==>
+i('retry',
+----
+i('paylaş',
+==>
+i('share',
+----
+i('sil',
+==>
+i('delete',
+----
+i('oynat',
+==>
+i('play',
+----
+i('duraklat',
+==>
+i('pause',
+----
+i('ses açık',
+==>
+i('sound on',
+----
+i('ses kapalı',
+==>
+i('sound off',
+----
+i('tam ekran',
+==>
+i('fullscreen',
+----
+i('şablon',
+==>
+i('template',
+----
+i('çekim',
+==>
+i('shot',
+----
+i('görsel',
+==>
+i('image',
+----
+i('yazı',
+==>
+i('text',
+----
+i('müzik',
+==>
+i('music',
+----
+i('konuşma',
+==>
+i('voice',
+----
+i('tamam',
+==>
+i('done',
+----
+i('üretiliyor',
+==>
+i('generating',
+----
+i('durdu',
+==>
+i('stopped',
+----
+i('uyarı',
+==>
+i('warning',
+----
+i('bilgi',
+==>
+i('info',
+----
+i('süre',
+==>
+i('duration',
+----
+i('gizli',
+==>
+i('private',
+----
+i('hesap',
+==>
+i('account',
+----
+i('kredi',
+==>
+i('credits',
+----
+i('fatura',
+==>
+i('invoice',
+----
+i('ayarlar',
+==>
+i('settings',
+----
+i('dil',
+==>
+i('language',
+----
+i('anahtar',
+==>
+i('key',
+----
+i('e-posta',
+==>
+i('email',
+----
+i('gelen',
+==>
+i('inbox',
+----
+i('çıkış',
+==>
+i('log out',
+@@ Marka-Gorsel-Kurallar.dc.html
+<title>Viral Clone — görsel dili ve kurallar</title>
+==>
+<title>Viral Clone — imagery and rules</title>
+----
+>Görsel dili ve kurallar</h1>
+==>
+>Imagery and rules</h1>
+----
+Tek görsel malzeme sistemin kendi çıktısıdır. Stok fotoğraf, illüstrasyon ve başkasının videosundan kare kullanılmaz.
+==>
+The only visual material is the system's own output. No stock photos, no illustrations, no frames from anyone else's video.
+----
+aria-label="Görsel dili"
+==>
+aria-label="Imagery"
+----
+Sistemin ürettiği videodan kare: yan yana ürünler
+==>
+Frame from a video the system generated: products side by side
+----
+Sistemin ürettiği videodan kare: göz yakın planı
+==>
+Frame from a video the system generated: eye close-up
+----
+Sistemin ürettiği videodan kare: elde ürün
+==>
+Frame from a video the system generated: product in hand
+----
+Sistemin ürettiği videodan kare: saç spreyi
+==>
+Frame from a video the system generated: hair spray
+----
+Sistemin ürettiği videodan kare: sunucu
+==>
+Frame from a video the system generated: presenter
+----
+>Konuşmasız</span>
+==>
+>No talking</span>
+----
+>8 sn</span>
+==>
+>8 sec</span>
+----
+>Örnek yok</div>
+==>
+>No sample</div>
+----
+>Hep 9:16.</h2>
+==>
+>Always 9:16.</h2>
+----
+Kartta, detayda, sonuçta video karesi dikey ve aynı orandadır. Köşesi 16; taşan kısım ortadan kırpılır.
+==>
+On the card, the template page, and the result, the video frame is vertical and the same ratio. Its corner is 16; anything that overflows is cropped from the center.
+----
+>Üstünde en çok iki etiket.</h2>
+==>
+>Two tags on top, at most.</h2>
+----
+Format solda, süre sağda. Videonun üstüne degrade, logo ya da filigran konmaz.
+==>
+Format on the left, length on the right. No gradient, logo, or watermark goes over the video.
+----
+>Gerçek çıktı.</h2>
+==>
+>Real output.</h2>
+----
+Galeride oynayan her örnek bu sistemin ürettiği videodur. Referans video yalnız Gelen'de ve yükleyenin kendi şablonunda görünür.
+==>
+Every sample playing in the gallery is a video this system generated. A reference video appears only in the Inbox and in the uploader's own template.
+----
+>Görsel yoksa boş kare.</h2>
+==>
+>No image, empty frame.</h2>
+----
+Örneği olmayan şablon kesik kenarlı boş kareyle gösterilir. Yerine temsili görsel konmaz.
+==>
+A template without a sample is shown as an empty frame with a dashed border. No stand-in image takes its place.
+----
+</svg>Yapılır</h2>
+==>
+</svg>Do</h2>
+----
+</svg>Yapılmaz</h2>
+==>
+</svg>Don't</h2>
+----
+>Ekranda tek lime ana düğme.</p>
+==>
+>One lime primary button per screen.</p>
+----
+>İki lime düğmeyi yan yana koymak. İkincisi kenarlı olur.</p>
+==>
+>Two lime buttons side by side. The second one is outlined.</p>
+----
+>Durumu renk, biçim ve yazıyla birlikte vermek.</p>
+==>
+>Give status with color, shape, and a label together.</p>
+----
+>Durumu yalnız renkle anlatmak.</p>
+==>
+>Status told by color alone.</p>
+----
+>Bilinmeyeni köşeli parantezle bırakmak: [FİYAT].</p>
+==>
+>Leave the unknown in square brackets: [PRICE].</p>
+----
+>Rakam, müşteri yorumu ya da logo şeridi uydurmak.</p>
+==>
+>Made-up numbers, customer quotes, or logo strips.</p>
+----
+>Videoyu büyük, arayüzü sessiz tutmak.</p>
+==>
+>Keep the video big and the interface quiet.</p>
+----
+>Degrade, parıltı, gölge ya da süs çerçevesi eklemek.</p>
+==>
+>Gradients, glows, shadows, or decorative frames.</p>
+----
+>Olguyu yazmak: “referans 1,9 Mn izlenme”.</p>
+==>
+>State the fact: “reference 1.9M views”.</p>
+----
+>Sonuç vaat etmek: “viral olur”, “satışları patlatır”.</p>
+==>
+>Promised results: “this will go viral”, “this will explode your sales”.</p>
+----
+>Değeri merdivenden seçmek: on yazı basamağı, beş köşe, üç yükseklik.</p>
+==>
+>Pick values from the ladder: ten type steps, five corners, three heights.</p>
+----
+>Araya değer uydurmak: 14 px yazı, 18 px köşe, 56 px düğme.</p>
+==>
+>Values in between: 14 px type, 18 px corners, a 56 px button.</p>
+----
+>Rengi adıyla çağırmak: zemin, yüzey, vurgu.</p>
+==>
+>Call colors by name: background, surface, accent.</p>
+----
+>Ekrana doğrudan renk kodu yazmak.</p>
+==>
+>Color codes written straight into a screen.</p>

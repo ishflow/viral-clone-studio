@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Viral Clone — voice</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ay{--bg:#0B0C0A;--surface:#151712;--raised:#1C1F17;--line:#23261E;--edge:#33372B;--edge-strong:#676B5D;--text:#F2F3EC;--text-2:#C9CCBF;--text-3:#A9AC9F;--accent:#C8F03C;--accent-hover:#E0FF7A;--accent-text:#C8F03C;--on-accent:#0B0C0A;--warn:#FF9A6B;--warn-edge:#5A3A2A;--mark-edge:#C8F03C;--scrim:rgba(11,12,10,0.76);--on-scrim:#F2F3EC;--media-edge:transparent;--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Onest',system-ui,sans-serif}
+.ay[data-theme="light"],.ay [data-theme="light"]{--bg:#F4F5EE;--surface:#FFFFFF;--raised:#E8EADF;--line:#E0E2D7;--edge:#CBCEBF;--edge-strong:#80856F;--text:#0B0C0A;--text-2:#3E4236;--text-3:#5A5F50;--accent-hover:#B6E01F;--accent-text:#456300;--warn:#A8400F;--warn-edge:#E3B7A2;--mark-edge:#0B0C0A;--media-edge:rgba(11,12,10,0.12)}
+a{color:var(--accent-text)}a:hover{color:var(--text)}
+</style>
+</helmet>
+<div class="ay" style="width: 1440px; min-height: 1680px; box-sizing: border-box; padding: 80px; background: var(--bg); color: var(--text); font-family: var(--body); display: flex; flex-direction: column; gap: 56px">
+
+<header style="display: flex; flex-direction: column; gap: 16px; max-width: 860px">
+<h1 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 64px; line-height: 0.98; letter-spacing: -0.03em">Voice</h1>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Viral Clone says little and says it clearly: the outcome first, then the number. Every sentence in the left column comes from the screens.</p>
+</header>
+
+<section aria-label="Five rules" style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">Outcome first.</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">A sentence opens with what happened, then gives the reason.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">Numbers, not adjectives.</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">"About 7 min" instead of "fast", "1080p" instead of "high quality".</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">Short and direct.</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Speak to "you", one action at a time: "Upload your products."</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">Errors give direction.</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">What happened, what was saved, what to do now. No apologies, no exclamation marks.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">Facts, not promises.</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Never "this will go viral". Say "reference 1.9M views".</p>
+</div>
+</section>
+
+<section style="display: flex; flex-direction: column; gap: 10px; padding-top: 40px; border-top: 1px solid var(--line)">
+<div style="display: grid; grid-template-columns: 180px minmax(0, 1fr) minmax(0, 1fr); gap: 16px; padding-bottom: 6px">
+<span></span>
+<h2 style="margin: 0; display: flex; align-items: center; gap: 10px; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="stroke: var(--accent-text)"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Like this</h2>
+<h2 style="margin: 0; display: flex; align-items: center; gap: 10px; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" aria-hidden="true" style="stroke: var(--warn)"><path d="M6 6l12 12M18 6L6 18"></path></svg>Not like this</h2>
+</div>
+
+<div style="display: grid; grid-template-columns: 180px minmax(0, 1fr) minmax(0, 1fr); gap: 16px; align-items: stretch">
+<span style="padding-top: 18px; font-size: 13px; line-height: 1.4; color: var(--text-3)">When a job stops</span>
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; background: var(--surface); font-size: 17px; line-height: 1.5; text-wrap: pretty">Two clips could not be generated. The 2 credits for this video are back in your balance. The 5 finished images, 3 clips and the music are saved.</p>
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; border: 1px solid var(--edge); font-size: 17px; line-height: 1.5; color: var(--text-3); text-wrap: pretty">Sorry, something went wrong. Please try again later.</p>
+</div>
+
+<div style="display: grid; grid-template-columns: 180px minmax(0, 1fr) minmax(0, 1fr); gap: 16px; align-items: stretch">
+<span style="padding-top: 18px; font-size: 13px; line-height: 1.4; color: var(--text-3)">Before credits are spent</span>
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; background: var(--surface); font-size: 17px; line-height: 1.5; text-wrap: pretty">You are charged when you confirm. If the video is not delivered, the credits come back.</p>
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; border: 1px solid var(--edge); font-size: 17px; line-height: 1.5; color: var(--text-3); text-wrap: pretty">Don't worry, your credits are safe!</p>
+</div>
+
+<div style="display: grid; grid-template-columns: 180px minmax(0, 1fr) minmax(0, 1fr); gap: 16px; align-items: stretch">
+<span style="padding-top: 18px; font-size: 13px; line-height: 1.4; color: var(--text-3)">While waiting</span>
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; background: var(--surface); font-size: 17px; line-height: 1.5; text-wrap: pretty">You can leave this page. We email you when it is ready.</p>
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; border: 1px solid var(--edge); font-size: 17px; line-height: 1.5; color: var(--text-3); text-wrap: pretty">Please wait until the process is complete.</p>
+</div>
+
+<div style="display: grid; grid-template-columns: 180px minmax(0, 1fr) minmax(0, 1fr); gap: 16px; align-items: stretch">
+<span style="padding-top: 18px; font-size: 13px; line-height: 1.4; color: var(--text-3)">When a video doesn't fit</span>
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; background: var(--surface); font-size: 17px; line-height: 1.5; text-wrap: pretty">This video uses a split screen, and the system can't build that structure yet. Your credit was returned.</p>
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; border: 1px solid var(--edge); font-size: 17px; line-height: 1.5; color: var(--text-3); text-wrap: pretty">This video is not supported.</p>
+</div>
+
+<div style="display: grid; grid-template-columns: 180px minmax(0, 1fr) minmax(0, 1fr); gap: 16px; align-items: stretch">
+<span style="padding-top: 18px; font-size: 13px; line-height: 1.4; color: var(--text-3)">When the video is done</span>
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; background: var(--surface); font-size: 17px; line-height: 1.5; text-wrap: pretty">Your video is ready.</p>
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; border: 1px solid var(--edge); font-size: 17px; line-height: 1.5; color: var(--text-3); text-wrap: pretty">Congratulations! Your viral video was created successfully!</p>
+</div>
+
+<div style="display: grid; grid-template-columns: 180px minmax(0, 1fr) minmax(0, 1fr); gap: 16px; align-items: stretch">
+<span style="padding-top: 18px; font-size: 13px; line-height: 1.4; color: var(--text-3)">When a page isn't found</span>
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; background: var(--surface); font-size: 17px; line-height: 1.5; text-wrap: pretty">The link may be old or mistyped. Every template is in the gallery.</p>
+<p style="margin: 0; padding: 16px 20px; border-radius: 12px; border: 1px solid var(--edge); font-size: 17px; line-height: 1.5; color: var(--text-3); text-wrap: pretty">Error 404: the page you are looking for could not be found.</p>
+</div>
+</section>
+
+<section style="display: flex; align-items: flex-start; gap: 64px; padding-top: 40px; border-top: 1px solid var(--line)">
+
+<div style="flex: 2 1 0; min-width: 0; display: flex; flex-direction: column; gap: 24px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Glossary: one name per thing</h2>
+<dl style="margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 40px">
+<div style="display: flex; flex-direction: column; gap: 4px">
+<dt style="font-size: 17px; font-weight: 600">Clone it</dt>
+<dd style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">The name of the main action. Written the same way in the gallery and on the template page.</dd>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<dt style="font-size: 17px; font-weight: 600">template</dt>
+<dd style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">The shot-by-shot structure of a video. Never preset, theme, or format.</dd>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<dt style="font-size: 17px; font-weight: 600">shot, clip</dt>
+<dd style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">A shot is one piece of the template. A clip is the video generated for that shot. The list is called "Shot list". Never scene.</dd>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<dt style="font-size: 17px; font-weight: 600">sample, reference</dt>
+<dd style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">A sample is our own output playing in the gallery. The reference is the original video the structure came from; it is never shown in the gallery.</dd>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<dt style="font-size: 17px; font-weight: 600">generate</dt>
+<dd style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">The one verb. Never create, make, or render.</dd>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<dt style="font-size: 17px; font-weight: 600">credit</dt>
+<dd style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">The unit you spend. Never token, point, or coin.</dd>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<dt style="font-size: 17px; font-weight: 600">returned, refund</dt>
+<dd style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Credits are returned to your balance. Money is refunded to your payment method. Never one word for the other.</dd>
+</div>
+</dl>
+</div>
+
+<div style="flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: 24px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Writing rules</h2>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px; font-size: 15px; line-height: 1.5; color: var(--text-2)">
+<li>Sentence case only. Headlines take a period, buttons don't.</li>
+<li>A space between number and unit, a point for decimals: 8&nbsp;sec, 7&nbsp;min, 1.9M&nbsp;views.</li>
+<li>An unknown value goes in square brackets: [BALANCE].</li>
+<li>No exclamation marks or emoji. An ellipsis only while something is running: "Uploading… 60%".</li>
+<li>The brand name is Viral Clone in a sentence and viral clone in the logo. It is never translated and never written as one word.</li>
+<li>One tagline per screen height. A long page may open with the promise and close with the call.</li>
+</ul>
+</div>
+
+</section>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1680}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

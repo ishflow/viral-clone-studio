@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Viral Clone — color system</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ay{--bg:#0B0C0A;--surface:#151712;--raised:#1C1F17;--line:#23261E;--edge:#33372B;--edge-strong:#676B5D;--text:#F2F3EC;--text-2:#C9CCBF;--text-3:#A9AC9F;--accent:#C8F03C;--accent-hover:#E0FF7A;--accent-text:#C8F03C;--on-accent:#0B0C0A;--warn:#FF9A6B;--warn-edge:#5A3A2A;--mark-edge:#C8F03C;--scrim:rgba(11,12,10,0.76);--on-scrim:#F2F3EC;--media-edge:transparent;--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Onest',system-ui,sans-serif}
+.ay[data-theme="light"],.ay [data-theme="light"]{--bg:#F4F5EE;--surface:#FFFFFF;--raised:#E8EADF;--line:#E0E2D7;--edge:#CBCEBF;--edge-strong:#80856F;--text:#0B0C0A;--text-2:#3E4236;--text-3:#5A5F50;--accent-hover:#B6E01F;--accent-text:#456300;--warn:#A8400F;--warn-edge:#E3B7A2;--mark-edge:#0B0C0A;--media-edge:rgba(11,12,10,0.12)}
+a{color:var(--accent-text)}a:hover{color:var(--text)}
+</style>
+</helmet>
+<div class="ay" style="width: 1440px; min-height: 1920px; box-sizing: border-box; padding: 80px; background: var(--bg); color: var(--text); font-family: var(--body); display: flex; flex-direction: column; gap: 56px">
+
+<header style="display: flex; flex-direction: column; gap: 16px; max-width: 860px">
+<h1 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 64px; line-height: 0.98; letter-spacing: -0.03em">Color</h1>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Two sets, the same names. Screens call a color by its name; when the theme changes, only the value changes. The numbers on the right are contrast ratios: at least 4.5 for text, at least 3 for control borders.</p>
+</header>
+
+<section style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; align-items: start">
+
+<div data-theme="dark" style="box-sizing: border-box; padding: 32px; border-radius: 24px; border: 1px solid var(--edge); background: var(--bg); color: var(--text); display: flex; flex-direction: column; gap: 20px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 40px; line-height: 1.1; letter-spacing: -0.02em">Dark</h2>
+<div style="display: flex; flex-direction: column">
+<div style="display: grid; grid-template-columns: 44px minmax(0, 1fr) 76px 112px; gap: 14px; padding-bottom: 8px; font-size: 13px; color: var(--text-3)"><span></span><span>name</span><span>value</span><span>on bg · surface</span></div>
+<sc-for list="{{ dark }}" as="t" hint-placeholder-count="17">
+<div style="display: grid; grid-template-columns: 44px minmax(0, 1fr) 76px 112px; gap: 14px; align-items: center; min-height: 44px; border-top: 1px solid var(--line)">
+<span style="width: 44px; height: 28px; box-sizing: border-box; border-radius: 8px; border: 1px solid var(--edge); background: {{ t.v }}"></span>
+<span style="font-size: 15px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{ t.name }} <span style="font-size: 13px; font-weight: 400; color: var(--text-3)">{{ t.css }}</span></span>
+<span style="font-size: 13px; color: var(--text-2)">{{ t.hex }}</span>
+<span style="font-size: 13px; color: var(--text-2)">{{ t.cr }}</span>
+</div>
+</sc-for>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px; padding: 20px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line)">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--accent-text)"><span style="width: 8px; height: 8px; border-radius: 50%; background: var(--accent-text)"></span>Generating</span>
+<span style="font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Fragrance layering recipe</span>
+<span style="font-size: 15px; line-height: 1.5; color: var(--text-2)">4 products, Fast, 1 variant. <span style="color: var(--text-3)">About 3 min left.</span></span>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: var(--text-3)">Product name
+<input type="text" value="Aurora Body Oil" style="min-height: 52px; box-sizing: border-box; padding: 0 16px; border-radius: 12px; border: 1px solid var(--edge-strong); background: var(--bg); color: var(--text); font: inherit; font-size: 15px">
+</label>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px">
+<button type="button" style="min-height: 52px; padding: 0 24px; border-radius: 12px; border: 0; background: var(--accent); color: var(--on-accent); font: inherit; font-size: 15px; font-weight: 600; cursor: pointer">Clone it</button>
+<button type="button" style="min-height: 52px; padding: 0 24px; border-radius: 12px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font: inherit; font-size: 15px; font-weight: 600; cursor: pointer">Cancel</button>
+<span style="display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--warn)"><span style="width: 8px; height: 8px; border-radius: 2px; background: var(--warn)"></span>Stopped</span>
+</div>
+</div>
+</div>
+
+<div data-theme="light" style="box-sizing: border-box; padding: 32px; border-radius: 24px; border: 1px solid var(--edge); background: var(--bg); color: var(--text); display: flex; flex-direction: column; gap: 20px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 40px; line-height: 1.1; letter-spacing: -0.02em">Light</h2>
+<div style="display: flex; flex-direction: column">
+<div style="display: grid; grid-template-columns: 44px minmax(0, 1fr) 76px 112px; gap: 14px; padding-bottom: 8px; font-size: 13px; color: var(--text-3)"><span></span><span>name</span><span>value</span><span>on bg · surface</span></div>
+<sc-for list="{{ light }}" as="t" hint-placeholder-count="17">
+<div style="display: grid; grid-template-columns: 44px minmax(0, 1fr) 76px 112px; gap: 14px; align-items: center; min-height: 44px; border-top: 1px solid var(--line)">
+<span style="width: 44px; height: 28px; box-sizing: border-box; border-radius: 8px; border: 1px solid var(--edge); background: {{ t.v }}"></span>
+<span style="font-size: 15px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{ t.name }} <span style="font-size: 13px; font-weight: 400; color: var(--text-3)">{{ t.css }}</span></span>
+<span style="font-size: 13px; color: var(--text-2)">{{ t.hex }}</span>
+<span style="font-size: 13px; color: var(--text-2)">{{ t.cr }}</span>
+</div>
+</sc-for>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px; padding: 20px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line)">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--accent-text)"><span style="width: 8px; height: 8px; border-radius: 50%; background: var(--accent-text)"></span>Generating</span>
+<span style="font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Fragrance layering recipe</span>
+<span style="font-size: 15px; line-height: 1.5; color: var(--text-2)">4 products, Fast, 1 variant. <span style="color: var(--text-3)">About 3 min left.</span></span>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: var(--text-3)">Product name
+<input type="text" value="Aurora Body Oil" style="min-height: 52px; box-sizing: border-box; padding: 0 16px; border-radius: 12px; border: 1px solid var(--edge-strong); background: var(--bg); color: var(--text); font: inherit; font-size: 15px">
+</label>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px">
+<button type="button" style="min-height: 52px; padding: 0 24px; border-radius: 12px; border: 0; background: var(--accent); color: var(--on-accent); font: inherit; font-size: 15px; font-weight: 600; cursor: pointer">Clone it</button>
+<button type="button" style="min-height: 52px; padding: 0 24px; border-radius: 12px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font: inherit; font-size: 15px; font-weight: 600; cursor: pointer">Cancel</button>
+<span style="display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--warn)"><span style="width: 8px; height: 8px; border-radius: 2px; background: var(--warn)"></span>Stopped</span>
+</div>
+</div>
+</div>
+
+</section>
+
+<section style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 40px; padding-top: 40px; border-top: 1px solid var(--line)">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">Lime is used sparingly.</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">One lime panel or one lime primary button in view at a time; the top-menu button doesn't count. Beyond that, lime fills only the selected category in the gallery filter. Accent text (lime in dark, dark green in light) marks links, one phrase of the page headline, shot lengths, the free offer, and a job that is running or done.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">No lime text in light.</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">On a light background, lime has a ratio of 1.2. Text and icons take the dark green accent text instead. The button fill stays the same lime in both themes, and its label has a ratio of 14.9.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">Status color never speaks alone.</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Lime means running or done, orange means stopped, gray means waiting. Each one comes with a label and its own shape.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">On video, no themes.</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">A tag on top of a video is the same in both themes: dark scrim, light text. Even over a pure white frame the ratio is 8.5. The Free tag keeps the scrim and takes lime text.</p>
+</div>
+</section>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1920}}'>
+class Component extends DCLogic {
+renderVals() {
+function t(name, css, v, hex, cr) { return { name: name, css: css, v: v, hex: hex, cr: cr }; }
+var scrim = 'rgba(11, 12, 10, 0.76)';
+return {
+dark: [
+t('background', '--bg', '#0B0C0A', '#0B0C0A', ''),
+t('surface', '--surface', '#151712', '#151712', ''),
+t('raised', '--raised', '#1C1F17', '#1C1F17', ''),
+t('line', '--line', '#23261E', '#23261E', 'dividers'),
+t('edge', '--edge', '#33372B', '#33372B', 'cards, tags'),
+t('strong edge', '--edge-strong', '#676B5D', '#676B5D', '3.6 · 3.3'),
+t('text', '--text', '#F2F3EC', '#F2F3EC', '17.6 · 16.2'),
+t('secondary text', '--text-2', '#C9CCBF', '#C9CCBF', '12.0 · 11.1'),
+t('muted text', '--text-3', '#A9AC9F', '#A9AC9F', '8.5 · 7.8'),
+t('accent', '--accent', '#C8F03C', '#C8F03C', 'fill'),
+t('accent (hover)', '--accent-hover', '#E0FF7A', '#E0FF7A', 'fill'),
+t('on accent', '--on-accent', '#0B0C0A', '#0B0C0A', '14.9 on lime'),
+t('accent text', '--accent-text', '#C8F03C', '#C8F03C', '14.9 · 13.7'),
+t('warning', '--warn', '#FF9A6B', '#FF9A6B', '9.4 · 8.7'),
+t('warning edge', '--warn-edge', '#5A3A2A', '#5A3A2A', 'box border'),
+t('scrim', '--scrim', scrim, '76% dark', 'on video'),
+t('media edge', '--media-edge', 'transparent', 'transparent', 'photos, video')
+],
+light: [
+t('background', '--bg', '#F4F5EE', '#F4F5EE', ''),
+t('surface', '--surface', '#FFFFFF', '#FFFFFF', ''),
+t('raised', '--raised', '#E8EADF', '#E8EADF', ''),
+t('line', '--line', '#E0E2D7', '#E0E2D7', 'dividers'),
+t('edge', '--edge', '#CBCEBF', '#CBCEBF', 'cards, tags'),
+t('strong edge', '--edge-strong', '#80856F', '#80856F', '3.5 · 3.8'),
+t('text', '--text', '#0B0C0A', '#0B0C0A', '17.9 · 19.6'),
+t('secondary text', '--text-2', '#3E4236', '#3E4236', '9.4 · 10.3'),
+t('muted text', '--text-3', '#5A5F50', '#5A5F50', '6.0 · 6.6'),
+t('accent', '--accent', '#C8F03C', '#C8F03C', 'fill'),
+t('accent (hover)', '--accent-hover', '#B6E01F', '#B6E01F', 'fill'),
+t('on accent', '--on-accent', '#0B0C0A', '#0B0C0A', '14.9 on lime'),
+t('accent text', '--accent-text', '#456300', '#456300', '6.3 · 6.9'),
+t('warning', '--warn', '#A8400F', '#A8400F', '5.6 · 6.2'),
+t('warning edge', '--warn-edge', '#E3B7A2', '#E3B7A2', 'box border'),
+t('scrim', '--scrim', scrim, '76% dark', 'on video'),
+t('media edge', '--media-edge', 'rgba(11, 12, 10, 0.12)', '12% dark', 'photos, video')
+]
+};
+}
+}
+</script>
+</body>
+</html>

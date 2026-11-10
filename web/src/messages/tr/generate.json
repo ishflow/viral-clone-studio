@@ -1,0 +1,152 @@
+{
+  "title": "Ürünlerini yükle",
+  "lead": "Ürün başına bir görsel ve bir ad yeter. Etiketi net görünen bir fotoğraf en iyi sonucu verir.",
+  "aside": {
+    "label": "Seçilen şablon",
+    "needs": "Gerekli: {list}",
+    "promise": "Yapı aynı kalır: çekimler, sıra, zamanlama ve ekrandaki yazı. İnsanlar, mekân ve müzik ürününün etrafında yeniden üretilir.",
+    "presenterNote": "Sunucunun söyledikleri ürün açıklamandan yazılır. Yalnızca senin yazdığın iddialar kullanılır."
+  },
+  "unit": {
+    "product": {
+      "one": "{count} ürün",
+      "other": "{count} ürün"
+    },
+    "shot": {
+      "one": "{count} çekim",
+      "other": "{count} çekim"
+    },
+    "variant": {
+      "one": "{count} varyant",
+      "other": "{count} varyant"
+    },
+    "clip": {
+      "one": "{count} klip",
+      "other": "{count} klip"
+    },
+    "image": {
+      "one": "{count} görsel",
+      "other": "{count} görsel"
+    },
+    "track": {
+      "one": "{count} müzik",
+      "other": "{count} müzik"
+    }
+  },
+  "product": {
+    "legend": "Ürün {n}",
+    "name": "Ürün adı",
+    "info": "Kısa açıklama",
+    "infoPlaceholder": "Ne işe yarar, öne çıkan özelliği",
+    "addImage": "Görsel ekle",
+    "imageAlt": "Yüklenen ürün görseli",
+    "removeImage": "{name} görselini kaldır",
+    "replace": "Değiştir",
+    "remove": "Kaldır",
+    "drop": "Görselleri buraya bırak ya da dosya seç"
+  },
+  "upload": {
+    "terms": "JPG, PNG veya WebP · her biri en fazla 10 MB · ürün başına 1–8 görsel",
+    "uploading": "Yükleniyor…",
+    "type": "{name} desteklenmiyor. JPG, PNG veya WebP kullan.",
+    "size": "{name} 10 MB'tan büyük.",
+    "quota": "Bugün çok sayıda görsel ekledin. Yarın tekrar dene.",
+    "unreadable": "{name} resim olarak okunamadı. JPG, PNG ya da WebP bir fotoğraf kullan.",
+    "tooMany": "Ürün başına en fazla 8 görsel ekleyebilirsin.",
+    "failed": "Yükleme başarısız. Bağlantını kontrol et.",
+    "retry": "Tekrar dene",
+    "dismiss": "Kapat",
+    "wait": "Yüklemelerin bitmesini bekle."
+  },
+  "quality": {
+    "label": "Kalite",
+    "fast": {
+      "sub": "720p"
+    },
+    "best": {
+      "sub": "1080p"
+    }
+  },
+  "variants": {
+    "label": "Varyantlar",
+    "group": "Varyant sayısı"
+  },
+  "language": {
+    "label": "Video dili",
+    "hint": "Site dili hesabında ayarlanır."
+  },
+  "submit": "Üret",
+  "hint": "Onayladığında ücretlendirilirsin. Video teslim edilmezse krediler geri döner.",
+  "error": {
+    "name": "Bu ürüne bir ad ver.",
+    "images": "Bu ürün için en az bir görsel ekle.",
+    "nameLong": "Ad en fazla 120 karakter olabilir.",
+    "infoLong": "Açıklama en fazla 300 karakter olabilir.",
+    "item": {
+      "name": "Ürün {n} için ad gerekli.",
+      "name-long": "Ürün {n}: ad en fazla 120 karakter olabilir.",
+      "description-long": "Ürün {n}: açıklama en fazla 300 karakter olabilir.",
+      "images": "Ürün {n} için görsel gerekli."
+    },
+    "summary": {
+      "n1": "Üretmeden önce düzeltilecek bir şey var.",
+      "n2": "Üretmeden önce düzeltilecek iki şey var.",
+      "n3": "Üretmeden önce düzeltilecek üç şey var.",
+      "n4": "Üretmeden önce düzeltilecek dört şey var.",
+      "n5": "Üretmeden önce düzeltilecek beş şey var.",
+      "n6": "Üretmeden önce düzeltilecek altı şey var.",
+      "n7": "Üretmeden önce düzeltilecek yedi şey var.",
+      "n8": "Üretmeden önce düzeltilecek sekiz şey var.",
+      "other": "Üretmeden önce düzeltilecek {count} şey var."
+    },
+    "notReady": "Bu şablon henüz hazır değil. Biraz sonra tekrar dene.",
+    "failed": "Bu video şablona dönüştürülemedi; bundan video üretilemez. Nedeni şablon sayfasında yazıyor.",
+    "addAnother": "Başka bir video ekle",
+    "providerCap": "Sağlayıcı harcama sınırına ulaşıldı. Kredi düşülmedi ve sağlayıcıya istek gönderilmedi.",
+    "freeVideoCap": "Şu an ücretsiz video verilemiyor. Kredinle devam edebilirsin.",
+    "generic": "Bir şeyler ters gitti. Hiçbir şey harcanmadı. Tekrar dene.",
+    "paused": "Üretim kısa süreliğine duraklatıldı. Hiçbir şey ücretlendirilmedi. Daha sonra tekrar dene."
+  },
+  "confirm": {
+    "title": "Üretimi onayla",
+    "lead": "{template} · {quality} · {variants} · {language}",
+    "pricing": "Fiyat alınıyor…",
+    "final": "Son video",
+    "finalValue": "{duration} · 9:16 · {resolution}",
+    "credits": "Bu iş için kredi",
+    "freeValue": "Ücretsiz video · 0 kredi",
+    "was": "Önceki",
+    "balance": "Şimdiki bakiye",
+    "after": "Bu işten sonra",
+    "time": "Tahmini süre",
+    "timeValue": "yaklaşık {minutes} dk",
+    "generate": "Ne üretiyoruz",
+    "generateValue": "{images} · {clips} ({seconds} sn görüntü) · {music}. Klipler şablonun {final} saniyesine göre kesilir.",
+    "free": "Bu, tek ücretsiz videonu kullanır.",
+    "needs": "{needed} gerekiyor, bakiyen {balance}.",
+    "saved": "Hiçbir şey ücretlendirilmedi. Formun kayıtlı.",
+    "changedPrice": "Sen bunu açtıktan sonra fiyatlarımız güncellendi. Bu iş artık {now}, önceki {was} idi. Kontrol et ve yeniden onayla.",
+    "changedBalance": "Bakiyen başka bir sekmede değişti. Kontrol et ve yeniden onayla.",
+    "starting": "İşin başlatılıyor. İki kez ücretlendirilmezsin.",
+    "startingButton": "Başlatılıyor…",
+    "paused": "Üretim kısa süreliğine duraklatıldı. Hiçbir şey ücretlendirilmedi. Daha sonra tekrar dene.",
+    "unconfirmed": "İşinin başladığını doğrulayamadık. Tekrar denemeden önce Videolarım'a bak. İki kez ücretlendirilmezsin.",
+    "openVideos": "Videolarım'ı aç",
+    "note": "Onayladığında ücretlendirilirsin. Bir iş başladıktan sonra iptal edilemez. Video teslim edilmezse krediler geri döner.",
+    "cancel": "Vazgeç",
+    "close": "Kapat",
+    "submit": "Onayla ve üret",
+    "buy": "Kredi satın al"
+  },
+  "draft": "Son ziyaretindeki girdilerini görselleriyle birlikte sakladık.",
+  "pausedNote": "Üretim kısa süreliğine duraklatıldı. Biraz sonra tekrar gel: ücret alınmaz.",
+  "cost": {
+    "free": "Ücretsiz video · 0 kredi",
+    "freeNote": "Bu, tek ücretsiz videonu kullanır.",
+    "freeLimit": "Ücretsiz videon Fast kalitesini ve tek varyantı kapsar. Bu seçim {credits} tutar.",
+    "freeHeld": "Bugünkü ücretsiz video payı doldu. Ücretsiz videon duruyor: başka bir gün kullanabilir ya da bunu krediyle yapabilirsin."
+  },
+  "draftNoImages": "Son ziyaretindeki girdilerini sakladık. Görselleri yeniden ekle.",
+  "fromJob": "Bu videonun girdilerini görselleriyle birlikte doldurduk. Kontrol et, sonra üret.",
+  "fromJobNoImages": "Bu videonun girdilerini doldurduk. Görselleri yeniden ekle."
+}

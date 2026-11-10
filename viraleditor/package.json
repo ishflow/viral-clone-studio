@@ -1,0 +1,30 @@
+{
+  "name": "viraleditor",
+  "private": true,
+  "type": "module",
+  "bin": { "viraleditor": "src/cli/main.ts" },
+  "scripts": {
+    "test": "vitest run",
+    "test:render": "VE_RENDER=1 vitest run",
+    "typecheck": "tsc --noEmit",
+    "viraleditor": "node src/cli/main.ts",
+    "worker": "node src/worker/main.ts",
+    "seed": "node src/seed/index.ts",
+    "backfill-frames": "node src/prepare/backfill-frames.ts",
+    "backfill-minutes": "node src/prepare/backfill-minutes.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5",
+    "@fontsource-variable/montserrat": "^5",
+    "hyperframes": "0.8.120",
+    "playwright-core": "^1",
+    "zod": "^4"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "fast-check": "^4",
+    "typescript": "^5",
+    "vitest": "^5"
+  },
+  "license": "MIT"
+}

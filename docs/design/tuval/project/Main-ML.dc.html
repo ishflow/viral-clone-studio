@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Gallery · mobile · light</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ay{--bg:#0B0C0A;--surface:#151712;--raised:#1C1F17;--line:#23261E;--edge:#33372B;--edge-strong:#676B5D;--text:#F2F3EC;--text-2:#C9CCBF;--text-3:#A9AC9F;--accent:#C8F03C;--accent-hover:#E0FF7A;--accent-text:#C8F03C;--on-accent:#0B0C0A;--warn:#FF9A6B;--warn-edge:#5A3A2A;--mark-edge:#C8F03C;--scrim:rgba(11,12,10,0.76);--on-scrim:#F2F3EC;--media-edge:transparent;--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Onest',system-ui,sans-serif}
+.ay[data-theme="light"],.ay [data-theme="light"]{--bg:#F4F5EE;--surface:#FFFFFF;--raised:#E8EADF;--line:#E0E2D7;--edge:#CBCEBF;--edge-strong:#80856F;--text:#0B0C0A;--text-2:#3E4236;--text-3:#5A5F50;--accent-hover:#B6E01F;--accent-text:#456300;--warn:#A8400F;--warn-edge:#E3B7A2;--mark-edge:#0B0C0A;--media-edge:rgba(11,12,10,0.12)}
+a{color:var(--accent-text)}a:hover{color:var(--text)}
+</style>
+</helmet>
+<div class="ay" data-theme="{{ theme }}" style="min-height: 2720px; box-sizing: border-box; background: var(--bg); color: var(--text); font-family: var(--body); padding: 0 clamp(16px, 4vw, 60px) 72px">
+<div style="max-width: 1320px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px">
+
+<header style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line); container-type: inline-size">
+<a href="Main-ML.dc.html" style="display: flex; align-items: baseline; padding: 10px 0; min-width: 44px; white-space: nowrap; flex: 0 0 auto; gap: 0.34em; font-family: var(--display); font-weight: 800; font-size: 24px; line-height: 1; letter-spacing: -0.04em; color: var(--text); text-decoration: none"><svg viewBox="0 0 42 32" fill="none" aria-hidden="true" style="width: 0.97em; height: 0.74em; flex: 0 0 auto; display: block"><rect x="1.5" y="1.5" width="15" height="29" rx="3" stroke="currentColor" stroke-width="3"></rect><rect x="25.5" y="1.5" width="15" height="29" rx="3" fill="#C8F03C" stroke-width="3" style="stroke: var(--mark-edge)"></rect></svg><span><span style="font-size: clamp(0px, (100cqi - 327.5px) * 9999, 1em); letter-spacing: -0.04em">viral clone</span></span></a>
+<div style="display: flex; align-items: center; gap: 8px; min-width: 0">
+<a href="A-Hesap-ML.dc.html" style="display: block; min-width: 0; line-height: 42px; height: 44px; box-sizing: border-box; padding: 0 12px; border-radius: 999px; border: 1px solid var(--edge); color: var(--text-2); text-decoration: none; font-size: 13px; text-align: center; overflow: hidden; text-overflow: ellipsis">[BALANCE] credits</a>
+<a href="A-Menu-ML.dc.html" aria-label="Open menu" style="width: 44px; height: 44px; flex: 0 0 auto; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border-radius: 999px; border: 1px solid var(--edge); color: var(--text); text-decoration: none"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></a>
+</div>
+</header>
+
+<section style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 24px 48px">
+<h1 style="margin: 0; flex: 1 1 520px; font-family: var(--display); font-weight: 800; font-size: clamp(42px, 6.4vw, 92px); line-height: 0.94; letter-spacing: -0.035em; text-wrap: balance">Pick a viral video. <span style="color: var(--accent-text)">Add your product.</span></h1>
+<div style="flex: 1 1 340px; max-width: 440px; display: flex; flex-direction: column; gap: 16px">
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Every template is the shot-by-shot structure of a real viral video. Upload your images. A few minutes later the same video is ready with your product.</p>
+<label style="display: flex; align-items: center; gap: 12px; min-height: 52px; padding: 0 16px; border-radius: 12px; background: var(--surface); border: 1px solid var(--edge-strong)">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" style="stroke: var(--text-3)" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+<span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%)">Search templates</span>
+<input type="search" placeholder="Search templates" style="flex: 1; min-width: 0; background: transparent; border: 0; outline: 0; color: var(--text); font: inherit; font-size: 15px">
+</label>
+</div>
+</section>
+
+<section aria-label="Filters" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 24px">
+<div style="flex: 1 1 100%; min-width: 0; display: flex; flex-wrap: nowrap; gap: 8px; overflow-x: auto; scrollbar-width: none; margin: 0 -16px; padding: 0 16px">
+<button type="button" aria-pressed="true" style="flex: 0 0 auto; white-space: nowrap; min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid var(--accent); background: var(--accent); color: var(--on-accent); font: inherit; font-size: 15px; font-weight: 600; cursor: pointer">All</button>
+<button type="button" style="flex: 0 0 auto; white-space: nowrap; min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid var(--edge); background: transparent; color: var(--text-2); font: inherit; font-size: 15px; cursor: pointer">Lashes and brows</button>
+<button type="button" style="flex: 0 0 auto; white-space: nowrap; min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid var(--edge); background: transparent; color: var(--text-2); font: inherit; font-size: 15px; cursor: pointer">Hair</button>
+<button type="button" style="flex: 0 0 auto; white-space: nowrap; min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid var(--edge); background: transparent; color: var(--text-2); font: inherit; font-size: 15px; cursor: pointer">Fragrance</button>
+<button type="button" style="flex: 0 0 auto; white-space: nowrap; min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid var(--edge); background: transparent; color: var(--text-2); font: inherit; font-size: 15px; cursor: pointer">Supplements</button>
+<button type="button" style="flex: 0 0 auto; white-space: nowrap; min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid var(--edge); background: transparent; color: var(--text-2); font: inherit; font-size: 15px; cursor: pointer">Home</button>
+<button type="button" style="flex: 0 0 auto; white-space: nowrap; min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid var(--edge); background: transparent; color: var(--text-2); font: inherit; font-size: 15px; cursor: pointer">Tech</button>
+</div>
+<div style="flex: 1 1 100%; display: flex; flex-wrap: wrap; align-items: center; gap: 8px">
+<div role="group" aria-label="Format" style="flex: 999 1 auto; display: flex; padding: 0 4px; border-radius: 999px; background: var(--surface); border: 1px solid var(--edge)">
+<button type="button" aria-pressed="true" style="flex: 1 1 auto; display: flex; min-height: 44px; box-sizing: border-box; padding: 4px 0; border: 0; background: transparent; color: var(--text); font: inherit; font-size: 15px; font-weight: 500; cursor: pointer"><span style="flex: 1 1 auto; display: flex; align-items: center; justify-content: center; padding: 0 8px; border-radius: 999px; white-space: nowrap; background: var(--raised)">All</span></button>
+<button type="button" style="flex: 1 1 auto; display: flex; min-height: 44px; box-sizing: border-box; padding: 4px 0; border: 0; background: transparent; color: var(--text-3); font: inherit; font-size: 15px; cursor: pointer"><span style="flex: 1 1 auto; display: flex; align-items: center; justify-content: center; padding: 0 8px; border-radius: 999px; white-space: nowrap">No talking</span></button>
+<button type="button" style="flex: 1 1 auto; display: flex; min-height: 44px; box-sizing: border-box; padding: 4px 0; border: 0; background: transparent; color: var(--text-3); font: inherit; font-size: 15px; cursor: pointer"><span style="flex: 1 1 auto; display: flex; align-items: center; justify-content: center; padding: 0 8px; border-radius: 999px; white-space: nowrap">Talking</span></button>
+</div>
+<label style="flex: 1 0 auto; display: flex; align-items: center"><span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%)">Sort</span>
+<select style="flex: 1 1 auto; min-width: 0; min-height: 44px; padding: 0 12px; border-radius: 12px; background: var(--surface); border: 1px solid var(--edge-strong); color: var(--text); font: inherit; font-size: 15px"><option>Newest</option><option>Most used</option></select>
+</label>
+</div>
+</section>
+
+<section aria-label="Templates" style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 16px">
+<a href="A-Video-Ekle-ML.dc.html" style="aspect-ratio: 9 / 16; box-sizing: border-box; border: 1.5px dashed var(--edge-strong); border-radius: 16px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 16px; text-align: center; text-decoration: none; color: var(--text)">
+<span style="width: 48px; height: 48px; border-radius: 50%; background: var(--raised); display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" style="stroke: var(--accent-text)" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></span>
+<span style="font-family: var(--display); font-weight: 700; font-size: 20px; letter-spacing: -0.01em">Add your own video</span>
+<span style="font-size: 13px; line-height: 1.45; color: var(--text-3)">Give a file or a link. In 2–5 minutes it becomes a template only you can see.</span>
+</a>
+<sc-for list="{{ cards }}" as="c" hint-placeholder-count="9">
+<article style="display: flex; flex-direction: column; gap: 12px; min-width: 0">
+<a href="A-Detay-ML.dc.html" style="position: relative; display: block; aspect-ratio: 9 / 16; border-radius: 16px; overflow: hidden; background: var(--surface); box-shadow: 0 0 0 1px var(--media-edge); outline: {{ c.ring }}; outline-offset: 3px">
+<img src="{{ c.img }}" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block">
+<span style="position: absolute; top: 10px; left: 10px; right: 10px">
+<span style="float: left; margin-bottom: 7px; padding: 5px 10px; border-radius: 999px; background: var(--scrim); color: var(--on-scrim); font-size: 13px; font-weight: 500">{{ c.format }}</span>
+<span style="float: right; margin-bottom: 7px; padding: 5px 10px; border-radius: 999px; background: var(--scrim); color: var(--on-scrim); font-size: 13px; font-weight: 500">{{ c.dur }}</span>
+<sc-if value="{{ c.free }}" hint-placeholder-val="{{ true }}">
+<span style="float: left; clear: left; padding: 5px 10px; border-radius: 999px; background: var(--scrim); color: var(--accent); font-size: 13px; font-weight: 500">Free</span>
+</sc-if>
+</span>
+<sc-if value="{{ c.active }}" hint-placeholder-val="{{ false }}">
+<span style="position: absolute; left: 8px; right: 8px; bottom: 8px; display: flex; align-items: center; justify-content: center; min-height: 44px; border-radius: 8px; background: var(--accent); color: var(--on-accent); font-weight: 600; font-size: 15px">Clone it</span>
+</sc-if>
+</a>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<h2 style="margin: 0; font-size: 15px; font-weight: 600; line-height: 1.3; color: var(--text); text-wrap: pretty">{{ c.title }}</h2>
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3); text-wrap: pretty">{{ c.cat }} · reference {{ c.views }} views</p>
+</div>
+</article>
+</sc-for>
+</section>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"theme":{"editor":"enum","options":["dark","light"],"default":"light"},"$preview":{"width":390,"height":2720}}'>
+class Component extends DCLogic {
+renderVals() {
+var none = '0 solid transparent';
+var on = '2px solid var(--accent-text)';
+return {
+theme: this.props.theme ?? 'light',
+cards: [
+{ img: '/_blob/f20a7ed7a7bc172a7da483415800077f', title: 'Fragrance layering recipe', cat: 'Fragrance', format: 'No talking', dur: '8 sec', views: '1.9M', active: false, ring: none, free: true },
+{ img: '/_blob/1377349dbc87784232ac59cf9cf04986', title: 'Eye close-up with a day counter', cat: 'Lashes', format: 'No talking', dur: '13 sec', views: '19.8M', active: false, ring: none, free: true },
+{ img: '/_blob/874b55ddf9761a230dda46e2aa4afa85', title: '"I tried it for 4 weeks" presenter story', cat: 'Lashes', format: 'Talking', dur: '30 sec', views: '8.9M', active: false, ring: none, free: false },
+{ img: '/_blob/586c7628c6d07d797378740fedc4c97f', title: 'Dupe comparison', cat: 'Fragrance', format: 'No talking', dur: '17 sec', views: '1.9M', active: false, ring: none, free: true },
+{ img: '/_blob/46a25bbd04d2da54503c58bfbd05efee', title: 'Story told in on-screen text', cat: 'Lashes and brows', format: 'No talking', dur: '16 sec', views: '27.2M', active: false, ring: none, free: true },
+{ img: '/_blob/de5244c861eb9107996b5404d64ca159', title: 'Shower routine: problem, result, how to use', cat: 'Hair', format: 'No talking', dur: '15 sec', views: '12.7M', active: false, ring: none, free: true },
+{ img: '/_blob/619ee0e5a13e318118b291c1451be9b8', title: '"I refused to accept it" story and routine', cat: 'Hair', format: 'No talking', dur: '9 sec', views: '17.1M', active: false, ring: none, free: true },
+{ img: '/_blob/29d17f8e71e518c213e1c982faf29cea', title: 'ASMR drink prep', cat: 'Supplements', format: 'No talking', dur: '22 sec', views: '3.0M', active: false, ring: none, free: true },
+{ img: '/_blob/a90d6e55d4ab895c96ff1e0caeddb61f', title: 'Mascara routine and fast photo montage', cat: 'Lashes', format: 'No talking', dur: '16 sec', views: '5.0M', active: false, ring: none, free: true }
+]
+};
+}
+}
+</script>
+</body>
+</html>

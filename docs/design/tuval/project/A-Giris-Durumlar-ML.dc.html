@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Log in and sign up · states · mobile · light</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ay{--bg:#0B0C0A;--surface:#151712;--raised:#1C1F17;--line:#23261E;--edge:#33372B;--edge-strong:#676B5D;--text:#F2F3EC;--text-2:#C9CCBF;--text-3:#A9AC9F;--accent:#C8F03C;--accent-hover:#E0FF7A;--accent-text:#C8F03C;--on-accent:#0B0C0A;--warn:#FF9A6B;--warn-edge:#5A3A2A;--mark-edge:#C8F03C;--scrim:rgba(11,12,10,0.76);--on-scrim:#F2F3EC;--media-edge:transparent;--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Onest',system-ui,sans-serif}
+.ay[data-theme="light"],.ay [data-theme="light"]{--bg:#F4F5EE;--surface:#FFFFFF;--raised:#E8EADF;--line:#E0E2D7;--edge:#CBCEBF;--edge-strong:#80856F;--text:#0B0C0A;--text-2:#3E4236;--text-3:#5A5F50;--accent-hover:#B6E01F;--accent-text:#456300;--warn:#A8400F;--warn-edge:#E3B7A2;--mark-edge:#0B0C0A;--media-edge:rgba(11,12,10,0.12)}
+a{color:var(--accent-text)}a:hover{color:var(--text)}
+</style>
+</helmet>
+<div class="ay" data-theme="{{ theme }}" style="min-height: 3620px; box-sizing: border-box; background: var(--bg); color: var(--text); font-family: var(--body); padding: 0 clamp(16px, 4vw, 60px) 72px">
+<div style="max-width: 1320px; margin: 0 auto; padding-top: clamp(24px, 4vw, 48px); display: flex; flex-direction: column; gap: 32px">
+<h1 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em; text-wrap: balance">Log in and sign up · states</h1>
+<div style="display: flex; flex-wrap: wrap; gap: 32px">
+<section style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-weight: 400; font-size: 13px; line-height: 1.4; color: var(--text-3)">Log in: wrong email or password</h2>
+<div style="width: 100%; max-width: 420px; display: flex; flex-direction: column; gap: 24px">
+<h3 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1; letter-spacing: -0.03em">Welcome back.</h3>
+<button type="button" style="min-height: 52px; border-radius: 12px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font: inherit; font-size: 15px; font-weight: 600; cursor: pointer">Continue with Google</button>
+<div aria-hidden="true" style="display: flex; align-items: center; gap: 16px; font-size: 13px; color: var(--text-3)"><span style="flex: 1; height: 1px; background: var(--line)"></span>or with email<span style="flex: 1; height: 1px; background: var(--line)"></span></div>
+<form style="display: flex; flex-direction: column; gap: 16px">
+<p role="alert" style="margin: 0; display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; border-radius: 12px; background: var(--surface); border: 1px solid var(--warn-edge); font-size: 15px; line-height: 1.5; color: var(--text)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; color: var(--warn)"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg><span style="min-width: 0; overflow-wrap: anywhere"><strong style="font-weight: 600; color: var(--warn)">Email or password is not correct.</strong></span></p>
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: var(--text-2)">Email
+<input type="email" autocomplete="email" value="a.very.long.address.for.testing@example-company.com" style="min-height: 52px; box-sizing: border-box; padding: 0 16px; border-radius: 12px; border: 1px solid var(--edge-strong); background: var(--surface); color: var(--text); font: inherit; font-size: 15px">
+</label>
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: var(--text-2)">Password
+<input type="password" autocomplete="current-password" value="password" style="min-height: 52px; box-sizing: border-box; padding: 0 16px; border-radius: 12px; border: 1px solid var(--edge-strong); background: var(--surface); color: var(--text); font: inherit; font-size: 15px">
+</label>
+<a href="Main-ML.dc.html" style="display: flex; align-items: center; justify-content: center; min-height: 60px; border-radius: 12px; background: var(--accent); color: var(--on-accent); font-weight: 600; font-size: 17px; text-decoration: none">Log in</a>
+</form>
+<a href="A-Sifre-Unuttum-ML.dc.html" style="align-self: flex-start; display: flex; align-items: center; gap: 8px; min-height: 44px; font-size: 15px; font-weight: 500; text-decoration: none">Forgot password</a>
+</div>
+</section>
+
+<section style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-weight: 400; font-size: 13px; line-height: 1.4; color: var(--text-3)">Log in: too many tries</h2>
+<div style="width: 100%; max-width: 420px; display: flex; flex-direction: column; gap: 24px">
+<h3 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1; letter-spacing: -0.03em">Welcome back.</h3>
+<button type="button" style="min-height: 52px; border-radius: 12px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font: inherit; font-size: 15px; font-weight: 600; cursor: pointer">Continue with Google</button>
+<div aria-hidden="true" style="display: flex; align-items: center; gap: 16px; font-size: 13px; color: var(--text-3)"><span style="flex: 1; height: 1px; background: var(--line)"></span>or with email<span style="flex: 1; height: 1px; background: var(--line)"></span></div>
+<form style="display: flex; flex-direction: column; gap: 16px">
+<p role="alert" style="margin: 0; display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; border-radius: 12px; background: var(--surface); border: 1px solid var(--warn-edge); font-size: 15px; line-height: 1.5; color: var(--text)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; color: var(--warn)"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg><span style="min-width: 0; overflow-wrap: anywhere"><strong style="font-weight: 600; color: var(--warn)">Too many tries.</strong> Wait 15 minutes or reset your password.</span></p>
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: var(--text-2)">Email
+<input type="email" autocomplete="email" value="a.very.long.address.for.testing@example-company.com" style="min-height: 52px; box-sizing: border-box; padding: 0 16px; border-radius: 12px; border: 1px solid var(--edge-strong); background: var(--surface); color: var(--text); font: inherit; font-size: 15px">
+</label>
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: var(--text-2)">Password
+<input type="password" autocomplete="current-password" value="password" style="min-height: 52px; box-sizing: border-box; padding: 0 16px; border-radius: 12px; border: 1px solid var(--edge-strong); background: var(--surface); color: var(--text); font: inherit; font-size: 15px">
+</label>
+<button type="button" aria-disabled="true" style="min-height: 60px; border-radius: 12px; border: 0; background: var(--raised); color: var(--text-3); cursor: default; font: inherit; font-size: 17px; font-weight: 600">Log in</button>
+</form>
+<a href="A-Sifre-Unuttum-ML.dc.html" style="align-self: flex-start; display: flex; align-items: center; gap: 8px; min-height: 44px; font-size: 15px; font-weight: 500; text-decoration: none">Forgot password</a>
+</div>
+</section>
+
+<section style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-weight: 400; font-size: 13px; line-height: 1.4; color: var(--text-3)">Google sign-in: cancelled or failed</h2>
+<div style="width: 100%; max-width: 420px; display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<button type="button" style="min-height: 52px; border-radius: 12px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font: inherit; font-size: 15px; font-weight: 600; cursor: pointer">Continue with Google</button>
+<p role="status" style="margin: 0; display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; border-radius: 12px; background: var(--surface); border: 1px solid var(--edge); font-size: 15px; line-height: 1.5; color: var(--text)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; color: var(--text-2)"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 11v5M12 7.8v.1"></path></svg><span style="min-width: 0; overflow-wrap: anywhere">Google sign-in was cancelled. Nothing changed.</span></p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 12px">
+<button type="button" style="min-height: 52px; border-radius: 12px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font: inherit; font-size: 15px; font-weight: 600; cursor: pointer">Continue with Google</button>
+<p role="alert" style="margin: 0; display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; border-radius: 12px; background: var(--surface); border: 1px solid var(--warn-edge); font-size: 15px; line-height: 1.5; color: var(--text)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; color: var(--warn)"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg><span style="min-width: 0; overflow-wrap: anywhere"><strong style="font-weight: 600; color: var(--warn)">Google sign-in did not work.</strong> Try again or use your email.</span></p>
+</div>
+</div>
+</section>
+
+<section style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-weight: 400; font-size: 13px; line-height: 1.4; color: var(--text-3)">Sign up: email already has an account</h2>
+<div style="width: 100%; max-width: 420px; display: flex; flex-direction: column; gap: 24px">
+<h3 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1; letter-spacing: -0.03em">Create your account.</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2)">Your first video is free: one no-talking video in Fast quality. No card needed.</p>
+<button type="button" style="min-height: 52px; border-radius: 12px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font: inherit; font-size: 15px; font-weight: 600; cursor: pointer">Continue with Google</button>
+<div aria-hidden="true" style="display: flex; align-items: center; gap: 16px; font-size: 13px; color: var(--text-3)"><span style="flex: 1; height: 1px; background: var(--line)"></span>or with email<span style="flex: 1; height: 1px; background: var(--line)"></span></div>
+<form style="display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; flex-direction: column">
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: var(--text-2)">Email
+<input type="email" autocomplete="email" aria-invalid="true" value="a.very.long.address.for.testing@example-company.com" style="min-height: 52px; box-sizing: border-box; padding: 0 16px; border-radius: 12px; border: 1.5px solid var(--warn); background: var(--surface); color: var(--text); font: inherit; font-size: 15px">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 13px; line-height: 1.4; color: var(--warn)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg>This email already has an account.</span>
+</label>
+<div style="display: flex; flex-wrap: wrap; gap: 0 24px">
+<a href="A-Giris-ML.dc.html" style="display: flex; align-items: center; min-height: 44px; font-size: 15px; font-weight: 500; text-decoration: none">Log in</a>
+<a href="A-Sifre-Unuttum-ML.dc.html" style="display: flex; align-items: center; min-height: 44px; font-size: 15px; font-weight: 500; text-decoration: none">Reset password</a>
+</div>
+</div>
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: var(--text-2)">Password
+<input type="password" autocomplete="new-password" value="password" style="min-height: 52px; box-sizing: border-box; padding: 0 16px; border-radius: 12px; border: 1px solid var(--edge-strong); background: var(--surface); color: var(--text); font: inherit; font-size: 15px">
+<span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">At least 8 characters.</span>
+</label>
+<a href="A-Eposta-Dogrula-ML.dc.html" style="display: flex; align-items: center; justify-content: center; min-height: 60px; border-radius: 12px; background: var(--accent); color: var(--on-accent); font-weight: 600; font-size: 17px; text-decoration: none">Sign up</a>
+</form>
+<p style="margin: 0; font-size: 13px; line-height: 1.5; color: var(--text-3)">By signing up you accept the <a href="A-Yasal-ML.dc.html" style="padding: 16px 0">terms of use</a> and the <a href="A-Yasal-ML.dc.html" style="padding: 16px 0">privacy policy</a>.</p>
+</div>
+</section>
+
+<section style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-weight: 400; font-size: 13px; line-height: 1.4; color: var(--text-3)">Sign up: invalid email and weak password</h2>
+<div style="width: 100%; max-width: 420px; display: flex; flex-direction: column; gap: 24px">
+<h3 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1; letter-spacing: -0.03em">Create your account.</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2)">Your first video is free: one no-talking video in Fast quality. No card needed.</p>
+<button type="button" style="min-height: 52px; border-radius: 12px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font: inherit; font-size: 15px; font-weight: 600; cursor: pointer">Continue with Google</button>
+<div aria-hidden="true" style="display: flex; align-items: center; gap: 16px; font-size: 13px; color: var(--text-3)"><span style="flex: 1; height: 1px; background: var(--line)"></span>or with email<span style="flex: 1; height: 1px; background: var(--line)"></span></div>
+<form style="display: flex; flex-direction: column; gap: 16px">
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: var(--text-2)">Email
+<input type="email" autocomplete="email" aria-invalid="true" value="name.example.com" style="min-height: 52px; box-sizing: border-box; padding: 0 16px; border-radius: 12px; border: 1.5px solid var(--warn); background: var(--surface); color: var(--text); font: inherit; font-size: 15px">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 13px; line-height: 1.4; color: var(--warn)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg>Enter a valid email address.</span>
+</label>
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: var(--text-2)">Password
+<input type="password" autocomplete="new-password" aria-invalid="true" value="pass" style="min-height: 52px; box-sizing: border-box; padding: 0 16px; border-radius: 12px; border: 1.5px solid var(--warn); background: var(--surface); color: var(--text); font: inherit; font-size: 15px">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 13px; line-height: 1.4; color: var(--warn)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg>Use at least 8 characters.</span>
+</label>
+<a href="A-Eposta-Dogrula-ML.dc.html" style="display: flex; align-items: center; justify-content: center; min-height: 60px; border-radius: 12px; background: var(--accent); color: var(--on-accent); font-weight: 600; font-size: 17px; text-decoration: none">Sign up</a>
+</form>
+<p style="margin: 0; font-size: 13px; line-height: 1.5; color: var(--text-3)">By signing up you accept the <a href="A-Yasal-ML.dc.html" style="padding: 16px 0">terms of use</a> and the <a href="A-Yasal-ML.dc.html" style="padding: 16px 0">privacy policy</a>.</p>
+</div>
+</section>
+
+<section style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-weight: 400; font-size: 13px; line-height: 1.4; color: var(--text-3)">Verify your email: link sent again</h2>
+<div style="width: 100%; max-width: 420px; display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<h3 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em">Verify your email.</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty; overflow-wrap: anywhere">We sent a link to <strong style="color: var(--text); font-weight: 600">a.very.long.address.for.testing@example-company.com</strong>. Open it to activate your account and get your free video.</p>
+</div>
+<button type="button" aria-disabled="true" style="min-height: 52px; padding: 0 24px; border-radius: 12px; border: 0; background: var(--raised); color: var(--text-3); cursor: default; font: inherit; font-size: 15px; font-weight: 600">Send again</button>
+<p role="status" style="margin: 0; display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; border-radius: 12px; background: var(--surface); border: 1px solid var(--edge); font-size: 15px; line-height: 1.5; color: var(--text)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; color: var(--accent-text)"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span style="min-width: 0; overflow-wrap: anywhere">Sent again. You can send another in 60 seconds.</span></p>
+<p style="margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 0 8px; font-size: 15px; color: var(--text-2)">Wrong address? <a href="A-Giris-ML.dc.html" style="display: flex; align-items: center; min-height: 44px; font-weight: 500; text-decoration: none">Change it</a></p>
+</div>
+</section>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"theme":{"editor":"enum","options":["dark","light"],"default":"light"},"$preview":{"width":390,"height":3620}}'>
+class Component extends DCLogic {
+renderVals() {
+return { theme: this.props.theme ?? 'light' };
+}
+}
+</script>
+</body>
+</html>

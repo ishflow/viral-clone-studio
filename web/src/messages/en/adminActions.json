@@ -1,0 +1,156 @@
+{
+  "dialog": {
+    "reason": {
+      "label": "Reason",
+      "placeholder": "Why you are doing this",
+      "required": "A reason is required.",
+      "requiredLong": "A reason is required. It is shown in the credit history."
+    },
+    "note": "This action is recorded with your name and the reason.",
+    "cancel": "Cancel",
+    "close": "Close",
+    "tryAgain": "Try again"
+  },
+  "state": {
+    "working": "Working…",
+    "done": "Done",
+    "failed": "It did not go through. Nothing was changed. Try again.",
+    "already": "This was already done on {date}."
+  },
+  "row": {
+    "purchase": "Purchase",
+    "invoice": "Invoice",
+    "creditsRemoved": "Credits removed",
+    "balanceAfter": "Balance after",
+    "amount": "Amount to refund",
+    "amountRefunded": "Amount refunded",
+    "amountAtProvider": "Refunded at the provider",
+    "job": "Job",
+    "charged": "Credits charged",
+    "toReturn": "Credits to return",
+    "creditsReturned": "Credits returned",
+    "balanceNow": "Balance now",
+    "toAdd": "Credits to add",
+    "creditsKept": "Credits",
+    "videosKept": "Videos",
+    "blockedOn": "Blocked on",
+    "blockReason": "Reason for the block",
+    "missing": "Missing",
+    "noInvoice": "No invoice",
+    "user": "User"
+  },
+  "value": {
+    "pack": "{pack} pack · {date}",
+    "creditsKept": {
+      "one": "{count} credit, kept",
+      "other": "{count} credits, kept"
+    },
+    "videosKept": {
+      "one": "{count} video, kept",
+      "other": "{count} videos, kept"
+    },
+    "clips": {
+      "one": "{count} clip",
+      "other": "{count} clips"
+    }
+  },
+  "refund": {
+    "title": "Refund this purchase?",
+    "retryTitle": "Try the refund again?",
+    "info": "The {credits} of this pack are held since the request and are removed now. The money is refunded to the payment method in a few days.",
+    "confirm": "Refund",
+    "retryConfirm": "Try the refund again",
+    "closeInfo": "The {credits} left in this pack are removed now. No money is sent: the whole payment was refunded at the payment provider already.",
+    "sent": "Refund sent. The money is on its way to the payment method.",
+    "closed": "Closed. No money was sent from here: the whole payment was refunded at the payment provider already.",
+    "unconfirmed": "The refund was sent, but the payment provider has not confirmed that it took it, so it is not known yet whether money goes back. Do not send it again: the provider is being asked, and the list will say \"Refunded\", or \"Refund failed\" with the credits back.",
+    "refused": "The payment provider refused this refund. No money went back, and the credits of this pack are back in the customer's balance. The purchase now says \"Refund failed\": check the provider, then try the refund again from the list.",
+    "refusedNoFunds": "The payment provider refused this refund: the balance of its account (the Dodo wallet) does not cover the amount. No money went back, and the credits of this pack are back in the customer's balance. The purchase now says \"Refund failed\": when the balance covers it, try the refund again from the list."
+  },
+  "returnCredits": {
+    "title": "Return credits?",
+    "info": "The credits are returned to the balance. No money is refunded.",
+    "confirm": "Return credits"
+  },
+  "addCredits": {
+    "title": "Add credits",
+    "confirm": "Add credits"
+  },
+  "block": {
+    "title": "Block this user?",
+    "info": "They cannot log in. Their credits and videos are not deleted. You can unblock them here at any time.",
+    "confirm": "Block user"
+  },
+  "unblock": {
+    "title": "Unblock this user?",
+    "info": "The user can log in again. Their credits and videos are as they were.",
+    "confirm": "Unblock user"
+  },
+  "retry": {
+    "title": "Retry this job?",
+    "info": "The customer is not charged.",
+    "confirm": "Retry job",
+    "done": "The job runs again from the stopped step."
+  },
+  "settleUnknown": {
+    "title": "Settle this request?",
+    "info": "Confirm that you do not see this request in the provider's task list. If you are wrong, the same part is paid for twice.",
+    "confirm": "Request never reached the provider",
+    "done": "The request is settled. Now retry the job: it sends that request once more."
+  },
+  "ledger": {
+    "caption": "Credit history",
+    "date": "Date",
+    "user": "User",
+    "type": "Type",
+    "change": "Change",
+    "by": "By",
+    "related": "Related",
+    "reason": "Reason",
+    "balanceAfter": "Balance after",
+    "empty": "No credit activity yet.",
+    "by_system": "System",
+    "by_customer": "Customer",
+    "job": "Job {id}",
+    "purchase": "Purchase {number}",
+    "typeName": {
+      "purchase": "Purchase",
+      "generation": "Generation",
+      "free-video": "Free video",
+      "admin": "Admin",
+      "refund": "Refund",
+      "returned": "Returned"
+    }
+  },
+  "purchaseStatus": {
+    "paid": "Paid",
+    "not-completed": "Not completed",
+    "refund-requested": "Refund requested",
+    "refund-sent": "Refund sent",
+    "refunded": "Refunded",
+    "refund-failed": "Refund failed"
+  },
+  "jobStatus": {
+    "queued": "In queue",
+    "running": "Running",
+    "done": "Done",
+    "stopped": "Stopped",
+    "closed": "Closed"
+  },
+  "chart": {
+    "revenue": "Revenue",
+    "cost": "Generation cost",
+    "axis": "USD",
+    "date": "Date",
+    "empty": "No sales in this period.",
+    "error": "Could not load the chart.",
+    "retry": "Try again",
+    "loading": "Loading chart…",
+    "hint": "Use the left and right arrow keys to pick a day."
+  },
+  "list": {
+    "errorTitle": "Could not load this list.",
+    "errorText": "Check your connection and try again. Nothing was changed.",
+    "retry": "Try again"
+  }
+}

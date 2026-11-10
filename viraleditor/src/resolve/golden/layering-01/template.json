@@ -1,0 +1,261 @@
+{
+  "id": "layering-01",
+  "source": {
+    "kind": "seed",
+    "url": "https://example.com/video/1",
+    "metrics": {
+      "views": 1900000,
+      "likes": 191800,
+      "ctr_band": ""
+    }
+  },
+  "title": "Scent layering line-up",
+  "description": "Opens on all the products standing together under a two-line hook, then shows them one by one in a hand over a white sheet, each with a small name label that changes its place above the product. Music only, eight seconds, made to loop.",
+  "category": "fragrance",
+  "tags": [
+    "no-talking",
+    "hands",
+    "line-up",
+    "loop"
+  ],
+  "mode": "beats",
+  "canvas": {
+    "width": 720,
+    "height": 1280,
+    "fps": 30
+  },
+  "products": {
+    "min": 4,
+    "max": 4
+  },
+  "people": "hands",
+  "shots": [
+    {
+      "id": "s1",
+      "at": 0,
+      "for": 39,
+      "products": [
+        "all"
+      ],
+      "still_prompt": "A phone photograph at arm's length of a cream vanity by a window in soft daylight. {all_products} stand close together in a loose group, every label facing the camera. A round mirror with a scalloped white frame at the upper left, a small dish with gold jewellery at the right. The middle band of the picture is calm enough to carry two lines of small white text. Airy bedroom, natural colours, vertical 9:16, no people, no text.",
+      "motion_prompt": "A short handheld phone clip that starts on this exact picture. The camera eases a few centimetres toward the products with the slight sway of a phone in one hand. The products do not move, and every cap and printed label stays crisp and exactly as it is. The daylight stays soft and even. A single continuous take without any text.",
+      "clip_seconds": 4,
+      "action": "All the products stand together on a vanity",
+      "motion": {
+        "kind": "push-in",
+        "to": 1.06
+      }
+    },
+    {
+      "id": "s2",
+      "at": 39,
+      "for": 48,
+      "products": [
+        "1"
+      ],
+      "still_prompt": "A phone photograph looking straight down at a bed with a crumpled white cotton sheet. A woman's hand with short natural nails and a thin gold ring comes in from the left and holds {product_1} upright in the lower two thirds of the picture, its label to the camera. The top quarter of the picture is empty sheet. Soft daylight, vertical 9:16, no text.",
+      "motion_prompt": "A short handheld phone clip that starts on this exact picture. The camera looks straight down and sways by a hair, the way a phone does in one hand. The fingers around the product shift once, gently, and settle. The product does not turn or slide, and its cap and printed label stay crisp and exactly as they are. The daylight stays soft and even. A single continuous take without any text.",
+      "clip_seconds": 4,
+      "action": "A hand holds the first product over a white sheet",
+      "in": {
+        "kind": "zoom",
+        "frames": 6,
+        "scale": 1.15
+      }
+    },
+    {
+      "id": "s3",
+      "at": 87,
+      "for": 38,
+      "products": [
+        "2"
+      ],
+      "still_prompt": "A phone photograph looking straight down at a bed with a crumpled white cotton sheet. A woman's hand with short natural nails and a thin gold ring comes in from the lower left and holds {product_2} in its palm in the lower two thirds of the picture, its label to the camera. The top quarter of the picture is empty sheet. Soft daylight, vertical 9:16, no text.",
+      "motion_prompt": "A short handheld phone clip that starts on this exact picture. The camera looks straight down and sways by a hair, the way a phone does in one hand. The fingers around the product shift once, gently, and settle. The product does not turn or slide, and its cap and printed label stay crisp and exactly as they are. The daylight stays soft and even. A single continuous take without any text.",
+      "clip_seconds": 4,
+      "action": "The second product, held in the palm"
+    },
+    {
+      "id": "s4",
+      "at": 125,
+      "for": 45,
+      "products": [
+        "3"
+      ],
+      "still_prompt": "A phone photograph looking straight down at a bed with a crumpled white cotton sheet. A woman's open hand with short natural nails comes in from the lower right and holds {product_3} at a slight angle in the lower two thirds of the picture, its label to the camera. The top quarter of the picture is empty sheet. Soft daylight, vertical 9:16, no text.",
+      "motion_prompt": "A short handheld phone clip that starts on this exact picture. The camera looks straight down and sways by a hair, the way a phone does in one hand. The fingers around the product shift once, gently, and settle. The product does not turn or slide, and its cap and printed label stay crisp and exactly as they are. The daylight stays soft and even. A single continuous take without any text.",
+      "clip_seconds": 4,
+      "action": "The third product, resting in an open hand"
+    },
+    {
+      "id": "s5",
+      "at": 170,
+      "for": 70,
+      "products": [
+        "4"
+      ],
+      "still_prompt": "A phone photograph looking straight down at a bed with a crumpled white cotton sheet. A woman's hand with short natural nails and a thin gold ring comes in from the top right corner and holds {product_4} by its cap in the middle of the picture, its label to the camera. The top left of the picture is empty sheet. Soft daylight, vertical 9:16, no text.",
+      "motion_prompt": "A short handheld phone clip that starts on this exact picture. The camera looks straight down and sways by a hair, the way a phone does in one hand. The fingers around the product shift once, gently, and settle. The product does not turn or slide, and its cap and printed label stay crisp and exactly as they are. The daylight stays soft and even. A single continuous take without any text.",
+      "clip_seconds": 4,
+      "action": "The last product, held by its cap",
+      "in": {
+        "kind": "crossfade",
+        "frames": 8
+      },
+      "motion": {
+        "kind": "push-in",
+        "to": 1.05
+      }
+    }
+  ],
+  "texts": [
+    {
+      "id": "hook",
+      "at": 0,
+      "for": 39,
+      "box": {
+        "left": 14,
+        "top": 40,
+        "right": 86,
+        "bottom": 50
+      },
+      "style": "opener",
+      "copy": "the best {quality}\n{category} combo",
+      "source_copy": "the best vanilla girl scent layering combo",
+      "lines": 2,
+      "enter": {
+        "kind": "pop",
+        "frames": 8,
+        "from": 0.85
+      },
+      "exit": {
+        "kind": "fade",
+        "frames": 5
+      }
+    },
+    {
+      "id": "name-1",
+      "at": 39,
+      "for": 48,
+      "box": {
+        "left": 6,
+        "top": 15,
+        "right": 60,
+        "bottom": 21
+      },
+      "style": "nametag",
+      "copy": "{brand} {product_1}",
+      "source_copy": "deo vanilla cashmere lotion",
+      "enter": {
+        "kind": "fade",
+        "frames": 5
+      },
+      "exit": {
+        "kind": "none"
+      }
+    },
+    {
+      "id": "name-2",
+      "at": 87,
+      "for": 38,
+      "box": {
+        "left": 36,
+        "top": 15,
+        "right": 86,
+        "bottom": 21
+      },
+      "style": "nametag",
+      "copy": "{brand} {product_2}",
+      "source_copy": "velmora cashmere vanilla body & hair oil",
+      "enter": {
+        "kind": "fade",
+        "frames": 5
+      },
+      "exit": {
+        "kind": "none"
+      }
+    },
+    {
+      "id": "name-3",
+      "at": 125,
+      "for": 45,
+      "box": {
+        "left": 25,
+        "top": 14,
+        "right": 75,
+        "bottom": 20
+      },
+      "style": "nametag",
+      "copy": "{brand} {product_3}",
+      "source_copy": "mira by mira lane perfume",
+      "enter": {
+        "kind": "fade",
+        "frames": 5
+      },
+      "exit": {
+        "kind": "fade",
+        "frames": 5
+      }
+    },
+    {
+      "id": "name-4",
+      "at": 170,
+      "for": 70,
+      "box": {
+        "left": 6,
+        "top": 16,
+        "right": 56,
+        "bottom": 22
+      },
+      "style": "nametag",
+      "copy": "{brand} {product_4}",
+      "source_copy": "luz de lisboa brisa 71",
+      "enter": {
+        "kind": "fade",
+        "frames": 8
+      },
+      "exit": {
+        "kind": "fade",
+        "frames": 8
+      }
+    }
+  ],
+  "styles": {
+    "opener": {
+      "font": "Inter",
+      "weight": 600,
+      "size": 27,
+      "align": "center",
+      "fill": "#FFFFFF",
+      "shadows": [
+        "0px 1px 2px #000000CC",
+        "0px 2px 8px #00000080"
+      ],
+      "outline": {
+        "width": 0.05,
+        "colour": "#000000"
+      }
+    },
+    "nametag": {
+      "font": "Inter",
+      "weight": 600,
+      "size": 23,
+      "align": "center",
+      "fill": "#FFFFFF",
+      "shadows": [
+        "0px 1px 2px #000000D9",
+        "0px 2px 8px #00000099"
+      ],
+      "outline": {
+        "width": 0.05,
+        "colour": "#000000"
+      }
+    }
+  },
+  "audio": {
+    "music": {
+      "prompt": "Instrumental only. Dreamy bedroom pop at about 100 beats per minute: soft electric piano, a warm low bass and a light finger-snap beat that is there from the first second. Close, tender and a little nostalgic, without a long intro. No vocals, no spoken words.",
+      "gain": 0.9
+    }
+  }
+}

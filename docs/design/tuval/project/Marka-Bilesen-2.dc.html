@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Viral Clone — components: cards and states</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ay{--bg:#0B0C0A;--surface:#151712;--raised:#1C1F17;--line:#23261E;--edge:#33372B;--edge-strong:#676B5D;--text:#F2F3EC;--text-2:#C9CCBF;--text-3:#A9AC9F;--accent:#C8F03C;--accent-hover:#E0FF7A;--accent-text:#C8F03C;--on-accent:#0B0C0A;--warn:#FF9A6B;--warn-edge:#5A3A2A;--mark-edge:#C8F03C;--scrim:rgba(11,12,10,0.76);--on-scrim:#F2F3EC;--media-edge:transparent;--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Onest',system-ui,sans-serif}
+.ay[data-theme="light"],.ay [data-theme="light"]{--bg:#F4F5EE;--surface:#FFFFFF;--raised:#E8EADF;--line:#E0E2D7;--edge:#CBCEBF;--edge-strong:#80856F;--text:#0B0C0A;--text-2:#3E4236;--text-3:#5A5F50;--accent-hover:#B6E01F;--accent-text:#456300;--warn:#A8400F;--warn-edge:#E3B7A2;--mark-edge:#0B0C0A;--media-edge:rgba(11,12,10,0.12)}
+a{color:var(--accent-text)}a:hover{color:var(--text)}
+</style>
+</helmet>
+<div class="ay" data-theme="{{ theme }}" style="width: 1440px; min-height: 3020px; box-sizing: border-box; padding: 80px; background: var(--bg); color: var(--text); font-family: var(--body); display: flex; flex-direction: column; gap: 56px">
+
+<header style="display: flex; flex-direction: column; gap: 16px; max-width: 860px">
+<h1 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 64px; line-height: 0.98; letter-spacing: -0.03em">Components: cards and states</h1>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Everything that shows or reports: video card, surface card, job status, dialog, alert, loading and empty states, video controls, cookie bar.</p>
+</header>
+
+<section style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; align-items: start">
+
+<div style="display: flex; flex-direction: column; gap: 48px">
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Video card</h2>
+<div style="display: flex; align-items: flex-start; gap: 24px">
+<article style="width: 184px; display: flex; flex-direction: column; gap: 12px">
+<a href="#" style="position: relative; display: block; aspect-ratio: 9 / 16; border-radius: 16px; overflow: hidden; background: var(--surface); box-shadow: 0 0 0 1px var(--media-edge)">
+<img src="/_blob/f20a7ed7a7bc172a7da483415800077f" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block">
+<span style="position: absolute; top: 10px; left: 10px; padding: 5px 10px; border-radius: 999px; background: var(--scrim); color: var(--on-scrim); font-size: 13px; font-weight: 500">No talking</span>
+<span style="position: absolute; top: 10px; right: 10px; padding: 5px 10px; border-radius: 999px; background: var(--scrim); color: var(--on-scrim); font-size: 13px; font-weight: 500">8 sec</span>
+<span style="position: absolute; top: 44px; left: 10px; padding: 5px 10px; border-radius: 999px; background: var(--scrim); color: var(--accent); font-size: 13px; font-weight: 500">Free</span>
+</a>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<h3 style="margin: 0; font-size: 15px; font-weight: 600; line-height: 1.3">Fragrance layering recipe</h3>
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">Fragrance · reference 1.9M views</p>
+</div>
+</article>
+<article style="width: 184px; display: flex; flex-direction: column; gap: 12px">
+<a href="#" style="position: relative; display: block; aspect-ratio: 9 / 16; border-radius: 16px; overflow: hidden; background: var(--surface); box-shadow: 0 0 0 1px var(--media-edge); outline: 2px solid var(--accent-text); outline-offset: 3px">
+<img src="/_blob/1377349dbc87784232ac59cf9cf04986" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block">
+<span style="position: absolute; top: 10px; left: 10px; padding: 5px 10px; border-radius: 999px; background: var(--scrim); color: var(--on-scrim); font-size: 13px; font-weight: 500">No talking</span>
+<span style="position: absolute; top: 10px; right: 10px; padding: 5px 10px; border-radius: 999px; background: var(--scrim); color: var(--on-scrim); font-size: 13px; font-weight: 500">13 sec</span>
+<span style="position: absolute; top: 44px; left: 10px; padding: 5px 10px; border-radius: 999px; background: var(--scrim); color: var(--accent); font-size: 13px; font-weight: 500">Free</span>
+<span style="position: absolute; left: 8px; right: 8px; bottom: 8px; display: flex; align-items: center; justify-content: center; min-height: 44px; border-radius: 8px; background: var(--accent); color: var(--on-accent); font-weight: 600; font-size: 15px">Clone it</span>
+</a>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<h3 style="margin: 0; font-size: 15px; font-weight: 600; line-height: 1.3">Eye close-up with a day counter</h3>
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">Lashes · reference 19.8M views</p>
+</div>
+</article>
+<a href="#" style="width: 184px; aspect-ratio: 9 / 16; box-sizing: border-box; border: 1.5px dashed var(--edge-strong); border-radius: 16px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 20px; text-align: center; text-decoration: none; color: var(--text)">
+<span style="width: 48px; height: 48px; border-radius: 50%; background: var(--raised); display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="stroke: var(--accent-text)"><path d="M12 5v14M5 12h14"></path></svg></span>
+<span style="font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">Add your own video</span>
+<span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">Give a file or a link.</span>
+</a>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Left, at rest. Middle, hovered or selected with the keyboard: the ring appears, the sample plays, the main button shows. Right, the empty frame: dashed border, always the same ratio. A no-talking template carries the Free tag under its format while the first video is unused.</p>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Dialog</h2>
+<div role="dialog" aria-labelledby="sample-dialog" style="width: 100%; max-width: 592px; box-sizing: border-box; padding: 24px; border-radius: 24px; background: var(--surface); border: 1px solid var(--edge); display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h3 id="sample-dialog" style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em">Confirm generation</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Fragrance layering recipe&nbsp;· Fast&nbsp;· 1 variant&nbsp;· English</p>
+</div>
+
+<div style="display: flex; flex-direction: column; border-bottom: 1px solid var(--edge)">
+<dl style="margin: 0; display: flex; flex-direction: column">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding: 16px 0; border-top: 1px solid var(--edge); font-size: 17px"><dt style="font-weight: 600">Final video</dt><dd style="margin: 0 0 0 auto; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere">8 sec · 9:16 · 720p</dd></div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding: 16px 0; border-top: 1px solid var(--edge); font-size: 17px"><dt style="font-weight: 600">Credits for this job</dt><dd style="margin: 0 0 0 auto; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere; color: var(--accent-text)">2</dd></div>
+<div style="display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-top: 1px solid var(--edge); font-size: 15px"><dt style="color: var(--text-2)">Balance now</dt><dd style="margin: 0; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere">[BALANCE]</dd></div>
+<div style="display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-top: 1px solid var(--edge); font-size: 15px"><dt style="color: var(--text-2)">After this job</dt><dd style="margin: 0; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere">[BALANCE AFTER]</dd></div>
+<div style="display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-top: 1px solid var(--edge); font-size: 15px"><dt style="color: var(--text-2)">Estimated time</dt><dd style="margin: 0; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere">about 7 min</dd></div>
+</dl>
+<button type="button" aria-expanded="true" aria-controls="sample-dialog-detail" style="display: flex; align-items: center; justify-content: space-between; gap: 16px; width: 100%; min-height: 44px; box-sizing: border-box; padding: 12px 0; border: 0; border-top: 1px solid var(--edge); background: transparent; color: var(--text-2); font: inherit; font-size: 15px; text-align: left; cursor: pointer">What we generate<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; color: var(--text-3); transform: rotate(180deg)"><path d="M6 9l6 6 6-6"></path></svg></button>
+<p id="sample-dialog-detail" style="margin: 0; padding: 0 0 12px; font-size: 13px; line-height: 1.5; color: var(--text-3); text-wrap: pretty">5 images · 5 clips (20 sec of footage) · 1 music track. The clips are cut to the template's 8 seconds.</p>
+</div>
+
+<div style="display: flex; flex-wrap: wrap-reverse; gap: 12px">
+<a href="A-Form.dc.html" style="flex: 1 1 160px; display: flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 12px; border: 1px solid var(--edge-strong); color: var(--text); font-weight: 600; font-size: 15px; text-decoration: none">Cancel</a>
+<a href="A-Is-Takibi.dc.html" style="flex: 2 1 240px; display: flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 12px; background: var(--accent); color: var(--on-accent); font-weight: 600; font-size: 15px; text-decoration: none">Confirm and generate</a>
+</div>
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3); text-wrap: pretty">You are charged when you confirm. A job cannot be cancelled once it starts. If the video is not delivered, the credits come back.</p>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Opens in the center of the page; the page behind is dimmed 60%. Cancel on the left, the main action on the right and wider. On a phone the dialog is a full-width sheet at the bottom of the screen and the buttons stack, main action on top.</p>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Loading skeleton</h2>
+<p role="status" style="margin: 0; display: flex; align-items: center; gap: 8px; font-size: 13px; line-height: 1.4; color: var(--text-3)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5a8.5 8.5 0 1 0 8.5 8.5"></path></svg>Loading templates…</p>
+<div style="display: flex; align-items: flex-start; gap: 24px">
+<div style="width: 184px; display: flex; flex-direction: column; gap: 12px">
+<div aria-hidden="true" style="display: flex; flex-direction: column; gap: 12px; min-width: 0">
+<div style="aspect-ratio: 9 / 16; border-radius: 16px; background: var(--surface); box-shadow: 0 0 0 1px var(--media-edge)"></div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<span style="height: 12px; width: 80%; border-radius: 999px; background: var(--raised)"></span>
+<span style="height: 12px; width: 50%; border-radius: 999px; background: var(--raised)"></span>
+</div>
+</div>
+<span style="font-size: 13px; color: var(--text-3)">card</span>
+</div>
+<div style="width: 184px; display: flex; flex-direction: column; gap: 12px">
+<div aria-hidden="true" style="display: flex; flex-direction: column; gap: 8px">
+<span style="height: 12px; width: 80%; border-radius: 999px; background: var(--raised)"></span>
+<span style="height: 12px; width: 50%; border-radius: 999px; background: var(--raised)"></span>
+</div>
+<span style="font-size: 13px; color: var(--text-3)">text lines, 12 px high</span>
+</div>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">While a list loads, each card holds its place: a block in the shape of the card and two short lines for the text. A status line above says what is loading.</p>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Media edge</h2>
+<div style="display: flex; align-items: flex-start; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 6px"><img src="/_blob/619ee0e5a13e318118b291c1451be9b8" alt="" style="width: 135px; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 16px; display: block; box-shadow: 0 0 0 1px var(--media-edge)"><span style="font-size: 13px; color: var(--text-3)">video frame</span></div>
+<div style="display: flex; flex-direction: column; gap: 6px"><img src="/_blob/619ee0e5a13e318118b291c1451be9b8" alt="" style="width: 72px; height: 96px; object-fit: cover; border-radius: 8px; display: block; box-shadow: 0 0 0 1px var(--media-edge)"><span style="font-size: 13px; color: var(--text-3)">photo</span></div>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Every photo and video frame carries a 1 px edge in the media edge color. In dark it is transparent; in light it is a thin line, so a white photo does not melt into the page.</p>
+</div>
+
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 48px">
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Surface card and drop zone</h2>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-items: stretch">
+<div style="box-sizing: border-box; padding: 16px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 12px">
+<span style="font-size: 13px; color: var(--text-3)">Product 1</span>
+<div style="display: flex; align-items: center; gap: 12px">
+<img src="/_blob/619ee0e5a13e318118b291c1451be9b8" alt="Uploaded product image" style="width: 72px; height: 96px; object-fit: cover; border-radius: 8px; display: block; box-shadow: 0 0 0 1px var(--media-edge)">
+<div style="display: flex; flex-direction: column; gap: 4px; min-width: 0"><span style="font-size: 15px; font-weight: 600">Aurora Body Oil</span><span style="font-size: 13px; color: var(--text-3)">body oil</span></div>
+</div>
+</div>
+<div style="box-sizing: border-box; padding: 20px 16px; border-radius: 16px; border: 1.5px dashed var(--edge-strong); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; text-align: center">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="stroke: var(--accent-text)"><path d="M12 20V9M7 13l5-5 5 5M5 4h14"></path></svg>
+<span style="font-size: 15px; font-weight: 600">Drop the file here</span>
+<span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">mp4 or mov · up to 60 sec · up to 100 MB · vertical (9:16)</span>
+</div>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">A card is one step lighter than the background and has no shadow. A dashed border means only one thing: "something goes here."</p>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Job status</h2>
+<ol style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column">
+<li style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; padding: 14px 0; border-top: 1px solid var(--line)">
+<span style="flex: 0 0 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: var(--accent); color: var(--on-accent)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span>
+<span style="flex: 1 1 200px; min-width: 0; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 17px; font-weight: 600">Images</span><span style="font-size: 13px; color: var(--text-3)">The first frame of each shot</span></span>
+<span style="font-size: 15px; font-weight: 600; color: var(--accent-text)">Done · 5 / 5</span>
+</li>
+<li style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; padding: 14px 0; border-top: 1px solid var(--line)">
+<span style="flex: 0 0 36px; height: 36px; box-sizing: border-box; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 15px; font-weight: 600; color: var(--accent-text); border: 1.5px solid var(--accent-text)">3</span>
+<span style="flex: 1 1 200px; min-width: 0; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 17px; font-weight: 600">Clips</span><span style="font-size: 13px; color: var(--text-3)">Video from the first frames</span></span>
+<span style="font-size: 15px; font-weight: 600; color: var(--accent-text)">Running · 3 / 5</span>
+<span aria-hidden="true" style="flex: 1 1 100%; height: 6px; border-radius: 3px; background: var(--line); overflow: hidden; display: flex"><span style="width: 60%; background: var(--accent-text); border-radius: 3px"></span></span>
+</li>
+<li style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; padding: 14px 0; border-top: 1px solid var(--line)">
+<span style="flex: 0 0 36px; height: 36px; box-sizing: border-box; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 15px; font-weight: 600; color: var(--text-3); border: 1.5px dashed var(--edge-strong)">5</span>
+<span style="flex: 1 1 200px; min-width: 0; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 17px; font-weight: 600; color: var(--text-3)">Edit</span><span style="font-size: 13px; color: var(--text-3)">Shots, text, and music are put in order</span></span>
+<span style="font-size: 15px; font-weight: 600; color: var(--text-3)">Waiting</span>
+</li>
+<li style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; padding: 14px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line)">
+<span style="flex: 0 0 36px; height: 36px; box-sizing: border-box; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 15px; font-weight: 600; color: var(--warn); border: 1.5px solid var(--warn)">3</span>
+<span style="flex: 1 1 200px; min-width: 0; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 17px; font-weight: 600">Clips</span><span style="font-size: 13px; color: var(--text-3)">Video from the first frames</span></span>
+<span style="font-size: 15px; font-weight: 600; color: var(--warn)">Stopped · 3 / 5</span>
+</li>
+</ol>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--text-2)"><span style="width: 8px; height: 8px; box-sizing: border-box; border-radius: 50%; border: 2px solid var(--text-2)"></span>In queue</span>
+<span style="display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--accent-text)"><span style="width: 8px; height: 8px; box-sizing: border-box; border-radius: 50%; background: var(--accent-text)"></span>Running</span>
+<span style="display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--warn)"><span style="width: 8px; height: 8px; box-sizing: border-box; border-radius: 2px; background: var(--warn)"></span>Stopped</span>
+<span style="display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--text-2)"><span style="width: 8px; height: 8px; box-sizing: border-box; border-radius: 2px; border: 2px solid var(--text-2)"></span>Closed</span>
+<span style="display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; gap: 6px; color: var(--accent-text)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Done</span>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">A stage has four states and four shapes: filled circle with a check, ring with a bar, dashed ring, square frame. A job has five states, each with its own mark and word: In queue, Running, Stopped, Closed, Done. The state reads even without color.</p>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Alert box</h2>
+<p role="alert" style="margin: 0; display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; border-radius: 12px; background: var(--surface); border: 1px solid var(--warn-edge); font-size: 15px; line-height: 1.5; color: var(--text)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; color: var(--warn)"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg><span style="min-width: 0; overflow-wrap: anywhere"><strong style="font-weight: 600; color: var(--warn)">You need 2 credits and have [BALANCE].</strong> Nothing was charged. Your form is saved.</span></p>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">An icon, then the text. The first sentence says what happened, in 600 and the warn color; the rest is plain text. A stopped job uses the card form of the same alert: a title, what happened, then the options one under another.</p>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Empty state</h2>
+<div style="box-sizing: border-box; border-radius: 16px; border: 1.5px dashed var(--edge-strong); padding: clamp(48px, 5vw, 72px) clamp(16px, 4vw, 24px); display: flex; flex-direction: column; align-items: center; gap: 24px; text-align: center">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 8px">
+<h3 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em">Seen it? Clone it.</h3>
+<p style="margin: 0; max-width: 520px; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Your videos will show up here. Your first video is free: one no-talking video in Fast quality. No card needed.</p>
+</div>
+<a href="#" style="display: flex; align-items: center; justify-content: center; box-sizing: border-box; border-radius: 12px; font: inherit; font-weight: 600; text-decoration: none; cursor: pointer; min-height: 60px; padding: 0 32px; border: 0; background: var(--accent); color: var(--on-accent); font-size: 17px">Browse the gallery</a>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">When a list has nothing to show, a dashed panel takes its place: a title, a short text, one action. When a search finds nothing, the panel is a compact row above the other templates: title and text on the left, bordered actions on the right.</p>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Video controls</h2>
+<div style="position: relative; width: 408px; max-width: 100%; height: 240px; border-radius: 16px; overflow: hidden; background: var(--bg); box-shadow: 0 0 0 1px var(--media-edge)">
+<img src="/_blob/619ee0e5a13e318118b291c1451be9b8" alt="" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 16%; display: block">
+<div style="position: absolute; left: 12px; right: 12px; bottom: 12px; display: flex; flex-direction: column; gap: 4px; padding: 12px 8px 4px; border-radius: 12px; background: var(--scrim); color: var(--on-scrim)">
+<div style="padding: 0 8px"><div aria-hidden="true" style="display: flex; gap: 4px"><span style="flex: 13; height: 4px; border-radius: 999px; background: var(--accent)"></span><span style="flex: 16; height: 4px; border-radius: 999px; background: var(--accent)"></span><span style="flex: 13; height: 4px; border-radius: 999px; background: var(--on-scrim); opacity: 0.5"></span><span style="flex: 15; height: 4px; border-radius: 999px; background: var(--on-scrim); opacity: 0.5"></span><span style="flex: 23; height: 4px; border-radius: 999px; background: var(--on-scrim); opacity: 0.5"></span></div></div>
+<div style="display: flex; align-items: center; gap: 4px">
+<button type="button" aria-label="Pause" style="width: 44px; height: 44px; border-radius: 999px; border: 0; background: transparent; color: inherit; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6v12M15 6v12"></path></svg></button>
+<span style="font-size: 13px; font-weight: 500">0:02 / 0:08</span>
+<span style="flex: 1"></span>
+<button type="button" aria-label="Sound on" style="width: 44px; height: 44px; border-radius: 999px; border: 0; background: transparent; color: inherit; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10v4h3l5 4V6l-5 4zM16 9a4 4 0 0 1 0 6M18.5 6.5a8 8 0 0 1 0 11"></path></svg></button>
+<button type="button" aria-label="Full screen" style="width: 44px; height: 44px; border-radius: 999px; border: 0; background: transparent; color: inherit; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9V5h4M20 9V5h-4M4 15v4h4M20 15v4h-4"></path></svg></button>
+</div>
+</div>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">The bar sits on the video, so it is the same in both themes: scrim behind, light text and icons on top. Play or pause and the time on the left, sound and full screen on the right. The progress line is cut into shots. Each button is 44 px.</p>
+</div>
+
+</div>
+
+</section>
+
+<section style="display: flex; flex-direction: column; gap: 16px; padding-top: 40px; border-top: 1px solid var(--line)">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Cookie bar</h2>
+<div role="region" aria-label="Cookie notice" style="box-sizing: border-box; padding: 24px; border-radius: 24px; background: var(--surface); border: 1px solid var(--edge); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 48px">
+<div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 4px">
+<h3 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">Cookies</h3>
+<p style="margin: 0; max-width: 620px; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">We only use cookies the site needs to work: your session, language and theme. <a href="#" style="padding: 12px 0; font-weight: 600; text-decoration: none">Privacy</a></p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<button type="button" style="display: flex; align-items: center; justify-content: center; box-sizing: border-box; border-radius: 12px; font: inherit; font-weight: 600; text-decoration: none; cursor: pointer; min-height: 52px; padding: 0 24px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font-size: 15px; min-width: 112px">OK</button>
+</div>
+</div>
+<p style="margin: 0; max-width: 860px; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">One wide card: what the cookies are for, a link to the privacy page, and one answer. Only necessary cookies are used, so there is nothing to choose; the button is bordered, never lime.</p>
+</section>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"theme":{"editor":"enum","options":["dark","light"],"default":"dark"},"$preview":{"width":1440,"height":3020}}'>
+class Component extends DCLogic {
+renderVals() {
+return { theme: this.props.theme ?? 'dark' };
+}
+}
+</script>
+</body>
+</html>

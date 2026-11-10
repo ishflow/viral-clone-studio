@@ -1,0 +1,398 @@
+{
+  "id": "lashly-01",
+  "source": {
+    "kind": "seed",
+    "url": "https://example.com/video/2",
+    "metrics": {
+      "views": 8900000,
+      "likes": 535800,
+      "ctr_band": ""
+    }
+  },
+  "title": "Four-week test with before and after",
+  "description": "A presenter says she tested the product for weeks, shows a before and an after picture while she reacts in a small window, then names the product, says what is in it and how she uses it, and ends on her verdict. Word-by-word captions, product cards, quiet music under the voice.",
+  "category": "beauty",
+  "tags": [
+    "talking",
+    "presenter",
+    "before-after",
+    "captions"
+  ],
+  "mode": "speech",
+  "canvas": {
+    "width": 720,
+    "height": 1280,
+    "fps": 30
+  },
+  "products": {
+    "min": 1,
+    "max": 1
+  },
+  "people": "face",
+  "shots": [
+    {
+      "id": "s1",
+      "segment": "trial",
+      "products": [
+        "1"
+      ],
+      "motion_prompt": "Mood: she is sharing the outcome of her own experiment and can hardly keep it to herself. As she says how long the test ran, her free hand counts it out, and {product} never leaves the spot by her cheek, label toward the lens. She tips toward the camera for a second when she promises proof. The before gets a tiny apologetic shrug; at the after her eyes go wide and her voice rises.",
+      "clip_seconds": 12,
+      "action": "She says how long she tested the product and shows a before and an after"
+    },
+    {
+      "id": "s2",
+      "segment": "formula",
+      "products": [
+        "1"
+      ],
+      "motion_prompt": "Mood: an easy tip from one friend to another, no sales voice. Naming {product}, she moves it up to the lens until the label can be read, then lets it sink back beside her face. Explaining the use, she acts the movement out once in the air near her face without touching it, and finishes relaxed, with a small sure smile.",
+      "clip_seconds": 9,
+      "action": "She holds the product to the camera, says what is in it and how she uses it",
+      "motion": {
+        "kind": "push-in",
+        "to": 1.05
+      }
+    },
+    {
+      "id": "s3",
+      "segment": "verdict",
+      "products": [
+        "1"
+      ],
+      "motion_prompt": "Mood: quiet pride. She comes nearer to the camera to let the result be seen and closes her eyes once, slowly. Before admitting that it works she holds a teasing beat with her brows up, then nods. The final words go straight to the viewer, with a pointed finger and a warm, knowing look.",
+      "clip_seconds": 9,
+      "action": "She shows the result and tells the viewer to try it",
+      "in": {
+        "kind": "zoom",
+        "frames": 6,
+        "scale": 1.15
+      }
+    }
+  ],
+  "texts": [
+    {
+      "id": "hook",
+      "mark": "promise",
+      "box": {
+        "left": 14,
+        "top": 14,
+        "right": 86,
+        "bottom": 24
+      },
+      "style": "title",
+      "copy": "My {period} {product_kind} test",
+      "source_copy": "I tested a lash serum for 4 weeks!",
+      "lines": 2,
+      "enter": {
+        "kind": "pop",
+        "frames": 8
+      },
+      "exit": {
+        "kind": "fade",
+        "frames": 6
+      }
+    },
+    {
+      "id": "tag-before",
+      "mark": "before",
+      "box": {
+        "left": 6,
+        "top": 15,
+        "right": 50,
+        "bottom": 22
+      },
+      "style": "tag-rose",
+      "copy": "{before_label}",
+      "source_copy": "",
+      "lines": 1,
+      "enter": {
+        "kind": "pop",
+        "frames": 6
+      },
+      "exit": {
+        "kind": "fade",
+        "frames": 5
+      }
+    },
+    {
+      "id": "tag-after",
+      "mark": "after",
+      "box": {
+        "left": 6,
+        "top": 15,
+        "right": 50,
+        "bottom": 22
+      },
+      "style": "tag-rose",
+      "copy": "{after_label}",
+      "source_copy": "",
+      "lines": 1,
+      "enter": {
+        "kind": "pop",
+        "frames": 6
+      },
+      "exit": {
+        "kind": "fade",
+        "frames": 5
+      }
+    },
+    {
+      "id": "tag-inside",
+      "mark": "inside",
+      "box": {
+        "left": 14,
+        "top": 15,
+        "right": 86,
+        "bottom": 22
+      },
+      "style": "tag-light",
+      "copy": "{ingredient_1} · {ingredient_2} · {ingredient_3}",
+      "source_copy": "",
+      "lines": 1,
+      "enter": {
+        "kind": "slide",
+        "from": "top",
+        "frames": 7,
+        "distance": 2
+      },
+      "exit": {
+        "kind": "fade",
+        "frames": 5
+      }
+    },
+    {
+      "id": "tag-brand",
+      "mark": "close",
+      "box": {
+        "left": 14,
+        "top": 15,
+        "right": 86,
+        "bottom": 22
+      },
+      "style": "tag-rose",
+      "copy": "{product} by {brand}",
+      "source_copy": "",
+      "lines": 1,
+      "enter": {
+        "kind": "pop",
+        "frames": 6
+      },
+      "exit": {
+        "kind": "fade",
+        "frames": 6
+      }
+    }
+  ],
+  "styles": {
+    "title": {
+      "font": "Montserrat",
+      "weight": 900,
+      "size": 44,
+      "align": "center",
+      "fill": "#FFFFFF",
+      "shadows": [
+        "0px 2px 8px #000000B3"
+      ],
+      "outline": {
+        "width": 0.05,
+        "colour": "#000000"
+      }
+    },
+    "tag-rose": {
+      "font": "Montserrat",
+      "weight": 800,
+      "size": 32,
+      "align": "center",
+      "fill": "#FFFFFF",
+      "shadows": [],
+      "plate": {
+        "colour": "#B76E79",
+        "radius": 0.65,
+        "padX": 0.6,
+        "padY": 0.24
+      }
+    },
+    "tag-light": {
+      "font": "Montserrat",
+      "weight": 800,
+      "size": 32,
+      "align": "center",
+      "fill": "#3A2328",
+      "shadows": [],
+      "plate": {
+        "colour": "#F6E3E1",
+        "radius": 0.65,
+        "padX": 0.6,
+        "padY": 0.24
+      }
+    },
+    "spoken": {
+      "font": "Montserrat",
+      "weight": 900,
+      "size": 46,
+      "align": "center",
+      "fill": "#FFFFFF",
+      "shadows": [
+        "0px 3px 7px #000000B3"
+      ],
+      "tracking": -0.013,
+      "leading": 1.24,
+      "outline": {
+        "width": 0.05,
+        "colour": "#111111"
+      }
+    }
+  },
+  "audio": {
+    "music": {
+      "prompt": "Instrumental only. Light, upbeat bedroom pop that sits under a speaking voice: soft plucked synth, warm bass and a gentle clap on two and four at about 105 beats per minute, steady from the first second, without a long intro. No vocals, no spoken words.",
+      "gain": 0.1,
+      "fadeOut": 21
+    }
+  },
+  "script": {
+    "segments": [
+      {
+        "id": "trial",
+        "lines": "[promise]I tried the {product_kind} everyone keeps asking me about for {period}. Let me show you my before and after.[/promise] [before]So this is {before_spoken}. No {product_kind}, nothing.[/before] [after]And this is {after_spoken}. I'm honestly so impressed.[/after]",
+        "seconds": 12
+      },
+      {
+        "id": "formula",
+        "lines": "It's the [name]{product} from {brand}.[/name] [inside]{ingredient_1}, {ingredient_2}, {ingredient_3},[/inside] and you just [routine]{how_to_use}.[/routine]",
+        "seconds": 9
+      },
+      {
+        "id": "verdict",
+        "lines": "Look at them now. The box said {claim}, and honestly? I see it. [close]If you've been thinking about a {product_kind}, this is your sign.[/close]",
+        "seconds": 9
+      }
+    ]
+  },
+  "presenter": {
+    "still_prompt": "One frame of a phone selfie video, vertical 9:16: a woman in her mid twenties in a bright bathroom, cream knit cardigan over a white top, dark hair pulled back, natural make-up. She stands a little left of the middle of the frame and holds {product} upright next to her cheek on the left side of the frame, its label to the camera, and looks into the lens in the middle of a sentence, friendly and a little excited. Her eyes are at about two fifths of the frame height. The wall above her head and the right quarter of the frame beside her face are plain and empty. Soft window light, real skin texture, no text.",
+    "references": [
+      "product:1"
+    ],
+    "voice": {
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "sample_text": "Okay, so I have to tell you about something I have been testing for a few weeks, because honestly, I did not expect it to work this well."
+    }
+  },
+  "stills": [
+    {
+      "id": "proof-before",
+      "prompt": "A macro photograph for a before picture: {before_subject}. The subject sits in the left half of the frame at mid height; the right side of the frame shows only plain skin. Even, soft light, sharp focus, real skin texture, vertical 9:16, no text.",
+      "references": []
+    },
+    {
+      "id": "proof-after",
+      "prompt": "The photograph of the reference image again, the same person, the same framing and the same light. One thing has changed: {after_change}. Nothing else is different. Vertical 9:16, no text.",
+      "references": [
+        "still:proof-before"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "card-name",
+      "mark": "name",
+      "image": "product:1",
+      "box": {
+        "left": 62,
+        "top": 27,
+        "right": 86,
+        "bottom": 50
+      },
+      "enter": {
+        "kind": "pop",
+        "frames": 7
+      }
+    },
+    {
+      "id": "card-inside",
+      "mark": "inside",
+      "image": "product:1.2",
+      "box": {
+        "left": 62,
+        "top": 27,
+        "right": 86,
+        "bottom": 50
+      },
+      "enter": {
+        "kind": "pop",
+        "frames": 7
+      }
+    },
+    {
+      "id": "card-routine",
+      "mark": "routine",
+      "image": "product:1.3",
+      "box": {
+        "left": 62,
+        "top": 27,
+        "right": 86,
+        "bottom": 50
+      },
+      "enter": {
+        "kind": "pop",
+        "frames": 7
+      }
+    },
+    {
+      "id": "card-close",
+      "mark": "close",
+      "image": "product:1",
+      "box": {
+        "left": 62,
+        "top": 27,
+        "right": 86,
+        "bottom": 50
+      },
+      "enter": {
+        "kind": "pop",
+        "frames": 7
+      }
+    }
+  ],
+  "windows": [
+    {
+      "mark": "before",
+      "corner": "top-right",
+      "width": 30,
+      "behind": "still:proof-before",
+      "behindMotion": {
+        "kind": "push-in",
+        "to": 1.06
+      }
+    },
+    {
+      "mark": "after",
+      "corner": "top-right",
+      "width": 30,
+      "behind": "still:proof-after",
+      "behindMotion": {
+        "kind": "push-in",
+        "to": 1.06
+      }
+    }
+  ],
+  "captions": {
+    "box": {
+      "left": 14,
+      "top": 51,
+      "right": 86,
+      "bottom": 64
+    },
+    "style": "spoken",
+    "group": {
+      "words": 4,
+      "lines": 2
+    },
+    "active": {
+      "kind": "pill",
+      "colour": "#B76E79"
+    }
+  }
+}

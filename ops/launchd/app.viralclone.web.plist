@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  TEMPLATE, not installed. ops/install.sh fills the @...@ markers and writes the copy to ~/Library/LaunchAgents (dry-run unless --apply).
+  The site: web/ production server (needs  pnpm --dir web build  once). ops/run.sh loads the secrets from the 0600 env file
+  (default ~/.config/viralclone/env, VC_ENV_FILE overrides) and starts `next start -H $VC_BIND_HOST -p $VC_PORT` (default 127.0.0.1:3000).
+  No secret is written in this file. launchd does not expand ~ or $HOME: every path is absolute.
+  Remove: ops/rollback.sh. Restart: launchctl kickstart -k gui/$UID/app.viralclone.web
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>app.viralclone.web</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>@REPO@/ops/run.sh</string>
+    <string>web</string>
+  </array>
+  <key>WorkingDirectory</key><string>@REPO@/web</string>
+  <key>RunAtLoad</key><true/>
+  <key>KeepAlive</key><true/>
+  <key>StandardOutPath</key><string>@HOME@/Library/Logs/viralclone/web.out.log</string>
+  <key>StandardErrorPath</key><string>@HOME@/Library/Logs/viralclone/web.err.log</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key><string>@PATH@</string>
+    <key>VC_ENV_FILE</key><string>@ENV_FILE@</string>
+  </dict>
+</dict>
+</plist>

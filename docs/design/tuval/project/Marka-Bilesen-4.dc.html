@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Viral Clone — components: messages and money</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ay{--bg:#0B0C0A;--surface:#151712;--raised:#1C1F17;--line:#23261E;--edge:#33372B;--edge-strong:#676B5D;--text:#F2F3EC;--text-2:#C9CCBF;--text-3:#A9AC9F;--accent:#C8F03C;--accent-hover:#E0FF7A;--accent-text:#C8F03C;--on-accent:#0B0C0A;--warn:#FF9A6B;--warn-edge:#5A3A2A;--mark-edge:#C8F03C;--scrim:rgba(11,12,10,0.76);--on-scrim:#F2F3EC;--media-edge:transparent;--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Onest',system-ui,sans-serif}
+.ay[data-theme="light"],.ay [data-theme="light"]{--bg:#F4F5EE;--surface:#FFFFFF;--raised:#E8EADF;--line:#E0E2D7;--edge:#CBCEBF;--edge-strong:#80856F;--text:#0B0C0A;--text-2:#3E4236;--text-3:#5A5F50;--accent-hover:#B6E01F;--accent-text:#456300;--warn:#A8400F;--warn-edge:#E3B7A2;--mark-edge:#0B0C0A;--media-edge:rgba(11,12,10,0.12)}
+a{color:var(--accent-text)}a:hover{color:var(--text)}
+</style>
+</helmet>
+<div class="ay" data-theme="{{ theme }}" style="width: 1440px; min-height: 2240px; box-sizing: border-box; padding: 80px; background: var(--bg); color: var(--text); font-family: var(--body); display: flex; flex-direction: column; gap: 56px">
+<header style="display: flex; flex-direction: column; gap: 16px">
+<h1 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 64px; line-height: 0.98; letter-spacing: -0.03em">Components: messages and money</h1>
+<p style="margin: 0; max-width: 860px; font-size: 17px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Everything that says what happened and what it costs: inline messages, field errors, the could-not-load block, upload states, credit rows, and the two words for giving something back.</p>
+</header>
+
+<section style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; align-items: start; padding-top: 40px; border-top: 1px solid var(--line)">
+
+<div style="display: flex; flex-direction: column; gap: 48px">
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Inline message</h2>
+<div style="display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<p style="margin: 0; display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; border-radius: 12px; background: var(--surface); font-size: 15px; line-height: 1.5; border: 1px solid var(--line); color: var(--text-2)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; color: var(--text-3)"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 11v5M12 7.8v.1"></path></svg><span>Preparing a template costs 1 credit. You confirm before anything is charged.</span></p>
+<span style="font-size: 13px; color: var(--text-3)">info: something to know before you act</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<p role="alert" style="margin: 0; display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; border-radius: 12px; background: var(--surface); font-size: 15px; line-height: 1.5; border: 1px solid var(--warn-edge); color: var(--text)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; color: var(--warn)"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg><span><strong style="font-weight: 600; color: var(--warn)">This video is longer than 60 seconds.</strong> Trim it and try again. Nothing was charged.</span></p>
+<span style="font-size: 13px; color: var(--text-3)">warning: something stopped or changed; the first sentence says what</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<p role="status" style="margin: 0; display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; border-radius: 12px; background: var(--surface); font-size: 15px; line-height: 1.5; border: 1px solid var(--line); color: var(--text)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; color: var(--accent-text)"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Sent again. You can send another in 60 seconds.</span></p>
+<span style="font-size: 13px; color: var(--text-3)">success: something finished</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; color: var(--accent-text)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Saved.</span>
+<span style="font-size: 13px; color: var(--text-3)">a one-word result next to its button: a status line, no box</span>
+</div>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">A message sits where the thing happened, not at the top of the page. All three share one box; the icon and the edge tell them apart, so the kind reads without color. One or two sentences: what happened, then what to do. A warning that follows a payment or a credit step ends with what was charged.</p>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Field error</h2>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px">
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 13px; color: var(--text-3)">Email
+<input type="email" value="name@example" aria-invalid="true" style="min-height: 52px; box-sizing: border-box; padding: 0 16px; border-radius: 12px; border: 1.5px solid var(--warn); background: var(--surface); color: var(--text); font: inherit; font-size: 15px">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 13px; line-height: 1.4; color: var(--warn)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg>Enter a valid email address.</span>
+</label>
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 13px; color: var(--text-3)">Password
+<input type="password" value="12345" aria-invalid="true" style="min-height: 52px; box-sizing: border-box; padding: 0 16px; border-radius: 12px; border: 1.5px solid var(--warn); background: var(--surface); color: var(--text); font: inherit; font-size: 15px">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 13px; line-height: 1.4; color: var(--warn)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg>Use at least 8 characters.</span>
+</label>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">The field keeps what was typed. Its edge takes the warning color and one line under it says what to do. The line carries an icon, so it reads without color. Other fields are not touched.</p>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Could not load</h2>
+<div role="alert" style="box-sizing: border-box; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); padding: clamp(48px, 5vw, 72px) clamp(16px, 4vw, 24px); display: flex; flex-direction: column; align-items: center; gap: 24px; text-align: center">
+<span aria-hidden="true" style="width: 48px; height: 48px; border-radius: 50%; background: var(--raised); color: var(--warn); display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg></span>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 8px">
+<h3 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">Could not load the gallery.</h3>
+<p style="margin: 0; max-width: 520px; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Check your connection and try again. Your videos and credits are not affected.</p>
+</div>
+<button type="button" style="display: flex; align-items: center; justify-content: center; box-sizing: border-box; border-radius: 12px; font: inherit; font-weight: 600; text-decoration: none; cursor: pointer; min-height: 52px; padding: 0 24px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font-size: 15px; gap: 8px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12a7 7 0 1 1-2.05-4.95M17 3.5v3.6h-3.6"></path></svg>Try again</button>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px">
+<button type="button" style="display: flex; align-items: center; justify-content: center; box-sizing: border-box; border-radius: 12px; font: inherit; font-weight: 600; text-decoration: none; cursor: pointer; min-height: 52px; padding: 0 24px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font-size: 15px; gap: 8px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12a7 7 0 1 1-2.05-4.95M17 3.5v3.6h-3.6"></path></svg>Try again</button>
+<a href="#" style="display: flex; align-items: center; gap: 8px; min-height: 44px; font-size: 15px; font-weight: 500; text-decoration: none">Contact support</a>
+<span style="font-size: 13px; color: var(--text-3)">after a second failure</span>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">When a list or a part of a page cannot load, this block takes its place: an icon, a 20 px title that names what did not load, one 15 px sentence, and a bordered Try again. The button is never lime. After a second failure, Contact support appears beside it.</p>
+</div>
+
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 48px">
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Upload thumbnail</h2>
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<button type="button" style="width: 232px; height: 96px; box-sizing: border-box; padding: 8px 16px; border-radius: 8px; border: 1.5px dashed var(--edge-strong); background: transparent; color: var(--text-2); font: inherit; font-size: 13px; line-height: 1.4; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; text-align: center; text-wrap: balance; cursor: pointer"><span style="display: flex; color: var(--accent-text)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></span>Drop images here or choose files</button>
+<span style="font-size: 13px; color: var(--text-3)">empty</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<button type="button" aria-label="Add image" style="width: 72px; height: 96px; border-radius: 8px; border: 1.5px dashed var(--edge-strong); background: transparent; color: var(--accent-text); display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
+<span style="font-size: 13px; color: var(--text-3)">add another</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<div style="display: flex; align-items: flex-start; gap: 8px">
+<div style="position: relative; flex: 0 0 auto; width: 72px; height: 96px; border-radius: 8px; overflow: hidden; background: var(--raised); box-shadow: 0 0 0 1px var(--media-edge)">
+<img src="/_blob/619ee0e5a13e318118b291c1451be9b8" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0.4">
+<span role="progressbar" aria-label="Upload progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60" style="position: absolute; left: 4px; right: 4px; bottom: 4px; display: flex; padding: 4px; border-radius: 999px; background: var(--scrim)"><span style="flex: 60; height: 4px; border-radius: 999px; background: var(--accent)"></span><span style="flex: 40; height: 4px"></span></span>
+</div>
+<div style="flex: 0 0 auto; min-width: 72px; align-self: stretch; display: flex; flex-direction: column; gap: 8px; justify-content: center">
+<span role="status" style="font-size: 13px; line-height: 1.4; font-weight: 600; color: var(--text-2)">Uploading… 60%</span>
+</div>
+</div>
+<span style="font-size: 13px; color: var(--text-3)">uploading</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<div style="display: flex; align-items: flex-start; gap: 8px">
+<img src="/_blob/619ee0e5a13e318118b291c1451be9b8" alt="Uploaded product image" style="width: 72px; height: 96px; object-fit: cover; border-radius: 8px; display: block; box-shadow: 0 0 0 1px var(--media-edge)">
+<div style="flex: 0 0 72px; display: flex; flex-direction: column; gap: 8px">
+<button type="button" style="min-height: 44px; padding: 0 4px; border: 0; background: transparent; color: var(--text-2); font: inherit; font-size: 13px; font-weight: 600; text-align: left; white-space: nowrap; cursor: pointer">Replace</button>
+<button type="button" style="min-height: 44px; padding: 0 4px; border: 0; background: transparent; color: var(--text-2); font: inherit; font-size: 13px; font-weight: 600; text-align: left; white-space: nowrap; cursor: pointer">Remove</button>
+</div>
+</div>
+<span style="font-size: 13px; color: var(--text-3)">uploaded</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<div style="display: flex; align-items: flex-start; gap: 8px">
+<div style="position: relative; flex: 0 0 auto; width: 72px; height: 96px; border-radius: 8px; overflow: hidden; background: var(--raised); box-shadow: 0 0 0 1.5px var(--warn)">
+<img src="/_blob/619ee0e5a13e318118b291c1451be9b8" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0.4">
+<span aria-hidden="true" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 32px; height: 32px; border-radius: 50%; background: var(--scrim); color: var(--on-scrim); display: flex; align-items: center; justify-content: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg></span>
+</div>
+<div style="flex: 0 0 72px; display: flex; flex-direction: column; gap: 8px">
+<button type="button" style="min-height: 44px; padding: 0 4px; border: 0; background: transparent; color: var(--text-2); font: inherit; font-size: 13px; font-weight: 600; text-align: left; white-space: nowrap; cursor: pointer">Try again</button>
+<button type="button" style="min-height: 44px; padding: 0 4px; border: 0; background: transparent; color: var(--text-2); font: inherit; font-size: 13px; font-weight: 600; text-align: left; white-space: nowrap; cursor: pointer">Remove</button>
+</div>
+</div>
+<span style="font-size: 13px; color: var(--text-3)">upload failed</span>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<p role="alert" style="margin: 0; display: flex; align-items: flex-start; gap: 8px; font-size: 13px; line-height: 1.4; color: var(--warn)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; margin-top: 1px"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg><span style="min-width: 0; overflow-wrap: anywhere">Upload failed. Check your connection.</span></p>
+<p role="alert" style="margin: 0; display: flex; align-items: flex-start; gap: 8px; font-size: 13px; line-height: 1.4; color: var(--warn)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; margin-top: 1px"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg><span style="min-width: 0; overflow-wrap: anywhere">a-very-long-product-photo-name-final-v2.png is larger than 10 MB.</span></p>
+<span style="font-size: 13px; color: var(--text-3)">one line per file, under the thumbnails: the file name and what to do</span>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">A thumbnail is 72 by 96 with an 8 px corner. While it uploads, the image is dimmed and a bar on a scrim shows the progress; the percent is written beside it. A failed upload takes a warning ring and icon. An error touches only its own file: the other images and fields stay. The main button stays off until every upload is done.</p>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Credit rows</h2>
+<div style="box-sizing: border-box; max-width: 520px; padding: 24px; border-radius: 24px; background: var(--surface); border: 1px solid var(--edge); display: flex; flex-direction: column; gap: 16px">
+<dl style="margin: 0; display: flex; flex-direction: column; border-bottom: 1px solid var(--edge)">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding: 16px 0; border-top: 1px solid var(--edge); font-size: 17px; border-top: 0; padding-top: 0"><dt style="font-weight: 600">Credits for this job</dt><dd style="margin: 0 0 0 auto; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere; color: var(--accent-text)">2</dd></div>
+<div style="display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-top: 1px solid var(--edge); font-size: 15px"><dt style="color: var(--text-2)">Balance now</dt><dd style="margin: 0; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere">[BALANCE]</dd></div>
+<div style="display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-top: 1px solid var(--edge); font-size: 15px"><dt style="color: var(--text-2)">After this job</dt><dd style="margin: 0; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere">[BALANCE AFTER]</dd></div>
+</dl>
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3); text-wrap: pretty">You are charged when you confirm. If the video is not delivered, the credits come back.</p>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Wherever credits are about to be charged, three rows in this order: the price, the balance now, the balance after. The price row is one step larger and its number takes the accent text color. The price is fixed: the number shown is the number charged. Only time is an estimate ("about 7 min"). A note under the rows says when the charge happens and what comes back.</p>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Returned and refund</h2>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-items: stretch">
+<div style="box-sizing: border-box; padding: 24px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 12px; min-width: 0">
+<h3 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">returned</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Credits go back to your balance. It happens on its own.</p>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 15px; line-height: 1.5; color: var(--text)">
+<li>"Credits returned"</li>
+<li>"Your credit was returned."</li>
+<li>"The 2 credits for this video are back in your balance."</li>
+</ul>
+</div>
+<div style="box-sizing: border-box; padding: 24px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 12px; min-width: 0">
+<h3 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1.25; letter-spacing: -0.01em">refund</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Money goes back to your payment method, through the payment provider.</p>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 15px; line-height: 1.5; color: var(--text)">
+<li>"Request a refund"</li>
+<li>"Refunded"</li>
+<li>"The money is on its way to your payment method; this takes a few days."</li>
+</ul>
+</div>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Two words for two different things, never one for the other. A stopped job or a template that could not be prepared returns credits. A pack that was not used is refunded.</p>
+</div>
+
+</div>
+
+</section>
+
+<section style="display: flex; flex-direction: column; gap: 16px; padding-top: 40px; border-top: 1px solid var(--line)">
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Talking template</h2>
+<p style="margin: 0; max-width: 860px; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Launch default: talking templates are hidden (Admin · settings → Show talking templates is off). The gallery, detail and pricing boards show them with the switch on.</p>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; align-items: start">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 24px 48px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; color: var(--accent-text)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Free with your first video</span>
+<span style="font-size: 13px; color: var(--text-3)">template page, no-talking template</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; color: var(--text-2)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 7a7 3 0 1 0 14 0a7 3 0 1 0-14 0M5 7v5a7 3 0 0 0 14 0V7M5 12v5a7 3 0 0 0 14 0v-5"></path></svg>Needs credits · 4 credits</span>
+<span style="font-size: 13px; color: var(--text-3)">template page, talking template</span>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 13px; color: var(--text-3)">Short description
+<input type="text" value="body oil" style="min-height: 52px; box-sizing: border-box; padding: 0 16px; border-radius: 12px; border: 1px solid var(--edge-strong); background: var(--surface); color: var(--text); font: inherit; font-size: 15px">
+<span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">What the presenter says is written from your product description. Only claims you typed are used.</span>
+</label>
+<span style="font-size: 13px; color: var(--text-3)">generate form, talking template: a note under the description field</span>
+</div>
+</div>
+<p style="margin: 0; max-width: 860px; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">A talking template is not covered by the free video. Where a no-talking template says Free with your first video, its page says what it costs: the same line, with the credits icon and no accent color. In the form, a note under the product description says where the presenter's words come from. The sample pages on the canvas show a no-talking template, so these two lines are recorded here.</p>
+</section>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"theme":{"editor":"enum","options":["dark","light"],"default":"dark"},"$preview":{"width":1440,"height":2240}}'>
+class Component extends DCLogic {
+renderVals() {
+return { theme: this.props.theme ?? 'dark' };
+}
+}
+</script>
+</body>
+</html>

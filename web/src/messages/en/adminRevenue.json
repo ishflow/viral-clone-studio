@@ -1,0 +1,171 @@
+{
+  "title": "Revenue",
+  "lead": "Credit pack purchases, invoices, and refunds.",
+  "export": "Export CSV",
+  "period": {
+    "label": "Period",
+    "today": "Today",
+    "7d": "7 days",
+    "30d": "30 days",
+    "all": "All time"
+  },
+  "sections": "Revenue sections",
+  "tab": {
+    "purchases": "Purchases",
+    "credits": "Credits"
+  },
+  "placeholder": {
+    "amount": "—",
+    "price": "[PRICE]",
+    "percent": "—"
+  },
+  "tile": {
+    "revenue": {
+      "label": "Revenue",
+      "sub": "Paid purchases in this period"
+    },
+    "purchases": {
+      "label": "Purchases",
+      "sub": "Paid credit pack purchases"
+    },
+    "average": {
+      "label": "Average purchase",
+      "sub": "Revenue divided by purchases"
+    },
+    "paying": {
+      "label": "Paying users",
+      "sub": "Bought at least one credit pack"
+    },
+    "notCompleted": {
+      "label": "Payments not completed",
+      "sub": "Checkout started, not paid"
+    },
+    "refunds": {
+      "label": "Refunds",
+      "sub": "Money refunded to customers",
+      "pending": "Money refunded to customers · {amount} more sent, result awaited"
+    }
+  },
+  "chart": "Revenue per day",
+  "packs": {
+    "title": "By credit pack",
+    "caption": "Revenue by credit pack",
+    "pack": "Pack",
+    "price": "Price",
+    "credits": "Credits",
+    "sold": "Sold",
+    "revenue": "Revenue",
+    "share": "Share of revenue",
+    "name": "{name} pack"
+  },
+  "purchases": {
+    "title": "Purchases",
+    "date": "Date",
+    "user": "User",
+    "pack": "Pack",
+    "credits": "Credits",
+    "amount": "Amount",
+    "tax": "Tax",
+    "charged": "Charged {total}",
+    "invoice": "Invoice",
+    "status": "Status",
+    "actions": "Actions",
+    "noInvoice": "No invoice",
+    "pdf": "PDF",
+    "view": "View",
+    "empty": "No purchases in this period.",
+    "by": "By {name}",
+    "review": {
+      "disputed": "Disputed at the payment provider. The credits cannot be spent. Answer the dispute at the provider: when it is won there, the pack is freed by itself. After any other end (lost, accepted, cancelled or expired) the pack stays frozen and cannot be refunded or freed from here.",
+      "refund-review": "A refund at the payment provider does not match one sent from here, and the whole payment is not known to have gone back. Check the provider and settle it there: a pack with spent credits cannot be refunded from here.",
+      "refund-partial": "Partial refund ({amount}) at the payment provider, not from here: the whole payment did not go back. The pack is not frozen and no credits were removed. It waits for your decision: nothing is taken out by itself.",
+      "refund-amount-unknown": "A refund at the payment provider, not from here, whose amount is not known. The pack is not frozen and no credits were removed. Look at it in the provider's dashboard: it waits for your decision, and nothing is taken out by itself.",
+      "refund-outside": "The whole payment was refunded at the payment provider, not from here. The credits cannot be spent. Send the refund here to close it: no money goes back a second time, and the credits left in the pack are removed.",
+      "refund-conflict": "The payment provider answered that this payment has a refund already, but lists none that went through. No credits were given back. Check the provider: a refund made there closes this one.",
+      "refund-overdue": "Sent more than three days ago, and the payment provider has not said how it ended. It is no longer asked about, and no credits were given back. Check the provider: its notice of this refund, sent again from there, settles it.",
+      "refund-unknown": "Result awaited: the payment provider has not confirmed that it took this refund. It is being asked; if no money went back, the credits come back and the refund can be sent again.",
+      "refund-not-found": "The payment provider lists no refund of this purchase that went through. No money went back, and the credits are back in the balance. Try the refund again.",
+      "refund-no-funds": "The payment provider refused this refund: the balance of its account (the Dodo wallet) does not cover the amount. No money went back, and the credits are back in the balance. Try the refund again when the balance covers it.",
+      "second-payment": "Paid twice on one checkout. One payment has no credits: refund it at the payment provider."
+    }
+  },
+  "uncredited": {
+    "title": "Payments not credited",
+    "why": "Why",
+    "reason": {
+      "amount": "The amount paid is not the price of the pack. No credits were written: look at the payment at the provider.",
+      "currency": "Paid in another currency than the pack's. No credits were written: look at the payment at the provider.",
+      "tax-unknown": "The provider reported no tax for this payment, so its price could not be checked. No credits were written: look at the payment at the provider.",
+      "cart": "The payment is for another product or quantity than this pack. No credits were written: look at the payment at the provider.",
+      "facts-missing": "The provider's own details of this payment were missing. No credits were written: look at the payment at the provider.",
+      "no-account": "The account of this payment no longer exists. No credits were written: refund it at the payment provider.",
+      "binding": "The provider's answer about this checkout names a payment that is not tied to it. No credits were written: look at the payment at the provider.",
+      "gave-up": "The provider could not be asked about this checkout for three days after it ran out, so it is not known whether it was paid. No credits were written: look it up at the provider."
+    }
+  },
+  "credits": {
+    "title": "Credits",
+    "lead": "Every credit that was sold, given, or spent.",
+    "tile": {
+      "sold": {
+        "label": "Credits sold",
+        "sub": "Credits in paid packs"
+      },
+      "spent": {
+        "label": "Credits spent",
+        "sub": "Used to generate videos"
+      },
+      "unspent": {
+        "label": "Unspent balance",
+        "sub": "Credits customers still hold"
+      },
+      "free": {
+        "label": "Free videos given",
+        "sub": "One per verified email"
+      },
+      "admin": {
+        "label": "Added by admin",
+        "sub": "Given by hand, with a reason"
+      },
+      "refunded": {
+        "label": "Refunded",
+        "sub": "Removed by purchase refunds"
+      }
+    },
+    "byQuality": "Spending by quality",
+    "byFormat": "Spending by format",
+    "jobs": "Jobs",
+    "credits": "Credits",
+    "cost": "Generation cost",
+    "ledger": {
+      "title": "Credit ledger",
+      "type": "Type",
+      "empty": "No credit activity matches this filter."
+    }
+  },
+  "ledgerFilter": {
+    "all": "All",
+    "purchase": "Purchases",
+    "generation": "Generations",
+    "free-video": "Free videos",
+    "admin": "Admin",
+    "refund": "Refunds",
+    "returned": "Returned"
+  },
+  "ledgerType": {
+    "purchase": "Purchase",
+    "generation": "Generation",
+    "free-video": "Free video",
+    "admin": "Added by admin",
+    "refund": "Refund",
+    "returned": "Credits returned"
+  },
+  "quality": {
+    "fast": "Fast",
+    "best": "Best"
+  },
+  "format": {
+    "no-talking": "No talking",
+    "talking": "Talking"
+  }
+}

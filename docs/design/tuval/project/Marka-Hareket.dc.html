@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Viral Clone — motion</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ay{--bg:#0B0C0A;--surface:#151712;--raised:#1C1F17;--line:#23261E;--edge:#33372B;--edge-strong:#676B5D;--text:#F2F3EC;--text-2:#C9CCBF;--text-3:#A9AC9F;--accent:#C8F03C;--accent-hover:#E0FF7A;--accent-text:#C8F03C;--on-accent:#0B0C0A;--warn:#FF9A6B;--warn-edge:#5A3A2A;--mark-edge:#C8F03C;--scrim:rgba(11,12,10,0.76);--on-scrim:#F2F3EC;--media-edge:transparent;--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Onest',system-ui,sans-serif}
+.ay[data-theme="light"],.ay [data-theme="light"]{--bg:#F4F5EE;--surface:#FFFFFF;--raised:#E8EADF;--line:#E0E2D7;--edge:#CBCEBF;--edge-strong:#80856F;--text:#0B0C0A;--text-2:#3E4236;--text-3:#5A5F50;--accent-hover:#B6E01F;--accent-text:#456300;--warn:#A8400F;--warn-edge:#E3B7A2;--mark-edge:#0B0C0A;--media-edge:rgba(11,12,10,0.12)}
+a{color:var(--accent-text)}a:hover{color:var(--text)}
+@keyframes ay-dol{0%{width:40%}60%,100%{width:60%}}
+@keyframes ay-nabiz{0%,100%{opacity:1}50%{opacity:0.35}}
+.ay-dol{width:60%;animation:ay-dol 2.4s cubic-bezier(0.2,0,0,1) infinite}
+.ay-nabiz{animation:ay-nabiz 1.6s ease-in-out infinite}
+.ay-btn{transition:background-color 120ms cubic-bezier(0.2,0,0,1)}
+.ay-btn:hover{background-color:var(--accent-hover) !important}
+@media (prefers-reduced-motion:reduce){.ay-dol,.ay-nabiz{animation:none}.ay-btn{transition:none}}
+</style>
+</helmet>
+<div class="ay" style="width: 880px; min-height: 940px; box-sizing: border-box; padding: 80px; background: var(--bg); color: var(--text); font-family: var(--body); display: flex; flex-direction: column; gap: 48px">
+
+<header style="display: flex; flex-direction: column; gap: 16px">
+<h1 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 64px; line-height: 0.98; letter-spacing: -0.03em">Motion</h1>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Motion is the video's job. The interface only responds: it changes color, fades in, fills up.</p>
+</header>
+
+<div style="box-sizing: border-box; padding: 20px 24px 24px; border-radius: 16px; background: var(--surface); display: flex; flex-direction: column; gap: 20px">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px">
+<span style="flex: 0 0 36px; height: 36px; box-sizing: border-box; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 15px; font-weight: 600; color: var(--accent-text); border: 1.5px solid var(--accent-text)">3</span>
+<span style="flex: 1 1 200px; min-width: 0; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 17px; font-weight: 600">Clips</span><span style="font-size: 13px; color: var(--text-3)">Video from the first frames</span></span>
+<span style="display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; color: var(--accent-text)"><span class="ay-nabiz" style="width: 8px; height: 8px; border-radius: 50%; background: var(--accent-text)"></span>running · 3 / 5</span>
+<span aria-hidden="true" style="flex: 1 1 100%; height: 6px; border-radius: 3px; background: var(--line); overflow: hidden; display: flex"><span class="ay-dol" style="background: var(--accent-text); border-radius: 3px"></span></span>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px">
+<button type="button" class="ay-btn" style="min-height: 52px; padding: 0 24px; border-radius: 12px; border: 0; background-color: var(--accent); color: var(--on-accent); font: inherit; font-size: 15px; font-weight: 600; cursor: pointer">Clone it</button>
+<span style="font-size: 13px; color: var(--text-3)">Hover: only the color changes.</span>
+</div>
+</div>
+
+<dl style="margin: 0; display: flex; flex-direction: column">
+<div style="display: grid; grid-template-columns: 132px minmax(0, 1fr); gap: 16px; padding: 14px 0; border-top: 1px solid var(--line)"><dt style="font-size: 15px; font-weight: 600">120 ms</dt><dd style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2)">Hover and press. Color changes; position and size don't.</dd></div>
+<div style="display: grid; grid-template-columns: 132px minmax(0, 1fr); gap: 16px; padding: 14px 0; border-top: 1px solid var(--line)"><dt style="font-size: 15px; font-weight: 600">200 ms</dt><dd style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2)">Dialogs and menus open and close: they fade in and out, they don't slide. On a phone a dialog is a full-width sheet at the bottom of the screen; it fades in the same way.</dd></div>
+<div style="display: grid; grid-template-columns: 132px minmax(0, 1fr); gap: 16px; padding: 14px 0; border-top: 1px solid var(--line)"><dt style="font-size: 15px; font-weight: 600">400 ms</dt><dd style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2)">The progress bar fills to its new value.</dd></div>
+<div style="display: grid; grid-template-columns: 132px minmax(0, 1fr); gap: 16px; padding: 14px 0; border-top: 1px solid var(--line)"><dt style="font-size: 15px; font-weight: 600">Easing</dt><dd style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2)">Starts fast, stops soft: cubic-bezier(0.2, 0, 0, 1).</dd></div>
+<div style="display: grid; grid-template-columns: 132px minmax(0, 1fr); gap: 16px; padding: 14px 0; border-top: 1px solid var(--line)"><dt style="font-size: 15px; font-weight: 600">Autoplay</dt><dd style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2)">Only three things move on their own: the sample on a hovered card, the indicator of a running job, and the animated icons.</dd></div>
+<div style="display: grid; grid-template-columns: 132px minmax(0, 1fr); gap: 16px; padding: 14px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line)"><dt style="font-size: 15px; font-weight: 600">Reduced</dt><dd style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2)">If the device asks for reduced motion, samples don't autoplay, transitions are instant, and icons stay still.</dd></div>
+</dl>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":880,"height":940}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

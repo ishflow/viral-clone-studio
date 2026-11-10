@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ay{--bg:#0B0C0A;--surface:#151712;--raised:#1C1F17;--line:#23261E;--edge:#33372B;--edge-strong:#676B5D;--text:#F2F3EC;--text-2:#C9CCBF;--text-3:#A9AC9F;--accent:#C8F03C;--accent-hover:#E0FF7A;--accent-text:#C8F03C;--on-accent:#0B0C0A;--warn:#FF9A6B;--warn-edge:#5A3A2A;--mark-edge:#C8F03C;--scrim:rgba(11,12,10,0.76);--on-scrim:#F2F3EC;--media-edge:transparent;--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Onest',system-ui,sans-serif}
+.ay[data-theme="light"],.ay [data-theme="light"]{--bg:#F4F5EE;--surface:#FFFFFF;--raised:#E8EADF;--line:#E0E2D7;--edge:#CBCEBF;--edge-strong:#80856F;--text:#0B0C0A;--text-2:#3E4236;--text-3:#5A5F50;--accent-hover:#B6E01F;--accent-text:#456300;--warn:#A8400F;--warn-edge:#E3B7A2;--mark-edge:#0B0C0A;--media-edge:rgba(11,12,10,0.12)}
+a{color:var(--accent-text)}a:hover{color:var(--text)}
+</style>
+</helmet>
+<div class="ay" data-theme="{{ theme }}" style="min-height: 3240px; box-sizing: border-box; background: var(--bg); color: var(--text); font-family: var(--body); padding: 0 clamp(16px, 4vw, 60px) 48px">
+<div style="max-width: 1320px; margin: 0 auto; display: flex; flex-direction: column; gap: clamp(72px, 7.8vw, 112px)">
+
+<div style="display: flex; flex-direction: column; gap: clamp(32px, 3.4vw, 48px)">
+<header style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px; padding: 18px 0; border-bottom: 1px solid var(--line)">
+<a href="A-Ana-Sayfa.dc.html" style="display: flex; align-items: baseline; gap: 0.34em; font-family: var(--display); font-weight: 800; font-size: 24px; line-height: 1; letter-spacing: -0.04em; color: var(--text); text-decoration: none"><svg viewBox="0 0 42 32" fill="none" aria-hidden="true" style="width: 0.97em; height: 0.74em; flex: 0 0 auto; display: block"><rect x="1.5" y="1.5" width="15" height="29" rx="3" stroke="currentColor" stroke-width="3"></rect><rect x="25.5" y="1.5" width="15" height="29" rx="3" fill="#C8F03C" stroke-width="3" style="stroke: var(--mark-edge)"></rect></svg><span>viral clone</span></a>
+<nav aria-label="Main menu" style="display: flex; flex-wrap: wrap; gap: 4px">
+<a href="Main.dc.html" style="display: flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 999px; color: var(--text-3); text-decoration: none; font-weight: 500; font-size: 15px">Gallery</a>
+<a href="#nasil" style="display: flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 999px; color: var(--text-3); text-decoration: none; font-weight: 500; font-size: 15px">How it works</a>
+<a href="A-Fiyatlar.dc.html" style="display: flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 999px; color: var(--text-3); text-decoration: none; font-weight: 500; font-size: 15px">Pricing</a>
+</nav>
+<div style="display: flex; align-items: center; gap: 10px">
+<button type="button" aria-label="Language: English. Change" style="min-height: 44px; padding: 0 14px; border-radius: 999px; border: 1px solid var(--edge); background: transparent; color: var(--text-2); font: inherit; font-size: 15px; font-weight: 500; cursor: pointer">EN</button>
+<a href="A-Giris.dc.html" style="display: flex; align-items: center; min-height: 44px; padding: 0 12px; color: var(--text); text-decoration: none; font-size: 15px; font-weight: 500">Log in</a>
+<a href="A-Giris.dc.html" style="display: flex; align-items: center; min-height: 44px; padding: 0 20px; border-radius: 999px; background: var(--accent); color: var(--on-accent); text-decoration: none; font-size: 15px; font-weight: 600">Get started</a>
+</div>
+</header>
+
+<section style="display: flex; flex-direction: column; align-items: center; gap: clamp(24px, 2.3vw, 32px); text-align: center">
+<h1 style="margin: 0; max-width: 1100px; font-family: var(--display); font-weight: 800; font-size: clamp(48px, 8.4vw, 128px); line-height: 0.9; letter-spacing: -0.04em; text-wrap: balance">Same video. <span style="color: var(--accent-text)">Your product.</span></h1>
+<p style="margin: 0; max-width: 620px; font-size: 17px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">The shot-by-shot structure of ad videos with millions of views, ready to use. Upload your product images. A few minutes later the same video is ready with your product.</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px">
+<a href="Main.dc.html" style="flex: 1 1 auto; display: flex; align-items: center; justify-content: center; min-height: 60px; padding: 0 32px; border-radius: 12px; background: var(--accent); color: var(--on-accent); font-weight: 600; font-size: 17px; text-decoration: none">Browse the gallery</a>
+<a href="#nasil" style="flex: 1 1 auto; display: flex; align-items: center; justify-content: center; min-height: 60px; padding: 0 32px; border-radius: 12px; border: 1px solid var(--edge-strong); color: var(--text); font-weight: 600; font-size: 15px; text-decoration: none">How it works</a>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2)">Your first video is free: one no-talking video in Fast quality. No card needed.</p>
+<div style="width: 100%; display: flex; justify-content: center; align-items: flex-start; gap: 16px; overflow-x: auto; padding-top: 16px">
+<sc-for list="{{ strip }}" as="c" hint-placeholder-count="5">
+<img src="{{ c.img }}" alt="" style="flex: 1 1 0; min-width: 120px; max-width: 230px; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 16px; display: block; box-shadow: 0 0 0 1px var(--media-edge); margin-top: {{ c.drop }}">
+</sc-for>
+</div>
+</section>
+</div>
+
+<section id="nasil" aria-labelledby="nasil-baslik" style="display: flex; flex-direction: column; gap: 32px">
+<h2 id="nasil-baslik" style="margin: 0; font-family: var(--display); font-weight: 800; font-size: clamp(36px, 4.6vw, 64px); line-height: 0.98; letter-spacing: -0.03em">Three steps.</h2>
+<ol style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: clamp(12px, 1.7vw, 24px)">
+<sc-for list="{{ steps }}" as="s" hint-placeholder-count="3">
+<li style="box-sizing: border-box; padding: 24px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 16px">
+<span style="font-family: var(--display); font-weight: 800; font-size: clamp(48px, 4.6vw, 64px); line-height: 1; color: var(--accent-text)">{{ s.no }}</span>
+<h3 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; letter-spacing: -0.02em">{{ s.title }}</h3>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">{{ s.body }}</p>
+</li>
+</sc-for>
+</ol>
+</section>
+
+<section aria-labelledby="soz-baslik" style="display: flex; flex-wrap: wrap; align-items: center; gap: clamp(32px, 3.4vw, 48px) 72px">
+<div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 24px">
+<h2 id="soz-baslik" style="margin: 0; font-family: var(--display); font-weight: 800; font-size: clamp(36px, 4.6vw, 64px); line-height: 0.98; letter-spacing: -0.03em; text-wrap: balance">What stays the same, <span style="color: var(--accent-text)">what is made new.</span></h2>
+<p style="margin: 0; max-width: 540px; font-size: 17px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Every video playing in the gallery is this system's own output, not someone else's video. The structure stays the same: shots, order, timing and on-screen text. People, setting and music are made new around your product.</p>
+<a href="Main.dc.html" style="align-self: flex-start; display: flex; align-items: center; min-height: 52px; padding: 0 24px; border-radius: 12px; border: 1px solid var(--edge-strong); color: var(--text); font-weight: 600; font-size: 15px; text-decoration: none">Watch the samples</a>
+</div>
+<div style="flex: 1 1 420px; min-width: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; max-width: 520px">
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 8px">
+<img src="/_blob/f20a7ed7a7bc172a7da483415800077f" alt="Frame from a sample video in the gallery" style="width: 100%; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 16px; display: block; box-shadow: 0 0 0 1px var(--media-edge)">
+<figcaption style="font-size: 13px; color: var(--text-3)">Sample in the gallery</figcaption>
+</figure>
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 8px">
+<div style="box-sizing: border-box; aspect-ratio: 9 / 16; border-radius: 16px; border: 1.5px dashed var(--accent-text); display: flex; align-items: center; justify-content: center; padding: 16px; text-align: center; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; color: var(--accent-text)">Same video, your product</div>
+<figcaption style="font-size: 13px; color: var(--text-3)">Your video</figcaption>
+</figure>
+</div>
+</section>
+
+<section aria-labelledby="soru-baslik" style="display: flex; flex-direction: column; gap: 32px">
+<h2 id="soru-baslik" style="margin: 0; font-family: var(--display); font-weight: 800; font-size: clamp(36px, 4.6vw, 64px); line-height: 0.98; letter-spacing: -0.03em">Questions you may have.</h2>
+<dl style="margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(480px, 100%), 1fr)); gap: 0 48px">
+<sc-for list="{{ faqs }}" as="q" hint-placeholder-count="4">
+<div style="display: flex; flex-direction: column; gap: 8px; padding: 24px 0; border-top: 1px solid var(--line)">
+<dt style="font-size: 20px; font-weight: 600; line-height: 1.3">{{ q.q }}</dt>
+<dd style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">{{ q.a }}</dd>
+</div>
+</sc-for>
+</dl>
+</section>
+
+<section style="box-sizing: border-box; padding: clamp(32px, 6vw, 72px) clamp(24px, 5vw, 72px); border-radius: 24px; background: var(--accent); color: var(--on-accent); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px 48px">
+<h2 style="margin: 0; flex: 1 1 420px; font-family: var(--display); font-weight: 800; font-size: clamp(42px, 6.4vw, 92px); line-height: 0.94; letter-spacing: -0.035em; text-wrap: balance">Seen it? Clone it.</h2>
+<a href="A-Giris.dc.html" style="display: flex; align-items: center; justify-content: center; min-height: 60px; padding: 0 48px; border-radius: 16px; background: var(--on-accent); color: var(--on-scrim); font-weight: 600; font-size: 17px; text-decoration: none">Get started</a>
+</section>
+
+<footer style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px; padding-top: 24px; border-top: 1px solid var(--line); font-size: 13px; color: var(--text-3)">
+<span>© [COMPANY NAME]</span>
+<nav aria-label="Footer menu" style="display: flex; flex-wrap: wrap; gap: 4px 24px">
+<a href="Main.dc.html" style="display: flex; align-items: center; min-height: 44px; color: var(--text-2); text-decoration: none">Gallery</a>
+<a href="A-Fiyatlar.dc.html" style="display: flex; align-items: center; min-height: 44px; color: var(--text-2); text-decoration: none">Pricing</a>
+<a href="A-Yasal.dc.html" style="display: flex; align-items: center; min-height: 44px; color: var(--text-2); text-decoration: none">Terms of use</a>
+<a href="A-Yasal.dc.html" style="display: flex; align-items: center; min-height: 44px; color: var(--text-2); text-decoration: none">Privacy</a>
+<a href="A-Yasal-Iade.dc.html" style="display: flex; align-items: center; min-height: 44px; color: var(--text-2); text-decoration: none">Refunds</a>
+<a href="A-Iletisim.dc.html" style="display: flex; align-items: center; min-height: 44px; color: var(--text-2); text-decoration: none">Contact</a>
+</nav>
+</footer>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"theme":{"editor":"enum","options":["dark","light"],"default":"dark"},"$preview":{"width":1440,"height":3240}}'>
+class Component extends DCLogic {
+renderVals() {
+var B = '/_blob/';
+return {
+theme: this.props.theme ?? 'dark',
+strip: [
+{ img: B + '874b55ddf9761a230dda46e2aa4afa85', drop: '72px' },
+{ img: B + '1377349dbc87784232ac59cf9cf04986', drop: '36px' },
+{ img: B + 'f20a7ed7a7bc172a7da483415800077f', drop: '0px' },
+{ img: B + 'de5244c861eb9107996b5404d64ca159', drop: '36px' },
+{ img: B + '586c7628c6d07d797378740fedc4c97f', drop: '72px' }
+],
+steps: [
+{ no: '1', title: 'Pick a template', body: 'Every template is the structure of a video that really went viral: which shot, how many seconds, what the on-screen text says.' },
+{ no: '2', title: 'Upload your product', body: 'One or a few images, the product name, and a short description are enough. Before generating, you see how many credits it will cost.' },
+{ no: '3', title: 'Download your video', body: 'Shots, text, and music are generated again and edited together. Short videos are ready in about 6–7 minutes.' }
+],
+faqs: [
+{ q: 'Are you copying someone else’s video?', a: 'No. Only the structure is taken from the video. Footage, voice, and music are generated from scratch for your product.' },
+{ q: 'How long does it take?', a: 'A no-talking video takes about 6–7 minutes. You can leave the page; we email you when it is ready.' },
+{ q: 'Can I use a video I like?', a: 'Yes. Upload the file or give its link; in 2–5 minutes it becomes a template only you can see.' },
+{ q: 'Do I lose credits if something goes wrong?', a: 'No. If a video is not delivered, its credits go back to your balance and the finished parts are saved. Nothing is retried automatically; continuing happens only with your confirmation.' }
+]
+};
+}
+}
+</script>
+</body>
+</html>

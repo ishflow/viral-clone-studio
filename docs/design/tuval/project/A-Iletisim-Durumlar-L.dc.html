@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Contact and support: states · light</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ay{--bg:#0B0C0A;--surface:#151712;--raised:#1C1F17;--line:#23261E;--edge:#33372B;--edge-strong:#676B5D;--text:#F2F3EC;--text-2:#C9CCBF;--text-3:#A9AC9F;--accent:#C8F03C;--accent-hover:#E0FF7A;--accent-text:#C8F03C;--on-accent:#0B0C0A;--warn:#FF9A6B;--warn-edge:#5A3A2A;--mark-edge:#C8F03C;--scrim:rgba(11,12,10,0.76);--on-scrim:#F2F3EC;--media-edge:transparent;--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Onest',system-ui,sans-serif}
+.ay[data-theme="light"],.ay [data-theme="light"]{--bg:#F4F5EE;--surface:#FFFFFF;--raised:#E8EADF;--line:#E0E2D7;--edge:#CBCEBF;--edge-strong:#80856F;--text:#0B0C0A;--text-2:#3E4236;--text-3:#5A5F50;--accent-hover:#B6E01F;--accent-text:#456300;--warn:#A8400F;--warn-edge:#E3B7A2;--mark-edge:#0B0C0A;--media-edge:rgba(11,12,10,0.12)}
+a{color:var(--accent-text)}a:hover{color:var(--text)}
+</style>
+</helmet>
+<div class="ay" data-theme="{{ theme }}" style="min-height: 1540px; box-sizing: border-box; background: var(--bg); color: var(--text); font-family: var(--body); padding: 0 clamp(16px, 4vw, 60px) 72px">
+<div style="max-width: 1320px; margin: 0 auto; padding-top: clamp(24px, 4vw, 48px); display: flex; flex-direction: column; gap: 32px">
+<h1 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em">Contact and support · states</h1>
+<div style="display: flex; flex-wrap: wrap; gap: 32px">
+<div style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">Sending</p>
+<form aria-label="Contact form" aria-busy="true" style="box-sizing: border-box; padding: clamp(16px, 2vw, 24px); border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 16px">
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: var(--text-2)">What is it about?
+<select style="min-height: 52px; box-sizing: border-box; padding: 0 12px; border-radius: 12px; border: 1px solid var(--edge-strong); background: var(--bg); color: var(--text); font: inherit; font-size: 15px"><option>A problem with a video</option><option>Refund</option><option>Payment and credits</option><option>My account</option><option>Something else</option></select>
+</label>
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: var(--text-2)">Your email
+<input type="email" autocomplete="email" value="[EMAIL]" placeholder="name@example.com" style="min-height: 52px; box-sizing: border-box; padding: 0 16px; border-radius: 12px; border: 1px solid var(--edge-strong); background: var(--bg); color: var(--text); font: inherit; font-size: 15px">
+</label>
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: var(--text-2)">Link to the video (optional)
+<input type="url" placeholder="Paste the link from My videos" style="min-height: 52px; box-sizing: border-box; padding: 0 16px; border-radius: 12px; border: 1px solid var(--edge-strong); background: var(--bg); color: var(--text); font: inherit; font-size: 15px">
+</label>
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: var(--text-2)">Message
+<textarea rows="6" placeholder="What happened, and what did you expect?" style="box-sizing: border-box; min-height: 160px; padding: 12px 16px; border-radius: 12px; border: 1px solid var(--edge-strong); background: var(--bg); color: var(--text); font: inherit; font-size: 15px; line-height: 1.5; resize: vertical">The product looks different in the video.</textarea>
+</label>
+<button type="button" aria-disabled="true" style="align-self: flex-start; display: flex; align-items: center; justify-content: center; gap: 8px; box-sizing: border-box; border-radius: 12px; font: inherit; font-weight: 600; cursor: default; min-height: 52px; padding: 0 24px; border: 0; background: var(--raised); color: var(--text-3); font-size: 15px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5a8.5 8.5 0 1 0 8.5 8.5"></path></svg>Sending…</button>
+</form>
+</div>
+<div style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">Sent</p>
+<section role="status" style="box-sizing: border-box; padding: clamp(16px, 2vw, 24px); border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 12px">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; color: var(--accent-text)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Sent</span>
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">Message sent.</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Reference [REFERENCE]. We answer within 2 business days.</p>
+</section>
+</div>
+<div style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">Could not send</p>
+<form aria-label="Contact form" style="box-sizing: border-box; padding: clamp(16px, 2vw, 24px); border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 16px">
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: var(--text-2)">What is it about?
+<select style="min-height: 52px; box-sizing: border-box; padding: 0 12px; border-radius: 12px; border: 1px solid var(--edge-strong); background: var(--bg); color: var(--text); font: inherit; font-size: 15px"><option>A problem with a video</option><option>Refund</option><option>Payment and credits</option><option>My account</option><option>Something else</option></select>
+</label>
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: var(--text-2)">Your email
+<input type="email" autocomplete="email" value="[EMAIL]" placeholder="name@example.com" style="min-height: 52px; box-sizing: border-box; padding: 0 16px; border-radius: 12px; border: 1px solid var(--edge-strong); background: var(--bg); color: var(--text); font: inherit; font-size: 15px">
+</label>
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: var(--text-2)">Link to the video (optional)
+<input type="url" placeholder="Paste the link from My videos" style="min-height: 52px; box-sizing: border-box; padding: 0 16px; border-radius: 12px; border: 1px solid var(--edge-strong); background: var(--bg); color: var(--text); font: inherit; font-size: 15px">
+</label>
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: var(--text-2)">Message
+<textarea rows="6" placeholder="What happened, and what did you expect?" style="box-sizing: border-box; min-height: 160px; padding: 12px 16px; border-radius: 12px; border: 1px solid var(--edge-strong); background: var(--bg); color: var(--text); font: inherit; font-size: 15px; line-height: 1.5; resize: vertical">The product looks different in the video.</textarea>
+</label>
+<p role="alert" style="margin: 0; display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; border-radius: 12px; background: var(--bg); border: 1px solid var(--warn-edge); font-size: 15px; line-height: 1.5; color: var(--text)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; color: var(--warn)"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg><span style="min-width: 0; overflow-wrap: anywhere"><strong style="font-weight: 600; color: var(--warn)">Could not send.</strong> Your message is still here. Try again.</span></p>
+<button type="button" style="align-self: flex-start; display: flex; align-items: center; justify-content: center; box-sizing: border-box; border-radius: 12px; font: inherit; font-weight: 600; text-decoration: none; cursor: pointer; min-height: 52px; padding: 0 24px; border: 0; background: var(--accent); color: var(--on-accent); font-size: 15px">Try again</button>
+</form>
+</div>
+<div style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">Same message sent twice</p>
+<section role="status" style="box-sizing: border-box; padding: clamp(16px, 2vw, 24px); border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 12px">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; color: var(--text-2)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 11v5M12 7.8v.1"></path></svg>Already sent</span>
+<h2 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; letter-spacing: -0.01em">You already sent this message.</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2); text-wrap: pretty">Reference [REFERENCE].</p>
+</section>
+</div>
+<div style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">Signed in · about job</p>
+<form aria-label="Contact form" style="box-sizing: border-box; padding: clamp(16px, 2vw, 24px); border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 16px">
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: var(--text-2)">What is it about?
+<select style="min-height: 52px; box-sizing: border-box; padding: 0 12px; border-radius: 12px; border: 1px solid var(--edge-strong); background: var(--bg); color: var(--text); font: inherit; font-size: 15px"><option>A problem with a video</option><option>Refund</option><option>Payment and credits</option><option>My account</option><option>Something else</option></select>
+</label>
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: var(--text-2)">About job
+<select style="min-height: 52px; box-sizing: border-box; padding: 0 12px; border-radius: 12px; border: 1px solid var(--edge-strong); background: var(--bg); color: var(--text); font: inherit; font-size: 15px"><option>Fragrance layering recipe · [DATE]</option><option>Not about a job</option></select>
+<span style="font-size: 13px; line-height: 1.4; color: var(--text-3)">The job ID is added for you.</span>
+</label>
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: var(--text-2)">Message
+<textarea rows="6" placeholder="What happened, and what did you expect?" style="box-sizing: border-box; min-height: 160px; padding: 12px 16px; border-radius: 12px; border: 1px solid var(--edge-strong); background: var(--bg); color: var(--text); font: inherit; font-size: 15px; line-height: 1.5; resize: vertical"></textarea>
+</label>
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">We answer by email to [EMAIL].</p>
+<button type="button" style="align-self: flex-start; display: flex; align-items: center; justify-content: center; box-sizing: border-box; border-radius: 12px; font: inherit; font-weight: 600; text-decoration: none; cursor: pointer; min-height: 52px; padding: 0 24px; border: 0; background: var(--accent); color: var(--on-accent); font-size: 15px">Send message</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"theme":{"editor":"enum","options":["dark","light"],"default":"light"},"$preview":{"width":1440,"height":1540}}'>
+class Component extends DCLogic {
+renderVals() {
+return { theme: this.props.theme ?? 'light' };
+}
+}
+</script>
+</body>
+</html>

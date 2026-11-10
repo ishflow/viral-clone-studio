@@ -1,0 +1,413 @@
+{
+  "unit": {
+    "product": {
+      "one": "{count} ürün",
+      "other": "{count} ürün"
+    },
+    "variant": {
+      "one": "{count} varyant",
+      "other": "{count} varyant"
+    },
+    "finishedImage": {
+      "one": "{count} hazır görsel",
+      "other": "{count} hazır görsel"
+    },
+    "clipReady": {
+      "one": "{count} klip",
+      "other": "{count} klip"
+    },
+    "missingClip": {
+      "one": "{count} eksik klip",
+      "other": "{count} eksik klip"
+    },
+    "clip": {
+      "one": "{count} klip",
+      "other": "{count} klip"
+    }
+  },
+  "quality": "{quality} · {resolution}",
+  "resolution": {
+    "fast": "720p",
+    "best": "1080p"
+  },
+  "running": {
+    "lead": "{products} · {quality} · {variants}",
+    "left": "yaklaşık {minutes} dk",
+    "rest": "kaldı · {elapsed} geçti",
+    "stages": "Aşamalar",
+    "shots": "Çekimler",
+    "shotsTitle": "Videon, çekim çekim",
+    "shotsNote": "Her kutu videonun bir çekimi. Soluk resim, o çekimin orijinal videodaki hâli; senin ürününle çekilen hâli bitmiş videoda görünür.",
+    "shotsNoteMade": "Her kutu videonun bir çekimi. Net resim, o çekim için ürününle ürettiğimiz ilk kare.",
+    "shotsNoteMadeFaded": "Her kutu videonun bir çekimi. Net resim, o çekim için ürününle ürettiğimiz ilk kare; soluk olan, o çekimin orijinal videodaki hâli.",
+    "shotsNoteBare": "Her kutu videonun bir çekimi. Senin ürününle çekilen hâli bitmiş videoda.",
+    "note": "Bu sayfadan ayrılabilirsin. Hazır olunca sana e-posta göndeririz.",
+    "estimated": "Tahmini süre",
+    "longer": "Normalden uzun sürüyor",
+    "titleClips": "Kliplerin, çekim çekim",
+    "titleMusic": "Müziğin",
+    "hintImages": "Büyütmek için bir resme bas.",
+    "hintClips": "Oynatmak için hazır bir klibe bas.",
+    "musicNote": "Videon için ürettiğimiz müzik.",
+    "musicVariant": "Varyant {n}",
+    "sharedLabel": "Her çekimde kullanılır"
+  },
+  "step": {
+    "adaptation": {
+      "name": "Uyarlama",
+      "note": "Ürünlerin için yazılan metin ve çekim tarifleri"
+    },
+    "images": {
+      "name": "Görseller",
+      "note": "Her çekimin ilk karesi",
+      "noteShared": {
+        "one": "Her çekimin ilk karesi, bir de hepsinin ortak kullandığı {count} resim",
+        "other": "Her çekimin ilk karesi, bir de hepsinin ortak kullandığı {count} resim"
+      }
+    },
+    "clips": {
+      "name": "Klipler",
+      "note": "İlk karelerden video"
+    },
+    "music": {
+      "name": "Müzik",
+      "note": "Şablonun havasında yeni müzik"
+    },
+    "edit": {
+      "name": "Kurgu",
+      "note": "Çekimler, yazı ve müzik sıraya konur"
+    },
+    "render": {
+      "name": "Çıktı",
+      "note": "Tek dosya, mp4"
+    }
+  },
+  "state": {
+    "done": "bitti",
+    "running": "üretiliyor",
+    "waiting": "bekliyor",
+    "stopped": "durdu",
+    "count": "{state} · {done} / {total}"
+  },
+  "shot": {
+    "number": "Çekim {n}",
+    "waiting": "bekliyor",
+    "picture": "resim üretiliyor",
+    "pictureReady": "resim hazır",
+    "clip": "klip üretiliyor",
+    "ready": "klip hazır",
+    "openPicture": "{n}. çekimin resmini aç",
+    "playClip": "{n}. çekimin klibini oynat",
+    "sharedPicture": "Ortak resim",
+    "openShared": "Ortak resmi aç"
+  },
+  "stopped": {
+    "section": "Ne oldu ve seçeneklerin",
+    "continue": "Yedek modelle devam et",
+    "continueSub": "Aynı tutar. Görüntü biraz farklı olabilir.",
+    "retry": "Tekrar dene",
+    "retrySub": "Aynı tutar. Aynı modelle yeniden üretilecek: {missing}.",
+    "stop": "İşi burada durdur",
+    "buy": "Kredi satın al",
+    "failed": "Bir şeyler ters gitti. Hiçbir şey harcanmadı. Tekrar dene.",
+    "stopSub": "Başka ücret alınmaz. {credits} bakiyende kalır ve kaydedilen parçalar silinir.",
+    "stopSubFree": "Başka ücret alınmaz. Kaydedilen parçalar silinir.",
+    "back": {
+      "one": "Bu videonun {count} kredisi bakiyene geri döndü.",
+      "other": "Bu videonun {count} kredisi bakiyene geri döndü."
+    },
+    "backYour": {
+      "one": "{count} kredin bakiyene geri döndü.",
+      "other": "{count} kredin bakiyene geri döndü."
+    },
+    "freeBack": "Ücretsiz videon geri geldi.",
+    "finishedSaved": "Biten parçalar kaydedildi.",
+    "until": "{date} tarihine kadar devam edebilirsin.",
+    "contact": "Destekle iletişime geç"
+  },
+  "reason": {
+    "clips-failed": {
+      "title": {
+        "n1": "Bir klip eksik",
+        "n2": "İki klip eksik",
+        "n3": "Üç klip eksik",
+        "n4": "Dört klip eksik",
+        "n5": "Beş klip eksik",
+        "n6": "Altı klip eksik",
+        "n7": "Yedi klip eksik",
+        "n8": "Sekiz klip eksik",
+        "other": "{count} klip eksik"
+      },
+      "body": "{images}, {clips} ve müzik kaydedildi."
+    },
+    "adaptation-failed": {
+      "title": "Ürünlerin için metin yazılamadı"
+    },
+    "images-failed": {
+      "title": "İlk kareler üretilemedi"
+    },
+    "audio-failed": {
+      "title": "Müzik üretilemedi"
+    },
+    "render-failed": {
+      "title": "Son video birleştirilemedi"
+    },
+    "submission-unknown": {
+      "title": "Video servisine giden bir istek net yanıt almadı",
+      "body": "Bu isteği video servisiyle biz kontrol ediyoruz. Bir şey yapmana gerek yok, başka kredi kesilmez. İşi biz sürdüreceğiz ya da sana yazacağız."
+    },
+    "estimate-exceeded": {
+      "title": "İş, onayladığından fazlasını gerektirdi"
+    },
+    "llm-invalid": {
+      "title": "Videonun planı kullanılamaz geldi"
+    },
+    "template-missing": {
+      "title": "Şablon artık yok"
+    },
+    "content-rule": {
+      "title": "Bu iş, görseller ya da metin içerik kurallarımıza uymadığı için durduruldu",
+      "body": "Bu iş devam ettirilemez."
+    },
+    "engine-error": {
+      "title": "Bizim tarafta bir şey ters gitti"
+    },
+    "generic": {
+      "title": "İş durdu",
+      "body": "Biten parçalar kaydedildi."
+    },
+    "provider": {
+      "body": "Şu anda üretim yapamıyoruz. Biten parçalar kaydedildi. Daha sonra tekrar dene; deneyene kadar ücret alınmaz."
+    }
+  },
+  "result": {
+    "ready": "hazır.",
+    "single": "Videon",
+    "many": "{count} varyant",
+    "lead": "{template} · {seconds} sn · {resolution} · mp4",
+    "leadNoLength": "{template} · {resolution} · mp4",
+    "play": "Videoyu oynat",
+    "frame": "Üretilen videodan bir kare",
+    "frameOf": "Varyant {n} içinden bir kare",
+    "download": "İndir",
+    "downloadVariant": "Varyantı indir: {n}",
+    "downloadAll": "Hepsini indir ({count})",
+    "noFile": "Video dosyası bu demoda henüz yok.",
+    "again": "Yeni bir varyant üret",
+    "variants": "Varyantlar",
+    "variant": "Varyant {n}",
+    "products": "Ürünler",
+    "quality": "Kalite",
+    "compare": "Örnekle karşılaştır",
+    "oneVariant": "Bir varyant",
+    "downloadBoth": "İkisini de indir",
+    "kept": "Videolarım'da {months} ay saklanır. Bu videoyu reklamlarında kullanabilirsin.",
+    "cannotPlay": "Bu video burada oynatılamıyor. Bunun yerine indir.",
+    "preparing": "Dosyan hazırlanıyor…",
+    "downloadFailed": "İndirme başlamadı. Tekrar dene.",
+    "downloadRetry": "Tekrar dene",
+    "state": {
+      "done": "Hazır",
+      "generating": "Üretiliyor",
+      "waiting": "Bekliyor",
+      "stopped": "Durdu"
+    },
+    "stoppedText": "Bu varyant üretilemedi. {credits} bakiyene geri döndü.",
+    "regenerate": "Eksik varyantı yeniden üret",
+    "imagesGone": "Bu işin ürün görselleri artık saklanmıyor. Şablondan yeni bir iş başlat.",
+    "openTemplate": "Şablonu aç",
+    "expiredTitle": "Bu video artık saklanmıyor.",
+    "expiredText": "Videolar {months} ay saklanır.",
+    "expiredNew": "Bu yeni bir iş başlatır: ürün görsellerini yeniden eklersin ve fiyatı onaylarsın.",
+    "expiredAction": "Yeniden üret",
+    "report": {
+      "open": "Sorun bildir",
+      "title": "Sorun bildir",
+      "looksDifferent": "Ürün farklı görünüyor",
+      "textWrong": "Yazı yanlış ya da kesilmiş",
+      "doesNotPlay": "Video oynatılmıyor",
+      "other": "Başka bir şey",
+      "note": "Not ekle (isteğe bağlı)",
+      "send": "Bildirimi gönder",
+      "cancel": "Vazgeç",
+      "close": "Kapat",
+      "pick": "Neyin yanlış olduğunu seç.",
+      "closed": "Bu video için bildirim süresi doldu.",
+      "error": "Bildirim gönderilemedi. Tekrar dene.",
+      "sentTitle": "Sorun bildirildi",
+      "sent": "Teşekkürler. {days} iş günü içinde bakarız. Video yanlışsa ücretsiz olarak yeniden üretiriz."
+    },
+    "delete": {
+      "open": "Videoyu sil"
+    },
+    "regenerateDialog": {
+      "title": "{n}. varyantı yeniden üret",
+      "cost": "Tutar",
+      "balance": "Şimdiki bakiye",
+      "needs": "Bunun için {cost} gerekiyor.",
+      "changed": "Fiyat değişti. Rakamlara bak ve yeniden onayla.",
+      "expired": "Bu işin ürün görselleri artık saklanmıyor. Şablondan yeni bir iş başlat.",
+      "error": "Bir şeyler ters gitti. Hiçbir şey ücretlendirilmedi. Tekrar dene.",
+      "confirm": "Onayla ve üret",
+      "cancel": "Vazgeç",
+      "buy": "Kredi satın al"
+    }
+  },
+  "compare": {
+    "sample": "Galerideki örnek",
+    "sampleSub": "Seçtiğin video",
+    "yours": "Senin videon",
+    "yoursSub": "Aynı çekim, senin ürünün",
+    "sampleAlt": "Örnek videodan bir kare",
+    "yoursAlt": "Videondan bir kare",
+    "playback": "Oynatma, iki video birlikte",
+    "play": "Oynat",
+    "pause": "Duraklat",
+    "soundOn": "Sesi aç",
+    "soundOff": "Sesi kapat",
+    "shot": "Çekim {n} / {total} · {action}",
+    "download": "İndir",
+    "back": "Sonuca dön"
+  },
+  "resume": {
+    "generate": "Eksik",
+    "changed": "Bu pencere açıkken maliyet değişti. Hiçbir şey harcanmadı. Onaylamadan önce yeni maliyete bak.",
+    "cancel": "Vazgeç",
+    "submit": "Onayla ve devam et",
+    "title": {
+      "continue": "Yedek modelle devam et",
+      "retry": "Tekrar dene"
+    },
+    "info": {
+      "continue": "Aynı tutar. Görüntü biraz farklı olabilir.",
+      "retry": "Aynı modelle yeniden üretilecek: {missing}."
+    },
+    "returned": "Durduğunda geri dönen kredi",
+    "costs": "Devam etmenin maliyeti",
+    "after": "Sonraki bakiye",
+    "freeVideo": "Ücretsiz videon",
+    "freeCost": "Ücretsiz video · 0 kredi",
+    "freeNote": "Bu, tek ücretsiz videonu kullanır.",
+    "usedElsewhere": "Ücretsiz videon başka bir işte kullanıldı. Bu işe devam etmek {credits} tutar.",
+    "notEnough": "Devam etmek için {credits} gerekiyor, bakiyen {balance}.",
+    "wait": "Kaydedilen parçalar {date} tarihine kadar seni bekler.",
+    "never": "İlk onayladığın fiyattan fazlasını hiçbir zaman ödemezsin."
+  },
+  "notice": {
+    "delayed": "Bu işlem normalden uzun sürüyor. İşin hâlâ çalışıyor; yeniden başlatmana gerek yok.",
+    "reconnecting": "Yeniden bağlanılıyor… Bu sayfa yeniden bağlanırken işin çalışmaya devam ediyor.",
+    "paused": "Üretim kısa süreliğine duraklatıldı. Üretim geri gelince işin devam eder. Ek ücret alınmaz."
+  },
+  "queued": {
+    "section": "Sıradaki yerin",
+    "title": "Sırada",
+    "body": "İşin, önündeki iş bitince başlar.",
+    "position": "{position}. sıra",
+    "note": "Yapman gereken başka bir şey yok; bu sayfadan ayrılabilirsin."
+  },
+  "summary": {
+    "charged": "Onayladığında alınan",
+    "returned": "Durduğunda geri dönen",
+    "toContinue": "Devam etmek için"
+  },
+  "closed": {
+    "title": "İş kapatıldı",
+    "body": {
+      "one": "{count} kredi geri döndü. Başka ücret alınmadı.",
+      "other": "{count} kredi geri döndü. Başka ücret alınmadı."
+    },
+    "bodyFree": "Ücretsiz videon geri geldi. Başka ücret alınmadı.",
+    "expired": {
+      "one": "Bu iş {days} gün sonra kapatıldı. {count} kredin durduğunda geri döndü. Başka ücret alınmadı.",
+      "other": "Bu iş {days} gün sonra kapatıldı. {count} kredin durduğunda geri döndü. Başka ücret alınmadı."
+    },
+    "expiredFree": "Bu iş {days} gün sonra kapatıldı. Ücretsiz videon durduğunda geri geldi. Başka ücret alınmadı.",
+    "balanceNow": "Şimdiki bakiye",
+    "deleted": "Bu videonun kaydedilen parçaları silindi.",
+    "another": "Başka bir şablon seç"
+  },
+  "close": {
+    "title": "Bu iş kapatılsın mı?",
+    "body": "Bu iş için hazırlanan parçalar silinir ve geri getirilemez. Şablondan yeni bir iş başlatabilirsin; onaylamadan önce fiyatı görürsün.",
+    "bodyParts": "Bu iş için hazırlanan parçalar silinir ve geri getirilemez: {parts}. Şablondan yeni bir iş başlatabilirsin; onaylamadan önce fiyatı görürsün.",
+    "keep": "Kalsın",
+    "submit": "İşi kapat",
+    "failed": "İş kapatılamadı. Hiçbir şey değişmedi. Tekrar dene."
+  },
+  "viewer": {
+    "previous": "Önceki resim",
+    "next": "Sonraki resim",
+    "close": "Kapat",
+    "count": "{n} / {total}"
+  },
+  "swap": {
+    "lead": "Kişi değiştirme",
+    "leadLength": "Kişi değiştirme · {seconds} sn",
+    "step": {
+      "clips": {
+        "name": "Kişi değiştirme",
+        "note": "Kişi parça parça değiştirilir"
+      },
+      "edit": {
+        "name": "Birleştirme",
+        "note": "Parçalar bir araya getirilir"
+      },
+      "render": {
+        "name": "Ses ve işaret",
+        "note": "Orijinal ses ve \"AI-generated\" işareti eklenir"
+      }
+    },
+    "review": {
+      "status": "Onay bekliyor",
+      "section": "Onay",
+      "title": "Yönetici onayı bekleniyor",
+      "body": "Video üretilmeden önce fotoğrafına bir kişi bakar. Bu en geç {hours} saat sürer.",
+      "refund": "Fotoğraf onaylanmazsa ya da bu sürede kimse bakmazsa iş biter ve kredinin tamamı geri döner.",
+      "note": "Yapacak başka bir şey yok; bu sayfadan çıkabilirsin.",
+      "cancel": "İptal et ve krediyi geri al",
+      "failed": "İş iptal edilemedi. Yeniden dene."
+    },
+    "rejected": {
+      "title": {
+        "admin": "Onaylanmadı",
+        "customer": "İptal edildi",
+        "expired": "Süresinde onaylanmadı"
+      },
+      "body": {
+        "admin": {
+          "one": "Bu fotoğraf onaylanmadı, bu yüzden video üretilmedi. {count} kredin iade edildi.",
+          "other": "Bu fotoğraf onaylanmadı, bu yüzden video üretilmedi. {count} kredin iade edildi."
+        },
+        "customer": {
+          "one": "Video üretilmeden önce iptal ettin. {count} kredin iade edildi.",
+          "other": "Video üretilmeden önce iptal ettin. {count} kredin iade edildi."
+        },
+        "expired": {
+          "one": "Fotoğrafa {hours} saat içinde kimse bakmadı, bu yüzden iş bitti. {count} kredin iade edildi.",
+          "other": "Fotoğrafa {hours} saat içinde kimse bakmadı, bu yüzden iş bitti. {count} kredin iade edildi."
+        }
+      },
+      "deleted": "Fotoğrafların silindi.",
+      "another": "Başka bir fotoğraf dene"
+    },
+    "report": {
+      "notMe": "Bu kişi ben değilim ya da izinsiz yapılmış"
+    },
+    "stopped": {
+      "photoRefused": {
+        "title": "Fotoğrafın kabul edilmedi",
+        "body": "Fotoğraf bu video için kullanılamadı, bu yüzden hiçbir şey üretilmedi. Bu işe devam edemezsin; başka bir fotoğrafla yeni bir iş başlat."
+      },
+      "personMissing": {
+        "title": "Kişi bulunamadı",
+        "body": "Değiştirilecek kişi videoda ya da fotoğrafında bulunamadı, bu yüzden hiçbir şey üretilmedi. Bu işe devam edemezsin; başka bir fotoğrafla yeni bir iş başlat ya da destekle iletişime geç."
+      },
+      "off": {
+        "title": "Kişi değiştirme şu an kapalı",
+        "body": "Kişi değiştirme kapalıyken bu işe devam edilemez; bu iş için başka kredi kesilmez."
+      },
+      "another": "Başka bir fotoğrafla dene"
+    },
+    "kept": "Videolarım'da {days} gün saklanır, sonra silinir. Daha uzun saklamak için indir."
+  }
+}

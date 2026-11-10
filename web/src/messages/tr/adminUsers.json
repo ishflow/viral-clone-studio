@@ -1,0 +1,143 @@
+{
+  "title": "Kullanıcılar",
+  "lead": "Kayıt olan herkes. Satın almaları, işleri ve kredi geçmişini görmek için bir kullanıcıyı aç.",
+  "export": "CSV indir",
+  "list": {
+    "label": "Kullanıcı listesi"
+  },
+  "search": {
+    "label": "Kullanıcı ara",
+    "placeholder": "E-posta veya ada göre ara"
+  },
+  "filter": {
+    "label": "Filtre",
+    "all": "Hepsi",
+    "paying": "Ödeme yapan",
+    "free-only": "Sadece ücretsiz video",
+    "not-verified": "Doğrulanmamış",
+    "blocked": "Engelli"
+  },
+  "table": {
+    "caption": "Kullanıcılar",
+    "user": "Kullanıcı",
+    "joined": "Katılım",
+    "email": "E-posta",
+    "balance": "Bakiye",
+    "paid": "Toplam ödenen",
+    "spent": "Harcanan kredi",
+    "videos": "Video",
+    "lastActive": "Son görülme",
+    "status": "Durum",
+    "actions": "İşlemler"
+  },
+  "verified": "Doğrulandı",
+  "notVerified": "Doğrulanmadı",
+  "status": {
+    "active": "Aktif",
+    "blocked": "Engelli"
+  },
+  "open": "Aç",
+  "empty": {
+    "text": "Aramana veya filtreye uyan kullanıcı yok.",
+    "clear": "Aramayı ve filtreyi temizle"
+  },
+  "placeholder": {
+    "amount": "—"
+  },
+  "detail": {
+    "back": "Kullanıcılar",
+    "meta": "Katılım {joined} · {verified} · Son görülme {last}",
+    "emailVerified": "E-posta doğrulandı",
+    "emailNotVerified": "E-posta doğrulanmadı",
+    "tile": {
+      "balance": {
+        "label": "Bakiye",
+        "sub": "Kullanıcının şimdi harcayabileceği kredi"
+      },
+      "paid": {
+        "label": "Toplam ödenen",
+        "sub": "Tüm ödenmiş satın almalar"
+      },
+      "bought": {
+        "label": "Satın alınan kredi",
+        "sub": "Kredi paketlerinden"
+      },
+      "spent": {
+        "label": "Harcanan kredi",
+        "sub": "Video üretmek için kullanıldı"
+      },
+      "videos": {
+        "label": "Üretilen video",
+        "sub": "Biten videolar"
+      }
+    },
+    "actions": {
+      "title": "İşlemler"
+    },
+    "add": {
+      "title": "Kredi ekle",
+      "credits": "Eklenecek kredi",
+      "submit": "Kredi ekle",
+      "error": {
+        "credits": "1 ile 10.000 arasında tam sayı yaz."
+      }
+    },
+    "access": {
+      "title": "Erişim",
+      "reset": "Şifre sıfırlama e-postası gönder",
+      "resetSent": "Sıfırlama e-postası gönderildi",
+      "resetFailed": "E-posta gönderilmedi. Tekrar dene.",
+      "block": "Kullanıcıyı engelle",
+      "unblock": "Engeli kaldır",
+      "note": "Engelli kullanıcı giriş yapamaz. Kredileri silinmez.",
+      "blockedOn": "Engel tarihi: {date}",
+      "blockReason": "Neden: {reason}",
+      "blocked": "Kullanıcı engellendi.",
+      "unblocked": "Kullanıcı yeniden giriş yapabilir."
+    },
+    "purchases": {
+      "title": "Satın almalar",
+      "empty": "Henüz satın alma yok.",
+      "date": "Tarih",
+      "pack": "Paket",
+      "credits": "Kredi",
+      "amount": "Tutar",
+      "invoice": "Fatura",
+      "status": "Durum",
+      "noInvoice": "Fatura yok",
+      "pdf": "PDF",
+      "view": "Görüntüle",
+      "packName": "{name} paketi"
+    },
+    "jobs": {
+      "title": "İşler",
+      "empty": "Henüz iş yok.",
+      "started": "Başlangıç",
+      "template": "Şablon",
+      "format": "Format",
+      "quality": "Kalite",
+      "language": "Dil",
+      "credits": "Kredi",
+      "status": "Durum",
+      "actions": "İşlemler",
+      "open": "Aç",
+      "free": "Ücretsiz video"
+    },
+    "history": {
+      "title": "Kredi geçmişi",
+      "empty": "Henüz kredi hareketi yok."
+    }
+  },
+  "format": {
+    "no-talking": "Konuşmasız",
+    "talking": "Konuşmalı"
+  },
+  "quality": {
+    "fast": "Fast",
+    "best": "Best"
+  },
+  "language": {
+    "en": "İngilizce",
+    "tr": "Türkçe"
+  }
+}

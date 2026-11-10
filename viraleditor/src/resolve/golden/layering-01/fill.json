@@ -1,0 +1,61 @@
+{
+  "language": "en",
+  "products": [
+    {
+      "name": "ACME Aurora Body Oil",
+      "images": [
+        "uploads/seed/layering-01/aurora-body-oil.png"
+      ]
+    },
+    {
+      "name": "ACME Aurora Body Mist",
+      "images": [
+        "uploads/seed/layering-01/aurora-body-mist.png"
+      ]
+    },
+    {
+      "name": "ACME Aurora Hair Mist",
+      "images": [
+        "uploads/seed/layering-01/aurora-hair-mist.png"
+      ]
+    },
+    {
+      "name": "ACME Solace Perfume",
+      "images": [
+        "uploads/seed/layering-01/solace-perfume.png"
+      ]
+    }
+  ],
+  "texts": {
+    "hook": "the best compliment-magnet\nscent layering combo",
+    "name-1": "acme aurora body oil",
+    "name-2": "acme aurora body mist",
+    "name-3": "acme aurora hair mist",
+    "name-4": "acme solace perfume"
+  },
+  "shots": {
+    "s1": {
+      "still_prompt": "A phone photograph at arm's length of a cream vanity by a window in soft daylight. The four products of the reference images stand close together in a loose group, every label facing the camera: the square smoky-grey Solace perfume at the left, the two tall lilac Aurora mists behind, the small sand-coloured Aurora body oil in front. A round mirror with a scalloped white frame at the upper left, a small dish with gold jewellery at the right. The middle band of the picture is calm enough to carry two lines of small white text. Airy bedroom, natural colours, vertical 9:16, no people, no text.",
+      "motion_prompt": "A short handheld phone clip that starts on this exact picture. The camera eases a few centimetres toward the four bottles with the slight sway of a phone in one hand. The bottles do not move, and every cap and printed label stays crisp and exactly as it is. The daylight stays soft and even. A single continuous take without any text."
+    },
+    "s2": {
+      "still_prompt": "A phone photograph looking straight down at a bed with a crumpled white cotton sheet. A woman's hand with short natural nails and a thin gold ring comes in from the left and holds the small sand-coloured Aurora body oil bottle of the reference image upright in the lower two thirds of the picture, its silver cap up and its label to the camera. The top quarter of the picture is empty sheet. Soft daylight, vertical 9:16, no text.",
+      "motion_prompt": "A short handheld phone clip that starts on this exact picture. The camera looks straight down and sways by a hair, the way a phone does in one hand. The fingers around the bottle shift once, gently, and settle. The bottle does not turn or slide, and its cap and printed label stay crisp and exactly as they are. The daylight stays soft and even. A single continuous take without any text."
+    },
+    "s3": {
+      "still_prompt": "A phone photograph looking straight down at a bed with a crumpled white cotton sheet. A woman's hand with short natural nails and a thin gold ring comes in from the lower left and holds the tall lilac Aurora body mist of the reference image in its palm in the lower two thirds of the picture, its label to the camera. The top quarter of the picture is empty sheet. Soft daylight, vertical 9:16, no text.",
+      "motion_prompt": "A short handheld phone clip that starts on this exact picture. The camera looks straight down and sways by a hair, the way a phone does in one hand. The fingers around the bottle shift once, gently, and settle. The bottle does not turn or slide, and its cap and printed label stay crisp and exactly as they are. The daylight stays soft and even. A single continuous take without any text."
+    },
+    "s4": {
+      "still_prompt": "A phone photograph looking straight down at a bed with a crumpled white cotton sheet. A woman's open hand with short natural nails comes in from the lower right and holds the lilac Aurora hair mist of the reference image at a slight angle in the lower two thirds of the picture, its label to the camera. The top quarter of the picture is empty sheet. Soft daylight, vertical 9:16, no text.",
+      "motion_prompt": "A short handheld phone clip that starts on this exact picture. The camera looks straight down and sways by a hair, the way a phone does in one hand. The fingers around the bottle shift once, gently, and settle. The bottle does not turn or slide, and its cap and printed label stay crisp and exactly as they are. The daylight stays soft and even. A single continuous take without any text."
+    },
+    "s5": {
+      "still_prompt": "A phone photograph looking straight down at a bed with a crumpled white cotton sheet. A woman's hand with short natural nails and a thin gold ring comes in from the top right corner and holds the square smoky-grey Solace perfume of the reference image by its cap in the middle of the picture, its label to the camera. The top left of the picture is empty sheet. Soft daylight, vertical 9:16, no text.",
+      "motion_prompt": "A short handheld phone clip that starts on this exact picture. The camera looks straight down and sways by a hair, the way a phone does in one hand. The fingers around the bottle shift once, gently, and settle. The bottle does not turn or slide, and its cap and printed label stay crisp and exactly as they are. The daylight stays soft and even. A single continuous take without any text."
+    }
+  },
+  "music": {
+    "prompt": "Instrumental only. Dreamy bedroom pop at about 100 beats per minute: soft electric piano, a warm low bass and a light finger-snap beat that is there from the first second. Close, tender and a little nostalgic, without a long intro. No vocals, no spoken words."
+  }
+}

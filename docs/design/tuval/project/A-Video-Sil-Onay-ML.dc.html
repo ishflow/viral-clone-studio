@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>My videos: confirm to delete · mobile · light</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ay{--bg:#0B0C0A;--surface:#151712;--raised:#1C1F17;--line:#23261E;--edge:#33372B;--edge-strong:#676B5D;--text:#F2F3EC;--text-2:#C9CCBF;--text-3:#A9AC9F;--accent:#C8F03C;--accent-hover:#E0FF7A;--accent-text:#C8F03C;--on-accent:#0B0C0A;--warn:#FF9A6B;--warn-edge:#5A3A2A;--mark-edge:#C8F03C;--scrim:rgba(11,12,10,0.76);--on-scrim:#F2F3EC;--media-edge:transparent;--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Onest',system-ui,sans-serif}
+.ay[data-theme="light"],.ay [data-theme="light"]{--bg:#F4F5EE;--surface:#FFFFFF;--raised:#E8EADF;--line:#E0E2D7;--edge:#CBCEBF;--edge-strong:#80856F;--text:#0B0C0A;--text-2:#3E4236;--text-3:#5A5F50;--accent-hover:#B6E01F;--accent-text:#456300;--warn:#A8400F;--warn-edge:#E3B7A2;--mark-edge:#0B0C0A;--media-edge:rgba(11,12,10,0.12)}
+a{color:var(--accent-text)}a:hover{color:var(--text)}
+</style>
+</helmet>
+<div class="ay" data-theme="{{ theme }}" style="min-height: 340px; box-sizing: border-box; padding: 24px 0 0; background: var(--bg); color: var(--text); font-family: var(--body); display: flex; align-items: flex-end; justify-content: center">
+<div role="dialog" aria-labelledby="onay-baslik" style="width: 100%; box-sizing: border-box; padding: 12px 16px 32px; border-radius: 24px 24px 0 0; background: var(--surface); border-top: 1px solid var(--edge); display: flex; flex-direction: column; gap: 24px">
+<span aria-hidden="true" style="align-self: center; width: 44px; height: 4px; border-radius: 999px; background: var(--edge-strong)"></span>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h1 id="onay-baslik" style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em">{{ heading }}</h1>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2)">{{ body }}</p>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="A-Uretimlerim-ML.dc.html" style="flex: 2 1 240px; display: flex; align-items: center; justify-content: center; box-sizing: border-box; border-radius: 12px; font: inherit; font-weight: 600; text-decoration: none; cursor: pointer; min-height: 52px; padding: 0 24px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font-size: 15px">Keep it</a>
+<a href="A-Uretimlerim-Durumlar-ML.dc.html" style="flex: 1 1 160px; display: flex; align-items: center; justify-content: center; box-sizing: border-box; border-radius: 12px; font: inherit; font-weight: 600; text-decoration: none; cursor: pointer; min-height: 52px; padding: 0 24px; border: 1px solid var(--warn); background: transparent; color: var(--warn); font-size: 15px">{{ action }}</a>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"theme":{"editor":"enum","options":["dark","light"],"default":"light"},"videos":{"editor":"enum","options":["one","three"],"default":"one"},"$preview":{"width":390,"height":340}}'>
+class Component extends DCLogic {
+renderVals() {
+return { theme: this.props.theme ?? 'light', heading: (this.props.videos ?? 'one') === 'three' ? 'Delete these 3 videos?' : 'Delete this video?', body: (this.props.videos ?? 'one') === 'three' ? 'They are removed from My videos and cannot be brought back. Credits are not returned.' : 'It is removed from My videos and cannot be brought back. Credits are not returned.', action: (this.props.videos ?? 'one') === 'three' ? 'Delete videos' : 'Delete video' };
+}
+}
+</script>
+</body>
+</html>

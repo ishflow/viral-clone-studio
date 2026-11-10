@@ -1,0 +1,117 @@
+{
+  "success": {
+    "title": "{credits} added.",
+    "waiting": {
+      "title": "Your video is waiting",
+      "back": "Back to your video"
+    },
+    "browse": "Browse the gallery",
+    "back": "Back to where you were",
+    "receipt": "Receipt",
+    "pack": "Pack",
+    "packName": "{name} pack",
+    "credits": "Credits",
+    "paid": "Paid",
+    "price": "Pack price",
+    "tax": "Tax",
+    "amount": "[AMOUNT]",
+    "date": "Date",
+    "balance": "New balance",
+    "invoice": "Download invoice",
+    "invoiceDodo": "Invoice (Dodo)",
+    "status": "Payment received",
+    "text": "Your balance is now {balance}. The invoice is saved on your Account page."
+  },
+  "draft": {
+    "products": {
+      "one": "{count} product",
+      "other": "{count} products"
+    },
+    "imageAlt": "Sample frame of the template"
+  },
+  "failed": {
+    "title": "The payment was declined.",
+    "next": "What you can do",
+    "message": "Your card or bank did not approve the payment. Trying again opens a new secure payment page, where you enter your details again.",
+    "retry": "Try another payment method",
+    "retrySub": "{pack} pack · {credits} credits · {price}",
+    "another": "Choose another pack",
+    "anotherSub": "Back to pricing",
+    "support": "Contact support",
+    "safe": "Nothing is lost",
+    "safeText": "Your form is saved. You can confirm this video as soon as you have enough credits.",
+    "status": "Declined",
+    "text": "Nothing was charged. Your balance is still {balance}."
+  },
+  "saved": "Your form is saved.",
+  "waiting": { "title": "Your video is waiting", "back": "Back to your video" },
+  "order": {
+    "title": "Your order",
+    "pack": "Pack",
+    "credits": "Credits",
+    "price": "Price",
+    "status": "Status",
+    "reference": "Reference {reference}"
+  },
+  "verifying": {
+    "status": "Confirming",
+    "title": "Confirming your payment…",
+    "text": "This usually takes a few seconds. Do not pay again.",
+    "state": "Confirming…"
+  },
+  "delayed": {
+    "status": "Still confirming",
+    "title": "We are still waiting for the payment provider.",
+    "text": "If the payment went through, your credits appear on their own and we email you. You do not need to pay again.",
+    "check": "Check again",
+    "support": "Contact support"
+  },
+  "stopped": {
+    "pricing": "Back to pricing",
+    "cancelled": { "status": "Cancelled", "title": "You left the checkout.", "text": "Nothing was charged." },
+    "expired": { "status": "Expired", "title": "This checkout expired.", "text": "Nothing was charged. Start again from pricing." }
+  },
+  "mock": {
+    "title": "Payment provider (demo)",
+    "note": "This is a stand-in for a real payment page. No money moves.",
+    "pack": "Pack",
+    "credits": "Credits",
+    "price": "[PRICE]",
+    "pay": "Pay",
+    "decline": "Decline",
+    "pending": "Pending",
+    "cancelled": "Cancel",
+    "expired": "Expire",
+    "settled": "This payment is already settled.",
+    "settledLink": "See the result"
+  },
+  "invoice": {
+    "print": "Print / Save as PDF",
+    "title": "Invoice",
+    "no": "No.",
+    "date": "Date",
+    "from": "From",
+    "billedTo": "Billed to",
+    "company": "{company}",
+    "address": "{address}",
+    "email": "{supportEmail}",
+    "items": "Items on this invoice",
+    "parties": "Seller and customer",
+    "totals": "Totals",
+    "description": "Description",
+    "qty": "Qty",
+    "unit": "Unit price",
+    "amount": "Amount",
+    "line": "{credits} credits for Viral Clone",
+    "price": "[PRICE]",
+    "subtotal": "Subtotal",
+    "subtotalValue": "[SUBTOTAL]",
+    "tax": "Tax",
+    "total": "Total",
+    "totalValue": "[AMOUNT]",
+    "paid": "Paid on {date}",
+    "note": "Credits were added to your account when the payment was received.",
+    "support": "Support: {supportEmail}",
+    "page": "Page 1 of 1"
+  }
+}

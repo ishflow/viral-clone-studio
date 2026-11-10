@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Job progress: states · mobile · light</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ay{--bg:#0B0C0A;--surface:#151712;--raised:#1C1F17;--line:#23261E;--edge:#33372B;--edge-strong:#676B5D;--text:#F2F3EC;--text-2:#C9CCBF;--text-3:#A9AC9F;--accent:#C8F03C;--accent-hover:#E0FF7A;--accent-text:#C8F03C;--on-accent:#0B0C0A;--warn:#FF9A6B;--warn-edge:#5A3A2A;--mark-edge:#C8F03C;--scrim:rgba(11,12,10,0.76);--on-scrim:#F2F3EC;--media-edge:transparent;--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Onest',system-ui,sans-serif}
+.ay[data-theme="light"],.ay [data-theme="light"]{--bg:#F4F5EE;--surface:#FFFFFF;--raised:#E8EADF;--line:#E0E2D7;--edge:#CBCEBF;--edge-strong:#80856F;--text:#0B0C0A;--text-2:#3E4236;--text-3:#5A5F50;--accent-hover:#B6E01F;--accent-text:#456300;--warn:#A8400F;--warn-edge:#E3B7A2;--mark-edge:#0B0C0A;--media-edge:rgba(11,12,10,0.12)}
+a{color:var(--accent-text)}a:hover{color:var(--text)}
+</style>
+</helmet>
+<div class="ay" data-theme="{{ theme }}" style="min-height: 4880px; box-sizing: border-box; background: var(--bg); color: var(--text); font-family: var(--body); padding: 0 clamp(16px, 4vw, 60px) 72px">
+<div style="max-width: 1320px; margin: 0 auto; padding-top: clamp(24px, 4vw, 48px); display: flex; flex-direction: column; gap: 32px">
+<h1 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em">Job progress · states</h1>
+<section style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-size: 20px; font-weight: 600; line-height: 1.25; color: var(--text)">Running</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 32px">
+<div style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">Taking longer than usual</p>
+<div style="display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; color: var(--accent-text)"><span style="width: 8px; height: 8px; border-radius: 50%; background: var(--accent-text)"></span>Running</span>
+<h3 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em">Fragrance layering recipe</h3>
+<p style="margin: 0; font-size: 15px; color: var(--text-2)">4 products · Fast · 1 variant</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-size: 13px; color: var(--text-3)">Estimated time</span>
+<p style="margin: 0; font-size: 15px; color: var(--text-2)"><strong style="font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.1; color: var(--text)">Taking longer than usual</strong></p>
+</div>
+</div>
+<p role="status" style="margin: 0; display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; border-radius: 12px; background: var(--surface); border: 1px solid var(--edge); font-size: 15px; line-height: 1.5; color: var(--text)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; color: var(--text-2)"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 7.5V12l3 2"></path></svg><span style="min-width: 0; overflow-wrap: anywhere">This is taking longer than usual. Your job is still running; you do not need to start it again.</span></p>
+</div>
+</div>
+<div style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">Reconnecting</p>
+<div style="display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; color: var(--accent-text)"><span style="width: 8px; height: 8px; border-radius: 50%; background: var(--accent-text)"></span>Running</span>
+<h3 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em">Fragrance layering recipe</h3>
+<p style="margin: 0; font-size: 15px; color: var(--text-2)">4 products · Fast · 1 variant</p>
+</div>
+<p role="status" style="margin: 0; display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; border-radius: 12px; background: var(--surface); border: 1px solid var(--edge); font-size: 15px; line-height: 1.5; color: var(--text)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; color: var(--text-2)"><path d="M12 3.5a8.5 8.5 0 1 0 8.5 8.5"></path></svg><span style="min-width: 0; overflow-wrap: anywhere">Reconnecting… Your job keeps running while this page reconnects.</span></p>
+</div>
+</div>
+<div style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">Generation paused</p>
+<div style="display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; color: var(--accent-text)"><span style="width: 8px; height: 8px; border-radius: 50%; background: var(--accent-text)"></span>Running</span>
+<h3 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em">Fragrance layering recipe</h3>
+<p style="margin: 0; font-size: 15px; color: var(--text-2)">4 products · Fast · 1 variant</p>
+</div>
+<p role="alert" style="margin: 0; display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; border-radius: 12px; background: var(--surface); border: 1px solid var(--warn-edge); font-size: 15px; line-height: 1.5; color: var(--text)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; color: var(--warn)"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg><span style="min-width: 0; overflow-wrap: anywhere"><strong style="font-weight: 600; color: var(--warn)">Generation is paused for a short time.</strong> Your job continues when it is back. Nothing extra is charged.</span></p>
+</div>
+</div>
+</div>
+</section>
+<section style="margin-top: 16px; display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-size: 20px; font-weight: 600; line-height: 1.25; color: var(--text)">Stopped</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 32px">
+<div style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">Stopped · content rule</p>
+<div style="display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; color: var(--warn)"><span style="width: 8px; height: 8px; border-radius: 2px; background: var(--warn)"></span>Stopped</span>
+<h3 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em">Fragrance layering recipe</h3>
+<p style="margin: 0; font-size: 15px; color: var(--text-2)">4 products · Fast · 1 variant</p>
+</div>
+<section aria-label="What happened" style="box-sizing: border-box; padding: 16px; border-radius: 16px; background: var(--surface); border: 1px solid var(--warn-edge); display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h4 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; letter-spacing: -0.01em">This job was stopped because the images or text break our content rules</h4>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2)">Your 2 credits are back in your balance. This job cannot be continued.</p>
+</div>
+<a href="A-Iletisim-ML.dc.html" style="display: flex; align-items: center; justify-content: center; box-sizing: border-box; border-radius: 12px; font: inherit; font-weight: 600; text-decoration: none; cursor: pointer; min-height: 52px; padding: 0 24px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font-size: 15px; align-self: stretch">Contact support</a>
+</section>
+</div>
+</div>
+<div style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">Stopped · free video</p>
+<div style="display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; color: var(--warn)"><span style="width: 8px; height: 8px; border-radius: 2px; background: var(--warn)"></span>Stopped</span>
+<h3 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em">Fragrance layering recipe</h3>
+<p style="margin: 0; font-size: 15px; color: var(--text-2)">4 products · Fast · 1 variant</p>
+</div>
+<section aria-label="What happened and your options" style="box-sizing: border-box; padding: 16px; border-radius: 16px; background: var(--surface); border: 1px solid var(--warn-edge); display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h4 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; letter-spacing: -0.01em">Two clips could not be generated</h4>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2)">Your free video is back. The finished parts are saved.</p>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; font-weight: 600; color: var(--text)">You can continue until [DATE].</p>
+</div>
+<dl style="margin: 0; display: flex; flex-direction: column; border-bottom: 1px solid var(--edge)">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding: 12px 0; border-top: 1px solid var(--edge); font-size: 15px"><dt style="color: var(--text-2)">Charged when you confirmed</dt><dd style="margin: 0 0 0 auto; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere">Free video · 0 credits</dd></div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding: 12px 0; border-top: 1px solid var(--edge); font-size: 15px"><dt style="color: var(--text-2)">Returned when it stopped</dt><dd style="margin: 0 0 0 auto; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere">Your free video</dd></div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding: 12px 0; border-top: 1px solid var(--edge); font-size: 15px"><dt style="color: var(--text-2)">To continue</dt><dd style="margin: 0 0 0 auto; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere">Free video · 0 credits</dd></div>
+</dl>
+<div style="display: flex; flex-direction: column; gap: 12px">
+<a href="A-Is-Durumlar-ML.dc.html" style="min-height: 72px; box-sizing: border-box; padding: 12px 16px; border-radius: 12px; border: 0; background: var(--accent); color: var(--on-accent); font: inherit; text-align: left; text-decoration: none; cursor: pointer; display: flex; flex-direction: column; justify-content: center; gap: 4px"><span style="font-size: 15px; font-weight: 600">Continue with the backup model</span><span style="font-size: 13px">Free. The look may differ slightly.</span></a>
+<a href="A-Is-Durumlar-ML.dc.html" style="min-height: 72px; box-sizing: border-box; padding: 12px 16px; border-radius: 12px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font: inherit; text-align: left; text-decoration: none; cursor: pointer; display: flex; flex-direction: column; justify-content: center; gap: 4px"><span style="font-size: 15px; font-weight: 600">Try again</span><span style="font-size: 13px; color: var(--text-3)">Free. The same model generates the 2 missing clips again.</span></a>
+<a href="A-Is-Kapat-Onay-ML.dc.html" style="min-height: 72px; box-sizing: border-box; padding: 12px 16px; border-radius: 12px; border: 0; background: transparent; color: var(--text-2); font: inherit; text-align: left; text-decoration: none; cursor: pointer; display: flex; flex-direction: column; justify-content: center; gap: 4px"><span style="font-size: 15px; font-weight: 600">Stop the job here</span><span style="font-size: 13px; color: var(--text-3)">Nothing is charged. Your free video stays with you and the saved parts are deleted.</span></a>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+<section style="margin-top: 16px; display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-size: 20px; font-weight: 600; line-height: 1.25; color: var(--text)">Continue</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 32px">
+<div style="flex: 1 1 560px; min-width: 0; max-width: 640px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">Continue · free video</p>
+<div role="dialog" aria-labelledby="devam-1" style="width: 100%; max-width: 592px; box-sizing: border-box; padding: 16px; border-radius: 24px; background: var(--surface); border: 1px solid var(--edge); display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h3 id="devam-1" style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em">Try again</h3>
+<p style="margin: 0; font-size: 15px; color: var(--text-2)">Fragrance layering recipe · Fast · 1 variant</p>
+</div>
+<dl style="margin: 0; display: flex; flex-direction: column; border-bottom: 1px solid var(--edge)">
+<div style="display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-top: 1px solid var(--edge); font-size: 15px"><dt style="color: var(--text-2)">Missing</dt><dd style="margin: 0; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere">2 clips</dd></div>
+<div style="display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-top: 1px solid var(--edge); font-size: 15px"><dt style="color: var(--text-2)">Returned when it stopped</dt><dd style="margin: 0; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere">Your free video</dd></div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding: 16px 0; border-top: 1px solid var(--edge); font-size: 17px"><dt style="font-weight: 600">Continuing costs</dt><dd style="margin: 0 0 0 auto; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere; color: var(--accent-text)">Free video · 0 credits</dd></div>
+</dl>
+<p role="status" style="margin: 0; display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; border-radius: 12px; background: var(--bg); border: 1px solid var(--edge); font-size: 15px; line-height: 1.5; color: var(--text)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; color: var(--text-2)"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 11v5M12 7.8v.1"></path></svg><span style="min-width: 0; overflow-wrap: anywhere">This uses your one free video.</span></p>
+<div style="display: flex; flex-wrap: wrap-reverse; gap: 12px">
+<a href="A-Is-Durumlar-ML.dc.html" style="flex: 1 1 160px; display: flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 12px; border: 1px solid var(--edge-strong); color: var(--text); font-weight: 600; font-size: 15px; text-decoration: none">Cancel</a>
+<a href="A-Is-Takibi-ML.dc.html" style="flex: 2 1 240px; display: flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 12px; background: var(--accent); color: var(--on-accent); font-weight: 600; font-size: 15px; text-decoration: none">Confirm and continue</a>
+</div>
+</div>
+</div>
+<div style="flex: 1 1 560px; min-width: 0; max-width: 640px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">Continue · free video used on another job</p>
+<div role="dialog" aria-labelledby="devam-2" style="width: 100%; max-width: 592px; box-sizing: border-box; padding: 16px; border-radius: 24px; background: var(--surface); border: 1px solid var(--edge); display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h3 id="devam-2" style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em">Try again</h3>
+<p style="margin: 0; font-size: 15px; color: var(--text-2)">Fragrance layering recipe · Fast · 1 variant</p>
+</div>
+<p role="alert" style="margin: 0; display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; border-radius: 12px; background: var(--bg); border: 1px solid var(--warn-edge); font-size: 15px; line-height: 1.5; color: var(--text)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; color: var(--warn)"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg><span style="min-width: 0; overflow-wrap: anywhere"><strong style="font-weight: 600; color: var(--warn)">Your free video was used on another job.</strong> Continuing this one costs 2 credits.</span></p>
+<dl style="margin: 0; display: flex; flex-direction: column; border-bottom: 1px solid var(--edge)">
+<div style="display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-top: 1px solid var(--edge); font-size: 15px"><dt style="color: var(--text-2)">Missing</dt><dd style="margin: 0; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere">2 clips</dd></div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding: 16px 0; border-top: 1px solid var(--edge); font-size: 17px"><dt style="font-weight: 600">Continuing costs</dt><dd style="margin: 0 0 0 auto; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere; color: var(--accent-text)">2 credits</dd></div>
+<div style="display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-top: 1px solid var(--edge); font-size: 15px"><dt style="color: var(--text-2)">Balance after</dt><dd style="margin: 0; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere">[BALANCE AFTER] credits</dd></div>
+</dl>
+<div style="display: flex; flex-wrap: wrap-reverse; gap: 12px">
+<a href="A-Is-Durumlar-ML.dc.html" style="flex: 1 1 160px; display: flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 12px; border: 1px solid var(--edge-strong); color: var(--text); font-weight: 600; font-size: 15px; text-decoration: none">Cancel</a>
+<a href="A-Is-Takibi-ML.dc.html" style="flex: 2 1 240px; display: flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 12px; background: var(--accent); color: var(--on-accent); font-weight: 600; font-size: 15px; text-decoration: none">Confirm and continue</a>
+</div>
+</div>
+</div>
+<div style="flex: 1 1 560px; min-width: 0; max-width: 640px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">Continue · not enough credits</p>
+<div role="dialog" aria-labelledby="devam-3" style="width: 100%; max-width: 592px; box-sizing: border-box; padding: 16px; border-radius: 24px; background: var(--surface); border: 1px solid var(--edge); display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h3 id="devam-3" style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em">Try again</h3>
+<p style="margin: 0; font-size: 15px; color: var(--text-2)">Fragrance layering recipe · Fast · 1 variant</p>
+</div>
+<dl style="margin: 0; display: flex; flex-direction: column; border-bottom: 1px solid var(--edge)">
+<div style="display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-top: 1px solid var(--edge); font-size: 15px"><dt style="color: var(--text-2)">Missing</dt><dd style="margin: 0; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere">2 clips</dd></div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding: 16px 0; border-top: 1px solid var(--edge); font-size: 17px"><dt style="font-weight: 600">Continuing costs</dt><dd style="margin: 0 0 0 auto; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere">2 credits</dd></div>
+<div style="display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-top: 1px solid var(--edge); font-size: 15px"><dt style="color: var(--text-2)">Balance now</dt><dd style="margin: 0; min-width: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere; color: var(--warn)">[BALANCE] credits</dd></div>
+</dl>
+<p role="alert" style="margin: 0; display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; border-radius: 12px; background: var(--bg); border: 1px solid var(--warn-edge); font-size: 15px; line-height: 1.5; color: var(--text)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; color: var(--warn)"><path d="M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0M12 8v5M12 16.2v.1"></path></svg><span style="min-width: 0; overflow-wrap: anywhere"><strong style="font-weight: 600; color: var(--warn)">You need 2 credits to continue and have [BALANCE].</strong></span></p>
+<div style="display: flex; flex-wrap: wrap-reverse; gap: 12px">
+<a href="A-Is-Durdu-ML.dc.html" style="flex: 1 1 160px; display: flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 12px; border: 1px solid var(--edge-strong); color: var(--text); font-weight: 600; font-size: 15px; text-decoration: none">Cancel</a>
+<a href="A-Fiyatlar-ML.dc.html" style="flex: 2 1 240px; display: flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 12px; background: var(--accent); color: var(--on-accent); font-weight: 600; font-size: 15px; text-decoration: none">Buy credits</a>
+</div>
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">The saved parts wait for you until [DATE].</p>
+</div>
+</div>
+</div>
+</section>
+<section style="margin-top: 16px; display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-size: 20px; font-weight: 600; line-height: 1.25; color: var(--text)">Closed</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 32px">
+<div style="flex: 1 1 400px; min-width: 0; max-width: 520px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">Closed · after 30 days</p>
+<div style="display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; color: var(--text-2)"><span style="width: 8px; height: 8px; box-sizing: border-box; border-radius: 2px; border: 2px solid var(--text-2)"></span>Closed</span>
+<h3 style="margin: 0; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.1; letter-spacing: -0.02em">Fragrance layering recipe</h3>
+<p style="margin: 0; font-size: 15px; color: var(--text-2)">4 products · Fast · 1 variant</p>
+</div>
+<section aria-label="Job closed" style="box-sizing: border-box; padding: 16px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h4 style="margin: 0; font-family: var(--display); font-weight: 700; font-size: 24px; letter-spacing: -0.01em">This job was closed after 30 days</h4>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-2)">Your 2 credits were returned when it stopped. Nothing else was charged.</p>
+</div>
+<p style="margin: 0; font-size: 13px; line-height: 1.4; color: var(--text-3)">The saved parts of this video were deleted.</p>
+<a href="Main-ML.dc.html" style="display: flex; align-items: center; justify-content: center; box-sizing: border-box; border-radius: 12px; font: inherit; font-weight: 600; text-decoration: none; cursor: pointer; min-height: 52px; padding: 0 24px; border: 1px solid var(--edge-strong); background: transparent; color: var(--text); font-size: 15px; align-self: stretch">Pick another template</a>
+</section>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"theme":{"editor":"enum","options":["dark","light"],"default":"light"},"$preview":{"width":390,"height":4880}}'>
+class Component extends DCLogic {
+renderVals() {
+return { theme: this.props.theme ?? 'light' };
+}
+}
+</script>
+</body>
+</html>
